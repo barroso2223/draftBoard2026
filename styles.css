@@ -11,146 +11,226 @@ body {
     sans-serif;
   background: #1a1a2e;
   color: #eee;
-  padding: 20px;
-  line-height: 1.5;
+  padding: 16px;
+  line-height: 1.4;
 }
 
 h1 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-size: 1.6rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: #ff6b6b;
 }
 
 h2 {
-  font-size: clamp(1.2rem, 4vw, 1.8rem);
-  margin: 20px 0 15px 0;
-  padding-bottom: 8px;
+  font-size: 1.3rem;
+  margin: 20px 0 12px 0;
+  padding-bottom: 6px;
   border-bottom: 2px solid #ff6b6b;
 }
 
-/* Dropdown styling */
+/* Dropdown */
 label {
   display: block;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #ff6b6b;
+  font-size: 0.9rem;
 }
 
 #positionSelect {
   width: 100%;
-  max-width: 300px;
-  padding: 12px 15px;
-  font-size: 16px;
+  max-width: 280px;
+  padding: 10px 12px;
+  font-size: 14px;
   border: 2px solid #ff6b6b;
   border-radius: 8px;
   background: #16213e;
   color: white;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
-#positionSelect:hover {
-  background: #1f3460;
-}
-
-/* Header row styling */
-.headerRow {
-  background: #0f3460;
-  border-radius: 12px 12px 0 0;
-  padding: 12px 15px;
-  display: grid;
-  gap: 12px;
-  font-weight: bold;
-  color: #ff6b6b;
-  border-bottom: 2px solid #ff6b6b;
-  margin-bottom: 5px;
-}
-
-/* Player container */
 #top10List {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-bottom: 30px;
+  gap: 8px;
+  margin-bottom: 20px;
 }
 
-/* Player row styling */
-.playerRow {
-  background: #16213e;
-  border-radius: 12px;
-  padding: 15px;
-  display: grid;
-  gap: 12px;
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+/* Hide mobile elements on desktop by default */
+.mobile-only {
+  display: none;
 }
 
-.playerRow:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.2);
+/* DESKTOP VIEW */
+@media (min-width: 769px) {
+  .desktop-only {
+    display: contents;
+  }
+
+  .playerRow {
+    background: #16213e;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .desktop-only {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 15px;
+  }
+
+  .playerRow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+  }
+
+  .headerRow {
+    background: #0f3460;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    gap: 8px;
+    font-weight: bold;
+    color: #ff6b6b;
+    border-bottom: 2px solid #ff6b6b;
+    margin-bottom: 4px;
+  }
+
+  .player-name {
+    font-weight: bold;
+    color: #ff6b6b;
+  }
+
+  .rating-value {
+    font-weight: bold;
+    color: #ffd93d;
+  }
 }
 
-/* Desktop: ALL view - 8 columns */
-.headerRow:first-child,
-#top10List:has(.playerRow) .playerRow {
-  grid-template-columns: 2fr 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  body {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 16px 0 10px 0;
+  }
+
+  .headerRow {
+    display: none;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .playerRow {
+    background: #16213e;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Name + School row */
+  .mobile-name-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 107, 107, 0.3);
+  }
+
+  .mobile-player-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff6b6b;
+  }
+
+  .mobile-school {
+    font-size: .9rem;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  /* Stats chips grid */
+  .mobile-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .mobile-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+  }
+
+  .mobile-chip.rating {
+    background: rgba(255, 217, 61, 0.15);
+    color: #ffd93d;
+    font-weight: bold;
+  }
 }
 
-/* Position-specific view - 4 columns */
-.headerRow:not(:first-child),
-#top10List:has(.playerRow:not(:has(.position))) .playerRow {
-  grid-template-columns: 2fr 1.5fr 0.8fr 0.8fr;
-}
+/* Tablet view */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .desktop-only {
+    grid-template-columns: 1.8fr 1.3fr 0.7fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    gap: 6px;
+    font-size: 0.85rem;
+  }
 
-/* Name styling */
-.name {
-  font-weight: bold;
-  color: #ff6b6b;
-  font-size: 1.05rem;
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
-
-/* Individual stat cells */
-.playerRow > div,
-.headerRow > div {
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
-
-/* Forty time special styling */
-.playerRow > div:has(40),
-.playerRow > div:nth-child(5) {
-  font-family: monospace;
-  font-weight: bold;
-  color: #ffd93d;
+  .headerRow {
+    grid-template-columns: 1.8fr 1.3fr 0.7fr 0.6fr 0.6fr 0.7fr 0.8fr;
+  }
 }
 
 /* Draft Board and Team Grades */
 #draftBoard,
 #teamGrades {
   background: #16213e;
-  border-radius: 12px;
-  padding: 20px;
+  border-radius: 10px;
+  padding: 16px;
   margin-top: 10px;
-  min-height: 100px;
+  min-height: 80px;
   text-align: center;
   color: #aaa;
+  font-size: 0.9rem;
 }
 
-/* On the clock banner */
 #onClock {
   background: #ff6b6b;
   color: #1a1a2e;
-  padding: 15px;
-  border-radius: 12px;
+  padding: 12px;
+  border-radius: 10px;
   text-align: center;
   font-weight: bold;
-  font-size: 1.2rem;
-  margin: 20px 0;
+  font-size: 1rem;
+  margin: 16px 0;
   display: none;
 }
 
@@ -158,132 +238,9 @@ label {
   display: block;
 }
 
-/* Mobile responsive */
-@media (max-width: 768px) {
-  body {
-    padding: 12px;
-  }
-
-  /* Stack everything vertically on mobile */
-  .headerRow,
-  .playerRow {
-    display: flex !important;
-    flex-direction: column;
-    gap: 8px;
-    padding: 12px;
-  }
-
-  .headerRow {
-    display: none !important; /* Hide headers on mobile */
-  }
-
-  /* Add labels to each field on mobile */
-  .playerRow > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .playerRow > div:last-child {
-    border-bottom: none;
-  }
-
-  /* Add labels for mobile */
-  .playerRow > div:first-child::before {
-    content: "🏈 Player: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(2)::before {
-    content: "🏫 School: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(3)::before {
-    content: "📍 Pos: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(4)::before {
-    content: "⭐ Rating: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(5)::before {
-    content: "⏱️ 40 Time: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(6)::before {
-    content: "📏 Height: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(7)::before {
-    content: "⚖️ Weight: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  .playerRow > div:nth-child(8)::before {
-    content: "📊 Rank: ";
-    font-weight: bold;
-    color: #ff6b6b;
-  }
-
-  /* Position-specific view labels on mobile */
-  #top10List:has(.playerRow:not(:has(.position)))
-    .playerRow
-    > div:nth-child(3)::before {
-    content: "📈 Score: ";
-  }
-}
-
-/* Tablet view */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .headerRow,
-  .playerRow {
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 10px;
-  }
-
-  .headerRow > div:first-child,
-  .playerRow .name {
-    grid-column: span 1;
-  }
-
-  /* Hide some columns on tablet for better fit */
-  .headerRow > div:nth-child(6),
-  .headerRow > div:nth-child(7),
-  .playerRow > div:nth-child(6),
-  .playerRow > div:nth-child(7) {
-    display: none;
-  }
-}
-
-/* Desktop fine-tuning */
-@media (min-width: 1025px) {
-  .playerRow {
-    align-items: center;
-  }
-
-  .playerRow .name {
-    font-size: 1.1rem;
-  }
-}
-
-/* Scrollbar styling */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -294,8 +251,4 @@ label {
 ::-webkit-scrollbar-thumb {
   background: #ff6b6b;
   border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #ff5252;
 }

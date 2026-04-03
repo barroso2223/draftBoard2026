@@ -58,9 +58,9 @@ function renderTop10(position) {
         <div>Player</div>
         <div>School</div>
         <div>Pos</div>
-        <div>Height</div>
-        <div>Weight</div>
-        <div>40 Time</div>
+        <div>Ht</div>
+        <div>Wt</div>
+        <div>40</div>
         <div>Rating</div>
       </div>
     `;
@@ -70,9 +70,9 @@ function renderTop10(position) {
         <div>Player</div>
         <div>School</div>
         <div>Pos</div>
-        <div>Height</div>
-        <div>Weight</div>
-        <div>40 Time</div>
+        <div>Ht</div>
+        <div>Wt</div>
+        <div>40</div>
         <div>Rating</div>
       </div>
     `;
@@ -85,26 +85,63 @@ function renderTop10(position) {
 
 // Render player row (ALL vs position)
 function renderPlayer(p, mode) {
+  const score = p.combined_score || p.rating || p.score || 0;
+
   if (mode === "ALL") {
     return `<div class="playerRow">
-      <div class="name">${p.name}</div>
-      <div>${p.school}</div>
-      <div>${p.position}</div>
-      <div>${p.height}</div>
-      <div>${p.weight}lbs</div>
-      <div>${p.forty}s</div>
-      <div>${p.combined_score}</div>
+      <!-- DESKTOP VERSION (visible on desktop only) -->
+      <div class="desktop-only">
+        <div class="player-name">${p.name}</div>
+        <div>${p.school}</div>
+        <div>${p.position}</div>
+        <div>${p.height || "—"}</div>
+        <div>${p.weight || "—"}lbs</div>
+        <div>${p.forty || "—"}s</div>
+        <div class="rating-value">${score.toFixed(1)}</div>
+      </div>
+      
+      <!-- MOBILE VERSION (visible on mobile only) -->
+      <div class="mobile-only">
+        <div class="mobile-name-row">
+          <span class="mobile-player-name">${p.name}</span>
+          <span class="mobile-school">🏫 ${p.school}</span>
+        </div>
+        <div class="mobile-stats">
+          <span class="mobile-chip">📍 ${p.position}</span>
+          <span class="mobile-chip">📏 ${p.height || "—"}</span>
+          <span class="mobile-chip">⚖️ ${p.weight || "—"}lbs</span>
+          <span class="mobile-chip">⏱️ ${p.forty || "—"}s</span>
+          <span class="mobile-chip rating">⭐ ${score.toFixed(1)}</span>
+        </div>
+      </div>
     </div>`;
   }
+
+  // Position-specific view
   return `<div class="playerRow">
-        <div class="name">${p.name}</div>
-        <div>${p.school}</div>
+    <div class="desktop-only">
+      <div class="player-name">${p.name}</div>
+      <div>${p.school}</div>
       <div>${p.position}</div>
-      <div>${p.height}</div>
-      <div>${p.weight}lbs</div>
-        <div>${p.forty}s</div>
-        <div>${p.combined_score.toFixed(1)}</div>
-      </div>`;
+      <div>${p.height || "—"}</div>
+      <div>${p.weight || "—"}lbs</div>
+      <div>${p.forty || "—"}s</div>
+      <div class="rating-value">${score.toFixed(1)}</div>
+    </div>
+    <div class="mobile-only">
+      <div class="mobile-name-row">
+        <span class="mobile-player-name">${p.name}</span>
+        <span class="mobile-school">🏫 ${p.school}</span>
+      </div>
+      <div class="mobile-stats">
+        <span class="mobile-chip">📍 ${p.position}</span>
+        <span class="mobile-chip">📏 ${p.height || "—"}</span>
+        <span class="mobile-chip">⚖️ ${p.weight || "—"}lbs</span>
+        <span class="mobile-chip">⏱️ ${p.forty || "—"}s</span>
+        <span class="mobile-chip rating">⭐ ${score.toFixed(1)}</span>
+      </div>
+    </div>
+  </div>`;
 }
 
 // Draft board placeholder
