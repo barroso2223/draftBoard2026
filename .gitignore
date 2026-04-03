@@ -1,0 +1,16 @@
+# Node modules (if any)
+node_modules/
+
+# Raw data files (already in raw-data folder, but keep if needed)
+raw-data/*.txt
+
+# Backup files
+*.backup.json
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

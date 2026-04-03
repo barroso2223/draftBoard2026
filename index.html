@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>2026 NFL Draft Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>2026 NFL Draft Tracker</h1>
+
+    <!-- Dropdown to select position -->
+    <label for="positionSelect">Select Position:</label>
+    <select id="positionSelect">
+      <option value="ALL">All Positions</option>
+      <option value="QB">QB</option>
+      <option value="RB">RB</option>
+      <option value="WR">WR</option>
+      <option value="TE">TE</option>
+      <option value="OT">OT</option>
+      <option value="IOL">IOL</option>
+      <option value="EDGE">EDGE</option>
+      <option value="DT">DT</option>
+      <option value="LB">LB</option>
+      <option value="CB">CB</option>
+      <option value="S">S</option>
+    </select>
+
+    <!-- Top 10 / All list -->
+    <div id="top10List"></div>
+
+    <!-- Drafted players board -->
+    <h2>Draft Picks</h2>
+    <div id="draftBoard"></div>
+
+    <!-- Team grades -->
+    <h2>Team Grades</h2>
+    <div id="teamGrades"></div>
+
+    <!-- Team on the clock -->
+    <div id="onClock"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
