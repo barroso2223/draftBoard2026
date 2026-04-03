@@ -1,4 +1,8 @@
 const fs = require("fs");
+const path = require("path");
+
+// Get project root
+const projectRoot = path.resolve(__dirname, "..");
 
 // Position normalization mapping
 const positionMap = {
@@ -53,8 +57,12 @@ let buzzData = [];
 let bleacherData = [];
 let pffData = [];
 
+const dataDir = path.join(projectRoot, "data");
+
 try {
-  buzzData = JSON.parse(fs.readFileSync("./data/nfldraftbuzz.json", "utf8"));
+  buzzData = JSON.parse(
+    fs.readFileSync(path.join(dataDir, "nfldraftbuzz.json"), "utf8"),
+  );
   console.log(`✅ Loaded ${buzzData.length} players from NFL Draft Buzz`);
 } catch (err) {
   console.log("⚠️ nfldraftbuzz.json not found");
@@ -62,7 +70,7 @@ try {
 
 try {
   bleacherData = JSON.parse(
-    fs.readFileSync("./data/bleacherreport.json", "utf8"),
+    fs.readFileSync(path.join(dataDir, "bleacherreport.json"), "utf8"),
   );
   console.log(`✅ Loaded ${bleacherData.length} players from Bleacher Report`);
 } catch (err) {
@@ -70,7 +78,7 @@ try {
 }
 
 try {
-  pffData = JSON.parse(fs.readFileSync("./data/pff.json", "utf8"));
+  pffData = JSON.parse(fs.readFileSync(path.join(dataDir, "pff.json"), "utf8"));
   console.log(`✅ Loaded ${pffData.length} players from PFF`);
 } catch (err) {
   console.log("⚠️ pff.json not found");
@@ -134,43 +142,40 @@ pffData.forEach((player) => {
   }
 });
 
-// Calculate combined score (equal weights for all three)
+// Calculate combined score - penalize only players with single source
 function calculateCombinedScore(data) {
   let scores = [];
-  let weights = [];
-  let weightPerSource = 1 / 3; // Equal 33.3% each
+  let sourcesFound = 0;
 
-  // PFF grade (0-100 scale)
+  // Check each source
   if (data.pff?.grade) {
     scores.push(data.pff.grade);
-    weights.push(weightPerSource);
+    sourcesFound++;
   }
-
-  // NFL Draft Buzz rating (0-100 scale)
   if (data.buzz?.rating) {
     scores.push(data.buzz.rating);
-    weights.push(weightPerSource);
+    sourcesFound++;
   }
-
-  // Bleacher Report (convert 0-10 to 0-100)
   if (data.bleacher?.grade) {
-    const normalized = data.bleacher.grade * 10;
-    scores.push(normalized);
-    weights.push(weightPerSource);
+    scores.push(data.bleacher.grade * 10);
+    sourcesFound++;
   }
 
-  if (scores.length === 0) return 0;
-  if (scores.length === 1) return scores[0];
+  if (sourcesFound === 0) return 0;
 
-  // Adjust weights for missing sources (redistribute evenly)
-  const adjustedWeights = weights.map(
-    (w) => w / weights.reduce((a, b) => a + b, 0),
-  );
-  let weightedSum = 0;
-  for (let i = 0; i < scores.length; i++) {
-    weightedSum += scores[i] * adjustedWeights[i];
+  // Calculate average of available scores
+  const averageScore = scores.reduce((a, b) => a + b, 0) / scores.length;
+
+  // Apply penalty ONLY if only 1 source (-4 points)
+  let finalScore = averageScore;
+  if (sourcesFound === 1) {
+    finalScore = averageScore - 10;
   }
-  return Math.round(weightedSum * 10) / 10;
+
+  // Ensure score doesn't go below 0
+  finalScore = Math.max(0, finalScore);
+
+  return Math.round(finalScore * 10) / 10;
 }
 
 // Create merged players array
@@ -178,6 +183,9 @@ const mergedPlayers = [];
 
 for (let [key, data] of playerMap) {
   const combinedScore = calculateCombinedScore(data);
+  const sourcesCount = [data.buzz, data.bleacher, data.pff].filter(
+    Boolean,
+  ).length;
 
   const mergedPlayer = {
     name: data.name,
@@ -189,6 +197,7 @@ for (let [key, data] of playerMap) {
     forty: data.forty || null,
     drafted: false,
     combined_score: combinedScore,
+    sources_count: sourcesCount,
     rankings: {},
   };
 
@@ -210,7 +219,8 @@ for (let [key, data] of playerMap) {
 mergedPlayers.sort((a, b) => b.combined_score - a.combined_score);
 
 // Save merged file
-fs.writeFileSync("./data/players.json", JSON.stringify(mergedPlayers, null, 2));
+const outputPath = path.join(dataDir, "players.json");
+fs.writeFileSync(outputPath, JSON.stringify(mergedPlayers, null, 2));
 
 // Statistics
 const withBuzz = mergedPlayers.filter((p) => p.rankings.buzz).length;
@@ -219,6 +229,8 @@ const withPFF = mergedPlayers.filter((p) => p.rankings.pff).length;
 const allThree = mergedPlayers.filter(
   (p) => p.rankings.buzz && p.rankings.bleacher && p.rankings.pff,
 ).length;
+const withTwo = mergedPlayers.filter((p) => p.sources_count === 2).length;
+const withOne = mergedPlayers.filter((p) => p.sources_count === 1).length;
 
 console.log(
   `\n✅ Merged ${mergedPlayers.length} unique players into players.json`,
@@ -228,15 +240,34 @@ console.log(`   - Have Buzz rating: ${withBuzz}`);
 console.log(`   - Have B/R grade: ${withBR}`);
 console.log(`   - Have PFF grade: ${withPFF}`);
 console.log(`   - Have ALL 3 sources: ${allThree}`);
+console.log(`   - Have 2 sources: ${withTwo} (no penalty)`);
+console.log(`   - Have 1 source: ${withOne} (-10 point penalty)`);
 
-console.log("\n📊 Top 20 Combined Rankings (equal weights 33.3% each):");
+console.log("\n📊 Top 20 Combined Rankings:");
 console.log("━".repeat(80));
 mergedPlayers.slice(0, 20).forEach((p, i) => {
   const buzz = p.rankings.buzz?.rating || "—";
-  const br = p.rankings.bleacher?.grade ? p.rankings.bleacher.grade * 10 : "—";
+  const br = p.rankings.bleacher?.grade || "—";
   const pff = p.rankings.pff?.grade || "—";
+  const penalty = p.sources_count === 1 ? "(-4 penalty)" : "";
   console.log(`${i + 1}. ${p.name} (${p.position}) - ${p.school}`);
   console.log(
-    `   Combined: ${p.combined_score} | Buzz: ${buzz} | B/R: ${br === "—" ? "—" : p.rankings.bleacher.grade} | PFF: ${pff}`,
+    `   Combined: ${p.combined_score} | Buzz: ${buzz} | B/R: ${br} | PFF: ${pff} | ${p.sources_count}/3 sources ${penalty}`,
+  );
+});
+
+// Show example of penalty
+console.log("\n📊 Single-source players (penalized -4):");
+const oneSourcePlayers = mergedPlayers
+  .filter((p) => p.sources_count === 1)
+  .slice(0, 5);
+oneSourcePlayers.forEach((p) => {
+  const sourceName = Object.keys(p.rankings)[0];
+  let originalScore = 0;
+  if (sourceName === "buzz") originalScore = p.rankings.buzz.rating;
+  if (sourceName === "bleacher") originalScore = p.rankings.bleacher.grade * 10;
+  if (sourceName === "pff") originalScore = p.rankings.pff.grade;
+  console.log(
+    `   ${p.name}: ${originalScore} → ${p.combined_score} (${sourceName} only, -10)`,
   );
 });

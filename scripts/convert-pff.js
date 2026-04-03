@@ -1,6 +1,16 @@
 const fs = require("fs");
+const path = require("path");
 
-const rawData = fs.readFileSync("raw_pff.txt", "utf8");
+// Get the directory where this script is located
+const scriptDir = __dirname;
+// Go up one level to project root
+const projectRoot = path.resolve(scriptDir, "..");
+
+// Read from raw-data folder in project root
+const rawFilePath = path.join(projectRoot, "raw-data", "raw_pff.txt");
+console.log(`Reading from: ${rawFilePath}`);
+
+const rawData = fs.readFileSync(rawFilePath, "utf8");
 const lines = rawData
   .split("\n")
   .map((l) => l.trim())
@@ -16,9 +26,7 @@ for (let i = 0; i < lines.length; i += 5) {
   const grade = parseFloat(lines[i + 4]);
 
   if (name && !isNaN(rank) && !isNaN(grade)) {
-    // Clean up school name
     school = school.replace(/\([A-Z]{2}\)/, "").trim();
-
     players.push({
       name: name,
       position: position,
@@ -27,16 +35,19 @@ for (let i = 0; i < lines.length; i += 5) {
       rank: rank,
       source: "PFF",
     });
-
     console.log(
       `✅ Rank ${rank}: ${name} (${position}) - ${school} - Grade: ${grade}`,
     );
   }
 }
 
-// Save to file
-const dataDir = "./data";
+// Save to data folder in project root
+const dataDir = path.join(projectRoot, "data");
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
 
-fs.writeFileSync(`${dataDir}/pff.json`, JSON.stringify(players, null, 2));
-console.log(`\n✅ pff.json created with ${players.length} players`);
+const outputPath = path.join(dataDir, "pff.json");
+fs.writeFileSync(outputPath, JSON.stringify(players, null, 2));
+
+console.log(
+  `\n✅ pff.json saved to: ${outputPath} with ${players.length} players`,
+);
