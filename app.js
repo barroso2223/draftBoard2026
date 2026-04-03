@@ -107,7 +107,7 @@ function renderPlayer(p, mode) {
           <span class="mobile-school">🏫 ${p.school}</span>
         </div>
         <div class="mobile-stats">
-          <span class="mobile-chip">📍 ${p.position}</span>
+          <span class="mobile-chip">🏈 ${p.position}</span>
           <span class="mobile-chip">📏 ${p.height || "—"}</span>
           <span class="mobile-chip">⚖️ ${p.weight || "—"}lbs</span>
           <span class="mobile-chip">⏱️ ${p.forty || "—"}s</span>
@@ -134,7 +134,7 @@ function renderPlayer(p, mode) {
         <span class="mobile-school">🏫 ${p.school}</span>
       </div>
       <div class="mobile-stats">
-        <span class="mobile-chip">📍 ${p.position}</span>
+        <span class="mobile-chip">🏈 ${p.position}</span>
         <span class="mobile-chip">📏 ${p.height || "—"}</span>
         <span class="mobile-chip">⚖️ ${p.weight || "—"}lbs</span>
         <span class="mobile-chip">⏱️ ${p.forty || "—"}s</span>
