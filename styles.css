@@ -165,7 +165,7 @@ label {
   }
 
   .mobile-school {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: white;
     padding: 3px 10px;
     border-radius: 20px;
@@ -251,4 +251,51 @@ label {
 ::-webkit-scrollbar-thumb {
   background: #ff6b6b;
   border-radius: 10px;
+}
+
+/* Rank number styling */
+.rank-number {
+  font-weight: bold;
+  color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 0.9rem;
+}
+
+.rank-number-mobile {
+  font-weight: bold;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 0.8rem;
+}
+
+/* Desktop grid with rank column */
+@media (min-width: 769px) {
+  .desktop-only {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 15px;
+  }
+
+  .headerRow {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    gap: 8px;
+    padding: 10px 15px;
+    background: #0f3460;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    color: #ff6b6b;
+    border-bottom: 2px solid #ff6b6b;
+    margin-bottom: 4px;
+  }
 }

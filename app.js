@@ -27,7 +27,7 @@ document.getElementById("positionSelect").addEventListener("change", (e) => {
 // Placeholder: Compute consensus grades (ready for your JSON fields)
 function calculateGrades() {
   players.forEach((p) => {
-    p.score = p.rating; // Higher score = better player
+    p.score = p.combined_score || p.rating || 0;
   });
 }
 
@@ -52,45 +52,33 @@ function renderTop10(position) {
   }
 
   // Add header row
-  if (position === "ALL") {
-    container.innerHTML = `
-      <div class="headerRow">
-        <div>Player</div>
-        <div>School</div>
-        <div>Pos</div>
-        <div>Ht</div>
-        <div>Wt</div>
-        <div>40</div>
-        <div>Rating</div>
-      </div>
-    `;
-  } else {
-    container.innerHTML = `
-      <div class="headerRow">
-        <div>Player</div>
-        <div>School</div>
-        <div>Pos</div>
-        <div>Ht</div>
-        <div>Wt</div>
-        <div>40</div>
-        <div>Rating</div>
-      </div>
-    `;
-  }
+  container.innerHTML = `
+    <div class="headerRow">
+      <div>#</div>
+      <div>Player</div>
+      <div>School</div>
+      <div>Pos</div>
+      <div>Ht</div>
+      <div>Wt</div>
+      <div>40</div>
+      <div>Rating</div>
+    </div>
+  `;
 
-  list.forEach((p) => {
-    container.innerHTML += renderPlayer(p, position);
+  list.forEach((p, index) => {
+    container.innerHTML += renderPlayer(p, position, index + 1);
   });
 }
 
 // Render player row (ALL vs position)
-function renderPlayer(p, mode) {
+function renderPlayer(p, mode, rank) {
   const score = p.combined_score || p.rating || p.score || 0;
 
   if (mode === "ALL") {
     return `<div class="playerRow">
       <!-- DESKTOP VERSION (visible on desktop only) -->
       <div class="desktop-only">
+        <div class="rank-number">${rank}</div>
         <div class="player-name">${p.name}</div>
         <div>${p.school}</div>
         <div>${p.position}</div>
@@ -103,6 +91,7 @@ function renderPlayer(p, mode) {
       <!-- MOBILE VERSION (visible on mobile only) -->
       <div class="mobile-only">
         <div class="mobile-name-row">
+          <span class="rank-number-mobile">${rank}</span>
           <span class="mobile-player-name">${p.name}</span>
           <span class="mobile-school">🏫 ${p.school}</span>
         </div>
@@ -120,6 +109,7 @@ function renderPlayer(p, mode) {
   // Position-specific view
   return `<div class="playerRow">
     <div class="desktop-only">
+      <div class="rank-number">${rank}</div>
       <div class="player-name">${p.name}</div>
       <div>${p.school}</div>
       <div>${p.position}</div>
@@ -130,6 +120,7 @@ function renderPlayer(p, mode) {
     </div>
     <div class="mobile-only">
       <div class="mobile-name-row">
+        <span class="rank-number-mobile">${rank}</span>
         <span class="mobile-player-name">${p.name}</span>
         <span class="mobile-school">🏫 ${p.school}</span>
       </div>
