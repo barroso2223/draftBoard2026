@@ -1,4 +1,4 @@
-import { getDraftStatus, getDraftPicks } from './scripts/services/draftApi.js';
+import { getDraftStatus, getDraftPicks } from './services/draftApi.js';
 
 // ─── Global State ───────────────────────────────────────────
 let players = [];
