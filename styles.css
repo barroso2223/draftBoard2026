@@ -298,4 +298,88 @@ label {
     border-bottom: 2px solid #ff6b6b;
     margin-bottom: 4px;
   }
+  /* Draft pick rows */
+.pick-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #1a2a4a;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.pick-number {
+  color: #ff6b6b;
+  font-weight: bold;
+  min-width: 40px;
+}
+
+.pick-name {
+  flex: 1;
+  font-weight: bold;
+  color: white;
+  padding: 0 8px;
+}
+
+.pick-team {
+  color: #ffd93d;
+  font-weight: bold;
+  min-width: 50px;
+  text-align: right;
+}
+
+.pick-round {
+  color: #aaa;
+  font-size: 0.8rem;
+  min-width: 80px;
+  text-align: right;
+}
+
+/* Team cards */
+.team-card {
+  background: #1a2a4a;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.team-card h3 {
+  color: #ff6b6b;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 107, 107, 0.3);
+}
+
+.team-pick {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 0.85rem;
+  color: #eee;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.team-pick:last-child {
+  border-bottom: none;
+}
+
+/* Clickable player name for bio link */
+.player-name,
+.mobile-player-name {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.player-name:hover,
+.mobile-player-name:hover {
+  color: #ff9a9a;
+}
+
+  
+
+  
 }
