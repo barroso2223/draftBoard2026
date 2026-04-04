@@ -63,6 +63,73 @@ label {
   display: none;
 }
 
+/* Draft Board and Team Grades */
+#draftBoard,
+#teamGrades {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 10px;
+  min-height: 80px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+#onClock {
+  background: #ff6b6b;
+  color: #1a1a2e;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 16px 0;
+  display: none;
+}
+
+#onClock:not(:empty) {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #16213e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6b6b;
+  border-radius: 10px;
+}
+
+/* Rank number styling */
+.rank-number {
+  font-weight: bold;
+  color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 0.9rem;
+}
+
+.rank-number-mobile {
+  font-weight: bold;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 0.8rem;
+}
+
 /* DESKTOP VIEW */
 @media (min-width: 769px) {
   .desktop-only {
@@ -209,73 +276,6 @@ label {
   }
 }
 
-/* Draft Board and Team Grades */
-#draftBoard,
-#teamGrades {
-  background: #16213e;
-  border-radius: 10px;
-  padding: 16px;
-  margin-top: 10px;
-  min-height: 80px;
-  text-align: center;
-  color: #aaa;
-  font-size: 0.9rem;
-}
-
-#onClock {
-  background: #ff6b6b;
-  color: #1a1a2e;
-  padding: 12px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 16px 0;
-  display: none;
-}
-
-#onClock:not(:empty) {
-  display: block;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: #16213e;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #ff6b6b;
-  border-radius: 10px;
-}
-
-/* Rank number styling */
-.rank-number {
-  font-weight: bold;
-  color: white;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  font-size: 0.9rem;
-}
-
-.rank-number-mobile {
-  font-weight: bold;
-  color: white;
-  width: 28px;
-  height: 28px;
-  display: inline-flex;
-  align-items: start;
-  justify-content: start;
-  font-size: 0.8rem;
-}
-
 /* Desktop grid with rank column */
 @media (min-width: 769px) {
   .desktop-only {
@@ -299,87 +299,83 @@ label {
     margin-bottom: 4px;
   }
   /* Draft pick rows */
-.pick-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 12px;
-  background: #1a2a4a;
-  border-radius: 8px;
-  margin-bottom: 6px;
-  font-size: 0.9rem;
-}
+  .pick-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    background: #1a2a4a;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+  }
 
-.pick-number {
-  color: #ff6b6b;
-  font-weight: bold;
-  min-width: 40px;
-}
+  .pick-number {
+    color: #ff6b6b;
+    font-weight: bold;
+    min-width: 40px;
+  }
 
-.pick-name {
-  flex: 1;
-  font-weight: bold;
-  color: white;
-  padding: 0 8px;
-}
+  .pick-name {
+    flex: 1;
+    font-weight: bold;
+    color: white;
+    padding: 0 8px;
+  }
 
-.pick-team {
-  color: #ffd93d;
-  font-weight: bold;
-  min-width: 50px;
-  text-align: right;
-}
+  .pick-team {
+    color: #ffd93d;
+    font-weight: bold;
+    min-width: 50px;
+    text-align: right;
+  }
 
-.pick-round {
-  color: #aaa;
-  font-size: 0.8rem;
-  min-width: 80px;
-  text-align: right;
-}
+  .pick-round {
+    color: #aaa;
+    font-size: 0.8rem;
+    min-width: 80px;
+    text-align: right;
+  }
 
-/* Team cards */
-.team-card {
-  background: #1a2a4a;
-  border-radius: 8px;
-  padding: 12px;
-  margin-bottom: 10px;
-}
+  /* Team cards */
+  .team-card {
+    background: #1a2a4a;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
 
-.team-card h3 {
-  color: #ff6b6b;
-  font-size: 1rem;
-  margin-bottom: 8px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid rgba(255, 107, 107, 0.3);
-}
+  .team-card h3 {
+    color: #ff6b6b;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255, 107, 107, 0.3);
+  }
 
-.team-pick {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 0;
-  font-size: 0.85rem;
-  color: #eee;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
+  .team-pick {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 0.85rem;
+    color: #eee;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
 
-.team-pick:last-child {
-  border-bottom: none;
-}
+  .team-pick:last-child {
+    border-bottom: none;
+  }
 
-/* Clickable player name for bio link */
-.player-name,
-.mobile-player-name {
-  cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
+  /* Clickable player name for bio link */
+  .player-name,
+  .mobile-player-name {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 
-.player-name:hover,
-.mobile-player-name:hover {
-  color: #ff9a9a;
-}
-
-  
-
-  
+  .player-name:hover,
+  .mobile-player-name:hover {
+    color: #ff9a9a;
+  }
 }
