@@ -20,7 +20,7 @@
     </h1>
 
     <!-- Dropdown to select position -->
-    <label for="positionSelect">Top 10 Players by:</label>
+    <label for="positionSelect">Top 100 Players by:</label>
     <select id="positionSelect">
       <option value="ALL">All Positions</option>
       <option value="QB">QB</option>
@@ -36,8 +36,8 @@
       <option value="S">S</option>
     </select>
 
-    <!-- Top 10 / All list -->
-    <div id="top10List"></div>
+    <!-- Top 100 / All list -->
+    <div id="top100List"></div>
 
     <!-- Drafted players board -->
     <h2>Draft Picks</h2>
@@ -49,6 +49,19 @@
 
     <!-- Team on the clock -->
     <div id="onClock"></div>
+
+    <div id="bioModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <div class="iframe-wrapper">
+          <iframe
+            id="bioIframe"
+            title="Player Bio"
+            sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation"
+          ></iframe>
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="app.js"></script>
   </body>
