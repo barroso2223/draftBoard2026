@@ -388,7 +388,8 @@ function renderTeamGrades() {
   const container = document.getElementById("teamGrades");
 
   if (draftedPicks.length === 0) {
-    container.innerHTML = "<div>Live draft picks by team (A-Z) will appear here.</div>";
+    container.innerHTML =
+      "<div>Live draft picks by team (A-Z) will appear here.</div>";
     return;
   }
 
@@ -561,5 +562,5 @@ async function pollDraft() {
 }
 
 // ─── Start App ───────────────────────────────────────────────
-loadPlayers(); //loadPlayers().then(() => testDraftBoard()); // ← calls test after players load or if commented out leaves out test
+loadPlayers(); //loadPlayers().then(() => testDraftBoard()); // ← use this one to run the test mockdraft function
 const pollInterval = setInterval(pollDraft, 30000);
