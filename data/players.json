@@ -1579,6 +1579,33 @@
     "summary": "When you watch his tape you quickly notice first-round talent especially when you watch Cisse operate in man coverage situations. He's got..."
   },
   {
+    "name": "Mike Washington Jr.",
+    "position": "RB",
+    "school": "Arkansas",
+    "team": "",
+    "weight": 223,
+    "height": "6-1",
+    "forty": 4.33,
+    "drafted": false,
+    "combined_score": 80,
+    "sources_count": 4,
+    "rankings": {
+      "buzz": {
+        "rating": 84.8
+      },
+      "bleacher": {
+        "grade": 7.7
+      },
+      "pff": {
+        "grade": 78.3
+      },
+      "espn": {
+        "grade": 80
+      }
+    },
+    "summary": "Washington is a difficult evaluation because the tools are so loud but the full picture still has some rough edges. The speed is absurd for..."
+  },
+  {
     "name": "Chris Bell",
     "position": "WR",
     "school": "Louisville",
@@ -2072,29 +2099,6 @@
       }
     },
     "summary": "Watch the tape on from Allen's 2025 season at Cincinnati and you'll see a receiver who knows exactly how to get open. He's not going to..."
-  },
-  {
-    "name": "Mike Washington Jr.",
-    "position": "RB",
-    "school": "Arkansas",
-    "team": "",
-    "weight": null,
-    "height": null,
-    "forty": null,
-    "drafted": false,
-    "combined_score": 78.4,
-    "sources_count": 3,
-    "rankings": {
-      "bleacher": {
-        "grade": 7.7
-      },
-      "pff": {
-        "grade": 78.3
-      },
-      "espn": {
-        "grade": 80
-      }
-    }
   },
   {
     "name": "Trey Zuhn III",
@@ -2947,24 +2951,6 @@
       }
     },
     "summary": "Canady's best football is going to be played in the slot. That much is clear after watching him at Oregon, where he thrived working..."
-  },
-  {
-    "name": "Mike Washington J...",
-    "position": "RB",
-    "school": "Arkansas",
-    "team": "",
-    "weight": 223,
-    "height": "6-1",
-    "forty": 4.33,
-    "drafted": false,
-    "combined_score": 74.8,
-    "sources_count": 1,
-    "rankings": {
-      "buzz": {
-        "rating": 84.8
-      }
-    },
-    "summary": "Washington is a difficult evaluation because the tools are so loud but the full picture still has some rough edges. The speed is absurd for..."
   },
   {
     "name": "Dani Dennis-Sutto...",

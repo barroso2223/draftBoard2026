@@ -1,4 +1,6 @@
-/* Reset and base styles */
+/* ============================================================
+   GLOBAL & RESET
+   ============================================================ */
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +31,9 @@ h2 {
   border-bottom: 2px solid #ff6b6b;
 }
 
-/* Dropdown */
+/* ============================================================
+   DROPDOWN
+   ============================================================ */
 label {
   display: block;
   font-weight: bold;
@@ -51,63 +55,17 @@ label {
   margin-bottom: 16px;
 }
 
-#top100List {
+/* ============================================================
+   TOP 25 LIST
+   ============================================================ */
+#top25List {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-bottom: 20px;
 }
 
-/* Hide mobile elements on desktop by default */
-.mobile-only {
-  display: none;
-}
-
-/* Draft Board and Team Grades */
-#draftBoard,
-#teamGrades {
-  background: #16213e;
-  border-radius: 10px;
-  padding: 16px;
-  margin-top: 10px;
-  min-height: 80px;
-  text-align: center;
-  color: #aaa;
-  font-size: 0.9rem;
-}
-
-#onClock {
-  background: #ff6b6b;
-  color: #1a1a2e;
-  padding: 12px;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 16px 0;
-  display: none;
-}
-
-#onClock:not(:empty) {
-  display: block;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: #16213e;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #ff6b6b;
-  border-radius: 10px;
-}
-
-/* Rank number styling */
+/* Rank numbers */
 .rank-number {
   font-weight: bold;
   color: white;
@@ -130,7 +88,54 @@ label {
   font-size: 0.8rem;
 }
 
-/* Modal overlay - full screen always */
+/* ============================================================
+   DRAFT BOARD & TEAM GRADES (COMMON)
+   ============================================================ */
+#draftBoard,
+#teamGrades {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 10px;
+  min-height: 80px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* On the clock banner */
+#onClock {
+  background: #ff6b6b;
+  color: #1a1a2e;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 16px 0;
+  display: none;
+}
+#onClock:not(:empty) {
+  display: block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #16213e;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff6b6b;
+  border-radius: 10px;
+}
+
+/* ============================================================
+   MODAL
+   ============================================================ */
 .modal {
   position: fixed;
   z-index: 10000;
@@ -142,10 +147,9 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(4px); /* optional, nice effect */
+  backdrop-filter: blur(4px);
 }
 
-/* Modal content box - responsive sizing */
 .modal-content {
   position: relative;
   background-color: #fff;
@@ -155,17 +159,28 @@ label {
   max-height: 90vh;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
 }
 
-/* Iframe wrapper takes remaining space */
+.modal-disclaimer {
+  background: #1a1a2e;
+  color: #ffd93d;
+  font-size: clamp(0.75rem, 3vw, 1.25rem);
+  padding: 6px 12px;
+  padding-right: 3rem;
+  text-align: center;
+  border-bottom: 1px solid #ff6b6b;
+  font-family: sans-serif;
+  z-index: 5;
+}
+
 .iframe-wrapper {
   flex: 1;
   position: relative;
   overflow: auto;
-  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  -webkit-overflow-scrolling: touch;
 }
 
 #bioIframe {
@@ -175,12 +190,11 @@ label {
   display: block;
 }
 
-/* Close button - large enough for fat fingers, always on top */
 .modal-close {
   position: absolute;
   top: 12px;
   right: 16px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   font-size: 28px;
   font-weight: bold;
@@ -196,19 +210,63 @@ label {
   transition: background 0.2s;
   line-height: 1;
 }
-
 .modal-close:hover {
-  background: rgba(0,0,0,0.9);
+  background: rgba(0, 0, 0, 0.9);
 }
 
-/* Mobile adjustments */
+/* Full‑width round separator – spans the entire grid */
+.round-separator {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffd93d;
+  background: transparent;
+  margin: 30px 0 20px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Horizontal line on both sides of the text */
+.round-separator::before,
+.round-separator::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ff6b6b,
+    #ffd93d,
+    #ff6b6b,
+    transparent
+  );
+  margin: 0 15px;
+}
+
+.round-separator::before {
+  margin-right: 15px;
+}
+
+.round-separator::after {
+  margin-left: 15px;
+}
+
+/* Remove top margin for the very first separator (optional) */
+.round-separator:first-of-type {
+  margin-top: 0;
+}
+
+/* Modal mobile adjustments */
 @media (max-width: 768px) {
   .modal-content {
     width: 95%;
     height: 92%;
     border-radius: 8px;
   }
-  
   .modal-close {
     top: 8px;
     right: 12px;
@@ -217,8 +275,6 @@ label {
     font-size: 26px;
   }
 }
-
-/* For very small phones (<=480px) */
 @media (max-width: 480px) {
   .modal-content {
     width: 98%;
@@ -226,83 +282,94 @@ label {
   }
 }
 
-/* DESKTOP VIEW */
+/* ============================================================
+   PLAYER ROWS (DESKTOP & MOBILE)
+   ============================================================ */
+/* Hide mobile-only on desktop by default */
+.mobile-only {
+  display: none;
+}
+
+/* Desktop view (≥769px) */
 @media (min-width: 769px) {
   .desktop-only {
-    display: contents;
-  }
-
-  .playerRow {
-    background: #16213e;
-    border-radius: 10px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  }
-
-  .desktop-only {
     display: grid;
-    grid-template-columns: 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    grid-template-columns: 0.5fr 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
     align-items: center;
     gap: 8px;
     padding: 12px 15px;
   }
-
-  .playerRow:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
-  }
-
   .headerRow {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    gap: 8px;
+    padding: 10px 15px;
     background: #0f3460;
     border-radius: 10px 10px 0 0;
-    padding: 10px 15px;
-    display: grid;
-    grid-template-columns: 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
-    gap: 8px;
     font-weight: bold;
     color: #ff6b6b;
     border-bottom: 2px solid #ff6b6b;
     margin-bottom: 4px;
   }
-
+  .playerRow {
+    background: #16213e;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  .playerRow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+  }
   .player-name {
     font-weight: bold;
     color: #ff6b6b;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
-
+  .player-name:hover {
+    color: #ff9a9a;
+  }
   .rating-value {
     font-weight: bold;
     color: #ffd93d;
   }
 }
 
-/* MOBILE VIEW */
+/* Tablet view (769px–1024px) – adjust grid */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .desktop-only {
+    grid-template-columns: 1.8fr 1.3fr 0.7fr 0.6fr 0.6fr 0.7fr 0.8fr;
+    gap: 6px;
+    font-size: 0.85rem;
+  }
+  .headerRow {
+    grid-template-columns: 1.8fr 1.3fr 0.7fr 0.6fr 0.6fr 0.7fr 0.8fr;
+  }
+}
+
+/* Mobile view (≤768px) */
 @media (max-width: 768px) {
   body {
     padding: 12px;
   }
-
   h1 {
     font-size: 1.4rem;
     margin-bottom: 12px;
   }
-
   h2 {
     font-size: 1.2rem;
     margin: 16px 0 10px 0;
   }
-
   .headerRow {
     display: none;
   }
-
   .desktop-only {
     display: none;
   }
-
   .mobile-only {
     display: block;
   }
-
   .playerRow {
     background: #16213e;
     border-radius: 10px;
@@ -310,8 +377,6 @@ label {
     margin-bottom: 8px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   }
-
-  /* Name + School row */
   .mobile-name-row {
     display: flex;
     justify-content: space-between;
@@ -320,28 +385,29 @@ label {
     padding-bottom: 8px;
     border-bottom: 1px solid rgba(255, 107, 107, 0.3);
   }
-
   .mobile-player-name {
     font-size: 1rem;
     font-weight: bold;
     color: #ff6b6b;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
-
+  .mobile-player-name:hover {
+    color: #ff9a9a;
+  }
   .mobile-school {
     font-size: 0.9rem;
     color: white;
     padding: 3px 10px;
     border-radius: 20px;
   }
-
-  /* Stats chips grid */
   .mobile-stats {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     align-items: center;
   }
-
   .mobile-chip {
     display: inline-flex;
     align-items: center;
@@ -351,7 +417,6 @@ label {
     background: rgba(255, 255, 255, 0.08);
     border-radius: 20px;
   }
-
   .mobile-chip.rating {
     background: rgba(255, 217, 61, 0.15);
     color: #ffd93d;
@@ -359,119 +424,247 @@ label {
   }
 }
 
-/* Tablet view */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .desktop-only {
-    grid-template-columns: 1.8fr 1.3fr 0.7fr 0.6fr 0.6fr 0.7fr 0.8fr;
-    gap: 6px;
-    font-size: 0.85rem;
-  }
+/* ============================================================
+   DRAFT BOARD (CARDS)
+   ============================================================ */
+#draftBoard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  background: transparent;
+  padding: 0;
+  margin-top: 20px;
+}
 
-  .headerRow {
-    grid-template-columns: 1.8fr 1.3fr 0.7fr 0.6fr 0.6fr 0.7fr 0.8fr;
+.pick-card {
+  background: #16213e;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+.pick-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.pick-header {
+  background: #0f3460;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #ff6b6b;
+  font-size: 0.8rem;
+}
+.pick-number {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+.pick-team {
+  color: #ffd93d;
+  font-weight: bold;
+}
+.pick-round {
+  color: #aaa;
+}
+
+.pick-player-name {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 12px 4px 12px;
+  cursor: pointer;
+  color: #ffd93d;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.pick-player-name:hover {
+  color: #ff9a9a;
+}
+
+.pick-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px 12px 12px 12px;
+  font-size: 0.7rem;
+}
+.pick-stat {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 3px 8px;
+  border-radius: 20px;
+  color: #ccc;
+}
+.pick-stat.rating {
+  background: rgba(255, 217, 61, 0.15);
+  color: #ffd93d;
+  font-weight: bold;
+}
+.no-stats {
+  font-size: 0.7rem;
+  color: #888;
+  padding: 6px 12px 12px 12px;
+}
+
+/* Mobile draft board (single column) */
+@media (max-width: 768px) {
+  #draftBoard {
+    grid-template-columns: 1fr;
   }
 }
 
-/* Desktop grid with rank column */
+/* ============================================================
+   TEAM GRADES (CARDS)
+   ============================================================ */
+/* Desktop layout (grid) */
 @media (min-width: 769px) {
-  .desktop-only {
+  #teamGrades {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
-    align-items: center;
-    gap: 8px;
-    padding: 12px 15px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    background: transparent;
+    padding: 0;
+    margin-top: 20px;
   }
-
-  .headerRow {
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 1.5fr 0.8fr 0.6fr 0.6fr 0.7fr 0.8fr;
-    gap: 8px;
-    padding: 10px 15px;
-    background: #0f3460;
-    border-radius: 10px 10px 0 0;
-    font-weight: bold;
-    color: #ff6b6b;
-    border-bottom: 2px solid #ff6b6b;
-    margin-bottom: 4px;
-  }
-  /* Draft pick rows */
-  .pick-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 12px;
-    background: #1a2a4a;
-    border-radius: 8px;
-    margin-bottom: 6px;
-    font-size: 0.9rem;
-  }
-
-  .pick-number {
-    color: #ff6b6b;
-    font-weight: bold;
-    min-width: 40px;
-  }
-
-  .pick-name {
-    flex: 1;
-    font-weight: bold;
-    color: white;
-    padding: 0 8px;
-  }
-
-  .pick-team {
-    color: #ffd93d;
-    font-weight: bold;
-    min-width: 50px;
-    text-align: right;
-  }
-
-  .pick-round {
-    color: #aaa;
-    font-size: 0.8rem;
-    min-width: 80px;
-    text-align: right;
-  }
-
-  /* Team cards */
   .team-card {
-    background: #1a2a4a;
-    border-radius: 8px;
-    padding: 12px;
-    margin-bottom: 10px;
+    background: #16213e;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
   }
-
-  .team-card h3 {
-    color: #ff6b6b;
-    font-size: 1rem;
-    margin-bottom: 8px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid rgba(255, 107, 107, 0.3);
+  .team-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   }
-
-  .team-pick {
+  .team-card-header {
+    background: #0f3460;
+    padding: 12px 16px;
     display: flex;
     justify-content: space-between;
-    padding: 5px 0;
-    font-size: 0.85rem;
-    color: #eee;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    align-items: baseline;
+    border-bottom: 2px solid #ff6b6b;
   }
-
-  .team-pick:last-child {
-    border-bottom: none;
+  .team-card-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff6b6b;
   }
-
-  /* Clickable player name for bio link */
-  .player-name,
-  .mobile-player-name {
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+  .team-pick-count {
+    font-size: 0.8rem;
+    background: rgba(255, 107, 107, 0.2);
+    padding: 4px 8px;
+    border-radius: 20px;
+    color: #ffd93d;
   }
+  .team-picks-list {
+    padding: 8px 0;
+  }
+}
 
-  .player-name:hover,
-  .mobile-player-name:hover {
-    color: #ff9a9a;
+/* Shared team pick styles (desktop + mobile) */
+.team-pick-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.team-pick-item:last-child {
+  border-bottom: none;
+}
+.team-pick-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.team-pick-round {
+  font-size: 0.7rem;
+  color: #aaa;
+}
+.team-player-name {
+  font-weight: bold;
+  color: #ffd93d;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  flex: 1;
+  text-align: left;
+}
+.team-player-name:hover {
+  color: #ff9a9a;
+}
+.team-pick-overall {
+  font-size: 0.7rem;
+  background: rgba(255, 107, 107, 0.2);
+  padding: 2px 6px;
+  border-radius: 20px;
+  color: #ff6b6b;
+}
+.team-pick-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.7rem;
+  margin-top: 4px;
+}
+.team-pick-stats .pick-stat {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+/* Mobile team grades (stack, with borders) */
+@media (max-width: 768px) {
+  #teamGrades {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: transparent;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .team-card {
+    background: #16213e;
+    border-radius: 12px;
+    border: 1px solid #ff6b6b;
+    overflow: hidden;
+    margin-bottom: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  .team-card-header {
+    background: #0f3460;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #ff6b6b;
+  }
+  .team-card-header h3 {
+    font-size: 1rem;
+    margin: 0;
+    color: #ff6b6b;
+  }
+  .team-pick-count {
+    font-size: 0.7rem;
+    background: rgba(255, 107, 107, 0.2);
+    padding: 3px 8px;
+    border-radius: 20px;
+    color: #ffd93d;
+  }
+  .team-picks-list {
+    padding: 6px 0;
+  }
+  .team-pick-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .team-player-name {
+    width: 100%;
+    white-space: normal;
+    word-break: break-word;
   }
 }

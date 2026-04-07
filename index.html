@@ -20,7 +20,9 @@
     </h1>
 
     <!-- Dropdown to select position -->
-    <label for="positionSelect">Top 100 Players by:</label>
+    <label for="positionSelect"
+      >Top 25 Undrafted Players left on the Board:</label
+    >
     <select id="positionSelect">
       <option value="ALL">All Positions</option>
       <option value="QB">QB</option>
@@ -36,8 +38,8 @@
       <option value="S">S</option>
     </select>
 
-    <!-- Top 100 / All list -->
-    <div id="top100List"></div>
+    <!-- Top 25 / All list -->
+    <div id="top25List"></div>
 
     <!-- Drafted players board -->
     <h2>Draft Picks</h2>
@@ -52,6 +54,11 @@
 
     <div id="bioModal" class="modal" style="display: none">
       <div class="modal-content">
+        <div class="modal-disclaimer">
+          ⚠️ Bio is automatically loaded from Wikipedia using the player’s name.
+          For common names, the page shown may be incorrect. Use Wikipedia
+          search if needed.
+        </div>
         <button class="modal-close" aria-label="Close">&times;</button>
         <div class="iframe-wrapper">
           <iframe

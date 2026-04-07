@@ -1,0 +1,517 @@
+// Auto-generated from raw-data/espnMockDraft.txt
+// 64 picks
+
+const draftedPicks = [
+  {
+    overall: 1,
+    round: 1,
+    pick: 1,
+    playerName: "Fernando Mendoza",
+    team: "Las Vegas Raiders",
+    teamAbbrev: "LVR"
+  },
+  {
+    overall: 2,
+    round: 1,
+    pick: 2,
+    playerName: "David Bailey",
+    team: "New York Jets",
+    teamAbbrev: "NYJ"
+  },
+  {
+    overall: 3,
+    round: 1,
+    pick: 3,
+    playerName: "Arvell Reese",
+    team: "Arizona Cardinals",
+    teamAbbrev: "ARI"
+  },
+  {
+    overall: 4,
+    round: 1,
+    pick: 4,
+    playerName: "Sonny Styles",
+    team: "Tennessee Titans",
+    teamAbbrev: "TEN"
+  },
+  {
+    overall: 5,
+    round: 1,
+    pick: 5,
+    playerName: "Caleb Downs",
+    team: "New York Giants",
+    teamAbbrev: "NYG"
+  },
+  {
+    overall: 6,
+    round: 1,
+    pick: 6,
+    playerName: "Carnell Tate",
+    team: "Cleveland Browns",
+    teamAbbrev: "CLE"
+  },
+  {
+    overall: 7,
+    round: 1,
+    pick: 7,
+    playerName: "Jeremiyah Love",
+    team: "Washington Commanders",
+    teamAbbrev: "WSH"
+  },
+  {
+    overall: 8,
+    round: 1,
+    pick: 8,
+    playerName: "Rueben Bain Jr.",
+    team: "New Orleans Saints",
+    teamAbbrev: "NO"
+  },
+  {
+    overall: 9,
+    round: 1,
+    pick: 9,
+    playerName: "Jordyn Tyson",
+    team: "Kansas City Chiefs",
+    teamAbbrev: "KC"
+  },
+  {
+    overall: 10,
+    round: 1,
+    pick: 10,
+    playerName: "Mansoor Delane",
+    team: "Cincinnati Bengals",
+    teamAbbrev: "CIN"
+  },
+  {
+    overall: 11,
+    round: 1,
+    pick: 11,
+    playerName: "Francis Mauigoa",
+    team: "Miami Dolphins",
+    teamAbbrev: "MIA"
+  },
+  {
+    overall: 12,
+    round: 1,
+    pick: 12,
+    playerName: "Jermod McCoy",
+    team: "Dallas Cowboys",
+    teamAbbrev: "DAL"
+  },
+  {
+    overall: 13,
+    round: 1,
+    pick: 13,
+    playerName: "Monroe Freeling",
+    team: "Los Angeles Rams",
+    teamAbbrev: "LAR"
+  },
+  {
+    overall: 14,
+    round: 1,
+    pick: 14,
+    playerName: "Spencer Fano",
+    team: "Baltimore Ravens",
+    teamAbbrev: "BAL"
+  },
+  {
+    overall: 15,
+    round: 1,
+    pick: 15,
+    playerName: "Akheem Mesidor",
+    team: "Tampa Bay Buccaneers",
+    teamAbbrev: "TB"
+  },
+  {
+    overall: 16,
+    round: 1,
+    pick: 16,
+    playerName: "Makai Lemon",
+    team: "New York Jets",
+    teamAbbrev: "NYJ"
+  },
+  {
+    overall: 17,
+    round: 1,
+    pick: 17,
+    playerName: "Kadyn Proctor",
+    team: "Detroit Lions",
+    teamAbbrev: "DET"
+  },
+  {
+    overall: 18,
+    round: 1,
+    pick: 18,
+    playerName: "Dillon Thieneman",
+    team: "Minnesota Vikings",
+    teamAbbrev: "MIN"
+  },
+  {
+    overall: 19,
+    round: 1,
+    pick: 19,
+    playerName: "Kenyon Sadiq",
+    team: "Carolina Panthers",
+    teamAbbrev: "CAR"
+  },
+  {
+    overall: 20,
+    round: 1,
+    pick: 20,
+    playerName: "R Mason Thomas",
+    team: "Dallas Cowboys",
+    teamAbbrev: "DAL"
+  },
+  {
+    overall: 21,
+    round: 1,
+    pick: 21,
+    playerName: "Olaivavega Ioane",
+    team: "Pittsburgh Steelers",
+    teamAbbrev: "PIT"
+  },
+  {
+    overall: 22,
+    round: 1,
+    pick: 22,
+    playerName: "Emmanuel McNeil-Warren",
+    team: "Los Angeles Chargers",
+    teamAbbrev: "LAC"
+  },
+  {
+    overall: 23,
+    round: 1,
+    pick: 23,
+    playerName: "Omar Cooper Jr.",
+    team: "Philadelphia Eagles",
+    teamAbbrev: "PHI"
+  },
+  {
+    overall: 24,
+    round: 1,
+    pick: 24,
+    playerName: "Caleb Lomu",
+    team: "Cleveland Browns",
+    teamAbbrev: "CLE"
+  },
+  {
+    overall: 25,
+    round: 1,
+    pick: 25,
+    playerName: "Zion Young",
+    team: "Chicago Bears",
+    teamAbbrev: "CHI"
+  },
+  {
+    overall: 26,
+    round: 1,
+    pick: 26,
+    playerName: "Ty Simpson",
+    team: "Arizona Cardinals",
+    teamAbbrev: "ARI"
+  },
+  {
+    overall: 27,
+    round: 1,
+    pick: 27,
+    playerName: "Keldric Faulk",
+    team: "San Francisco 49ers",
+    teamAbbrev: "SF"
+  },
+  {
+    overall: 28,
+    round: 1,
+    pick: 28,
+    playerName: "Peter Woods",
+    team: "Houston Texans",
+    teamAbbrev: "HOU"
+  },
+  {
+    overall: 29,
+    round: 1,
+    pick: 29,
+    playerName: "Cashius Howell",
+    team: "Kansas City Chiefs",
+    teamAbbrev: "KC"
+  },
+  {
+    overall: 30,
+    round: 1,
+    pick: 30,
+    playerName: "KC Concepcion",
+    team: "Miami Dolphins",
+    teamAbbrev: "MIA"
+  },
+  {
+    overall: 31,
+    round: 1,
+    pick: 31,
+    playerName: "Denzel Boston",
+    team: "New England Patriots",
+    teamAbbrev: "NE"
+  },
+  {
+    overall: 32,
+    round: 1,
+    pick: 32,
+    playerName: "Avieon Terrell",
+    team: "Seattle Seahawks",
+    teamAbbrev: "SEA"
+  },
+  {
+    overall: 33,
+    round: 2,
+    pick: 1,
+    playerName: "Colton Hood",
+    team: "New York Jets",
+    teamAbbrev: "NYJ"
+  },
+  {
+    overall: 34,
+    round: 2,
+    pick: 2,
+    playerName: "CJ Allen",
+    team: "Buffalo Bills",
+    teamAbbrev: "BUF"
+  },
+  {
+    overall: 35,
+    round: 2,
+    pick: 3,
+    playerName: "Keylan Rutledge",
+    team: "Tennessee Titans",
+    teamAbbrev: "TEN"
+  },
+  {
+    overall: 36,
+    round: 2,
+    pick: 4,
+    playerName: "Kayden McDonald",
+    team: "Las Vegas Raiders",
+    teamAbbrev: "LVR"
+  },
+  {
+    overall: 37,
+    round: 2,
+    pick: 5,
+    playerName: "Chase Bisontis",
+    team: "New York Giants",
+    teamAbbrev: "NYG"
+  },
+  {
+    overall: 38,
+    round: 2,
+    pick: 6,
+    playerName: "Blake Miller",
+    team: "Houston Texans",
+    teamAbbrev: "HOU"
+  },
+  {
+    overall: 39,
+    round: 2,
+    pick: 7,
+    playerName: "Brandon Cisse",
+    team: "Cleveland Browns",
+    teamAbbrev: "CLE"
+  },
+  {
+    overall: 40,
+    round: 2,
+    pick: 8,
+    playerName: "Jake Golday",
+    team: "Kansas City Chiefs",
+    teamAbbrev: "KC"
+  },
+  {
+    overall: 41,
+    round: 2,
+    pick: 9,
+    playerName: "Anthony Hill Jr.",
+    team: "Cincinnati Bengals",
+    teamAbbrev: "CIN"
+  },
+  {
+    overall: 42,
+    round: 2,
+    pick: 10,
+    playerName: "Chris Johnson",
+    team: "New Orleans Saints",
+    teamAbbrev: "NO"
+  },
+  {
+    overall: 43,
+    round: 2,
+    pick: 11,
+    playerName: "Malachi Lawrence",
+    team: "Miami Dolphins",
+    teamAbbrev: "MIA"
+  },
+  {
+    overall: 44,
+    round: 2,
+    pick: 12,
+    playerName: "Christen Miller",
+    team: "New York Jets",
+    teamAbbrev: "NYJ"
+  },
+  {
+    overall: 45,
+    round: 2,
+    pick: 13,
+    playerName: "T.J. Parker",
+    team: "Baltimore Ravens",
+    teamAbbrev: "BAL"
+  },
+  {
+    overall: 46,
+    round: 2,
+    pick: 14,
+    playerName: "Eli Stowers",
+    team: "Tampa Bay Buccaneers",
+    teamAbbrev: "TB"
+  },
+  {
+    overall: 47,
+    round: 2,
+    pick: 15,
+    playerName: "Caleb Banks",
+    team: "Indianapolis Colts",
+    teamAbbrev: "IND"
+  },
+  {
+    overall: 48,
+    round: 2,
+    pick: 16,
+    playerName: "Max Iheanachor",
+    team: "Atlanta Falcons",
+    teamAbbrev: "ATL"
+  },
+  {
+    overall: 49,
+    round: 2,
+    pick: 17,
+    playerName: "Dani Dennis-Sutton",
+    team: "Minnesota Vikings",
+    teamAbbrev: "MIN"
+  },
+  {
+    overall: 50,
+    round: 2,
+    pick: 18,
+    playerName: "Gabe Jacas",
+    team: "Detroit Lions",
+    teamAbbrev: "DET"
+  },
+  {
+    overall: 51,
+    round: 2,
+    pick: 19,
+    playerName: "Caleb Tiernan",
+    team: "Carolina Panthers",
+    teamAbbrev: "CAR"
+  },
+  {
+    overall: 52,
+    round: 2,
+    pick: 20,
+    playerName: "Lee Hunter",
+    team: "Green Bay Packers",
+    teamAbbrev: "GB"
+  },
+  {
+    overall: 53,
+    round: 2,
+    pick: 21,
+    playerName: "Brenen Thompson",
+    team: "Pittsburgh Steelers",
+    teamAbbrev: "PIT"
+  },
+  {
+    overall: 54,
+    round: 2,
+    pick: 22,
+    playerName: "Gennings Dunker",
+    team: "Philadelphia Eagles",
+    teamAbbrev: "PHI"
+  },
+  {
+    overall: 55,
+    round: 2,
+    pick: 23,
+    playerName: "Emmanuel Pregnon",
+    team: "Los Angeles Chargers",
+    teamAbbrev: "LAC"
+  },
+  {
+    overall: 56,
+    round: 2,
+    pick: 24,
+    playerName: "Keyron Crawford",
+    team: "Jacksonville Jaguars",
+    teamAbbrev: "JAX"
+  },
+  {
+    overall: 57,
+    round: 2,
+    pick: 25,
+    playerName: "Jacob Rodriguez",
+    team: "Chicago Bears",
+    teamAbbrev: "CHI"
+  },
+  {
+    overall: 58,
+    round: 2,
+    pick: 26,
+    playerName: "Germie Bernard",
+    team: "San Francisco 49ers",
+    teamAbbrev: "SF"
+  },
+  {
+    overall: 59,
+    round: 2,
+    pick: 27,
+    playerName: "Kyle Louis",
+    team: "Houston Texans",
+    teamAbbrev: "HOU"
+  },
+  {
+    overall: 60,
+    round: 2,
+    pick: 28,
+    playerName: "Treydan Stukes",
+    team: "Chicago Bears",
+    teamAbbrev: "CHI"
+  },
+  {
+    overall: 61,
+    round: 2,
+    pick: 29,
+    playerName: "Chris Bell",
+    team: "Los Angeles Rams",
+    teamAbbrev: "LAR"
+  },
+  {
+    overall: 62,
+    round: 2,
+    pick: 30,
+    playerName: "Josiah Trotter",
+    team: "Denver Broncos",
+    teamAbbrev: "DEN"
+  },
+  {
+    overall: 63,
+    round: 2,
+    pick: 31,
+    playerName: "Jaishawn Barham",
+    team: "New England Patriots",
+    teamAbbrev: "NE"
+  },
+  {
+    overall: 64,
+    round: 2,
+    pick: 32,
+    playerName: "Jadarian Price",
+    team: "Seattle Seahawks",
+    teamAbbrev: "SEA"
+  },
+];

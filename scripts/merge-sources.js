@@ -4,7 +4,48 @@ const path = require("path");
 // Get project root
 const projectRoot = path.resolve(__dirname, "..");
 
-// Position normalization mapping
+// ============================================================
+// NAME NORMALIZATION (handles Jr., Sr., II, III, etc.)
+// ============================================================
+function normalizeName(name) {
+  if (!name) return "";
+  let normalized = name.trim().replace(/\s+/g, " ");
+  // Fix common truncations like "J..." -> "Jr."
+  normalized = normalized.replace(/J\.\.\./gi, "Jr.");
+  normalized = normalized.replace(/J\.\./gi, "Jr.");
+  // Suffix mapping (case‑insensitive, with or without period)
+  const suffixMap = {
+    junior: "Jr.",
+    jr: "Jr.",
+    "jr.": "Jr.",
+    sr: "Sr.",
+    "sr.": "Sr.",
+    senior: "Sr.",
+    ii: "II",
+    iii: "III",
+    iv: "IV",
+    v: "V",
+  };
+  // Check for suffix at the end of the name (after a space or comma)
+  const parts = normalized.split(/[\s,]+/);
+  const lastPart = parts[parts.length - 1].toLowerCase();
+  if (suffixMap[lastPart]) {
+    // Replace the last part with the standard suffix
+    parts[parts.length - 1] = suffixMap[lastPart];
+    normalized = parts.join(" ");
+  }
+  // Also handle "First Last Jr" without comma
+  const suffixPattern = /\s+(jr|jr\.|junior|sr|sr\.|senior|ii|iii|iv|v)$/i;
+  normalized = normalized.replace(suffixPattern, (match, p1) => {
+    const key = p1.toLowerCase().replace(/\.$/, "");
+    return ` ${suffixMap[key] || p1}`;
+  });
+  return normalized.trim();
+}
+
+// ============================================================
+// POSITION NORMALIZATION (unchanged)
+// ============================================================
 const positionMap = {
   edge: "EDGE",
   de: "EDGE",
@@ -51,7 +92,8 @@ function normalizePosition(position) {
 }
 
 function getPlayerKey(name, position, school) {
-  return `${name}|${normalizePosition(position)}|${school}`.toLowerCase();
+  const normName = normalizeName(name);
+  return `${normName}|${normalizePosition(position)}|${school}`.toLowerCase();
 }
 
 // Load all sources
@@ -96,12 +138,18 @@ try {
   console.log("⚠️ espn.json not found");
 }
 
+// ============================================================
+// MERGING LOGIC
+// ============================================================
+
 // Create map for merged players
 const playerMap = new Map();
 
 // Helper to add player
 function addPlayer(source, player, sourceName) {
+  const normalizePlayerName = normalizeName(player.name);
   const key = getPlayerKey(player.name, player.position, player.school);
+
   if (playerMap.has(key)) {
     const existing = playerMap.get(key);
     existing[sourceName] = player;
@@ -109,11 +157,14 @@ function addPlayer(source, player, sourceName) {
     if (player.height && !existing.height) existing.height = player.height;
     if (player.forty && !existing.forty) existing.forty = player.forty;
     if (player.summary && !existing.summary) existing.summary = player.summary;
+    if (existing.name === player.name && normalizePlayerName !== player.name) {
+      existing.name = normalizePlayerName;
+    }
     playerMap.set(key, existing);
   } else {
     playerMap.set(key, {
       [sourceName]: player,
-      name: player.name,
+      name: normalizePlayerName,
       school: player.school,
       position: normalizePosition(player.position),
       weight: player.weight || null,
@@ -165,6 +216,9 @@ function calculateCombinedScore(data) {
   return Math.round(Math.max(0, finalScore) * 10) / 10;
 }
 
+// ============================================================
+// BUILD FINAL ARRAY
+// ============================================================
 // Create merged players array
 const mergedPlayers = [];
 
@@ -205,7 +259,9 @@ mergedPlayers.sort((a, b) => b.combined_score - a.combined_score);
 const outputPath = path.join(dataDir, "players.json");
 fs.writeFileSync(outputPath, JSON.stringify(mergedPlayers, null, 2));
 
-// Statistics
+// ============================================================
+// STATISTICS
+// ============================================================
 const withBuzz = mergedPlayers.filter((p) => p.rankings.buzz).length;
 const withBR = mergedPlayers.filter((p) => p.rankings.bleacher).length;
 const withPFF = mergedPlayers.filter((p) => p.rankings.pff).length;
@@ -229,7 +285,7 @@ console.log(`   - Have ESPN grade: ${withESPN}`);
 console.log(`   - Have ALL 4 sources: ${allFour}`);
 console.log(`   - Have 3 sources: ${withThree}`);
 console.log(`   - Have 2 sources: ${withTwo} (no penalty)`);
-console.log(`   - Have 1 source: ${withOne} (-4 point penalty)`);
+console.log(`   - Have 1 source: ${withOne} (-10 point penalty)`);
 
 console.log("\n📊 Top 20 Combined Rankings (4 sources):");
 console.log("━".repeat(85));
@@ -238,7 +294,7 @@ mergedPlayers.slice(0, 20).forEach((p, i) => {
   const br = p.rankings.bleacher?.grade || "—";
   const pff = p.rankings.pff?.grade || "—";
   const espn = p.rankings.espn?.grade || "—";
-  const penalty = p.sources_count === 1 ? "(-4 penalty)" : "";
+  const penalty = p.sources_count === 1 ? "(-10 penalty)" : "";
   console.log(`${i + 1}. ${p.name} (${p.position}) - ${p.school}`);
   console.log(
     `   Combined: ${p.combined_score} | Buzz: ${buzz} | B/R: ${br} | PFF: ${pff} | ESPN: ${espn} | ${p.sources_count}/4 sources ${penalty}`,
