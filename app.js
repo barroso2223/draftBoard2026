@@ -321,9 +321,12 @@ function renderDraftBoard() {
   let html = "";
 
   sortedRounds.forEach((round) => {
-    // Add a full‑width separator before each round
-    html += `<div class="round-separator">Round ${round}</div>`;
-    // Add all picks for this round
+    // Round header with toggle icon
+    html += `<div class="round-separator round-header-toggle" data-round="${round}">
+              <span class="toggle-icon">▼</span> Round ${round}
+             </div>`;
+    html += `<div class="round-picks" data-round="${round}">`;
+    // Add picks for this round
     picksByRound[round].forEach((pick) => {
       const player = getPlayerByName(pick.playerName);
       const hasStats = !!player;
@@ -354,9 +357,30 @@ function renderDraftBoard() {
         </div>
       `;
     });
+    html += `</div>`;
   });
 
   container.innerHTML = html;
+
+  // Attach click events to round headers (toggle)
+  document.querySelectorAll(".round-header-toggle").forEach((header) => {
+    header.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const round = header.getAttribute("data-round");
+      const picksDiv = document.querySelector(
+        `.round-picks[data-round="${round}"]`,
+      );
+      if (picksDiv) {
+        picksDiv.classList.toggle("collapsed");
+        const icon = header.querySelector(".toggle-icon");
+        if (icon) {
+          icon.textContent = picksDiv.classList.contains("collapsed")
+            ? "▶"
+            : "▼";
+        }
+      }
+    });
+  });
 }
 
 // ─── Render Team Grades ──────────────────────────────────────
@@ -364,7 +388,7 @@ function renderTeamGrades() {
   const container = document.getElementById("teamGrades");
 
   if (draftedPicks.length === 0) {
-    container.innerHTML = "<div>Live draft picks will appear here.</div>";
+    container.innerHTML = "<div>Live draft picks by team (A-Z) will appear here.</div>";
     return;
   }
 
@@ -423,6 +447,67 @@ function renderTeamGrades() {
       `;
     })
     .join("");
+}
+
+// ============================================================
+// COLLAPSIBLE SECTIONS (Draft Board, Top 25, Team Grades)
+// ============================================================
+function addSectionToggle(headingId, containerId) {
+  const heading = document.getElementById(headingId);
+  if (!heading) return;
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  const toggleBtn = document.createElement("span");
+  toggleBtn.className = "section-toggle";
+  toggleBtn.textContent = "▼";
+  heading.appendChild(toggleBtn);
+
+  let isCollapsed = false;
+  toggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    isCollapsed = !isCollapsed;
+    if (isCollapsed) {
+      container.classList.add("collapsed-section");
+      toggleBtn.textContent = "▶";
+    } else {
+      container.classList.remove("collapsed-section");
+      toggleBtn.textContent = "▼";
+    }
+  });
+}
+
+function initSectionToggles() {
+  addSectionToggle("draftBoardHeading", "draftBoard");
+  addSectionToggle("teamGradesHeading", "teamGrades");
+  // Special handling for Top 25 (it's a div with an h2 inside)
+  const top25Heading = document.getElementById("top25Heading");
+  const top25Section = document.getElementById("top25Section");
+  if (top25Heading && top25Section) {
+    const toggleBtn = document.createElement("span");
+    toggleBtn.className = "section-toggle";
+    toggleBtn.textContent = "▼";
+    top25Heading.appendChild(toggleBtn);
+    let isCollapsed = false;
+    toggleBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      isCollapsed = !isCollapsed;
+      if (isCollapsed) {
+        top25Section.classList.add("collapsed-section");
+        toggleBtn.textContent = "▶";
+      } else {
+        top25Section.classList.remove("collapsed-section");
+        toggleBtn.textContent = "▼";
+      }
+    });
+  }
+}
+
+// Call this after DOM is ready
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initSectionToggles);
+} else {
+  initSectionToggles();
 }
 
 // ─── On The Clock ────────────────────────────────────────────

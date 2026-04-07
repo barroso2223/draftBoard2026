@@ -19,39 +19,37 @@
       <span>2026 NFL Draft Tracker</span>
     </h1>
 
-    <!-- Dropdown to select position -->
-    <label for="positionSelect"
-      >Top 25 Undrafted Players left on the Board:</label
-    >
-    <select id="positionSelect">
-      <option value="ALL">All Positions</option>
-      <option value="QB">QB</option>
-      <option value="RB">RB</option>
-      <option value="WR">WR</option>
-      <option value="TE">TE</option>
-      <option value="OT">OT</option>
-      <option value="IOL">IOL</option>
-      <option value="EDGE">EDGE</option>
-      <option value="DT">DT</option>
-      <option value="LB">LB</option>
-      <option value="CB">CB</option>
-      <option value="S">S</option>
-    </select>
-
-    <!-- Top 25 / All list -->
-    <div id="top25List"></div>
-
-    <!-- Drafted players board -->
-    <h2>Draft Picks</h2>
+    <!-- Draft Picks section -->
+    <h2 id="draftBoardHeading">Draft Picks</h2>
     <div id="draftBoard"></div>
 
-    <!-- Team grades -->
-    <h2>Team Grades</h2>
+    <!-- Top 25 section (grouped with dropdown) -->
+    <h2 id="top25Heading">Top 25 Undrafted Players left on the Board</h2>
+    <div id="top25Section">
+      <select id="positionSelect">
+        <option value="ALL">All Positions</option>
+        <option value="QB">QB</option>
+        <option value="RB">RB</option>
+        <option value="WR">WR</option>
+        <option value="TE">TE</option>
+        <option value="OT">OT</option>
+        <option value="IOL">IOL</option>
+        <option value="EDGE">EDGE</option>
+        <option value="DT">DT</option>
+        <option value="LB">LB</option>
+        <option value="CB">CB</option>
+        <option value="S">S</option>
+      </select>
+      <div id="top25List"></div>
+    </div>
+
+    <!-- Team Grades section -->
+    <h2 id="teamGradesHeading">Team Grades</h2>
     <div id="teamGrades"></div>
 
-    <!-- Team on the clock -->
     <div id="onClock"></div>
 
+    <!-- Modal (unchanged) -->
     <div id="bioModal" class="modal" style="display: none">
       <div class="modal-content">
         <div class="modal-disclaimer">

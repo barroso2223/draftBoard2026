@@ -91,6 +91,56 @@ label {
 /* ============================================================
    DRAFT BOARD & TEAM GRADES (COMMON)
    ============================================================ */
+
+/* Section toggle buttons */
+.section-toggle {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  background: #ff6b6b;
+  padding: 2px 8px;
+  border-radius: 20px;
+  color: #1a1a2e;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section-toggle:hover {
+  background: #ff9a9a;
+}
+
+.collapsed-section {
+  display: none !important;
+}
+
+/* For Top 25 section, we need to collapse both the select and the list */
+#top25Section.collapsed-section select,
+#top25Section.collapsed-section #top25List {
+  display: none;
+}
+
+/* Round collapsible (already in your CSS) */
+.round-separator {
+  cursor: pointer;
+  user-select: none;
+}
+.round-separator .toggle-icon {
+  display: inline-block;
+  width: 20px;
+  font-size: 1rem;
+  margin-right: 6px;
+}
+
+.round-picks {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr)) !important;
+  gap: 16px !important;
+  margin-bottom: 20px !important;
+}
+
+.round-picks.collapsed {
+  display: none !important;
+}
+
 #draftBoard,
 #teamGrades {
   background: #16213e;
@@ -428,9 +478,7 @@ label {
    DRAFT BOARD (CARDS)
    ============================================================ */
 #draftBoard {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
+  display: block;
   background: transparent;
   padding: 0;
   margin-top: 20px;
