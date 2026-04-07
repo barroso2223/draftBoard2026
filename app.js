@@ -561,5 +561,5 @@ async function pollDraft() {
 }
 
 // ─── Start App ───────────────────────────────────────────────
-loadPlayers().then(() => testDraftBoard()); // ← calls test after players load
+loadPlayers(); //loadPlayers().then(() => testDraftBoard()); // ← calls test after players load or if commented out leaves out test
 const pollInterval = setInterval(pollDraft, 30000);
