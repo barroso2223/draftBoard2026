@@ -101,6 +101,7 @@ let buzzData = [];
 let bleacherData = [];
 let pffData = [];
 let espnData = [];
+let scoutingData = [];
 
 const dataDir = path.join(projectRoot, "data");
 
@@ -136,6 +137,15 @@ try {
   console.log(`✅ Loaded ${espnData.length} players from ESPN`);
 } catch (err) {
   console.log("⚠️ espn.json not found");
+}
+
+try {
+  scoutingData = JSON.parse(
+    fs.readFileSync(path.join(dataDir, "scoutingGrade.json"), "utf-8"),
+  );
+  console.log(`✅ Loaded ${scoutingData.length} players from Scouting Grade`);
+} catch (err) {
+  console.log("⚠️ scoutingGrade.json not found");
 }
 
 // ============================================================
@@ -180,6 +190,7 @@ buzzData.forEach((p) => addPlayer(p, p, "buzz"));
 bleacherData.forEach((p) => addPlayer(p, p, "bleacher"));
 pffData.forEach((p) => addPlayer(p, p, "pff"));
 espnData.forEach((p) => addPlayer(p, p, "espn"));
+scoutingData.forEach((p) => addPlayer(p, p, "scouting"));
 
 // Calculate combined score with penalty for single-source players
 function calculateCombinedScore(data) {
@@ -199,7 +210,11 @@ function calculateCombinedScore(data) {
     sourcesFound++;
   }
   if (data.bleacher?.grade) {
-    scores.push(data.bleacher.grade * 10);
+    scores.push(data.bleacher.grade);
+    sourcesFound++;
+  }
+  if (data.scouting?.grade) {
+    scores.push(data.scouting.grade);
     sourcesFound++;
   }
 
@@ -207,7 +222,7 @@ function calculateCombinedScore(data) {
 
   const averageScore = scores.reduce((a, b) => a + b, 0) / scores.length;
 
-  // Penalty: -4 points if only 1 source
+  // Penalty: -10 points if only 1 source
   let finalScore = averageScore;
   if (sourcesFound === 1) {
     finalScore = averageScore - 10;
@@ -224,7 +239,7 @@ const mergedPlayers = [];
 
 for (let [key, data] of playerMap) {
   const combinedScore = calculateCombinedScore(data);
-  const sourcesCount = ["buzz", "bleacher", "pff", "espn"].filter(
+  const sourcesCount = ["buzz", "bleacher", "pff", "espn", "scouting"].filter(
     (s) => data[s],
   ).length;
 
@@ -247,6 +262,8 @@ for (let [key, data] of playerMap) {
     mergedPlayer.rankings.bleacher = { grade: data.bleacher.grade };
   if (data.pff) mergedPlayer.rankings.pff = { grade: data.pff.grade };
   if (data.espn) mergedPlayer.rankings.espn = { grade: data.espn.grade };
+  if (data.scouting)
+    mergedPlayer.rankings.scouting = { grade: data.scouting.grade };
   if (data.summary) mergedPlayer.summary = data.summary;
 
   mergedPlayers.push(mergedPlayer);
@@ -266,10 +283,16 @@ const withBuzz = mergedPlayers.filter((p) => p.rankings.buzz).length;
 const withBR = mergedPlayers.filter((p) => p.rankings.bleacher).length;
 const withPFF = mergedPlayers.filter((p) => p.rankings.pff).length;
 const withESPN = mergedPlayers.filter((p) => p.rankings.espn).length;
-const allFour = mergedPlayers.filter(
+const withScouting = mergedPlayers.filter((p) => p.rankings.scouting).length;
+const allFive = mergedPlayers.filter(
   (p) =>
-    p.rankings.buzz && p.rankings.bleacher && p.rankings.pff && p.rankings.espn,
+    p.rankings.buzz &&
+    p.rankings.bleacher &&
+    p.rankings.pff &&
+    p.rankings.espn &&
+    p.rankings.scouting,
 ).length;
+const withFour = mergedPlayers.filter((p) => p.sources_count === 4).length;
 const withThree = mergedPlayers.filter((p) => p.sources_count === 3).length;
 const withTwo = mergedPlayers.filter((p) => p.sources_count === 2).length;
 const withOne = mergedPlayers.filter((p) => p.sources_count === 1).length;
@@ -277,26 +300,31 @@ const withOne = mergedPlayers.filter((p) => p.sources_count === 1).length;
 console.log(
   `\n✅ Merged ${mergedPlayers.length} unique players into players.json`,
 );
-console.log(`\n📊 Merge Statistics (4 sources: Buzz, B/R, PFF, ESPN):`);
+console.log(
+  `\n📊 Merge Statistics (5 sources: Buzz, B/R, PFF, ESPN, ScoutingGrade):`,
+);
 console.log(`   - Have Buzz rating: ${withBuzz}`);
 console.log(`   - Have B/R grade: ${withBR}`);
 console.log(`   - Have PFF grade: ${withPFF}`);
 console.log(`   - Have ESPN grade: ${withESPN}`);
-console.log(`   - Have ALL 4 sources: ${allFour}`);
-console.log(`   - Have 3 sources: ${withThree}`);
+console.log(`   - Have Scouting grade: ${withScouting}`);
+console.log(`   - Have ALL 5 sources: ${allFive}`);
+console.log(`   - Have 4 sources: ${withFour} (no penalty)`);
+console.log(`   - Have 3 sources: ${withThree} (no penalty)`);
 console.log(`   - Have 2 sources: ${withTwo} (no penalty)`);
 console.log(`   - Have 1 source: ${withOne} (-10 point penalty)`);
 
-console.log("\n📊 Top 20 Combined Rankings (4 sources):");
+console.log("\n📊 Top 20 Combined Rankings (5 sources):");
 console.log("━".repeat(85));
 mergedPlayers.slice(0, 20).forEach((p, i) => {
   const buzz = p.rankings.buzz?.rating || "—";
   const br = p.rankings.bleacher?.grade || "—";
   const pff = p.rankings.pff?.grade || "—";
   const espn = p.rankings.espn?.grade || "—";
+  const scouting = p.rankings.scouting?.grade || "—";
   const penalty = p.sources_count === 1 ? "(-10 penalty)" : "";
   console.log(`${i + 1}. ${p.name} (${p.position}) - ${p.school}`);
   console.log(
-    `   Combined: ${p.combined_score} | Buzz: ${buzz} | B/R: ${br} | PFF: ${pff} | ESPN: ${espn} | ${p.sources_count}/4 sources ${penalty}`,
+    `   Combined: ${p.combined_score} | Buzz: ${buzz} | B/R: ${br} | PFF: ${pff} | ESPN: ${espn} | SCOUTING: ${scouting} | ${p.sources_count}/5 sources ${penalty}`,
   );
 });

@@ -62,27 +62,27 @@ async function getWikipediaUrl(playerName) {
 }
 
 // ─── TEMP TEST — remove before April 23rd ───────────────────
-// async function testDraftBoard() {
-//   try {
-//     const res = await fetch("./data/mockPicks.json");
-//     if (!res.ok) throw new Error("Mock data not found");
-//     const picks = await res.json();
-//     draftedPicks = picks; // Assign the full array
+async function testDraftBoard() {
+  try {
+    const res = await fetch("./data/mockPicks.json");
+    if (!res.ok) throw new Error("Mock data not found");
+    const picks = await res.json();
+    draftedPicks = picks; // Assign the full array
 
-//     // Mark players as drafted
-//     const draftedNames = new Set(draftedPicks.map((p) => p.playerName));
-//     players.forEach((p) => {
-//       if (draftedNames.has(p.name)) p.drafted = true;
-//     });
+    // Mark players as drafted
+    const draftedNames = new Set(draftedPicks.map((p) => p.playerName));
+    players.forEach((p) => {
+      if (draftedNames.has(p.name)) p.drafted = true;
+    });
 
-//     renderDraftBoard();
-//     renderTeamGrades();
-//     renderOnClock("Cleveland Browns");
-//     renderTop25(document.getElementById("positionSelect").value);
-//   } catch (err) {
-//     console.warn("Could not load mock draft:", err);
-//   }
-// }
+    renderDraftBoard();
+    renderTeamGrades();
+    renderOnClock("Cleveland Browns");
+    renderTop25(document.getElementById("positionSelect").value);
+  } catch (err) {
+    console.warn("Could not load mock draft:", err);
+  }
+}
 
 // ─── Load Players from JSON ──────────────────────────────────
 async function loadPlayers() {
@@ -562,5 +562,27 @@ async function pollDraft() {
 }
 
 // ─── Start App ───────────────────────────────────────────────
-loadPlayers(); //loadPlayers().then(() => testDraftBoard()); // ← use this one to run the test mockdraft function
+// loadPlayers(); // <-- use this one when not testing with mock draft function
+loadPlayers().then(() => testDraftBoard()); // ← use this one to run the test mock draft function
 const pollInterval = setInterval(pollDraft, 30000);
+
+// --- TEMP DEBUG: Expose internals to console for learning ---
+if (
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1"
+) {
+  window.__draftDebug = {
+    players: () => players,
+    draftedPicks: () => draftedPicks,
+    renderTop25: () => renderTop25(pos),
+    renderDraftBoard: () => renderDraftBoard(),
+    renderTeamGrades: () => renderTeamGrades(),
+    setPlayerDrafted: (index, drafted) => {
+      if (players[index]) players[index].drafted = drafted;
+      renderTop25(document.getElementById("positionSelect").value);
+      renderDraftBoard();
+      renderTeamGrades();
+    },
+  };
+  console.log("Dev debug helper active");
+}
