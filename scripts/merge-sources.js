@@ -73,12 +73,14 @@ const positionMap = {
   ot: "OT",
   t: "OT",
   tackle: "OT",
-  iol: "IOL",
-  g: "IOL",
-  c: "IOL",
-  guard: "IOL",
-  center: "IOL",
-  og: "IOL",
+  lt: "OT",
+  rt: "OT",
+  iol: "OG",
+  g: "OG",
+  c: "C",
+  guard: "OG",
+  center: "C",
+  og: "OG",
 };
 
 function normalizePosition(position) {
