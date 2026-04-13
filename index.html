@@ -11,11 +11,11 @@
   </head>
   <body>
     <h1 style="display: flex; align-items: center; gap: 10px">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/200px-National_Football_League_logo.svg.png"
+      <!-- <img
+        src="https://upload.wikimedia.org/NFL Mock Draft Database/en/thumb/a/a2/National_Football_League_logo.svg/200px-National_Football_League_logo.svg.png"
         alt="NFL Logo"
         style="height: 40px; width: auto"
-      />
+      /> -->
       <span>2026 NFL Draft Tracker</span>
     </h1>
 
@@ -26,21 +26,55 @@
     <!-- Top 25 section (grouped with dropdown) -->
     <h2 id="top25Heading">Top 25 Undrafted Players</h2>
     <div id="top25Section">
-      <select id="positionSelect">
-        <option value="ALL">All Positions</option>
-        <option value="QB">QB</option>
-        <option value="RB">RB</option>
-        <option value="WR">WR</option>
-        <option value="TE">TE</option>
-        <option value="OT">OT</option>
-        <option value="OG">OG</option>
-        <option value="C">C</option>
-        <option value="EDGE">EDGE</option>
-        <option value="DT">DT</option>
-        <option value="LB">LB</option>
-        <option value="CB">CB</option>
-        <option value="S">S</option>
-      </select>
+      <div class="playerSearches">
+        <select id="positionSelect">
+          <option value="ALL">All Positions</option>
+          <option value="QB">QB</option>
+          <option value="RB">RB</option>
+          <option value="WR">WR</option>
+          <option value="TE">TE</option>
+          <option value="OT">OT</option>
+          <option value="OG">OG</option>
+          <option value="C">C</option>
+          <option value="EDGE">EDGE</option>
+          <option value="DT">DT</option>
+          <option value="LB">LB</option>
+          <option value="CB">CB</option>
+          <option value="S">S</option>
+        </select>
+
+        <div class="playerLookup">
+          <input
+            type="text"
+            id="playerSearch"
+            placeholder="Search for any player (e.g., 'Caleb Downs')"
+            style="
+              flex: 2;
+              min-width: 200px;
+              padding: 8px 12px;
+              border-radius: 8px;
+              border: 2px solid #ff6b6b;
+              background: #16213e;
+              color: white;
+              font-size: 0.9rem;
+            "
+          />
+          <button
+            id="searchButton"
+            style="
+              padding: 8px 16px;
+              background: #ff6b6b;
+              border: none;
+              border-radius: 8px;
+              color: #1a1a2e;
+              font-weight: bold;
+              cursor: pointer;
+            "
+          >
+            Search
+          </button>
+        </div>
+      </div>
       <div id="top25List"></div>
     </div>
 
@@ -54,9 +88,10 @@
     <div id="bioModal" class="modal" style="display: none">
       <div class="modal-content">
         <div class="modal-disclaimer">
-          ⚠️ Bio is automatically loaded from Wikipedia using the player’s name.
-          For common names, the page shown may be incorrect. Use Wikipedia
-          search if needed.
+          ⚠️ Bio is automatically loaded from wikipedia using the player’s name.
+          Some names might not show automatically, in these cases use wikipedia
+          search bar and manually type in players name. Some players might not
+          have a bio in wikipedia.
         </div>
         <button class="modal-close" aria-label="Close">&times;</button>
         <div class="iframe-wrapper">

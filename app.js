@@ -3,22 +3,70 @@ import { getDraftStatus, getDraftPicks } from "./services/draftApi.js";
 // ─── Global State ───────────────────────────────────────────
 let players = [];
 let draftedPicks = [];
+let searchQuery = "";
 
 // Helper: Find player object by name (case-insensitive, trimmed)
 function getPlayerByName(name) {
   return players.find((p) => p.name.toLowerCase() === name.toLowerCase());
 }
 
+// Cache for nflmockdraftcache
+// const nflmockdraftcache = new Map();
+// const playerAliases = {
+//   "KC Concepcion": "Kevin Concepcion",
+//   "Omar Cooper": "omar-cooper-jr",
+//   "LJ Johnson Jr.": "lj johnson jr",
+// };
+// function resolvePlayerName(name) {
+//   return playerAliases[name] || name;
+// }
+
+// function createSlug(name) {
+//   return name
+//     .toLowerCase()
+//     .replace(/\./g, "")
+//     .replace(/,/g, "")
+//     .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi, "")
+//     .replace(/\([^)]*\)/g, "")
+//     .replace(/\s+/g, " ")
+//     .trim()
+//     .replace(/\s/g, "-");
+// }
+// async function getNflMockDraftUrl(playerName) {
+//   if (nflmockdraftcache.has(playerName)) {
+//     return nflmockdraftcache.get(playerName);
+//   }
+//   const resolvedName = resolvePlayerName(playerName);
+//   const slug = createSlug(resolvedName);
+
+//   const url = `https://www.nflmockdraftdatabase.com/players/2026/${slug}`;
+
+//   nflmockdraftcache.set(playerName, url);
+//   return url;
+// }
+
 // Cache for Wikipedia URLs
 const wikiUrlCache = new Map();
+const playerAliases = {
+  "kc concepcion": "Kevin Concepcion",
+  "lj johnson jr": "Larry Johnson",
+};
+function resolvePlayerName(name) {
+  const key = name.toLowerCase().trim();
+  return playerAliases[key] || name;
+}
 
 async function getWikipediaUrl(playerName) {
-  if (wikiUrlCache.has(playerName)) return wikiUrlCache.get(playerName);
+  const resolvedName = resolvePlayerName(playerName);
+
+  if (wikiUrlCache.has(resolvedName)) {
+    return wikiUrlCache.get(resolvedName);
+  }
 
   const base = "https://en.wikipedia.org/api/rest_v1/page/summary/";
   const candidates = [
-    playerName.replace(/\s+/g, "_") + "_(American_football)",
-    playerName.replace(/\s+/g, "_"),
+    resolvedName.replace(/\s+/g, "_") + "_(American_football)",
+    resolvedName.replace(/\s+/g, "_"),
   ];
 
   for (const title of candidates) {
@@ -31,7 +79,7 @@ async function getWikipediaUrl(playerName) {
         // If the suffix version, accept it immediately
         if (title.includes("_(American_football")) {
           const url = `https://en.wikipedia.org/wiki/${title}`;
-          wikiUrlCache.set(playerName, url);
+          wikiUrlCache.set(resolvedName, url);
           return url;
         }
         // If it's the plain name, check if it's about a football player
@@ -47,7 +95,7 @@ async function getWikipediaUrl(playerName) {
           description.includes("safety")
         ) {
           const url = `https://en.wikipedia.org/wiki/${title}`;
-          wikiUrlCache.set(playerName, url);
+          wikiUrlCache.set(resolvedName, url);
           return url;
         }
         // Otherwise, it's a wrong page (like a photographer), so continue to fallback
@@ -57,11 +105,11 @@ async function getWikipediaUrl(playerName) {
     }
   }
   const fallback = `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(playerName + " American football")}`;
-  wikiUrlCache.set(playerName, fallback);
+  wikiUrlCache.set(resolvedName, fallback);
   return fallback;
 }
 
-// ─── TEMP TEST — remove before April 23rd ───────────────────
+//─── TEMP TEST — remove before April 23rd ───────────────────
 // async function testDraftBoard() {
 //   try {
 //     const res = await fetch("./data/mockPicks.json");
@@ -104,7 +152,24 @@ async function loadPlayers() {
 
 // ─── Dropdown Event ──────────────────────────────────────────
 document.getElementById("positionSelect").addEventListener("change", (e) => {
+  // Clear Search input
+  const searchInput = document.getElementById("playerSearch");
+  if (searchInput) searchInput.value = "";
+  searchQuery = "";
   renderTop25(e.target.value);
+});
+
+// --- Search Event --------------------------------------------
+document.getElementById("searchButton").addEventListener("click", (e) => {
+  const input = document.getElementById("playerSearch");
+  searchQuery = input.value;
+  renderSearchResults();
+});
+
+document.getElementById("playerSearch").addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    document.getElementById("searchButton").click();
+  }
 });
 
 // --- Player name Click -> Open Bio ---------------------------
@@ -142,6 +207,10 @@ async function openBioModal(playerName) {
   // Use the Wikipedia resolver
   const wikiUrl = await getWikipediaUrl(playerName);
   iframe.src = wikiUrl;
+
+  // Use nfl mock draft resolver
+  // const nflmockdraftUrl = await getNflMockDraftUrl(playerName);
+  // iframe.src = nflmockdraftUrl;
 }
 
 function closeModal() {
@@ -199,6 +268,45 @@ function calculateGrades() {
   players.forEach((p) => {
     p.score = p.combined_score || p.rating || 0;
   });
+}
+
+// --- Get Search Results
+function renderSearchResults() {
+  const container = document.getElementById("top25List");
+  const query = searchQuery.trim().toLowerCase();
+
+  if (!query) {
+    // No search - show normal top 25 undrafted list
+    renderTop25(document.getElementById("positionSelect").value);
+    return;
+  }
+  // Filter all Players (including drafted)
+  const matched = players.filter((p) => p.name.toLowerCase().includes(query));
+
+  if (matched.length === 0) {
+    container.innerHTML = "<div>No Player Found</div>";
+    return;
+  }
+  // Sort by combined score (best first)
+  matched.sort((a, b) => (b.combined_score || 0) - (a.combined_score || 0));
+  // Build Header (Same as top 25)
+  let html = `
+  <div class="headerRow">
+      <div>#</div>
+      <div>Player</div>
+      <div>School</div>
+      <div>Pos</div>
+      <div>Ht</div>
+      <div>Wt</div>
+      <div>40</div>
+      <div>Rating</div>
+    </div>
+  `;
+  matched.forEach((p, i) => {
+    // Use existing renderPlayer; pass a dummy mode (e.g., "SEARCH")
+    html += renderPlayer(p, "ALL", i + 1, i);
+  });
+  container.innerHTML = html;
 }
 
 // ─── Get Top 25 ──────────────────────────────────────────────
