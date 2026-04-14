@@ -254,11 +254,15 @@ label {
   color: #ffd93d;
   font-size: clamp(0.75rem, 3vw, 1.25rem);
   padding: 6px 12px;
-  padding-right: 3rem;
+  padding-right: 4rem;
   text-align: center;
   border-bottom: 1px solid #ff6b6b;
   font-family: sans-serif;
   z-index: 5;
+}
+
+.modal-disclaimer em {
+  font-size: clamp(0.5rem, 3vw, 1rem);
 }
 
 .iframe-wrapper {
@@ -365,6 +369,9 @@ label {
 
 /* Modal mobile adjustments */
 @media (max-width: 768px) {
+  .modal-disclaimer {
+    padding-right: 3rem;
+  }
   .modal-content {
     width: 95%;
     height: 92%;
