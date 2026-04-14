@@ -378,8 +378,8 @@ label {
     font-size: 26px;
   }
   .bio-icon {
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
   }
 }
 @media (max-width: 480px) {

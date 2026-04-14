@@ -102,27 +102,27 @@ async function getWikipediaUrl(playerName) {
 }
 
 //─── TEMP TEST — remove before April 23rd ───────────────────
-async function testDraftBoard() {
-  try {
-    const res = await fetch("./data/mockPicks.json");
-    if (!res.ok) throw new Error("Mock data not found");
-    const picks = await res.json();
-    draftedPicks = picks; // Assign the full array
+// async function testDraftBoard() {
+//   try {
+//     const res = await fetch("./data/mockPicks.json");
+//     if (!res.ok) throw new Error("Mock data not found");
+//     const picks = await res.json();
+//     draftedPicks = picks; // Assign the full array
 
-    // Mark players as drafted
-    const draftedNames = new Set(draftedPicks.map((p) => p.playerName));
-    players.forEach((p) => {
-      if (draftedNames.has(p.name)) p.drafted = true;
-    });
+//     // Mark players as drafted
+//     const draftedNames = new Set(draftedPicks.map((p) => p.playerName));
+//     players.forEach((p) => {
+//       if (draftedNames.has(p.name)) p.drafted = true;
+//     });
 
-    renderDraftBoard();
-    renderTeamGrades();
-    renderOnClock("Cleveland Browns");
-    renderTop25(document.getElementById("positionSelect").value);
-  } catch (err) {
-    console.warn("Could not load mock draft:", err);
-  }
-}
+//     renderDraftBoard();
+//     renderTeamGrades();
+//     renderOnClock("Cleveland Browns");
+//     renderTop25(document.getElementById("positionSelect").value);
+//   } catch (err) {
+//     console.warn("Could not load mock draft:", err);
+//   }
+// }
 
 // ─── Load Players from JSON ──────────────────────────────────
 async function loadPlayers() {
