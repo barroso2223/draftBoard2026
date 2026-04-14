@@ -374,7 +374,7 @@ function renderPlayer(p, mode, rank, index) {
   const desktopRow = `
     <div class="desktop-only">
       <div class="rank-number">${rank}</div>
-      <div class="player-name" data-index="${players.indexOf(p)}">
+      <div class="player-name" data-index="${index}">
         ${p.name}
         ${bioIcons}
       </div>
@@ -392,7 +392,7 @@ function renderPlayer(p, mode, rank, index) {
     <div class="mobile-only">
       <div class="mobile-name-row">
         <span class="rank-number-mobile">${rank}</span>
-        <span class="mobile-player-name" data-index="${players.indexOf(p)}">
+        <span class="mobile-player-name" data-index="${index}">
           ${p.name}
           ${bioIcons}
         </span>
@@ -688,22 +688,30 @@ loadPlayers(); // <-- use this one when not testing with mock draft function
 const pollInterval = setInterval(pollDraft, 30000);
 
 // --- TEMP DEBUG: Expose internals to console for learning ---
-if (
-  window.location.hostname === "localhost" ||
-  window.location.hostname === "127.0.0.1"
-) {
-  window.__draftDebug = {
-    players: () => players,
-    draftedPicks: () => draftedPicks,
-    renderTop25: () => renderTop25(pos),
-    renderDraftBoard: () => renderDraftBoard(),
-    renderTeamGrades: () => renderTeamGrades(),
-    setPlayerDrafted: (index, drafted) => {
-      if (players[index]) players[index].drafted = drafted;
+const isDev = new URLSearchParams(window.location.search).has("dev");
+
+if (isDev) {
+  window.__app = {
+    get players() {
+      return players;
+    },
+    get draftedPicks() {
+      return draftedPicks;
+    },
+    draftPlayer(index) {
+      if (!players[index]) return console.warn("No player at index", index);
+      players[index].drafted = true;
       renderTop25(document.getElementById("positionSelect").value);
+      console.log(`✅ Drafted: ${players[index].name}`);
+    },
+    resetDraft() {
+      players.forEach((p) => (p.drafted = false));
+      draftedPicks = [];
+      renderTop25("ALL");
       renderDraftBoard();
       renderTeamGrades();
+      console.log(`🔄 Draft reset`);
     },
   };
-  console.log("Dev debug helper active");
+  console.log(`🛠️ Dev mode active — window.__app available`);
 }
