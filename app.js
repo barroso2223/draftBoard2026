@@ -11,39 +11,29 @@ function getPlayerByName(name) {
 }
 
 // Cache for nflmockdraftcache
-// const nflmockdraftcache = new Map();
-// const playerAliases = {
-//   "KC Concepcion": "Kevin Concepcion",
-//   "Omar Cooper": "omar-cooper-jr",
-//   "LJ Johnson Jr.": "lj johnson jr",
-// };
-// function resolvePlayerName(name) {
-//   return playerAliases[name] || name;
-// }
+const nflmockdraftcache = new Map();
 
-// function createSlug(name) {
-//   return name
-//     .toLowerCase()
-//     .replace(/\./g, "")
-//     .replace(/,/g, "")
-//     .replace(/\b(jr|sr|ii|iii|iv|v)\b\.?/gi, "")
-//     .replace(/\([^)]*\)/g, "")
-//     .replace(/\s+/g, " ")
-//     .trim()
-//     .replace(/\s/g, "-");
-// }
-// async function getNflMockDraftUrl(playerName) {
-//   if (nflmockdraftcache.has(playerName)) {
-//     return nflmockdraftcache.get(playerName);
-//   }
-//   const resolvedName = resolvePlayerName(playerName);
-//   const slug = createSlug(resolvedName);
-
-//   const url = `https://www.nflmockdraftdatabase.com/players/2026/${slug}`;
-
-//   nflmockdraftcache.set(playerName, url);
-//   return url;
-// }
+function getNflMockDraftUrl(playerName) {
+  if (nflmockdraftcache.has(playerName))
+    return nflmockdraftcache.get(playerName);
+  // convert "Jeremiyah Love" -> "jeremiyah-love"
+  let slug = playerName
+    .toLowerCase()
+    .replace(/\./g, "")
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+  // Handle known aliases (e.g., "KC Concepcion" -> "kevin-concepcion")
+  const aliases = {
+    "kc concepcion": "kevin-concepcion",
+    "lj johnson jr": "larry-johnson",
+  };
+  const key = playerName.toLowerCase();
+  if (aliases[key]) slug = aliases[key];
+  const url = `https://www.nflmockdraftdatabase.com/players/2026/${slug}`;
+  nflmockdraftcache.set(playerName, url);
+  return url;
+}
 
 // Cache for Wikipedia URLs
 const wikiUrlCache = new Map();
@@ -110,27 +100,27 @@ async function getWikipediaUrl(playerName) {
 }
 
 //─── TEMP TEST — remove before April 23rd ───────────────────
-// async function testDraftBoard() {
-//   try {
-//     const res = await fetch("./data/mockPicks.json");
-//     if (!res.ok) throw new Error("Mock data not found");
-//     const picks = await res.json();
-//     draftedPicks = picks; // Assign the full array
+async function testDraftBoard() {
+  try {
+    const res = await fetch("./data/mockPicks.json");
+    if (!res.ok) throw new Error("Mock data not found");
+    const picks = await res.json();
+    draftedPicks = picks; // Assign the full array
 
-//     // Mark players as drafted
-//     const draftedNames = new Set(draftedPicks.map((p) => p.playerName));
-//     players.forEach((p) => {
-//       if (draftedNames.has(p.name)) p.drafted = true;
-//     });
+    // Mark players as drafted
+    const draftedNames = new Set(draftedPicks.map((p) => p.playerName));
+    players.forEach((p) => {
+      if (draftedNames.has(p.name)) p.drafted = true;
+    });
 
-//     renderDraftBoard();
-//     renderTeamGrades();
-//     renderOnClock("Cleveland Browns");
-//     renderTop25(document.getElementById("positionSelect").value);
-//   } catch (err) {
-//     console.warn("Could not load mock draft:", err);
-//   }
-// }
+    renderDraftBoard();
+    renderTeamGrades();
+    renderOnClock("Cleveland Browns");
+    renderTop25(document.getElementById("positionSelect").value);
+  } catch (err) {
+    console.warn("Could not load mock draft:", err);
+  }
+}
 
 // ─── Load Players from JSON ──────────────────────────────────
 async function loadPlayers() {
@@ -175,11 +165,13 @@ document.getElementById("playerSearch").addEventListener("keypress", (e) => {
 // --- Player name Click -> Open Bio ---------------------------
 
 document.getElementById("top25List").addEventListener("click", (e) => {
+  // Ignore clicks on bio icons
+  if (e.target.closest(".bio-icon, .bio-icons")) return;
   const nameEl = e.target.closest(".player-name, .mobile-player-name");
   if (!nameEl) return;
   const p = players[nameEl.dataset.index];
   if (!p) return;
-  openBioModal(p.name);
+  openBioModal();
 });
 
 // Prevent background scroll when modal is open
@@ -192,25 +184,20 @@ function enableBodyScroll() {
 }
 
 // Modify openBioModal
-async function openBioModal(playerName) {
+async function openBioModal(playerName, customUrl = null) {
   const modal = document.getElementById("bioModal");
   const iframe = document.getElementById("bioIframe");
 
-  if (!modal || !iframe) {
-    console.error("Modal or Iframe element not found");
-    return;
+  if (!modal || !iframe) return;
+  let url;
+  if (customUrl) {
+    url = customUrl;
+  } else {
+    url = await getWikipediaUrl(playerName);
   }
-
+  iframe.src = url;
   modal.style.display = "flex";
   document.body.style.overflow = "hidden";
-
-  // Use the Wikipedia resolver
-  const wikiUrl = await getWikipediaUrl(playerName);
-  iframe.src = wikiUrl;
-
-  // Use nfl mock draft resolver
-  // const nflmockdraftUrl = await getNflMockDraftUrl(playerName);
-  // iframe.src = nflmockdraftUrl;
 }
 
 function closeModal() {
@@ -224,6 +211,7 @@ function closeModal() {
 
 // --- Click handler for Draft Board player names
 document.getElementById("draftBoard").addEventListener("click", (e) => {
+  if (e.target.closest(".bio-icon, .bio-icons")) return;
   const nameSpan = e.target.closest(".pick-player-name");
   if (!nameSpan) return;
   const playerName = nameSpan.getAttribute("data-player-name");
@@ -232,6 +220,7 @@ document.getElementById("draftBoard").addEventListener("click", (e) => {
 
 // --- Click handler for player names inside Team Card ---------------
 document.getElementById("teamGrades").addEventListener("click", (e) => {
+  if (e.target.closest(".bio-icon, .bio-icons")) return;
   const nameSpan = e.target.closest(".team-player-name");
   if (!nameSpan) return;
   const playerName = nameSpan.getAttribute("data-player-name");
@@ -262,6 +251,26 @@ if (document.readyState === "loading") {
 } else {
   initModalEvents();
 }
+
+// --- Delegate click event for bio icons
+document.body.addEventListener("click", (e) => {
+  const wikiIcon = e.target.closest("[data-wiki]");
+  const nflIcon = e.target.closest("[data-nfl]");
+  if (wikiIcon || nflIcon) {
+    e.stopImmediatePropagation(); // prevents any other listeners on the same element
+    e.preventDefault();
+  }
+  if (wikiIcon) {
+    const playerName = wikiIcon.getAttribute("data-wiki");
+    if (playerName) openBioModal(playerName);
+  } else if (nflIcon) {
+    const playerName = nflIcon.getAttribute("data-nfl");
+    if (playerName) {
+      const url = getNflMockDraftUrl(playerName);
+      openBioModal(playerName, url);
+    }
+  }
+});
 
 // ─── Calculate Grades ────────────────────────────────────────
 function calculateGrades() {
@@ -355,7 +364,13 @@ function renderPlayer(p, mode, rank, index) {
     return `<div class="playerRow">
       <div class="desktop-only">
         <div class="rank-number">${rank}</div>
-        <div class="player-name" data-index="${players.indexOf(p)}">${p.name}</div>
+        <div class="player-name" data-index="${players.indexOf(p)}">
+          ${p.name}
+          <span class="bio-icons">
+            <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
+            <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${p.name}">
+          </span>
+        </div>
         <div>${p.school}</div>
         <div>${p.position}</div>
         <div>${p.height || "—"}</div>
@@ -366,7 +381,13 @@ function renderPlayer(p, mode, rank, index) {
       <div class="mobile-only">
         <div class="mobile-name-row">
           <span class="rank-number-mobile">${rank}</span>
-          <span class="mobile-player-name" data-index="${players.indexOf(p)}">${p.name}</span>
+          <span class="mobile-player-name" data-index="${players.indexOf(p)}">
+            ${p.name}
+            <span class="bio-icons">
+              <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
+              <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${p.name}">
+            </span>
+          </span>
           <span class="mobile-school">🏫 ${p.school}</span>
         </div>
         <div class="mobile-stats">
@@ -447,6 +468,10 @@ function renderDraftBoard() {
           </div>
           <div class="pick-player-name" data-player-name="${pick.playerName.replace(/"/g, "&quot;")}">
             ${pick.playerName}
+            <span class="bio-icons">
+              <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${pick.playerName}">
+              <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${pick.playerName}">
+            </span>
           </div>
           ${
             hasStats
@@ -530,7 +555,13 @@ function renderTeamGrades() {
                   <div class="team-pick-item">
                     <div class="team-pick-main">
                       <span class="team-pick-round">Rd ${pick.round}, Pk ${pick.pick}</span>
-                      <span class="team-player-name" data-player-name="${pick.playerName.replace(/"/g, "&quot;")}">${pick.playerName}</span>
+                      <span class="team-player-name" data-player-name="${pick.playerName.replace(/"/g, "&quot;")}">
+                        ${pick.playerName}
+                        <span class="bio-icons">
+                          <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${pick.playerName}">
+                          <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${pick.playerName}">
+                        </span>
+                      </span>
                       <span class="team-pick-overall">#${pick.overall}</span>
                     </div>
                     ${
