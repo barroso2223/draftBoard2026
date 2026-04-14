@@ -362,51 +362,22 @@ function renderTop25(position) {
 function renderPlayer(p, mode, rank, index) {
   const score = p.combined_score || p.rating || p.score || 0;
 
-  if (mode === "ALL") {
-    return `<div class="playerRow">
-      <div class="desktop-only">
-        <div class="rank-number">${rank}</div>
-        <div class="player-name" data-index="${index}">
-          ${p.name}
-          <span class="bio-icons">
-            <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
-            <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${p.name}">
-          </span>
-        </div>
-        <div>${p.school}</div>
-        <div>${p.position}</div>
-        <div>${p.height || "—"}</div>
-        <div>${p.weight || "—"}lbs</div>
-        <div>${p.forty || "—"}s</div>
-        <div class="rating-value">${score.toFixed(1)}</div>
-      </div>
-      <div class="mobile-only">
-        <div class="mobile-name-row">
-          <span class="rank-number-mobile">${rank}</span>
-          <span class="mobile-player-name" data-index="${index}">
-            ${p.name}
-            <span class="bio-icons">
-              <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
-              <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${p.name}">
-            </span>
-          </span>
-          <span class="mobile-school">🏫 ${p.school}</span>
-        </div>
-        <div class="mobile-stats">
-          <span class="mobile-chip">🏈 ${p.position}</span>
-          <span class="mobile-chip">📏 ${p.height || "—"}</span>
-          <span class="mobile-chip">⚖️ ${p.weight || "—"}lbs</span>
-          <span class="mobile-chip">⏱️ ${p.forty || "—"}s</span>
-          <span class="mobile-chip rating">⭐ ${score.toFixed(1)}</span>
-        </div>
-      </div>
-    </div>`;
-  }
+  // Common bio icons HTML (same for all players)
+  const bioIcons = `
+  <span class="bio-icons">
+      <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
+      <img class="bio-icon" src="https://www.nflmockdraftdatabase.com/favicon.ico" alt="NFL Mock Draft Database" title="NFL Mock Draft Database" data-nfl="${p.name}">
+    </span>
+  `;
 
-  return `<div class="playerRow">
+  // Desktop row
+  const desktopRow = `
     <div class="desktop-only">
       <div class="rank-number">${rank}</div>
-      <div class="player-name" data-index="${index}">${p.name}</div>
+      <div class="player-name" data-index="${players.indexOf(p)}">
+        ${p.name}
+        ${bioIcons}
+      </div>
       <div>${p.school}</div>
       <div>${p.position}</div>
       <div>${p.height || "—"}</div>
@@ -414,10 +385,17 @@ function renderPlayer(p, mode, rank, index) {
       <div>${p.forty || "—"}s</div>
       <div class="rating-value">${score.toFixed(1)}</div>
     </div>
+  `;
+
+  // Mobile row
+  const mobileRow = `
     <div class="mobile-only">
       <div class="mobile-name-row">
         <span class="rank-number-mobile">${rank}</span>
-        <span class="mobile-player-name" data-index="${index}">${p.name}</span>
+        <span class="mobile-player-name" data-index="${players.indexOf(p)}">
+          ${p.name}
+          ${bioIcons}
+        </span>
         <span class="mobile-school">🏫 ${p.school}</span>
       </div>
       <div class="mobile-stats">
@@ -428,7 +406,9 @@ function renderPlayer(p, mode, rank, index) {
         <span class="mobile-chip rating">⭐ ${score.toFixed(1)}</span>
       </div>
     </div>
-  </div>`;
+  `;
+
+  return `<div class="playerRow">${desktopRow}${mobileRow}</div>`;
 }
 
 // ─── Render Draft Board ──────────────────────────────────────
