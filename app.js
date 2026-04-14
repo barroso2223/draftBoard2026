@@ -26,6 +26,7 @@ function getNflMockDraftUrl(playerName) {
   // Handle known aliases (e.g., "KC Concepcion" -> "kevin-concepcion")
   const aliases = {
     "kc concepcion": "kevin-concepcion",
+    "rueben bain jr.": "rueben-bain",
     "lj johnson jr": "larry-johnson",
   };
   const key = playerName.toLowerCase();
@@ -39,6 +40,7 @@ function getNflMockDraftUrl(playerName) {
 const wikiUrlCache = new Map();
 const playerAliases = {
   "kc concepcion": "Kevin Concepcion",
+  "reuben bain jr.": "rueben-bain",
   "lj johnson jr": "Larry Johnson",
 };
 function resolvePlayerName(name) {
@@ -171,17 +173,17 @@ document.getElementById("top25List").addEventListener("click", (e) => {
   if (!nameEl) return;
   const p = players[nameEl.dataset.index];
   if (!p) return;
-  openBioModal();
+  openBioModal(p.name);
 });
 
 // Prevent background scroll when modal is open
-function disableBodyScroll() {
-  document.body.style.overflow = "hidden";
-}
+// function disableBodyScroll() {
+//   document.body.style.overflow = "hidden";
+// }
 
-function enableBodyScroll() {
-  document.body.style.overflow = "";
-}
+// function enableBodyScroll() {
+//   document.body.style.overflow = "";
+// }
 
 // Modify openBioModal
 async function openBioModal(playerName, customUrl = null) {
@@ -364,7 +366,7 @@ function renderPlayer(p, mode, rank, index) {
     return `<div class="playerRow">
       <div class="desktop-only">
         <div class="rank-number">${rank}</div>
-        <div class="player-name" data-index="${players.indexOf(p)}">
+        <div class="player-name" data-index="${index}">
           ${p.name}
           <span class="bio-icons">
             <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
@@ -381,7 +383,7 @@ function renderPlayer(p, mode, rank, index) {
       <div class="mobile-only">
         <div class="mobile-name-row">
           <span class="rank-number-mobile">${rank}</span>
-          <span class="mobile-player-name" data-index="${players.indexOf(p)}">
+          <span class="mobile-player-name" data-index="${index}">
             ${p.name}
             <span class="bio-icons">
               <img class="bio-icon" src="https://en.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia" title="Wikipedia" data-wiki="${p.name}">
@@ -404,7 +406,7 @@ function renderPlayer(p, mode, rank, index) {
   return `<div class="playerRow">
     <div class="desktop-only">
       <div class="rank-number">${rank}</div>
-      <div class="player-name" data-index="${players.indexOf(p)}">${p.name}</div>
+      <div class="player-name" data-index="${index}">${p.name}</div>
       <div>${p.school}</div>
       <div>${p.position}</div>
       <div>${p.height || "—"}</div>
@@ -415,7 +417,7 @@ function renderPlayer(p, mode, rank, index) {
     <div class="mobile-only">
       <div class="mobile-name-row">
         <span class="rank-number-mobile">${rank}</span>
-        <span class="mobile-player-name" data-index="${players.indexOf(p)}">${p.name}</span>
+        <span class="mobile-player-name" data-index="${index}">${p.name}</span>
         <span class="mobile-school">🏫 ${p.school}</span>
       </div>
       <div class="mobile-stats">
