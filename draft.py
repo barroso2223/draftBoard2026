@@ -9,3 +9,19 @@ def get_top_at_position(players, position, count):
 
 def get_undrafted(players):
     return [p for p in players if not p["drafted"]]
+
+
+def calculate_draft_grade(picks):
+    scores = [p["combined_score"] for p in picks]
+    average = sum(scores) / len(scores)
+
+    if average >= 90:
+        return "A"
+    elif average >= 80:
+        return "B"
+    elif average >= 70:
+        return "C"
+    elif average >= 60:
+        return "D"
+    else:
+        return "F"
