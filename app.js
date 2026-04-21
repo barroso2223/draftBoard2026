@@ -18,14 +18,15 @@ function getNflMockDraftUrl(playerName) {
     return nflmockdraftcache.get(playerName);
   // convert "Jeremiyah Love" -> "jeremiyah-love"
   let slug = playerName
-    .toLowerCase()
-    .replace(/\./g, "")
-    .replace(/[^a-z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-");
+    .toLowerCase() //makes all names lowercase to avoid case sensitivity
+    .replace(/\./g, "") // removes all periods (.) from the string
+    .replace(/[^a-z0-9\s-]/g, "") // removes any character that is NOT a letter, number, space, or hyphen
+    .trim() // removes whitespace from the beginning and end of the string
+    .replace(/\s+/g, "-"); // replaces one or more spaces with a single hyphen (slug formatting)
   // Handle known aliases (e.g., "KC Concepcion" -> "kevin-concepcion")
   const aliases = {
     "kc concepcion": "kevin-concepcion",
+    "kevin concepcion": "kevin-concepcion",
     "rueben bain jr.": "rueben-bain",
     "lj johnson jr": "larry-johnson",
   };
@@ -129,6 +130,9 @@ async function loadPlayers() {
   try {
     const res = await fetch("./data/players.json");
     players = await res.json();
+    window._players = players;
+    window.openBioModal = openBioModal;
+    window.getNflMockDraftUrl = getNflMockDraftUrl;
     console.log("Loaded", players.length, "players");
     calculateGrades();
     renderTop25("ALL");

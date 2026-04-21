@@ -24,6 +24,23 @@ h1 {
   color: #ff6b6b;
 }
 
+#simButton {
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #ff6b6b;
+  cursor: pointer;
+}
+
+#simButton:hover {
+  background-color: rgb(15, 52, 96);
+  color: #ff6b6b;
+  box-shadow: 3px 3px 10px;
+}
+
 h2 {
   font-size: 1.3rem;
   margin: 20px 0 12px 0;

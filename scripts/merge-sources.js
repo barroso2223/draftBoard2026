@@ -43,6 +43,41 @@ function normalizeName(name) {
   return normalized.trim();
 }
 
+// Known name aliases — maps alternate names to canonical name
+const NAME_ALIASES = {
+  "kc concepcion": "Kevin Concepcion",
+  "rueben bain jr.": "Rueben Bain Jr.",
+  "c.j. allen": "CJ Allen",
+  "lj johnson jr": "LJ Johnson Jr.",
+};
+
+function resolveNameAlias(name) {
+  const key = normalizeName(name).toLowerCase();
+  return NAME_ALIASES[key] || normalizeName(name);
+}
+
+const SCHOOL_ALIASES = {
+  "ole miss": "Mississippi",
+  uconn: "Connecticut",
+  connecticut: "Connecticut",
+  lsu: "LSU",
+  usc: "USC",
+  pitt: "Pittsburgh",
+  ucf: "UCF",
+  smu: "SMU",
+  utsa: "UTSA",
+  byu: "BYU",
+  "se louisiana": "Southeastern Louisiana",
+  "stephen f. austin": "Stephen F. Austin",
+  "north carolina state": "NC State",
+  louisvilles: "Louisville", // typo in your data
+};
+
+function resolveSchool(school) {
+  if (!school) return "";
+  return SCHOOL_ALIASES[school.toLowerCase().trim()] || school;
+}
+
 // ============================================================
 // POSITION NORMALIZATION (unchanged)
 // ============================================================
@@ -95,7 +130,8 @@ function normalizePosition(position) {
 
 function getPlayerKey(name, position, school) {
   const normName = normalizeName(name);
-  return `${normName}|${normalizePosition(position)}|${school}`.toLowerCase();
+  const normSchool = resolveSchool(school);
+  return `${normName}|${normalizePosition(position)}|${normSchool}`.toLowerCase();
 }
 
 // Load all sources
@@ -159,7 +195,8 @@ const playerMap = new Map();
 
 // Helper to add player
 function addPlayer(source, player, sourceName) {
-  const normalizePlayerName = normalizeName(player.name);
+  const resolvedName = resolveNameAlias(player.name);
+  const resolvedSchool = resolveSchool(player.school);
   const key = getPlayerKey(player.name, player.position, player.school);
 
   if (playerMap.has(key)) {
@@ -169,15 +206,12 @@ function addPlayer(source, player, sourceName) {
     if (player.height && !existing.height) existing.height = player.height;
     if (player.forty && !existing.forty) existing.forty = player.forty;
     if (player.summary && !existing.summary) existing.summary = player.summary;
-    if (existing.name === player.name && normalizePlayerName !== player.name) {
-      existing.name = normalizePlayerName;
-    }
     playerMap.set(key, existing);
   } else {
     playerMap.set(key, {
       [sourceName]: player,
-      name: normalizePlayerName,
-      school: player.school,
+      name: resolvedName, // ← canonical name
+      school: resolvedSchool, // ← canonical school
       position: normalizePosition(player.position),
       weight: player.weight || null,
       height: player.height || null,

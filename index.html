@@ -12,12 +12,10 @@
   </head>
   <body>
     <h1 style="display: flex; align-items: center; gap: 10px">
-      <!-- <img
-        src="https://upload.wikimedia.org/NFL Mock Draft Database/en/thumb/a/a2/National_Football_League_logo.svg/200px-National_Football_League_logo.svg.png"
-        alt="NFL Logo"
-        style="height: 40px; width: auto"
-      /> -->
       <span>2026 NFL Draft Tracker</span>
+      <button id="simButton" onclick="openSimulator()">
+        🎮 Mock Draft Simulator
+      </button>
     </h1>
 
     <!-- Draft Picks section -->
@@ -121,6 +119,32 @@
       </div>
     </div>
 
+    <!-- Simulator Modal -->
+    <div
+      id="simModal"
+      style="
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 2000;
+        overflow-y: auto;
+      "
+    >
+      <div
+        style="
+          max-width: 900px;
+          margin: 20px auto;
+          background: #16213e;
+          border-radius: 16px;
+          padding: 24px;
+        "
+      >
+        <div id="simContent"></div>
+      </div>
+    </div>
+
     <script type="module" src="app.js"></script>
+    <script src="simulator.js"></script>
   </body>
 </html>
