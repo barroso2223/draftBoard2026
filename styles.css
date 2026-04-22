@@ -25,13 +25,13 @@ h1 {
 }
 
 #simButton {
-  border: 1px solid white;
+  border: 1px solid #ff6b6b;
   border-radius: 8px;
   box-shadow: 1px 1px 5px;
   padding: 5px 10px;
   text-transform: uppercase;
-  color: white;
-  background-color: #ff6b6b;
+  color: rgb(22, 33, 62);
+  background-color: white;
   cursor: pointer;
 }
 
@@ -108,9 +108,9 @@ label {
 }
 
 /* ============================================================
-   TOP 25 LIST
+   TOP 30 LIST
    ============================================================ */
-#top25List {
+#top30List {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -165,8 +165,8 @@ label {
 }
 
 /* For Top 25 section, we need to collapse both the select and the list */
-#top25Section.collapsed-section select,
-#top25Section.collapsed-section #top25List {
+#top30Section.collapsed-section select,
+#top30Section.collapsed-section #top30List {
   display: none;
 }
 

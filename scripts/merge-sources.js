@@ -1,19 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 
-// Get project root
 const projectRoot = path.resolve(__dirname, "..");
+const dataDir = path.join(projectRoot, "data");
 
-// ============================================================
-// NAME NORMALIZATION (handles Jr., Sr., II, III, etc.)
-// ============================================================
+// ─── Name Normalization ───────────────────────────────────────
 function normalizeName(name) {
   if (!name) return "";
-  let normalized = name.trim().replace(/\s+/g, " ");
-  // Fix common truncations like "J..." -> "Jr."
-  normalized = normalized.replace(/J\.\.\./gi, "Jr.");
-  normalized = normalized.replace(/J\.\./gi, "Jr.");
-  // Suffix mapping (case‑insensitive, with or without period)
+  let n = name.trim().replace(/\s+/g, " ");
+  n = n.replace(/J\.\.\./gi, "Jr.").replace(/J\.\./gi, "Jr.");
   const suffixMap = {
     junior: "Jr.",
     jr: "Jr.",
@@ -26,51 +21,94 @@ function normalizeName(name) {
     iv: "IV",
     v: "V",
   };
-  // Check for suffix at the end of the name (after a space or comma)
-  const parts = normalized.split(/[\s,]+/);
-  const lastPart = parts[parts.length - 1].toLowerCase();
-  if (suffixMap[lastPart]) {
-    // Replace the last part with the standard suffix
-    parts[parts.length - 1] = suffixMap[lastPart];
-    normalized = parts.join(" ");
+  const parts = n.split(/[\s,]+/);
+  const last = parts[parts.length - 1].toLowerCase();
+  if (suffixMap[last]) {
+    parts[parts.length - 1] = suffixMap[last];
+    n = parts.join(" ");
   }
-  // Also handle "First Last Jr" without comma
-  const suffixPattern = /\s+(jr|jr\.|junior|sr|sr\.|senior|ii|iii|iv|v)$/i;
-  normalized = normalized.replace(suffixPattern, (match, p1) => {
-    const key = p1.toLowerCase().replace(/\.$/, "");
-    return ` ${suffixMap[key] || p1}`;
-  });
-  return normalized.trim();
+  return n.trim();
 }
 
-// Known name aliases — maps alternate names to canonical name
+// ─── Name Aliases (alternate → canonical) ────────────────────
 const NAME_ALIASES = {
   "kc concepcion": "Kevin Concepcion",
-  "rueben bain jr.": "Rueben Bain Jr.",
+  "kevin concepcion": "Kevin Concepcion",
   "c.j. allen": "CJ Allen",
+  "cj allen": "CJ Allen",
   "lj johnson jr": "LJ Johnson Jr.",
+  "rueben bain jr.": "Rueben Bain Jr.",
+  "de'zhaun stribling": "De'Zhaun Stribling",
+  "skyler bell": "Skyler Bell",
+  "jake slaughter": "Jake Slaughter",
+  "zxavian harris": "Zxavian Harris",
+  "justin joly": "Justin Joly",
+  "jalon kilgore": "Jalon Kilgore",
+  "sam hecht": "Sam Hecht",
+  "brian parker ii": "Brian Parker II",
+  "trey zuhn iii": "Trey Zuhn III",
+  "dani dennis-sutton": "Dani Dennis-Sutton",
+  "peter woods": "Peter Woods",
+  "francis mauigoa": "Francis Mauigoa",
+  "keldric faulk": "Keldric Faulk",
+  "chris bell": "Chris Bell",
+  "logan jones": "Logan Jones",
+  "jager burton": "Jager Burton",
+  "parker brailsford": "Parker Brailsford",
+  "pat coogan": "Pat Coogan",
+  "max bredeson": "Max Bredeson",
+  "dillon wade": "Dillon Wade",
+  "alex harkey": "Alex Harkey",
+  "mat gulbin": "Matt Gulbin",
+  "garrett digiorgio": "Garrett DiGiorgio",
+  "gennings dunker": "Gennings Dunker",
+  "lt overton": "LT Overton",
+  "brandon cleveland": "Brandon Cleveland",
+  "jackie marshall": "Jackie Marshall",
+  "dae'quan wright": "Dae'Quan Wright",
+  "emmanuel henderson jr.": "Emmanuel Henderson Jr.",
+  "emmanel henderson jr": "Emmanuel Henderson Jr.",
+  "kaleb proctor": "Kaleb Proctor",
+  "joe fagnano": "Joe Fagnano",
+  "carver willis": "Carver Willis",
+  "caullin lacy": "Caullin Lacy",
+  "harrison wallace iii": "Harrison Wallace III",
+  "diego pounds": "Diego Pounds",
+  "james brockermeyer": "James Brockermeyer",
+  "toriano pride jr.": "Toriano Pride Jr.",
+  "toriano pride": "Toriano Pride Jr.",
+  "tyren montgomery": "Tyren Montgomery",
+  "treydan stukes": "Treydan Stukes",
+  "jadon canady": "Jadon Canady",
+  "jalen huskey": "Jalen Huskey",
+  "lorenzo styles jr.": "Lorenzo Styles Jr.",
+  "lorenzo styles": "Lorenzo Styles Jr.",
 };
 
 function resolveNameAlias(name) {
-  const key = normalizeName(name).toLowerCase();
+  const key = normalizeName(name).toLowerCase().trim();
   return NAME_ALIASES[key] || normalizeName(name);
 }
 
+// ─── School Aliases ───────────────────────────────────────────
 const SCHOOL_ALIASES = {
   "ole miss": "Mississippi",
   uconn: "Connecticut",
   connecticut: "Connecticut",
-  lsu: "LSU",
-  usc: "USC",
   pitt: "Pittsburgh",
   ucf: "UCF",
   smu: "SMU",
-  utsa: "UTSA",
   byu: "BYU",
+  utsa: "UTSA",
   "se louisiana": "Southeastern Louisiana",
+  "southeastern louisiana": "Southeastern Louisiana",
   "stephen f. austin": "Stephen F. Austin",
   "north carolina state": "NC State",
-  louisvilles: "Louisville", // typo in your data
+  louisvilles: "Louisville",
+  "incarnate words": "Incarnate Word",
+  "john carroll": "John Carroll",
+  louisvilles: "Louisville",
+  "miami (oh)": "Miami (OH)",
 };
 
 function resolveSchool(school) {
@@ -78,9 +116,7 @@ function resolveSchool(school) {
   return SCHOOL_ALIASES[school.toLowerCase().trim()] || school;
 }
 
-// ============================================================
-// POSITION NORMALIZATION (unchanged)
-// ============================================================
+// ─── Position Normalization ───────────────────────────────────
 const positionMap = {
   edge: "EDGE",
   de: "EDGE",
@@ -112,106 +148,75 @@ const positionMap = {
   rt: "OT",
   iol: "OG",
   g: "OG",
-  c: "C",
   guard: "OG",
-  center: "C",
   og: "OG",
+  c: "C",
+  center: "C",
 };
 
-function normalizePosition(position) {
-  if (!position) return "UNKNOWN";
-  const lowerPos = position.toLowerCase().trim();
-  if (positionMap[lowerPos]) return positionMap[lowerPos];
-  for (const [key, value] of Object.entries(positionMap)) {
-    if (lowerPos.includes(key)) return value;
+function normalizePosition(pos) {
+  if (!pos) return "UNKNOWN";
+  const lp = pos.toLowerCase().trim();
+  if (positionMap[lp]) return positionMap[lp];
+  for (const [k, v] of Object.entries(positionMap)) {
+    if (lp.includes(k)) return v;
   }
-  return position.toUpperCase();
+  return pos.toUpperCase();
 }
 
-function getPlayerKey(name, position, school) {
-  const normName = normalizeName(name);
-  const normSchool = resolveSchool(school);
-  return `${normName}|${normalizePosition(position)}|${normSchool}`.toLowerCase();
+// ─── Player Key ───────────────────────────────────────────────
+function getPlayerKey(name, position) {
+  // Key by canonical name + position ONLY (ignore school differences)
+  const canonical = resolveNameAlias(name);
+  return `${canonical}|${normalizePosition(position)}`.toLowerCase();
 }
 
-// Load all sources
-let buzzData = [];
-let bleacherData = [];
-let pffData = [];
-let espnData = [];
-let scoutingData = [];
-
-const dataDir = path.join(projectRoot, "data");
-
-try {
-  buzzData = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "nfldraftbuzz.json"), "utf8"),
-  );
-  console.log(`✅ Loaded ${buzzData.length} players from NFL Draft Buzz`);
-} catch (err) {
-  console.log("⚠️ nfldraftbuzz.json not found");
+// ─── Load Sources ─────────────────────────────────────────────
+function loadSource(filename, label) {
+  try {
+    const data = JSON.parse(
+      fs.readFileSync(path.join(dataDir, filename), "utf8"),
+    );
+    console.log(`✅ Loaded ${data.length} players from ${label}`);
+    return data;
+  } catch {
+    console.log(`⚠️  ${filename} not found`);
+    return [];
+  }
 }
 
-try {
-  bleacherData = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "bleacherreport.json"), "utf8"),
-  );
-  console.log(`✅ Loaded ${bleacherData.length} players from Bleacher Report`);
-} catch (err) {
-  console.log("⚠️ bleacherreport.json not found");
-}
+const buzzData = loadSource("nfldraftbuzz.json", "NFL Draft Buzz");
+const bleachData = loadSource("bleacherreport.json", "Bleacher Report");
+const pffData = loadSource("pff.json", "PFF");
+const espnData = loadSource("espn.json", "ESPN");
+const scoutData = loadSource("scoutingGrade.json", "Scouting Grade");
 
-try {
-  pffData = JSON.parse(fs.readFileSync(path.join(dataDir, "pff.json"), "utf8"));
-  console.log(`✅ Loaded ${pffData.length} players from PFF`);
-} catch (err) {
-  console.log("⚠️ pff.json not found");
-}
-
-try {
-  espnData = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "espn.json"), "utf8"),
-  );
-  console.log(`✅ Loaded ${espnData.length} players from ESPN`);
-} catch (err) {
-  console.log("⚠️ espn.json not found");
-}
-
-try {
-  scoutingData = JSON.parse(
-    fs.readFileSync(path.join(dataDir, "scoutingGrade.json"), "utf-8"),
-  );
-  console.log(`✅ Loaded ${scoutingData.length} players from Scouting Grade`);
-} catch (err) {
-  console.log("⚠️ scoutingGrade.json not found");
-}
-
-// ============================================================
-// MERGING LOGIC
-// ============================================================
-
-// Create map for merged players
+// ─── Merge Players ────────────────────────────────────────────
 const playerMap = new Map();
 
-// Helper to add player
-function addPlayer(source, player, sourceName) {
-  const resolvedName = resolveNameAlias(player.name);
-  const resolvedSchool = resolveSchool(player.school);
-  const key = getPlayerKey(player.name, player.position, player.school);
+function addPlayer(player, sourceName) {
+  const key = getPlayerKey(player.name, player.position);
+  const canonicalName = resolveNameAlias(player.name);
+  const canonicalSchool = resolveSchool(player.school);
 
   if (playerMap.has(key)) {
     const existing = playerMap.get(key);
     existing[sourceName] = player;
+    // Fill in missing physical data
     if (player.weight && !existing.weight) existing.weight = player.weight;
     if (player.height && !existing.height) existing.height = player.height;
     if (player.forty && !existing.forty) existing.forty = player.forty;
     if (player.summary && !existing.summary) existing.summary = player.summary;
+    // Prefer canonical school (first non-null wins, but alias overrides)
+    if (!existing.school || resolveSchool(player.school) !== player.school) {
+      existing.school = canonicalSchool;
+    }
     playerMap.set(key, existing);
   } else {
     playerMap.set(key, {
       [sourceName]: player,
-      name: resolvedName, // ← canonical name
-      school: resolvedSchool, // ← canonical school
+      name: canonicalName,
+      school: canonicalSchool,
       position: normalizePosition(player.position),
       weight: player.weight || null,
       height: player.height || null,
@@ -221,65 +226,39 @@ function addPlayer(source, player, sourceName) {
   }
 }
 
-// Add all sources
-buzzData.forEach((p) => addPlayer(p, p, "buzz"));
-bleacherData.forEach((p) => addPlayer(p, p, "bleacher"));
-pffData.forEach((p) => addPlayer(p, p, "pff"));
-espnData.forEach((p) => addPlayer(p, p, "espn"));
-scoutingData.forEach((p) => addPlayer(p, p, "scouting"));
+buzzData.forEach((p) => addPlayer(p, "buzz"));
+bleachData.forEach((p) => addPlayer(p, "bleacher"));
+pffData.forEach((p) => addPlayer(p, "pff"));
+espnData.forEach((p) => addPlayer(p, "espn"));
+scoutData.forEach((p) => addPlayer(p, "scouting"));
 
-// Calculate combined score with penalty for single-source players
+// ─── Combined Score (with single-source penalty) ───────────────
 function calculateCombinedScore(data) {
-  let scores = [];
-  let sourcesFound = 0;
+  const scores = [];
 
-  if (data.espn?.grade) {
-    scores.push(data.espn.grade);
-    sourcesFound++;
-  }
-  if (data.pff?.grade) {
-    scores.push(data.pff.grade);
-    sourcesFound++;
-  }
-  if (data.buzz?.rating) {
-    scores.push(data.buzz.rating);
-    sourcesFound++;
-  }
-  if (data.bleacher?.grade) {
-    scores.push(data.bleacher.grade);
-    sourcesFound++;
-  }
-  if (data.scouting?.grade) {
-    scores.push(data.scouting.grade);
-    sourcesFound++;
-  }
+  if (data.espn?.grade) scores.push(data.espn.grade);
+  if (data.pff?.grade) scores.push(data.pff.grade);
+  if (data.buzz?.rating) scores.push(data.buzz.rating);
+  if (data.bleacher?.grade) scores.push(data.bleacher.grade);
+  if (data.scouting?.grade) scores.push(data.scouting.grade);
 
-  if (sourcesFound === 0) return 0;
+  if (scores.length === 0) return 0;
 
-  const averageScore = scores.reduce((a, b) => a + b, 0) / scores.length;
-
-  // Penalty: -10 points if only 1 source
-  let finalScore = averageScore;
-  if (sourcesFound === 1) {
-    finalScore = averageScore - 10;
-  }
-
-  return Math.round(Math.max(0, finalScore) * 10) / 10;
+  const avg = scores.reduce((a, b) => a + b, 0) / scores.length;
+  const final = scores.length === 1 ? avg - 10 : avg;
+  return Math.round(Math.max(0, final) * 10) / 10;
 }
 
-// ============================================================
-// BUILD FINAL ARRAY
-// ============================================================
-// Create merged players array
+// ─── Build Final Array ────────────────────────────────────────
 const mergedPlayers = [];
 
-for (let [key, data] of playerMap) {
+for (const [key, data] of playerMap) {
   const combinedScore = calculateCombinedScore(data);
   const sourcesCount = ["buzz", "bleacher", "pff", "espn", "scouting"].filter(
     (s) => data[s],
   ).length;
 
-  const mergedPlayer = {
+  const player = {
     name: data.name,
     position: data.position,
     school: data.school,
@@ -293,74 +272,45 @@ for (let [key, data] of playerMap) {
     rankings: {},
   };
 
-  if (data.buzz) mergedPlayer.rankings.buzz = { rating: data.buzz.rating };
-  if (data.bleacher)
-    mergedPlayer.rankings.bleacher = { grade: data.bleacher.grade };
-  if (data.pff) mergedPlayer.rankings.pff = { grade: data.pff.grade };
-  if (data.espn) mergedPlayer.rankings.espn = { grade: data.espn.grade };
-  if (data.scouting)
-    mergedPlayer.rankings.scouting = { grade: data.scouting.grade };
-  if (data.summary) mergedPlayer.summary = data.summary;
+  if (data.buzz) player.rankings.buzz = { rating: data.buzz.rating };
+  if (data.bleacher) player.rankings.bleacher = { grade: data.bleacher.grade };
+  if (data.pff) player.rankings.pff = { grade: data.pff.grade };
+  if (data.espn) player.rankings.espn = { grade: data.espn.grade };
+  if (data.scouting) player.rankings.scouting = { grade: data.scouting.grade };
+  if (data.summary) player.summary = data.summary;
 
-  mergedPlayers.push(mergedPlayer);
+  mergedPlayers.push(player);
 }
 
-// Sort by combined score
 mergedPlayers.sort((a, b) => b.combined_score - a.combined_score);
 
-// Save merged file
+// ─── Save ─────────────────────────────────────────────────────
 const outputPath = path.join(dataDir, "players.json");
 fs.writeFileSync(outputPath, JSON.stringify(mergedPlayers, null, 2));
 
-// ============================================================
-// STATISTICS
-// ============================================================
-const withBuzz = mergedPlayers.filter((p) => p.rankings.buzz).length;
-const withBR = mergedPlayers.filter((p) => p.rankings.bleacher).length;
-const withPFF = mergedPlayers.filter((p) => p.rankings.pff).length;
-const withESPN = mergedPlayers.filter((p) => p.rankings.espn).length;
-const withScouting = mergedPlayers.filter((p) => p.rankings.scouting).length;
-const allFive = mergedPlayers.filter(
-  (p) =>
-    p.rankings.buzz &&
-    p.rankings.bleacher &&
-    p.rankings.pff &&
-    p.rankings.espn &&
-    p.rankings.scouting,
-).length;
-const withFour = mergedPlayers.filter((p) => p.sources_count === 4).length;
-const withThree = mergedPlayers.filter((p) => p.sources_count === 3).length;
-const withTwo = mergedPlayers.filter((p) => p.sources_count === 2).length;
-const withOne = mergedPlayers.filter((p) => p.sources_count === 1).length;
-
+// ─── Stats ────────────────────────────────────────────────────
 console.log(
   `\n✅ Merged ${mergedPlayers.length} unique players into players.json`,
 );
-console.log(
-  `\n📊 Merge Statistics (5 sources: Buzz, B/R, PFF, ESPN, ScoutingGrade):`,
-);
-console.log(`   - Have Buzz rating: ${withBuzz}`);
-console.log(`   - Have B/R grade: ${withBR}`);
-console.log(`   - Have PFF grade: ${withPFF}`);
-console.log(`   - Have ESPN grade: ${withESPN}`);
-console.log(`   - Have Scouting grade: ${withScouting}`);
-console.log(`   - Have ALL 5 sources: ${allFive}`);
-console.log(`   - Have 4 sources: ${withFour} (no penalty)`);
-console.log(`   - Have 3 sources: ${withThree} (no penalty)`);
-console.log(`   - Have 2 sources: ${withTwo} (no penalty)`);
-console.log(`   - Have 1 source: ${withOne} (-10 point penalty)`);
-
-console.log("\n📊 Top 20 Combined Rankings (5 sources):");
-console.log("━".repeat(85));
-mergedPlayers.slice(0, 20).forEach((p, i) => {
-  const buzz = p.rankings.buzz?.rating || "—";
-  const br = p.rankings.bleacher?.grade || "—";
-  const pff = p.rankings.pff?.grade || "—";
-  const espn = p.rankings.espn?.grade || "—";
-  const scouting = p.rankings.scouting?.grade || "—";
-  const penalty = p.sources_count === 1 ? "(-10 penalty)" : "";
-  console.log(`${i + 1}. ${p.name} (${p.position}) - ${p.school}`);
+console.log(`\n📊 Source breakdown:`);
+["buzz", "bleacher", "pff", "espn", "scouting"].forEach((s) => {
+  console.log(`   ${s}: ${mergedPlayers.filter((p) => p.rankings[s]).length}`);
+});
+[5, 4, 3, 2, 1].forEach((n) => {
   console.log(
-    `   Combined: ${p.combined_score} | Buzz: ${buzz} | B/R: ${br} | PFF: ${pff} | ESPN: ${espn} | SCOUTING: ${scouting} | ${p.sources_count}/5 sources ${penalty}`,
+    `   ${n} sources: ${mergedPlayers.filter((p) => p.sources_count === n).length}`,
+  );
+});
+
+console.log(`\n📊 Top 20:`);
+mergedPlayers.slice(0, 20).forEach((p, i) => {
+  const b = p.rankings.buzz?.rating || "—";
+  const br = p.rankings.bleacher?.grade || "—";
+  const pf = p.rankings.pff?.grade || "—";
+  const e = p.rankings.espn?.grade || "—";
+  const sc = p.rankings.scouting?.grade || "—";
+  console.log(`${i + 1}. ${p.name} (${p.position}) ${p.school}`);
+  console.log(
+    `   Score: ${p.combined_score} | Buzz:${b} BR:${br} PFF:${pf} ESPN:${e} Scout:${sc} | ${p.sources_count}/5 sources`,
   );
 });

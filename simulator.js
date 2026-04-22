@@ -199,16 +199,56 @@ async function startSimulation() {
   processNextPick();
 }
 
+// --- Restart Simulator
+async function restartSimulation() {
+  // Reuse existing team and mode - no dropdown needed
+  simState.myPicks = [];
+  simState.allPicks = [];
+  simState.currentPickIndex = 0;
+
+  // Reload draft order and players fresh
+  const res = await fetch("./data/draftOrder.json");
+  simState.draftOrder = await res.json();
+
+  const seen = new Map();
+  (window._players || [])
+    .filter((p) => (p.combined_score || 0) >= 60)
+    .forEach((p) => {
+      const key = (p.name || "").toLowerCase().trim();
+      if (
+        !seen.has(key) ||
+        (p.combined_score || 0) > (seen.get(key).combined_score || 0)
+      ) {
+        seen.set(key, p);
+      }
+    });
+  simState.available = Array.from(seen.values());
+
+  renderDraftScreen();
+  processNextPick();
+}
+
 // ─── Auto Pick (with forced consensus picks) ──────────────────
-function autoPick(available, mode, overall) {
+function autoPick(available, mode, overall, round) {
+  // Forced consensus pick 1st
   if (FORCED_PICKS[overall]) {
     const forced = available.find((p) => p.name === FORCED_PICKS[overall]);
     if (forced) return forced;
   }
+
   const sorted = [...available].sort(
     (a, b) => (b.combined_score || 0) - (a.combined_score || 0),
   );
-  const poolSize = mode === "bpa" ? 2 : 5;
+
+  let poolSize;
+  if (mode === "bpa") {
+    poolSize = 2; // BPA always top 2
+  } else {
+    // Team needs - varies by round
+    const needsPool = { 1: 3, 2: 4, 3: 5, 4: 5, 5: 7, 6: 10, 7: 10 };
+    poolSize = needsPool[round] || 10;
+  }
+
   const pool = sorted.slice(0, Math.min(poolSize, sorted.length));
   return pool[Math.floor(Math.random() * pool.length)];
 }
@@ -231,7 +271,12 @@ function processNextPick() {
     renderAvailablePlayers(true);
   } else {
     setTimeout(() => {
-      const picked = autoPick(simState.available, simState.mode, slot.overall);
+      const picked = autoPick(
+        simState.available,
+        simState.mode,
+        slot.overall,
+        slot.round,
+      );
       picked.round = slot.round;
       simState.available = simState.available.filter(
         (p) => p.name !== picked.name,
@@ -265,7 +310,12 @@ function startTimer(slot) {
     }
     if (simState.timeLeft <= 0) {
       clearInterval(simState.timer);
-      const picked = autoPick(simState.available, simState.mode, slot.overall);
+      const picked = autoPick(
+        simState.available,
+        simState.mode,
+        slot.overall,
+        slot.round,
+      );
       userSelectPlayer(picked.name);
     }
   }, 1000);
@@ -303,6 +353,8 @@ function renderDraftScreen() {
             <option value="WR">WR</option>
             <option value="TE">TE</option>
             <option value="OT">OT</option>
+            <option value="OG">OG</option>
+            <option value="C">C</option>
             <option value="EDGE">EDGE</option>
             <option value="DT">DT</option>
             <option value="LB">LB</option>
@@ -347,7 +399,7 @@ function renderAvailablePlayers(isMyTurn = false) {
     (a, b) => (b.combined_score || 0) - (a.combined_score || 0),
   );
   if (pos !== "ALL") pool = pool.filter((p) => p.position === pos);
-  pool = pool.slice(0, 15);
+  pool = pool.slice(0, 20);
 
   if (!pool.length) {
     container.innerHTML = `<p style="color:#7a8fa6;text-align:center;font-size:0.85rem;padding:20px 0;">No players at this position</p>`;
@@ -570,12 +622,12 @@ function updateLiveDraftBoard() {
 // ─── Grade Draft (Value Over Expected) ───────────────────────
 // ─── Grading Formulas ────────────────────────────────────────
 function gradeAllFormulas(myPicks) {
-  const expected = { 1: 88, 2: 83, 3: 78, 4: 73, 5: 68, 6: 63, 7: 58 };
+  const expected = { 1: 86, 2: 83, 3: 80, 4: 77, 5: 74, 6: 71, 7: 69 };
   const weights = { 1: 1.0, 2: 0.9, 3: 0.8, 4: 0.7, 5: 0.6, 6: 0.5, 7: 0.4 };
 
   // 1. Value Over Expected
   const voeValues = myPicks.map(
-    (p) => (p.combined_score || 0) - (expected[p.round] || 58),
+    (p) => (p.combined_score || 0) - (expected[p.round] || 69),
   );
   const voeAvg = voeValues.reduce((a, b) => a + b, 0) / voeValues.length;
 
@@ -786,7 +838,7 @@ function renderResultsScreen() {
     </div>
 
     <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;">
-      <button onclick="startSimulation()"
+      <button onclick="restartSimulation()"
         style="padding:12px;background:linear-gradient(135deg,#ff6b6b,#ff8e53);border:none;border-radius:8px;color:#1a1a2e;font-weight:bold;cursor:pointer;font-size:0.9rem;">
         Draft Again 🔄
       </button>

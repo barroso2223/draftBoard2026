@@ -119,7 +119,7 @@ async function getWikipediaUrl(playerName) {
 //     renderDraftBoard();
 //     renderTeamGrades();
 //     renderOnClock("Cleveland Browns");
-//     renderTop25(document.getElementById("positionSelect").value);
+//     renderTop30(document.getElementById("positionSelect").value);
 //   } catch (err) {
 //     console.warn("Could not load mock draft:", err);
 //   }
@@ -135,7 +135,7 @@ async function loadPlayers() {
     window.getNflMockDraftUrl = getNflMockDraftUrl;
     console.log("Loaded", players.length, "players");
     calculateGrades();
-    renderTop25("ALL");
+    renderTop30("ALL");
     renderDraftBoard();
     renderTeamGrades();
   } catch (e) {
@@ -152,7 +152,7 @@ document.getElementById("positionSelect").addEventListener("change", (e) => {
   const searchInput = document.getElementById("playerSearch");
   if (searchInput) searchInput.value = "";
   searchQuery = "";
-  renderTop25(e.target.value);
+  renderTop30(e.target.value);
 });
 
 // --- Search Event --------------------------------------------
@@ -170,7 +170,7 @@ document.getElementById("playerSearch").addEventListener("keypress", (e) => {
 
 // --- Player name Click -> Open Bio ---------------------------
 
-document.getElementById("top25List").addEventListener("click", (e) => {
+document.getElementById("top30List").addEventListener("click", (e) => {
   // Ignore clicks on bio icons
   if (e.target.closest(".bio-icon, .bio-icons")) return;
   const nameEl = e.target.closest(".player-name, .mobile-player-name");
@@ -287,12 +287,12 @@ function calculateGrades() {
 
 // --- Get Search Results
 function renderSearchResults() {
-  const container = document.getElementById("top25List");
+  const container = document.getElementById("top30List");
   const query = searchQuery.trim().toLowerCase();
 
   if (!query) {
-    // No search - show normal top 25 undrafted list
-    renderTop25(document.getElementById("positionSelect").value);
+    // No search - show normal top30 undrafted list
+    renderTop30(document.getElementById("positionSelect").value);
     return;
   }
   // Filter all Players (including drafted)
@@ -304,7 +304,7 @@ function renderSearchResults() {
   }
   // Sort by combined score (best first)
   matched.sort((a, b) => (b.combined_score || 0) - (a.combined_score || 0));
-  // Build Header (Same as top 25)
+  // Build Header (Same as top30)
   let html = `
   <div class="headerRow">
       <div>#</div>
@@ -324,19 +324,19 @@ function renderSearchResults() {
   container.innerHTML = html;
 }
 
-// ─── Get Top 25 ──────────────────────────────────────────────
-function getTop25(position) {
+// ─── Get Top30 ──────────────────────────────────────────────
+function getTop30(position) {
   let pool = players.filter((p) => !p.drafted);
   if (position !== "ALL") {
     pool = pool.filter((p) => p.position === position);
   }
-  return pool.sort((a, b) => b.score - a.score).slice(0, 25);
+  return pool.sort((a, b) => b.score - a.score).slice(0, 30);
 }
 
-// ─── Render Top 25 ───────────────────────────────────────────
-function renderTop25(position) {
-  const container = document.getElementById("top25List");
-  const list = getTop25(position);
+// ─── Render Top30 ───────────────────────────────────────────
+function renderTop30(position) {
+  const container = document.getElementById("top30List");
+  const list = getTop30(position);
   container.innerHTML = "";
 
   if (list.length === 0) {
@@ -576,7 +576,7 @@ function renderTeamGrades() {
 }
 
 // ============================================================
-// COLLAPSIBLE SECTIONS (Draft Board, Top 25, Team Grades)
+// COLLAPSIBLE SECTIONS (Draft Board, Top30, Team Grades)
 // ============================================================
 function addSectionToggle(headingId, containerId) {
   const heading = document.getElementById(headingId);
@@ -606,23 +606,23 @@ function addSectionToggle(headingId, containerId) {
 function initSectionToggles() {
   addSectionToggle("draftBoardHeading", "draftBoard");
   addSectionToggle("teamGradesHeading", "teamGrades");
-  // Special handling for Top 25 (it's a div with an h2 inside)
-  const top25Heading = document.getElementById("top25Heading");
-  const top25Section = document.getElementById("top25Section");
-  if (top25Heading && top25Section) {
+  // Special handling for Top30 (it's a div with an h2 inside)
+  const top30Heading = document.getElementById("top30Heading");
+  const top30Section = document.getElementById("top30Section");
+  if (top30Heading && top30Section) {
     const toggleBtn = document.createElement("span");
     toggleBtn.className = "section-toggle";
     toggleBtn.textContent = "▼";
-    top25Heading.appendChild(toggleBtn);
+    top30Heading.appendChild(toggleBtn);
     let isCollapsed = false;
     toggleBtn.addEventListener("click", (e) => {
       e.stopPropagation();
       isCollapsed = !isCollapsed;
       if (isCollapsed) {
-        top25Section.classList.add("collapsed-section");
+        top30Section.classList.add("collapsed-section");
         toggleBtn.textContent = "▶";
       } else {
-        top25Section.classList.remove("collapsed-section");
+        top30Section.classList.remove("collapsed-section");
         toggleBtn.textContent = "▼";
       }
     });
@@ -678,7 +678,7 @@ async function pollDraft() {
     if (lastPick) renderOnClock(lastPick.team);
 
     // Re-render everything
-    renderTop25(document.getElementById("positionSelect").value);
+    renderTop30(document.getElementById("positionSelect").value);
     renderDraftBoard();
     renderTeamGrades();
   } catch (err) {
@@ -705,13 +705,13 @@ if (isDev) {
     draftPlayer(index) {
       if (!players[index]) return console.warn("No player at index", index);
       players[index].drafted = true;
-      renderTop25(document.getElementById("positionSelect").value);
+      renderTop30(document.getElementById("positionSelect").value);
       console.log(`✅ Drafted: ${players[index].name}`);
     },
     resetDraft() {
       players.forEach((p) => (p.drafted = false));
       draftedPicks = [];
-      renderTop25("ALL");
+      renderTop30("ALL");
       renderDraftBoard();
       renderTeamGrades();
       console.log(`🔄 Draft reset`);
