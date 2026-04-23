@@ -1,0 +1,40 @@
+# Every Github Actions file has 3 required sections:
+
+name: Run Tests #what to call the workflow
+
+on: # when to run it
+  push:
+    branches: [main]
+
+jobs: # what to actually do
+  test: #name of this job
+    runs_on: ubuntu-latest #use a Linux computer
+
+    steps: #list of steps to run in order
+      - name: Checkout code #download your repo code onto that computer (without this, the computer has no files)
+        uses: action/checkout@v3
+
+      - name: Set up Python
+        uses: action/setup/python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install pytest
+
+      - name: Run Python Tests
+        run: pytest test_drills.py -v
+
+      - name: Set up Node.js
+        uses: actions/setup/node@v3
+        with:
+          node-version: "18"
+
+      - name: Install Node dependencies
+        run: npm install
+
+      - name: Install Playwright browser
+        run: npx playwright install chromium
+
+      - name: Run Playwright tests
+        run: npm test
