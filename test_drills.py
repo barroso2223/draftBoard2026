@@ -89,3 +89,142 @@ def test_undrafted_players_list():
     ]
     result = undrafted_players_list(players)
     assert result == 1
+
+
+# 1. A function that takes a list of players
+#    and returns only players with combined_score >= 80
+#    sorted highest to lowest
+def players_over_80_sorted_high_low(players):
+    over_80 = [p for p in players if p["combined_score"] >= 80]
+    return sorted(over_80, key=lambda p: p["combined_score"], reverse=True)
+
+
+# 2. A function that takes a grade string ("A", "B", "C")
+#    and returns the minimum score needed
+#    A=90, B=80, C=70, anything else returns 0
+def grade_strings(grade):
+    if grade == "A":
+        return 90
+    elif grade == "B":
+        return 80
+    elif grade == "C":
+        return 70
+    else:
+        return 0
+
+
+# 3. A function that takes a list of players
+#    and a position string
+#    and returns players at that position sorted by score
+def player_by_position_sorted(players, position):
+    filter = [p for p in players if p["position"] == position]
+    return sorted(filter, key=lambda p: p["combined_score"], reverse=True)
+
+
+# 4. A function that takes a list of scores
+#    and returns their average rounded to 1 decimal
+def list_of_avg_scores(scores):
+    return round(((sum(scores) / len(scores))), 1)
+
+    # never learned how to get averages or how to round
+
+
+# 5. A function that takes a player dict
+#    and returns True if they are draftable
+#    (combined_score >= 70 AND not already drafted)
+def draftable_player(player):
+    if player["combined_score"] >= 70 and not player["drafted"]:
+        return True
+    else:
+        return False
+
+
+# Function TESTS
+
+
+# 1. A function that takes a list of players
+#    and returns only players with combined_score >= 80
+#    sorted highest to lowest
+# def players_over_80_sorted_high_low(players):
+def test_players_over_80_sorted_high_low():
+    players = [
+        {"name": "Jayson", "combined_score": 70, "drafted": True},
+        {"name": "Tom", "combined_score": 95, "drafted": False},
+        {"name": "Sam", "combined_score": 85, "drafted": True},
+    ]
+    result = players_over_80_sorted_high_low(players)
+    assert result == [
+        {"name": "Tom", "combined_score": 95, "drafted": False},
+        {"name": "Sam", "combined_score": 85, "drafted": True},
+    ]
+
+
+# 2. A function that takes a grade string ("A", "B", "C")
+#    and returns the minimum score needed
+#    A=90, B=80, C=70, anything else returns 0
+# def grade_strings(grade):
+def test_grade_strings():
+    grade = "A"
+    result = grade_strings(grade)
+    assert result == 90
+
+
+# 3. A function that takes a list of players
+#    and a position string
+#    and returns players at that position sorted by score
+# def player_by_position_sorted(players, position):
+def test_player_by_position_sorted():
+    players = [
+        {"name": "Jayson", "combined_score": 70, "drafted": True, "position": "QB"},
+        {"name": "Tom", "combined_score": 95, "drafted": False, "position": "WR"},
+        {"name": "Sam", "combined_score": 85, "drafted": True, "position": "QB"},
+    ]
+    result = player_by_position_sorted(players, "QB")
+    assert result == [
+        {"name": "Sam", "combined_score": 85, "drafted": True, "position": "QB"},
+        {"name": "Jayson", "combined_score": 70, "drafted": True, "position": "QB"},
+    ]
+
+
+# 4. A function that takes a list of scores
+#    and returns their average rounded to 1 decimal
+# def list_of_avg_scores(scores):
+def test_list_of_avg_scores():
+    scores = [90.5, 95.25, 80, 70.75]
+    result = list_of_avg_scores(scores)
+    assert result == 84.1
+
+    # never learned how to get averages or how to round
+
+
+# 5. A function that takes a player dict
+#    and returns True if they are draftable
+#    (combined_score >= 70 AND not already drafted)
+# def draftable_player(player):
+def test_draftable_player():
+    player_1 = {
+        "name": "Jayson",
+        "combined_score": 80,
+        "drafted": False,
+        "position": "QB",
+    }
+    player_2 = {
+        "name": "Jayson",
+        "combined_score": 60,
+        "drafted": False,
+        "position": "QB",
+    }
+    player_3 = {
+        "name": "Jayson",
+        "combined_score": 90,
+        "drafted": True,
+        "position": "QB",
+    }
+
+    result_1 = draftable_player(player_1)
+    result_2 = draftable_player(player_2)
+    result_3 = draftable_player(player_3)
+
+    assert result_1 == True
+    assert result_2 == False
+    assert result_3 == False
