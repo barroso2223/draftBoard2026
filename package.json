@@ -1,0 +1,25 @@
+{
+  "name": "draftboard2026",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test-ui"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barroso2223/draftBoard2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barroso2223/draftBoard2026/issues"
+  },
+  "homepage": "https://github.com/barroso2223/draftBoard2026#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
