@@ -8,7 +8,7 @@ on: # when to run it
 
 jobs: # what to actually do
   test: #name of this job
-    runs_on: ubuntu-latest #use a Linux computer
+    runs-on: ubuntu-latest #use a Linux computer
 
     steps: #list of steps to run in order
       - name: Checkout code #download your repo code onto that computer (without this, the computer has no files)
