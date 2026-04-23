@@ -12,10 +12,10 @@ jobs: # what to actually do
 
     steps: #list of steps to run in order
       - name: Checkout code #download your repo code onto that computer (without this, the computer has no files)
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: action/setup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
