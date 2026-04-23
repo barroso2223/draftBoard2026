@@ -36,5 +36,11 @@ jobs: # what to actually do
       - name: Install Playwright browser
         run: npx playwright install chromium
 
+      - name: Start local server
+        run: npx serve . -p 5500 &
+
+      - name: Wait for server
+        run: sleep 3
+
       - name: Run Playwright tests
         run: npm test
