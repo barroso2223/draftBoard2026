@@ -368,11 +368,11 @@
     "name": "Cashius Howell",
     "position": "EDGE",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 253,
     "height": "6-2",
     "forty": 4.59,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.7,
     "sources_count": 3,
     "rankings": {
@@ -386,7 +386,9 @@
         "grade": 90
       }
     },
-    "summary": "Indianapolis changed the calculus on Howell, and anybody who tells you otherwise is not being straight with you. The 30 1/4-inch arms and..."
+    "summary": "Indianapolis changed the calculus on Howell, and anybody who tells you otherwise is not being straight with you. The 30 1/4-inch arms and...",
+    "draft_round": 2,
+    "draft_pick": 41
   },
   {
     "name": "Carnell Tate",
