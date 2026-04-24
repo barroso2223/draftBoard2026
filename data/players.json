@@ -2135,11 +2135,11 @@
     "name": "De'Zhaun Stribling",
     "position": "WR",
     "school": "Mississippi",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 207,
     "height": "6-2",
     "forty": 4.36,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.7,
     "sources_count": 4,
     "rankings": {
@@ -2156,7 +2156,9 @@
         "grade": 80
       }
     },
-    "summary": "Stribling's best reps are the ones where he gets vertical in a hurry and makes corners pay for giving him space. When defensive backs..."
+    "summary": "Stribling's best reps are the ones where he gets vertical in a hurry and makes corners pay for giving him space. When defensive backs...",
+    "draft_round": 2,
+    "draft_pick": 33
   },
   {
     "name": "Keith Abney II",

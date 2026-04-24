@@ -286,5 +286,14 @@
     "name": "Jadarian Price",
     "position": "RB",
     "school": "Notre Dame"
+  },
+  {
+    "overall": 33,
+    "round": 2,
+    "pick": 1,
+    "team": "San Francisco 49ers",
+    "name": "De'Zhaun Stribling",
+    "position": "WR",
+    "school": "Mississippi"
   }
 ]
