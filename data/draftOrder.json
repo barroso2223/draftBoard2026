@@ -300,7 +300,10 @@
     "overall": 34,
     "round": 2,
     "pick": 2,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Chase Bisontis",
+    "position": "OG",
+    "school": "Texas A&M"
   },
   {
     "overall": 35,

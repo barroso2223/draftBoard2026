@@ -1495,11 +1495,11 @@
     "name": "Chase Bisontis",
     "position": "OG",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 315,
     "height": "6-5",
     "forty": 5.02,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.9,
     "sources_count": 3,
     "rankings": {
@@ -1513,7 +1513,9 @@
         "grade": 86
       }
     },
-    "summary": "Bisontis makes the most sense as a left guard at the next level, though his freshman experience at right tackle adds some flexibility...."
+    "summary": "Bisontis makes the most sense as a left guard at the next level, though his freshman experience at right tackle adds some flexibility....",
+    "draft_round": 2,
+    "draft_pick": 34
   },
   {
     "name": "Jacob Rodriguez",
