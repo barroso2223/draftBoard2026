@@ -390,7 +390,10 @@
     "overall": 44,
     "round": 2,
     "pick": 12,
-    "team": "New York Jets"
+    "team": "New York Jets",
+    "player": "Derrick Moore",
+    "position": "EDGE",
+    "school": "Michigan"
   },
   {
     "overall": 45,

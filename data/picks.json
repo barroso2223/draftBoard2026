@@ -385,5 +385,14 @@
     "name": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech"
+  },
+  {
+    "overall": 44,
+    "round": 2,
+    "pick": 12,
+    "team": "New York Jets",
+    "name": "Derrick Moore",
+    "position": "EDGE",
+    "school": "Michigan"
   }
 ]

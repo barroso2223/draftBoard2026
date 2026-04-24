@@ -1292,11 +1292,11 @@
     "name": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan",
-    "team": "",
+    "team": "New York Jets",
     "weight": 255,
     "height": "6-4",
     "forty": 4.65,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.6,
     "sources_count": 3,
     "rankings": {
@@ -1310,7 +1310,9 @@
         "grade": 82
       }
     },
-    "summary": "Moore's pass rush ability is the reason he will get drafted, and the senior season tape backs it up. The bull rush generates real pocket..."
+    "summary": "Moore's pass rush ability is the reason he will get drafted, and the senior season tape backs it up. The bull rush generates real pocket...",
+    "draft_round": 2,
+    "draft_pick": 44
   },
   {
     "name": "Brandon Cisse",
