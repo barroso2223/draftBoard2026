@@ -381,7 +381,10 @@
     "overall": 43,
     "round": 2,
     "pick": 11,
-    "team": "Miami Dolphins"
+    "team": "Miami Dolphins",
+    "player": "Jacob Rodriguez",
+    "position": "LB",
+    "school": "Texas Tech"
   },
   {
     "overall": 44,

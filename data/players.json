@@ -1535,11 +1535,11 @@
     "name": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 231,
     "height": "6-1",
     "forty": 4.57,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.7,
     "sources_count": 4,
     "rankings": {
@@ -1556,7 +1556,9 @@
         "grade": 85
       }
     },
-    "summary": "Rodriguez is one of those rare college linebackers whose production and testing both check out. The tackle totals, the turnover numbers,..."
+    "summary": "Rodriguez is one of those rare college linebackers whose production and testing both check out. The tackle totals, the turnover numbers,...",
+    "draft_round": 2,
+    "draft_pick": 43
   },
   {
     "name": "Mike Washington Jr.",
