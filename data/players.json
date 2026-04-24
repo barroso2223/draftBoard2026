@@ -744,11 +744,11 @@
     "name": "Denzel Boston",
     "position": "WR",
     "school": "Washington",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 212,
     "height": "6-4",
     "forty": 4.6,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.1,
     "sources_count": 4,
     "rankings": {
@@ -765,7 +765,9 @@
         "grade": 89
       }
     },
-    "summary": "Boston isn't going to run past NFL corners with pure speed, and his decision to skip the 40-yard dash at Washington's pro day only adds to..."
+    "summary": "Boston isn't going to run past NFL corners with pure speed, and his decision to skip the 40-yard dash at Washington's pro day only adds to...",
+    "draft_round": 2,
+    "draft_pick": 39
   },
   {
     "name": "Gabe Jacas",
