@@ -1942,11 +1942,11 @@
     "name": "Treydan Stukes",
     "position": "CB",
     "school": "Arizona",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 190,
     "height": "6-1",
     "forty": 4.33,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.2,
     "sources_count": 3,
     "rankings": {
@@ -1960,7 +1960,9 @@
         "grade": 82
       }
     },
-    "summary": "Stukes is not going to be the guy you line up on the boundary in press-man and ask to mirror Amon-Ra St. Brown on a five-yard option..."
+    "summary": "Stukes is not going to be the guy you line up on the boundary in press-man and ask to mirror Amon-Ra St. Brown on a five-yard option...",
+    "draft_round": 2,
+    "draft_pick": 38
   },
   {
     "name": "Tyreak Sapp",
