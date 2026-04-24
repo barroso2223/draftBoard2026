@@ -349,5 +349,14 @@
     "name": "Denzel Boston",
     "position": "WR",
     "school": "Washington"
+  },
+  {
+    "overall": 40,
+    "round": 2,
+    "pick": 8,
+    "team": "Kansas City Chiefs",
+    "name": "R Mason Thomas",
+    "position": "EDGE",
+    "school": "Oklahoma"
   }
 ]

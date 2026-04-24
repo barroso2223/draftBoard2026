@@ -354,7 +354,10 @@
     "overall": 40,
     "round": 2,
     "pick": 8,
-    "team": "Kansas City Chiefs"
+    "team": "Kansas City Chiefs",
+    "player": "R Mason Thomas",
+    "position": "EDGE",
+    "school": "Oklahoma"
   },
   {
     "overall": 41,

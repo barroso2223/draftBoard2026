@@ -1237,11 +1237,11 @@
     "name": "R Mason Thomas",
     "position": "EDGE",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 241,
     "height": "6-2",
     "forty": 4.67,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.7,
     "sources_count": 3,
     "rankings": {
@@ -1255,7 +1255,9 @@
         "grade": 83
       }
     },
-    "summary": "Thomas is a pass rush weapon, full stop. That first-step explosion, the ability to bend the corner at absurd angles, and the violent..."
+    "summary": "Thomas is a pass rush weapon, full stop. That first-step explosion, the ability to bend the corner at absurd angles, and the violent...",
+    "draft_round": 2,
+    "draft_pick": 40
   },
   {
     "name": "Jake Golday",
