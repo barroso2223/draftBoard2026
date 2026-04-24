@@ -367,5 +367,14 @@
     "name": "Cashius Howell",
     "position": "EDGE",
     "school": "Texas A&M"
+  },
+  {
+    "overall": 42,
+    "round": 2,
+    "pick": 10,
+    "team": "New Orleans Saints",
+    "name": "Christen Miller",
+    "position": "DT",
+    "school": "Georgia"
   }
 ]

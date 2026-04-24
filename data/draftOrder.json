@@ -372,7 +372,10 @@
     "overall": 42,
     "round": 2,
     "pick": 10,
-    "team": "New Orleans Saints"
+    "team": "New Orleans Saints",
+    "player": "Christen Miller",
+    "position": "DT",
+    "school": "Georgia"
   },
   {
     "overall": 43,

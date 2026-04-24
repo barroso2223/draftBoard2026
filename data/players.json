@@ -1343,11 +1343,11 @@
     "name": "Christen Miller",
     "position": "DT",
     "school": "Georgia",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 321,
     "height": "6-4",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.5,
     "sources_count": 4,
     "rankings": {
@@ -1364,7 +1364,9 @@
         "grade": 86
       }
     },
-    "summary": "Put the tape on and you see a defensive tackle who can absolutely wreck a running game. Miller's ability to hold the point of attack,..."
+    "summary": "Put the tape on and you see a defensive tackle who can absolutely wreck a running game. Miller's ability to hold the point of attack,...",
+    "draft_round": 2,
+    "draft_pick": 42
   },
   {
     "name": "Jadarian Price",
