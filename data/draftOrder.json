@@ -309,7 +309,10 @@
     "overall": 35,
     "round": 2,
     "pick": 3,
-    "team": "Buffalo Bills"
+    "team": "Buffalo Bills",
+    "player": "T.J. Parker",
+    "position": "EDGE",
+    "school": "Clemson"
   },
   {
     "overall": 36,

@@ -304,5 +304,14 @@
     "name": "Chase Bisontis",
     "position": "OG",
     "school": "Texas A&M"
+  },
+  {
+    "overall": 35,
+    "round": 2,
+    "pick": 3,
+    "team": "Buffalo Bills",
+    "name": "T.J. Parker",
+    "position": "EDGE",
+    "school": "Clemson"
   }
 ]

@@ -608,11 +608,11 @@
     "name": "T.J. Parker",
     "position": "EDGE",
     "school": "Clemson",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 263,
     "height": "6-4",
     "forty": 4.68,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.7,
     "sources_count": 3,
     "rankings": {
@@ -626,7 +626,9 @@
         "grade": 88
       }
     },
-    "summary": "Put the tape on from 2024 and you see a defender who bends games to his will. The Pittsburgh performance alone shows what Parker is capable..."
+    "summary": "Put the tape on from 2024 and you see a defender who bends games to his will. The Pittsburgh performance alone shows what Parker is capable...",
+    "draft_round": 2,
+    "draft_pick": 35
   },
   {
     "name": "Avieon Terrell",
