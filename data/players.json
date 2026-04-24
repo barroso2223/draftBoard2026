@@ -853,11 +853,11 @@
     "name": "Kayden McDonald",
     "position": "DT",
     "school": "Ohio State",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 326,
     "height": "6-2",
     "forty": 5.15,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.6,
     "sources_count": 4,
     "rankings": {
@@ -874,7 +874,9 @@
         "grade": 85
       }
     },
-    "summary": "McDonald is a throwback nose tackle in an era obsessed with pass rushers, and there is real value in that. Watch his film against..."
+    "summary": "McDonald is a throwback nose tackle in an era obsessed with pass rushers, and there is real value in that. Watch his film against...",
+    "draft_round": 2,
+    "draft_pick": 36
   },
   {
     "name": "CJ Allen",
