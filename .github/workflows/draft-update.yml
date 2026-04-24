@@ -2,8 +2,8 @@ name: Live Draft Update
 
 on:
   schedule:
-    - cron: "+/10 * * * *" # Every 10 minutes
-  workflow_dispatch: # also allow manual trigger from GitHub
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: '18'
 
       - name: Install dependencies
         run: npm install
@@ -24,8 +24,8 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install chromium
 
-      - name: Fetch new picks from NFL.com
-        run: node scripts/apply-picks.cjs
+      - name: Fetch picks from Yahoo Sports
+        run: node scripts/fetch-picks.cjs
 
       - name: Apply picks to players.json
         run: node scripts/apply-picks.cjs

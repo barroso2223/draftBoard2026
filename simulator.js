@@ -185,15 +185,43 @@ async function startSimulation() {
 
   simState.userTeam = teamSelect.value;
   simState.mode = selectedMode;
-  simState.myPicks = [];
-  simState.allPicks = [];
   simState.currentPickIndex = 0;
 
+  // Load draft order
   const res = await fetch("./data/draftOrder.json");
   simState.draftOrder = await res.json();
-  simState.available = (window._players || []).filter(
-    (p) => (p.combined_score || 0) > 0,
-  );
+
+  // Available players — exclude already drafted
+  const seen = new Map();
+  (window._players || [])
+    .filter((p) => (p.combined_score || 0) > 0 && !p.drafted)
+    .forEach((p) => {
+      const key = (p.name || "").toLowerCase().trim();
+      if (
+        !seen.has(key) ||
+        (p.combined_score || 0) > (seen.get(key).combined_score || 0)
+      ) {
+        seen.set(key, p);
+      }
+    });
+  simState.available = Array.from(seen.values());
+
+  // Pre-load real picks for user's team into myPicks
+  simState.myPicks = (window._players || [])
+    .filter((p) => p.drafted && p.team === simState.userTeam)
+    .map((p) => ({ ...p, round: p.draft_round, isReal: true }));
+
+  // Pre-load ALL real picks into allPicks for live board
+  simState.allPicks = (window._players || [])
+    .filter((p) => p.drafted)
+    .map((p) => ({
+      team: p.team,
+      player: p,
+      overall: p.draft_pick,
+      round: p.draft_round,
+      pick: p.draft_pick,
+      isReal: true,
+    }));
 
   renderDraftScreen();
   processNextPick();
@@ -212,7 +240,7 @@ async function restartSimulation() {
 
   const seen = new Map();
   (window._players || [])
-    .filter((p) => (p.combined_score || 0) >= 60)
+    .filter((p) => (p.combined_score || 0) >= 60 && !p.drafted)
     .forEach((p) => {
       const key = (p.name || "").toLowerCase().trim();
       if (
@@ -265,6 +293,30 @@ function processNextPick() {
 
   const slot = simState.draftOrder[simState.currentPickIndex];
 
+  // ─── Skip real picks that already happened ────────────────
+  const realPick = (window._players || []).find(
+    (p) => p.drafted && p.draft_pick === slot.overall,
+  );
+
+  if (realPick) {
+    // Already picked in real draft — add to board and skip
+    if (!simState.allPicks.find((p) => p.overall === slot.overall)) {
+      simState.allPicks.push({
+        team: slot.team,
+        player: realPick,
+        overall: slot.overall,
+        round: slot.round,
+        pick: slot.pick,
+        isReal: true,
+      });
+    }
+    simState.currentPickIndex++;
+    updateLiveDraftBoard();
+    processNextPick();
+    return;
+  }
+  // ─────────────────────────────────────────────────────────
+
   if (slot.team === simState.userTeam) {
     renderUserPickBanner(slot);
     startTimer(slot);
@@ -287,6 +339,7 @@ function processNextPick() {
         overall: slot.overall,
         round: slot.round,
         pick: slot.pick,
+        isReal: false,
       });
       simState.currentPickIndex++;
       updateLiveDraftBoard();
