@@ -3,11 +3,11 @@
     "name": "Caleb Downs",
     "position": "S",
     "school": "Ohio State",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 206,
     "height": "6-0",
     "forty": 4.45,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 91.8,
     "sources_count": 4,
     "rankings": {
@@ -24,17 +24,19 @@
         "grade": 92
       }
     },
-    "summary": "Downs plays the safety position the way it was designed to be played in the modern NFL: with versatility, intelligence, and an ability to..."
+    "summary": "Downs plays the safety position the way it was designed to be played in the modern NFL: with versatility, intelligence, and an ability to...",
+    "draft_round": 1,
+    "draft_pick": 11
   },
   {
     "name": "David Bailey",
     "position": "EDGE",
     "school": "Texas Tech",
-    "team": "",
+    "team": "New York Jets",
     "weight": 251,
     "height": "6-4",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 91.6,
     "sources_count": 3,
     "rankings": {
@@ -48,17 +50,19 @@
         "grade": 93
       }
     },
-    "summary": "Bailey's first step is among the best in this class, and once he clears the corner, quarterbacks are in serious trouble. The 13.5 sacks and..."
+    "summary": "Bailey's first step is among the best in this class, and once he clears the corner, quarterbacks are in serious trouble. The 13.5 sacks and...",
+    "draft_round": 1,
+    "draft_pick": 2
   },
   {
     "name": "Rueben Bain Jr.",
     "position": "EDGE",
     "school": "Miami",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 263,
     "height": "6-2",
     "forty": 4.72,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 91.4,
     "sources_count": 3,
     "rankings": {
@@ -72,17 +76,19 @@
         "grade": 94
       }
     },
-    "summary": "The positional conversation around Bain will carry through April because his body type does not fit a single box. At around 265 pounds..."
+    "summary": "The positional conversation around Bain will carry through April because his body type does not fit a single box. At around 265 pounds...",
+    "draft_round": 1,
+    "draft_pick": 15
   },
   {
     "name": "Jeremiyah Love",
     "position": "RB",
     "school": "Notre Dame",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 212,
     "height": "6-0",
     "forty": 4.36,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 91.3,
     "sources_count": 4,
     "rankings": {
@@ -99,17 +105,19 @@
         "grade": 93
       }
     },
-    "summary": "Love is the kind of running back that the league has started investing in again at the top of the draft. He fits the profile teams want..."
+    "summary": "Love is the kind of running back that the league has started investing in again at the top of the draft. He fits the profile teams want...",
+    "draft_round": 1,
+    "draft_pick": 3
   },
   {
     "name": "Francis Mauigoa",
     "position": "OT",
     "school": "Miami",
-    "team": "",
+    "team": "New York Giants",
     "weight": 329,
     "height": "6-6",
     "forty": 5.3,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 91.2,
     "sources_count": 3,
     "rankings": {
@@ -123,17 +131,19 @@
         "grade": 93
       }
     },
-    "summary": "Mauigoa is a tone-setter who brings a physical mentality that offensive line coaches dream about installing in their room. His anchor and..."
+    "summary": "Mauigoa is a tone-setter who brings a physical mentality that offensive line coaches dream about installing in their room. His anchor and...",
+    "draft_round": 1,
+    "draft_pick": 10
   },
   {
     "name": "Fernando Mendoza",
     "position": "QB",
     "school": "Indiana",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 236,
     "height": "6-5",
     "forty": 4.85,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 90.3,
     "sources_count": 4,
     "rankings": {
@@ -150,17 +160,19 @@
         "grade": 93
       }
     },
-    "summary": "Mendoza is exactly what modern NFL offenses are looking for. Quick-game concepts, RPOs, timing routes, play-action shots down the field. He..."
+    "summary": "Mendoza is exactly what modern NFL offenses are looking for. Quick-game concepts, RPOs, timing routes, play-action shots down the field. He...",
+    "draft_round": 1,
+    "draft_pick": 1
   },
   {
     "name": "Arvell Reese",
     "position": "LB",
     "school": "Ohio State",
-    "team": "",
+    "team": "New York Giants",
     "weight": 241,
     "height": "6-4",
     "forty": 4.46,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 90.3,
     "sources_count": 4,
     "rankings": {
@@ -177,17 +189,19 @@
         "grade": 95
       }
     },
-    "summary": "Reese is a heat-seeking missile against the run with the kind of closing speed that makes offensive coordinators cringe when they see him..."
+    "summary": "Reese is a heat-seeking missile against the run with the kind of closing speed that makes offensive coordinators cringe when they see him...",
+    "draft_round": 1,
+    "draft_pick": 5
   },
   {
     "name": "Keldric Faulk",
     "position": "EDGE",
     "school": "Auburn",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": 276,
     "height": "6-6",
     "forty": 4.67,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 88.8,
     "sources_count": 3,
     "rankings": {
@@ -201,17 +215,19 @@
         "grade": 91
       }
     },
-    "summary": "The tape on Faulk tells two very different stories depending on which side of the ball is in focus. In run defense, this is one of the..."
+    "summary": "The tape on Faulk tells two very different stories depending on which side of the ball is in focus. In run defense, this is one of the...",
+    "draft_round": 1,
+    "draft_pick": 31
   },
   {
     "name": "Sonny Styles",
     "position": "LB",
     "school": "Ohio State",
-    "team": "",
+    "team": "Washington Commanders",
     "weight": 244,
     "height": "6-5",
     "forty": 4.46,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 88.8,
     "sources_count": 4,
     "rankings": {
@@ -228,17 +244,19 @@
         "grade": 93
       }
     },
-    "summary": "Styles does his best work when coordinators use his range and coverage ability rather than asking him to take on pulling guards between the..."
+    "summary": "Styles does his best work when coordinators use his range and coverage ability rather than asking him to take on pulling guards between the...",
+    "draft_round": 1,
+    "draft_pick": 7
   },
   {
     "name": "Mansoor Delane",
     "position": "CB",
     "school": "LSU",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 187,
     "height": "6-0",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 88,
     "sources_count": 4,
     "rankings": {
@@ -255,17 +273,19 @@
         "grade": 92
       }
     },
-    "summary": "Mansoor Delane is one of the most instinctive cornerbacks to come out of college football in recent years. Delane does not just cover..."
+    "summary": "Mansoor Delane is one of the most instinctive cornerbacks to come out of college football in recent years. Delane does not just cover...",
+    "draft_round": 1,
+    "draft_pick": 6
   },
   {
     "name": "Makai Lemon",
     "position": "WR",
     "school": "USC",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": 192,
     "height": "5-11",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.9,
     "sources_count": 4,
     "rankings": {
@@ -282,17 +302,19 @@
         "grade": 93
       }
     },
-    "summary": "Lemon operates in that slot-dominant archetype where intelligence and technique compensate for what he lacks in straight-line speed and..."
+    "summary": "Lemon operates in that slot-dominant archetype where intelligence and technique compensate for what he lacks in straight-line speed and...",
+    "draft_round": 1,
+    "draft_pick": 20
   },
   {
     "name": "Jordyn Tyson",
     "position": "WR",
     "school": "Arizona State",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 203,
     "height": "6-2",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.7,
     "sources_count": 4,
     "rankings": {
@@ -309,17 +331,19 @@
         "grade": 91
       }
     },
-    "summary": "This is a receiver who wins with craft, body control, and competitive fire rather than overwhelming physical tools. His 4.5 speed is not..."
+    "summary": "This is a receiver who wins with craft, body control, and competitive fire rather than overwhelming physical tools. His 4.5 speed is not...",
+    "draft_round": 1,
+    "draft_pick": 8
   },
   {
     "name": "Spencer Fano",
     "position": "OT",
     "school": "Utah",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 311,
     "height": "6-6",
     "forty": 4.91,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.7,
     "sources_count": 4,
     "rankings": {
@@ -336,7 +360,9 @@
         "grade": 93
       }
     },
-    "summary": "Fano walked into Indianapolis and did exactly what he needed to do: he reminded everyone that this is one of the most gifted athletes to..."
+    "summary": "Fano walked into Indianapolis and did exactly what he needed to do: he reminded everyone that this is one of the most gifted athletes to...",
+    "draft_round": 1,
+    "draft_pick": 9
   },
   {
     "name": "Cashius Howell",
@@ -366,11 +392,11 @@
     "name": "Carnell Tate",
     "position": "WR",
     "school": "Ohio State",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": 192,
     "height": "6-2",
     "forty": 4.53,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.6,
     "sources_count": 4,
     "rankings": {
@@ -387,17 +413,19 @@
         "grade": 92
       }
     },
-    "summary": "Tate is a polished, technically sound receiver who wins with precision, body control, and an understanding of coverage structures that..."
+    "summary": "Tate is a polished, technically sound receiver who wins with precision, body control, and an understanding of coverage structures that...",
+    "draft_round": 1,
+    "draft_pick": 4
   },
   {
     "name": "Olaivavega Ioane",
     "position": "OG",
     "school": "Penn State",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 320,
     "height": "6-4",
     "forty": 5.35,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.3,
     "sources_count": 4,
     "rankings": {
@@ -414,17 +442,19 @@
         "grade": 93
       }
     },
-    "summary": "Ioane is a pass-protection-first guard in a league that increasingly values exactly that skill set. His 2025 tape is a clinic in pocket..."
+    "summary": "Ioane is a pass-protection-first guard in a league that increasingly values exactly that skill set. His 2025 tape is a clinic in pocket...",
+    "draft_round": 1,
+    "draft_pick": 14
   },
   {
     "name": "Kadyn Proctor",
     "position": "OT",
     "school": "Alabama",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 352,
     "height": "6-7",
     "forty": 5.21,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 86.3,
     "sources_count": 4,
     "rankings": {
@@ -441,17 +471,19 @@
         "grade": 92
       }
     },
-    "summary": "Proctor's combination of size and movement is uncommon. A 352-pound tackle who posts a 32.5-inch vertical and runs in the low 5.2s is not..."
+    "summary": "Proctor's combination of size and movement is uncommon. A 352-pound tackle who posts a 32.5-inch vertical and runs in the low 5.2s is not...",
+    "draft_round": 1,
+    "draft_pick": 12
   },
   {
     "name": "Kenyon Sadiq",
     "position": "TE",
     "school": "Oregon",
-    "team": "",
+    "team": "New York Jets",
     "weight": 241,
     "height": "6-3",
     "forty": 4.39,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 86.2,
     "sources_count": 4,
     "rankings": {
@@ -468,17 +500,19 @@
         "grade": 88
       }
     },
-    "summary": "The Combine did not just confirm what we already knew about Sadiq. It elevated him. Running a 4.39 at 241 pounds does not just make him..."
+    "summary": "The Combine did not just confirm what we already knew about Sadiq. It elevated him. Running a 4.39 at 241 pounds does not just make him...",
+    "draft_round": 1,
+    "draft_pick": 16
   },
   {
     "name": "Akheem Mesidor",
     "position": "EDGE",
     "school": "Miami",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 259,
     "height": "6-3",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 86,
     "sources_count": 3,
     "rankings": {
@@ -492,7 +526,9 @@
         "grade": 84
       }
     },
-    "summary": "There is a lot to like about what Mesidor puts on tape. His pass rush toolbox ranks among the deepest in this entire draft class, and the..."
+    "summary": "There is a lot to like about what Mesidor puts on tape. His pass rush toolbox ranks among the deepest in this entire draft class, and the...",
+    "draft_round": 1,
+    "draft_pick": 22
   },
   {
     "name": "Emmanuel McNeil-Warren",
@@ -623,11 +659,11 @@
     "name": "Monroe Freeling",
     "position": "OT",
     "school": "Georgia",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 315,
     "height": "6-7",
     "forty": 4.93,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.5,
     "sources_count": 4,
     "rankings": {
@@ -644,17 +680,19 @@
         "grade": 91
       }
     },
-    "summary": "The scheme conversation around Freeling starts and ends with zone blocking. His movement skills are the selling point, and the right..."
+    "summary": "The scheme conversation around Freeling starts and ends with zone blocking. His movement skills are the selling point, and the right...",
+    "draft_round": 1,
+    "draft_pick": 19
   },
   {
     "name": "Dillon Thieneman",
     "position": "S",
     "school": "Oregon",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 201,
     "height": "6-0",
     "forty": 4.35,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.5,
     "sources_count": 4,
     "rankings": {
@@ -671,17 +709,19 @@
         "grade": 88
       }
     },
-    "summary": "Thieneman is the kind of safety who walks into a defensive meeting room on Day One and immediately earns his keep. The coverage grades..."
+    "summary": "Thieneman is the kind of safety who walks into a defensive meeting room on Day One and immediately earns his keep. The coverage grades...",
+    "draft_round": 1,
+    "draft_pick": 25
   },
   {
     "name": "Peter Woods",
     "position": "DT",
     "school": "Clemson",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.3,
     "sources_count": 3,
     "rankings": {
@@ -694,7 +734,9 @@
       "scouting": {
         "grade": 89
       }
-    }
+    },
+    "draft_round": 1,
+    "draft_pick": 29
   },
   {
     "name": "Denzel Boston",
@@ -751,11 +793,11 @@
     "name": "Caleb Lomu",
     "position": "OT",
     "school": "Utah",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 313,
     "height": "6-6",
     "forty": 4.99,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.9,
     "sources_count": 4,
     "rankings": {
@@ -772,17 +814,19 @@
         "grade": 91
       }
     },
-    "summary": "Lomu is one of the more fascinating offensive tackle prospects in this class because the gap between his current floor and his..."
+    "summary": "Lomu is one of the more fascinating offensive tackle prospects in this class because the gap between his current floor and his...",
+    "draft_round": 1,
+    "draft_pick": 28
   },
   {
     "name": "Omar Cooper Jr.",
     "position": "WR",
     "school": "Indiana",
-    "team": "",
+    "team": "New York Jets",
     "weight": 199,
     "height": "6-0",
     "forty": 4.42,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.8,
     "sources_count": 4,
     "rankings": {
@@ -799,7 +843,9 @@
         "grade": 87
       }
     },
-    "summary": "Cooper's best path to the NFL is as a slot receiver in a scheme that gets him the ball early and lets him create after the catch. His..."
+    "summary": "Cooper's best path to the NFL is as a slot receiver in a scheme that gets him the ball early and lets him create after the catch. His...",
+    "draft_round": 1,
+    "draft_pick": 30
   },
   {
     "name": "Kayden McDonald",
@@ -859,11 +905,11 @@
     "name": "Kevin Concepcion",
     "position": "WR",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 196,
     "height": "6-0",
     "forty": 4.46,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.5,
     "sources_count": 4,
     "rankings": {
@@ -880,7 +926,9 @@
         "grade": 85
       }
     },
-    "summary": "The explosiveness is real and rare. Concepcion can threaten any blade of grass within 15 yards of the line of scrimmage, and his ability to..."
+    "summary": "The explosiveness is real and rare. Concepcion can threaten any blade of grass within 15 yards of the line of scrimmage, and his ability to...",
+    "draft_round": 1,
+    "draft_pick": 24
   },
   {
     "name": "Colton Hood",
@@ -940,11 +988,11 @@
     "name": "Caleb Banks",
     "position": "DT",
     "school": "Florida",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 327,
     "height": "6-6",
     "forty": 5.04,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.9,
     "sources_count": 4,
     "rankings": {
@@ -961,7 +1009,9 @@
         "grade": 89
       }
     },
-    "summary": "Watch the tape on from his LSU and Ole Miss games in 2024 and you will see a player who can absolutely wreck an offensive game plan when..."
+    "summary": "Watch the tape on from his LSU and Ole Miss games in 2024 and you will see a player who can absolutely wreck an offensive game plan when...",
+    "draft_round": 1,
+    "draft_pick": 18
   },
   {
     "name": "Gennings Dunker",
@@ -1018,11 +1068,11 @@
     "name": "Chris Johnson",
     "position": "CB",
     "school": "San Diego State",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 193,
     "height": "6-0",
     "forty": 4.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.6,
     "sources_count": 4,
     "rankings": {
@@ -1039,17 +1089,19 @@
         "grade": 86
       }
     },
-    "summary": "The combine changed the conversation around Chris Johnson in a meaningful way. Before Indianapolis, you were looking at a corner with elite..."
+    "summary": "The combine changed the conversation around Chris Johnson in a meaningful way. Before Indianapolis, you were looking at a corner with elite...",
+    "draft_round": 1,
+    "draft_pick": 27
   },
   {
     "name": "Malachi Lawrence",
     "position": "EDGE",
     "school": "UCF",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 253,
     "height": "6-4",
     "forty": 4.52,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.6,
     "sources_count": 3,
     "rankings": {
@@ -1063,17 +1115,19 @@
         "grade": 84
       }
     },
-    "summary": "Lawrence's NFL value starts and ends with his ability to rush the passer. The combination of top-end speed off the edge, a developed set of..."
+    "summary": "Lawrence's NFL value starts and ends with his ability to rush the passer. The combination of top-end speed off the edge, a developed set of...",
+    "draft_round": 1,
+    "draft_pick": 23
   },
   {
     "name": "Ty Simpson",
     "position": "QB",
     "school": "Alabama",
-    "team": "",
+    "team": "Los Angeles Rams",
     "weight": 211,
     "height": "6-1",
     "forty": 4.8,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.3,
     "sources_count": 4,
     "rankings": {
@@ -1090,7 +1144,9 @@
         "grade": 81
       }
     },
-    "summary": "Simpson stands as one of the most fascinating quarterback prospects in recent memory - a first-year starter who displayed elite command..."
+    "summary": "Simpson stands as one of the most fascinating quarterback prospects in recent memory - a first-year starter who displayed elite command...",
+    "draft_round": 1,
+    "draft_pick": 13
   },
   {
     "name": "Anthony Lucas",
@@ -1144,11 +1200,11 @@
     "name": "Blake Miller",
     "position": "OT",
     "school": "Clemson",
-    "team": "",
+    "team": "Detroit Lions",
     "weight": 317,
     "height": "6-7",
     "forty": 5.04,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.9,
     "sources_count": 4,
     "rankings": {
@@ -1165,7 +1221,9 @@
         "grade": 88
       }
     },
-    "summary": "Miller's development arc at Clemson tells you what kind of player he is. His pass protection sharpened every single year, and by his final..."
+    "summary": "Miller's development arc at Clemson tells you what kind of player he is. His pass protection sharpened every single year, and by his final...",
+    "draft_round": 1,
+    "draft_pick": 17
   },
   {
     "name": "R Mason Thomas",
@@ -1300,11 +1358,11 @@
     "name": "Jadarian Price",
     "position": "RB",
     "school": "Notre Dame",
-    "team": "",
+    "team": "Seattle Seahawks",
     "weight": 203,
     "height": "5-11",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.5,
     "sources_count": 4,
     "rankings": {
@@ -1321,7 +1379,9 @@
         "grade": 84
       }
     },
-    "summary": "The Combine did Price no favors. His tape tells one story: a decisive, versatile weapon who presses holes with patience and punishes..."
+    "summary": "The Combine did Price no favors. His tape tells one story: a decisive, versatile weapon who presses holes with patience and punishes...",
+    "draft_round": 1,
+    "draft_pick": 32
   },
   {
     "name": "D'Angelo Ponds",
@@ -1561,11 +1621,11 @@
     "name": "Max Iheanachor",
     "position": "OT",
     "school": "Arizona State",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 321,
     "height": "6-6",
     "forty": 4.91,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.4,
     "sources_count": 4,
     "rankings": {
@@ -1582,7 +1642,9 @@
         "grade": 83
       }
     },
-    "summary": "Watch any Arizona State game and you'll see it within the first five plays: Iheanachor moves like no 325-pound tackle should be allowed to..."
+    "summary": "Watch any Arizona State game and you'll see it within the first five plays: Iheanachor moves like no 325-pound tackle should be allowed to...",
+    "draft_round": 1,
+    "draft_pick": 21
   },
   {
     "name": "Sam Hecht",
@@ -1735,11 +1797,11 @@
     "name": "Keylan Rutledge",
     "position": "OG",
     "school": "Georgia Tech",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 316,
     "height": "6-4",
     "forty": 5.05,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.6,
     "sources_count": 4,
     "rankings": {
@@ -1756,7 +1818,9 @@
         "grade": 81
       }
     },
-    "summary": "Rutledge's predraft process answered a lot of questions that the tape alone couldn't settle. The combine confirmed what his basketball and..."
+    "summary": "Rutledge's predraft process answered a lot of questions that the tape alone couldn't settle. The combine confirmed what his basketball and...",
+    "draft_round": 1,
+    "draft_pick": 26
   },
   {
     "name": "Josiah Trotter",

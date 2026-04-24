@@ -1,0 +1,290 @@
+[
+  {
+    "overall": 1,
+    "round": 1,
+    "pick": 1,
+    "team": "Las Vegas Raiders",
+    "name": "Fernando Mendoza",
+    "position": "QB",
+    "school": "Indiana"
+  },
+  {
+    "overall": 2,
+    "round": 1,
+    "pick": 2,
+    "team": "New York Jets",
+    "name": "David Bailey",
+    "position": "EDGE",
+    "school": "Texas Tech"
+  },
+  {
+    "overall": 3,
+    "round": 1,
+    "pick": 3,
+    "team": "Arizona Cardinals",
+    "name": "Jeremiyah Love",
+    "position": "RB",
+    "school": "Notre Dame"
+  },
+  {
+    "overall": 4,
+    "round": 1,
+    "pick": 4,
+    "team": "Tennessee Titans",
+    "name": "Carnell Tate",
+    "position": "WR",
+    "school": "Ohio State"
+  },
+  {
+    "overall": 5,
+    "round": 1,
+    "pick": 5,
+    "team": "New York Giants",
+    "name": "Arvell Reese",
+    "position": "EDGE",
+    "school": "Ohio State"
+  },
+  {
+    "overall": 6,
+    "round": 1,
+    "pick": 6,
+    "team": "Kansas City Chiefs",
+    "name": "Mansoor Delane",
+    "position": "CB",
+    "school": "LSU"
+  },
+  {
+    "overall": 7,
+    "round": 1,
+    "pick": 7,
+    "team": "Washington Commanders",
+    "name": "Sonny Styles",
+    "position": "LB",
+    "school": "Ohio State"
+  },
+  {
+    "overall": 8,
+    "round": 1,
+    "pick": 8,
+    "team": "New Orleans Saints",
+    "name": "Jordyn Tyson",
+    "position": "WR",
+    "school": "Arizona State"
+  },
+  {
+    "overall": 9,
+    "round": 1,
+    "pick": 9,
+    "team": "Cleveland Browns",
+    "name": "Spencer Fano",
+    "position": "OT",
+    "school": "Utah"
+  },
+  {
+    "overall": 10,
+    "round": 1,
+    "pick": 10,
+    "team": "New York Giants",
+    "name": "Francis Mauigoa",
+    "position": "OT",
+    "school": "Miami"
+  },
+  {
+    "overall": 11,
+    "round": 1,
+    "pick": 11,
+    "team": "Dallas Cowboys",
+    "name": "Caleb Downs",
+    "position": "S",
+    "school": "Ohio State"
+  },
+  {
+    "overall": 12,
+    "round": 1,
+    "pick": 12,
+    "team": "Miami Dolphins",
+    "name": "Kadyn Proctor",
+    "position": "OT",
+    "school": "Alabama"
+  },
+  {
+    "overall": 13,
+    "round": 1,
+    "pick": 13,
+    "team": "Los Angeles Rams",
+    "name": "Ty Simpson",
+    "position": "QB",
+    "school": "Alabama"
+  },
+  {
+    "overall": 14,
+    "round": 1,
+    "pick": 14,
+    "team": "Baltimore Ravens",
+    "name": "Olaivavega Ioane",
+    "position": "OG",
+    "school": "Penn State"
+  },
+  {
+    "overall": 15,
+    "round": 1,
+    "pick": 15,
+    "team": "Tampa Bay Buccaneers",
+    "name": "Rueben Bain Jr.",
+    "position": "EDGE",
+    "school": "Miami"
+  },
+  {
+    "overall": 16,
+    "round": 1,
+    "pick": 16,
+    "team": "New York Jets",
+    "name": "Kenyon Sadiq",
+    "position": "TE",
+    "school": "Oregon"
+  },
+  {
+    "overall": 17,
+    "round": 1,
+    "pick": 17,
+    "team": "Detroit Lions",
+    "name": "Blake Miller",
+    "position": "OT",
+    "school": "Clemson"
+  },
+  {
+    "overall": 18,
+    "round": 1,
+    "pick": 18,
+    "team": "Minnesota Vikings",
+    "name": "Caleb Banks",
+    "position": "DT",
+    "school": "Florida"
+  },
+  {
+    "overall": 19,
+    "round": 1,
+    "pick": 19,
+    "team": "Carolina Panthers",
+    "name": "Monroe Freeling",
+    "position": "OT",
+    "school": "Georgia"
+  },
+  {
+    "overall": 20,
+    "round": 1,
+    "pick": 20,
+    "team": "Philadelphia Eagles",
+    "name": "Makai Lemon",
+    "position": "WR",
+    "school": "USC"
+  },
+  {
+    "overall": 21,
+    "round": 1,
+    "pick": 21,
+    "team": "Pittsburgh Steelers",
+    "name": "Max Iheanachor",
+    "position": "OT",
+    "school": "Arizona State"
+  },
+  {
+    "overall": 22,
+    "round": 1,
+    "pick": 22,
+    "team": "Los Angeles Chargers",
+    "name": "Akeem Mesidor",
+    "position": "EDGE",
+    "school": "Miami"
+  },
+  {
+    "overall": 23,
+    "round": 1,
+    "pick": 23,
+    "team": "Dallas Cowboys",
+    "name": "Malachi Lawrence",
+    "position": "EDGE",
+    "school": "UCF"
+  },
+  {
+    "overall": 24,
+    "round": 1,
+    "pick": 24,
+    "team": "Cleveland Browns",
+    "name": "KC Concepcion",
+    "position": "WR",
+    "school": "Texas A&M"
+  },
+  {
+    "overall": 25,
+    "round": 1,
+    "pick": 25,
+    "team": "Chicago Bears",
+    "name": "Dillon Thieneman",
+    "position": "S",
+    "school": "Oregon"
+  },
+  {
+    "overall": 26,
+    "round": 1,
+    "pick": 26,
+    "team": "Houston Texans",
+    "name": "Keylan Rutledge",
+    "position": "OG",
+    "school": "Georgia Tech"
+  },
+  {
+    "overall": 27,
+    "round": 1,
+    "pick": 27,
+    "team": "Miami Dolphins",
+    "name": "Chris Johnson",
+    "position": "CB",
+    "school": "San Diego State"
+  },
+  {
+    "overall": 28,
+    "round": 1,
+    "pick": 28,
+    "team": "New England Patriots",
+    "name": "Caleb Lomu",
+    "position": "OT",
+    "school": "Utah"
+  },
+  {
+    "overall": 29,
+    "round": 1,
+    "pick": 29,
+    "team": "Kansas City Chiefs",
+    "name": "Peter Woods",
+    "position": "DT",
+    "school": "Clemson"
+  },
+  {
+    "overall": 30,
+    "round": 1,
+    "pick": 30,
+    "team": "New York Jets",
+    "name": "Omar Cooper Jr.",
+    "position": "WR",
+    "school": "Indiana"
+  },
+  {
+    "overall": 31,
+    "round": 1,
+    "pick": 31,
+    "team": "Tennessee Titans",
+    "name": "Keldric Faulk",
+    "position": "EDGE",
+    "school": "Auburn"
+  },
+  {
+    "overall": 32,
+    "round": 1,
+    "pick": 32,
+    "team": "Seattle Seahawks",
+    "name": "Jadarian Price",
+    "position": "RB",
+    "school": "Notre Dame"
+  }
+]

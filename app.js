@@ -125,27 +125,6 @@ async function getWikipediaUrl(playerName) {
 //   }
 // }
 
-// ─── Load Players from JSON ──────────────────────────────────
-async function loadPlayers() {
-  try {
-    const res = await fetch("./data/players.json");
-    players = await res.json();
-    window._players = players;
-    window.openBioModal = openBioModal;
-    window.getNflMockDraftUrl = getNflMockDraftUrl;
-    console.log("Loaded", players.length, "players");
-    calculateGrades();
-    renderTop30("ALL");
-    renderDraftBoard();
-    renderTeamGrades();
-  } catch (e) {
-    console.log(
-      "No player data loaded yet. Add your JSON file to data/players.json",
-      e,
-    );
-  }
-}
-
 // ─── Dropdown Event ──────────────────────────────────────────
 document.getElementById("positionSelect").addEventListener("change", (e) => {
   // Clear Search input
@@ -687,35 +666,36 @@ async function pollDraft() {
 }
 
 // ─── Start App ───────────────────────────────────────────────
-loadPlayers(); // <-- use this one when not testing with mock draft function
-//loadPlayers().then(() => testDraftBoard()); // ← use this one to run the test mock draft function
-const pollInterval = setInterval(pollDraft, 30000);
+async function loadPlayers() {
+  try {
+    const res = await fetch("./data/players.json");
+    players = await res.json();
+    window._players = players;
+    window.openBioModal = openBioModal;
+    window.getNflMockDraftUrl = getNflMockDraftUrl;
+    console.log("Loaded", players.length, "players");
+    calculateGrades();
 
-// --- TEMP DEBUG: Expose internals to console for learning ---
-const isDev = new URLSearchParams(window.location.search).has("dev");
+    // Build draftedPicks from players.json
+    draftedPicks = players
+      .filter((p) => p.drafted && p.draft_pick)
+      .sort((a, b) => a.draft_pick - b.draft_pick)
+      .map((p) => ({
+        overall: p.draft_pick,
+        round: p.draft_round,
+        pick: p.draft_pick,
+        team: p.team,
+        teamAbbrev: p.team,
+        playerName: p.name,
+      }));
 
-if (isDev) {
-  window.__app = {
-    get players() {
-      return players;
-    },
-    get draftedPicks() {
-      return draftedPicks;
-    },
-    draftPlayer(index) {
-      if (!players[index]) return console.warn("No player at index", index);
-      players[index].drafted = true;
-      renderTop30(document.getElementById("positionSelect").value);
-      console.log(`✅ Drafted: ${players[index].name}`);
-    },
-    resetDraft() {
-      players.forEach((p) => (p.drafted = false));
-      draftedPicks = [];
-      renderTop30("ALL");
-      renderDraftBoard();
-      renderTeamGrades();
-      console.log(`🔄 Draft reset`);
-    },
-  };
-  console.log(`🛠️ Dev mode active — window.__app available`);
+    renderTop30("ALL");
+    renderDraftBoard();
+    renderTeamGrades();
+  } catch (e) {
+    console.log("No player data loaded yet.", e);
+  }
 }
+
+loadPlayers();
+const pollInterval = setInterval(pollDraft, 30000);

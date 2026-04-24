@@ -3,193 +3,289 @@
     "overall": 1,
     "round": 1,
     "pick": 1,
-    "team": "Las Vegas Raiders"
+    "team": "Las Vegas Raiders",
+    "player": "Fernando Mendoza",
+    "position": "QB",
+    "school": "Indiana"
   },
   {
     "overall": 2,
     "round": 1,
     "pick": 2,
-    "team": "New York Jets"
+    "team": "New York Jets",
+    "player": "David Bailey",
+    "position": "EDGE",
+    "school": "Texas Tech"
   },
   {
     "overall": 3,
     "round": 1,
     "pick": 3,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Jeremiyah Love",
+    "position": "RB",
+    "school": "Notre Dame"
   },
   {
     "overall": 4,
     "round": 1,
     "pick": 4,
-    "team": "Tennessee Titans"
+    "team": "Tennessee Titans",
+    "player": "Carnell Tate",
+    "position": "WR",
+    "school": "Ohio State"
   },
   {
     "overall": 5,
     "round": 1,
     "pick": 5,
-    "team": "New York Giants"
+    "team": "New York Giants",
+    "player": "Arvell Reese",
+    "position": "EDGE",
+    "school": "Ohio State"
   },
   {
     "overall": 6,
     "round": 1,
     "pick": 6,
-    "team": "Cleveland Browns"
+    "team": "Kansas City Chiefs",
+    "player": "Mansoor Delane",
+    "position": "CB",
+    "school": "LSU"
   },
   {
     "overall": 7,
     "round": 1,
     "pick": 7,
-    "team": "Washington Commanders"
+    "team": "Washington Commanders",
+    "player": "Sonny Styles",
+    "position": "LB",
+    "school": "Ohio State"
   },
   {
     "overall": 8,
     "round": 1,
     "pick": 8,
-    "team": "New Orleans Saints"
+    "team": "New Orleans Saints",
+    "player": "Jordyn Tyson",
+    "position": "WR",
+    "school": "Arizona State"
   },
   {
     "overall": 9,
     "round": 1,
     "pick": 9,
-    "team": "Kansas City Chiefs"
+    "team": "Cleveland Browns",
+    "player": "Spencer Fano",
+    "position": "OT",
+    "school": "Utah"
   },
   {
     "overall": 10,
     "round": 1,
     "pick": 10,
-    "team": "New York Giants"
+    "team": "New York Giants",
+    "player": "Francis Mauigoa",
+    "position": "OT",
+    "school": "Miami"
   },
   {
     "overall": 11,
     "round": 1,
     "pick": 11,
-    "team": "Miami Dolphins"
+    "team": "Dallas Cowboys",
+    "player": "Caleb Downs",
+    "position": "S",
+    "school": "Ohio State"
   },
   {
     "overall": 12,
     "round": 1,
     "pick": 12,
-    "team": "Dallas Cowboys"
+    "team": "Miami Dolphins",
+    "player": "Kadyn Proctor",
+    "position": "OT",
+    "school": "Alabama"
   },
   {
     "overall": 13,
     "round": 1,
     "pick": 13,
-    "team": "Los Angeles Rams"
+    "team": "Los Angeles Rams",
+    "player": "Ty Simpson",
+    "position": "QB",
+    "school": "Alabama"
   },
   {
     "overall": 14,
     "round": 1,
     "pick": 14,
-    "team": "Baltimore Ravens"
+    "team": "Baltimore Ravens",
+    "player": "Olaivavega Ioane",
+    "position": "OG",
+    "school": "Penn State"
   },
   {
     "overall": 15,
     "round": 1,
     "pick": 15,
-    "team": "Tampa Bay Buccaneers"
+    "team": "Tampa Bay Buccaneers",
+    "player": "Rueben Bain Jr.",
+    "position": "EDGE",
+    "school": "Miami"
   },
   {
     "overall": 16,
     "round": 1,
     "pick": 16,
-    "team": "New York Jets"
+    "team": "New York Jets",
+    "player": "Kenyon Sadiq",
+    "position": "TE",
+    "school": "Oregon"
   },
   {
     "overall": 17,
     "round": 1,
     "pick": 17,
-    "team": "Detroit Lions"
+    "team": "Detroit Lions",
+    "player": "Blake Miller",
+    "position": "OT",
+    "school": "Clemson"
   },
   {
     "overall": 18,
     "round": 1,
     "pick": 18,
-    "team": "Minnesota Vikings"
+    "team": "Minnesota Vikings",
+    "player": "Caleb Banks",
+    "position": "DT",
+    "school": "Florida"
   },
   {
     "overall": 19,
     "round": 1,
     "pick": 19,
-    "team": "Carolina Panthers"
+    "team": "Carolina Panthers",
+    "player": "Monroe Freeling",
+    "position": "OT",
+    "school": "Georgia"
   },
   {
     "overall": 20,
     "round": 1,
     "pick": 20,
-    "team": "Dallas Cowboys"
+    "team": "Philadelphia Eagles",
+    "player": "Makai Lemon",
+    "position": "WR",
+    "school": "USC"
   },
   {
     "overall": 21,
     "round": 1,
     "pick": 21,
-    "team": "Pittsburgh Steelers"
+    "team": "Pittsburgh Steelers",
+    "player": "Max Iheanachor",
+    "position": "OT",
+    "school": "Arizona State"
   },
   {
     "overall": 22,
     "round": 1,
     "pick": 22,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Akeem Mesidor",
+    "position": "EDGE",
+    "school": "Miami"
   },
   {
     "overall": 23,
     "round": 1,
     "pick": 23,
-    "team": "Philadelphia Eagles"
+    "team": "Dallas Cowboys",
+    "player": "Malachi Lawrence",
+    "position": "EDGE",
+    "school": "UCF"
   },
   {
     "overall": 24,
     "round": 1,
     "pick": 24,
-    "team": "Cleveland Browns"
+    "team": "Cleveland Browns",
+    "player": "KC Concepcion",
+    "position": "WR",
+    "school": "Texas A&M"
   },
   {
     "overall": 25,
     "round": 1,
     "pick": 25,
-    "team": "Chicago Bears"
+    "team": "Chicago Bears",
+    "player": "Dillon Thieneman",
+    "position": "S",
+    "school": "Oregon"
   },
   {
     "overall": 26,
     "round": 1,
     "pick": 26,
-    "team": "Buffalo Bills"
+    "team": "Houston Texans",
+    "player": "Keylan Rutledge",
+    "position": "OG",
+    "school": "Georgia Tech"
   },
   {
     "overall": 27,
     "round": 1,
     "pick": 27,
-    "team": "San Francisco 49ers"
+    "team": "Miami Dolphins",
+    "player": "Chris Johnson",
+    "position": "CB",
+    "school": "San Diego State"
   },
   {
     "overall": 28,
     "round": 1,
     "pick": 28,
-    "team": "Houston Texans"
+    "team": "New England Patriots",
+    "player": "Caleb Lomu",
+    "position": "OT",
+    "school": "Utah"
   },
   {
     "overall": 29,
     "round": 1,
     "pick": 29,
-    "team": "Kansas City Chiefs"
+    "team": "Kansas City Chiefs",
+    "player": "Peter Woods",
+    "position": "DT",
+    "school": "Clemson"
   },
   {
     "overall": 30,
     "round": 1,
     "pick": 30,
-    "team": "Miami Dolphins"
+    "team": "New York Jets",
+    "player": "Omar Cooper Jr.",
+    "position": "WR",
+    "school": "Indiana"
   },
   {
     "overall": 31,
     "round": 1,
     "pick": 31,
-    "team": "New England Patriots"
+    "team": "Tennessee Titans",
+    "player": "Keldric Faulk",
+    "position": "EDGE",
+    "school": "Auburn"
   },
   {
     "overall": 32,
     "round": 1,
     "pick": 32,
-    "team": "Seattle Seahawks"
+    "team": "Seattle Seahawks",
+    "player": "Jadarian Price",
+    "position": "RB",
+    "school": "Notre Dame"
   },
   {
     "overall": 33,
