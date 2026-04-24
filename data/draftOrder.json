@@ -327,7 +327,10 @@
     "overall": 37,
     "round": 2,
     "pick": 5,
-    "team": "New York Giants"
+    "team": "New York Giants",
+    "player": "Colton Hood",
+    "position": "CB",
+    "school": "Tennessee"
   },
   {
     "overall": 38,

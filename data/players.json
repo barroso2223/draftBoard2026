@@ -938,11 +938,11 @@
     "name": "Colton Hood",
     "position": "CB",
     "school": "Tennessee",
-    "team": "",
+    "team": "New York Giants",
     "weight": 193,
     "height": "6-0",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.3,
     "sources_count": 4,
     "rankings": {
@@ -959,7 +959,9 @@
         "grade": 88
       }
     },
-    "summary": "Hood's best football is played within ten yards of the line, where his press technique, jam strength, and diagnostic ability combine to..."
+    "summary": "Hood's best football is played within ten yards of the line, where his press technique, jam strength, and diagnostic ability combine to...",
+    "draft_round": 2,
+    "draft_pick": 37
   },
   {
     "name": "Emmanuel Pregnon",
