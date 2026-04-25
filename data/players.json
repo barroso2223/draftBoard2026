@@ -3866,11 +3866,11 @@
     "name": "Dametrious Crownover",
     "position": "OT",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 319,
     "height": "6-7",
     "forty": 5.14,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.5,
     "sources_count": 4,
     "rankings": {
@@ -3887,7 +3887,9 @@
         "grade": 76
       }
     },
-    "summary": "Crownover is one of the more fascinating developmental tackles in this class because the physical tools are legitimately rare. You do..."
+    "summary": "Crownover is one of the more fascinating developmental tackles in this class because the physical tools are legitimately rare. You do...",
+    "draft_round": 6,
+    "draft_pick": 196
   },
   {
     "name": "Rahsul Faison",
