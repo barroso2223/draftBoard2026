@@ -8575,11 +8575,11 @@
     "name": "Jam Miller",
     "position": "RB",
     "school": "Alabama",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 209,
     "height": "5-10",
     "forty": 4.42,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 65.7,
     "sources_count": 3,
     "rankings": {
@@ -8593,7 +8593,9 @@
         "grade": 71
       }
     },
-    "summary": "Miller's calling card is pretty simple: he is a downhill, physical runner who gets behind his pads and punishes people between the..."
+    "summary": "Miller's calling card is pretty simple: he is a downhill, physical runner who gets behind his pads and punishes people between the...",
+    "draft_round": 7,
+    "draft_pick": 245
   },
   {
     "name": "Trey Holly",
