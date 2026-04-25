@@ -12023,18 +12023,20 @@
     "name": "Jordan Van Den Berg",
     "position": "DT",
     "school": "Georgia Tech",
-    "team": "",
+    "team": "Detroit Lions",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 49,
     "sources_count": 1,
     "rankings": {
       "bleacher": {
         "grade": 59
       }
-    }
+    },
+    "draft_round": 6,
+    "draft_pick": 213
   },
   {
     "name": "Ryan Niblett",
