@@ -5288,11 +5288,11 @@
     "name": "Anez Cooper",
     "position": "OG",
     "school": "Miami",
-    "team": "",
+    "team": "Seattle Seahawks",
     "weight": 334,
     "height": "6-6",
     "forty": 5.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.3,
     "sources_count": 4,
     "rankings": {
@@ -5309,7 +5309,9 @@
         "grade": 73
       }
     },
-    "summary": "Four years of starting experience at a Power Four program, over 1,700 pass-blocking reps, and a pressure rate that held up against..."
+    "summary": "Four years of starting experience at a Power Four program, over 1,700 pass-blocking reps, and a pressure rate that held up against...",
+    "draft_round": 6,
+    "draft_pick": 188
   },
   {
     "name": "Ephesians Prysock",
