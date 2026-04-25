@@ -11180,11 +11180,11 @@
     "name": "Jager Burton",
     "position": "C",
     "school": "Kentucky",
-    "team": "",
+    "team": "Green Bay Packers",
     "weight": 312,
     "height": "6-4",
     "forty": 4.94,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 56.9,
     "sources_count": 1,
     "rankings": {
@@ -11192,7 +11192,9 @@
         "rating": 66.9
       }
     },
-    "summary": "Coordinated when moving to the second level as a run blocker, capable of landing blocks on the move. Adequate foot quickness to remain..."
+    "summary": "Coordinated when moving to the second level as a run blocker, capable of landing blocks on the move. Adequate foot quickness to remain...",
+    "draft_round": 5,
+    "draft_pick": 153
   },
   {
     "name": "Jaylin Davies",
