@@ -1929,13 +1929,19 @@
     "overall": 215,
     "round": 6,
     "pick": 34,
-    "team": "Atlanta Falcons"
+    "team": "Atlanta Falcons",
+    "player": "Harold Perkins Jr.",
+    "position": "LB",
+    "school": "LSU"
   },
   {
     "overall": 216,
     "round": 6,
     "pick": 35,
-    "team": "Seattle Seahawks"
+    "team": "Green Bay Packers",
+    "player": "Trey Smack",
+    "position": "K",
+    "school": "Florida"
   },
   {
     "overall": 217,

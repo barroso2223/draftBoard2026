@@ -4005,11 +4005,11 @@
     "name": "Harold Perkins Jr.",
     "position": "LB",
     "school": "LSU",
-    "team": "",
+    "team": "Atlanta Falcons",
     "weight": 223,
     "height": "6-1",
     "forty": 4.45,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.1,
     "sources_count": 4,
     "rankings": {
@@ -4026,7 +4026,9 @@
         "grade": 80
       }
     },
-    "summary": "The challenge with Perkins is reconciling what he was as a freshman with what he has been since. That 2022 season was special, a true..."
+    "summary": "The challenge with Perkins is reconciling what he was as a freshman with what he has been since. That 2022 season was special, a true...",
+    "draft_round": 6,
+    "draft_pick": 215
   },
   {
     "name": "Keyshaun Elliott",
