@@ -3902,11 +3902,11 @@
     "name": "Emmett Johnson",
     "position": "RB",
     "school": "Nebraska",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 202,
     "height": "5-10",
     "forty": 4.56,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.4,
     "sources_count": 4,
     "rankings": {
@@ -3923,7 +3923,9 @@
         "grade": 81
       }
     },
-    "summary": "Johnson's lateral agility is genuinely special, and when you combine that with his vision, patience, and burst, you have a back who can..."
+    "summary": "Johnson's lateral agility is genuinely special, and when you combine that with his vision, patience, and burst, you have a back who can...",
+    "draft_round": 5,
+    "draft_pick": 161
   },
   {
     "name": "Carson Beck",
