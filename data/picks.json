@@ -655,5 +655,14 @@
     "name": "Oscar Delp",
     "position": "TE",
     "school": "Georgia"
+  },
+  {
+    "overall": 74,
+    "round": 3,
+    "pick": 10,
+    "team": "Cleveland Browns",
+    "name": "Malachi Fields",
+    "position": "WR",
+    "school": "Notre Dame"
   }
 ]

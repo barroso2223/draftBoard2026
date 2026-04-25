@@ -1761,11 +1761,11 @@
     "name": "Malachi Fields",
     "position": "WR",
     "school": "Notre Dame",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 218,
     "height": "6-4",
     "forty": 4.61,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.2,
     "sources_count": 4,
     "rankings": {
@@ -1782,7 +1782,9 @@
         "grade": 82
       }
     },
-    "summary": "Fields is a throwback in a lot of ways. In a league that keeps chasing speed and separation, he wins the old-fashioned way: by being..."
+    "summary": "Fields is a throwback in a lot of ways. In a league that keeps chasing speed and separation, he wins the old-fashioned way: by being...",
+    "draft_round": 3,
+    "draft_pick": 74
   },
   {
     "name": "Keyron Crawford",

@@ -660,7 +660,10 @@
     "overall": 74,
     "round": 3,
     "pick": 10,
-    "team": "Cleveland Browns"
+    "team": "Cleveland Browns",
+    "player": "Malachi Fields",
+    "position": "WR",
+    "school": "Notre Dame"
   },
   {
     "overall": 75,
