@@ -5445,11 +5445,11 @@
     "name": "Cole Payton",
     "position": "QB",
     "school": "North Dakota State",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": 232,
     "height": "6-3",
     "forty": 4.56,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71,
     "sources_count": 4,
     "rankings": {
@@ -5466,7 +5466,9 @@
         "grade": 78
       }
     },
-    "summary": "Payton is not a plug-and-play starter. Anyone who watched the film and came away thinking otherwise is fooling themselves. This is a..."
+    "summary": "Payton is not a plug-and-play starter. Anyone who watched the film and came away thinking otherwise is fooling themselves. This is a...",
+    "draft_round": 5,
+    "draft_pick": 178
   },
   {
     "name": "Bobby Jamison-Trav...",
