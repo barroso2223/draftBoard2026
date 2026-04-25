@@ -586,11 +586,11 @@
     "name": "Zion Young",
     "position": "EDGE",
     "school": "Missouri",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 262,
     "height": "6-6",
     "forty": 4.75,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.9,
     "sources_count": 3,
     "rankings": {
@@ -604,7 +604,9 @@
         "grade": 86
       }
     },
-    "summary": "Young's tape at Missouri tells the story of a player whose impact on the game goes well beyond what the box score captures. The sack..."
+    "summary": "Young's tape at Missouri tells the story of a player whose impact on the game goes well beyond what the box score captures. The sack...",
+    "draft_round": 2,
+    "draft_pick": 45
   },
   {
     "name": "T.J. Parker",

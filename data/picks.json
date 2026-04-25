@@ -394,5 +394,14 @@
     "name": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan"
+  },
+  {
+    "overall": 45,
+    "round": 2,
+    "pick": 13,
+    "team": "Baltimore Ravens",
+    "name": "Zion Young",
+    "position": "EDGE",
+    "school": "Missouri"
   }
 ]
