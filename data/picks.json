@@ -781,5 +781,14 @@
     "name": "Will Kacmarek",
     "position": "TE",
     "school": "Ohio St."
+  },
+  {
+    "overall": 88,
+    "round": 3,
+    "pick": 24,
+    "team": "Jacksonville Jaguars",
+    "name": "Emmanuel Pregnon",
+    "position": "OG",
+    "school": "Oregon"
   }
 ]

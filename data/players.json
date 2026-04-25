@@ -981,11 +981,11 @@
     "name": "Emmanuel Pregnon",
     "position": "OG",
     "school": "Oregon",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 314,
     "height": "6-4",
     "forty": 5.21,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.2,
     "sources_count": 4,
     "rankings": {
@@ -1002,7 +1002,9 @@
         "grade": 92
       }
     },
-    "summary": "The combine did exactly what Pregnon needed it to do. His tape already told the story of a powerful, reliable interior blocker, but the..."
+    "summary": "The combine did exactly what Pregnon needed it to do. His tape already told the story of a powerful, reliable interior blocker, but the...",
+    "draft_round": 3,
+    "draft_pick": 88
   },
   {
     "name": "Caleb Banks",
