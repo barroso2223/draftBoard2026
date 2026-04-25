@@ -26,7 +26,7 @@ function normName(name) {
     .toLowerCase()
     .trim()
     .replace(/\s+/g, " ")
-    .replace(/[.']/g, "");
+    .replace(/[.'’]/g, "");
 }
 
 function findPlayer(name, position, school) {
