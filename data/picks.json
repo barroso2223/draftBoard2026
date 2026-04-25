@@ -318,17 +318,10 @@
     "overall": 36,
     "round": 2,
     "pick": 4,
-<<<<<<< HEAD
     "team": "Houston Texans",
     "name": "Kayden McDonald",
     "position": "DT",
     "school": "Ohio State"
-=======
-    "team": "Las Vegas Raiders",
-    "name": "Kayden McDonald",
-    "position": "DT",
-    "school": "Ohio St."
->>>>>>> cfd3eaa96a586d49e3c34155dc59609ee0cb019f
   },
   {
     "overall": 37,
@@ -343,15 +336,9 @@
     "overall": 38,
     "round": 2,
     "pick": 6,
-<<<<<<< HEAD
     "team": "Las Vegas Raiders",
     "name": "Treydan Stukes",
     "position": "S",
-=======
-    "team": "Houston Texans",
-    "name": "Treydan Stukes",
-    "position": "CB",
->>>>>>> cfd3eaa96a586d49e3c34155dc59609ee0cb019f
     "school": "Arizona"
   },
   {
@@ -394,11 +381,7 @@
     "overall": 43,
     "round": 2,
     "pick": 11,
-<<<<<<< HEAD
     "team": "Baltimore Ravens",
-=======
-    "team": "Miami Dolphins",
->>>>>>> cfd3eaa96a586d49e3c34155dc59609ee0cb019f
     "name": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech"
@@ -407,11 +390,7 @@
     "overall": 44,
     "round": 2,
     "pick": 12,
-<<<<<<< HEAD
     "team": "Detroit Lions",
-=======
-    "team": "New York Jets",
->>>>>>> cfd3eaa96a586d49e3c34155dc59609ee0cb019f
     "name": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan"
@@ -424,44 +403,5 @@
     "name": "Zion Young",
     "position": "EDGE",
     "school": "Missouri"
-<<<<<<< HEAD
-=======
-  },
-  {
-    "overall": 46,
-    "round": 2,
-    "pick": 14,
-    "team": "Tampa Bay Buccaneers",
-    "name": "Josiah Trotter",
-    "position": "LB",
-    "school": "Missouri"
-  },
-  {
-    "overall": 47,
-    "round": 2,
-    "pick": 15,
-    "team": "Indianapolis Colts",
-    "name": "Germie Bernard",
-    "position": "WR",
-    "school": "Alabama"
-  },
-  {
-    "overall": 48,
-    "round": 2,
-    "pick": 16,
-    "team": "Atlanta Falcons",
-    "name": "Avieon Terrell",
-    "position": "CB",
-    "school": "Clemson"
-  },
-  {
-    "overall": 49,
-    "round": 2,
-    "pick": 17,
-    "team": "Minnesota Vikings",
-    "name": "Lee Hunter",
-    "position": "DT",
-    "school": "Texas Tech"
->>>>>>> cfd3eaa96a586d49e3c34155dc59609ee0cb019f
   }
 ]
