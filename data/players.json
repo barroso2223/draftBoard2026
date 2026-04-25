@@ -2271,11 +2271,11 @@
     "name": "Antonio Williams",
     "position": "WR",
     "school": "Clemson",
-    "team": "",
+    "team": "Washington Commanders",
     "weight": 187,
     "height": "6-0",
     "forty": 4.41,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.5,
     "sources_count": 4,
     "rankings": {
@@ -2292,7 +2292,9 @@
         "grade": 80
       }
     },
-    "summary": "Williams is a slot receiver. That is his position in the NFL and there is no reason to overthink it. He wins from the inside with craft,..."
+    "summary": "Williams is a slot receiver. That is his position in the NFL and there is no reason to overthink it. He wins from the inside with craft,...",
+    "draft_round": 3,
+    "draft_pick": 71
   },
   {
     "name": "Ted Hurst",

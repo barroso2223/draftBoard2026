@@ -633,7 +633,10 @@
     "overall": 71,
     "round": 3,
     "pick": 7,
-    "team": "Washington Commanders"
+    "team": "Washington Commanders",
+    "player": "Antonio Williams",
+    "position": "WR",
+    "school": "Clemson"
   },
   {
     "overall": 72,
