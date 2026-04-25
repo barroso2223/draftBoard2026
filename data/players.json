@@ -8914,11 +8914,11 @@
     "name": "Namdi Obiazor",
     "position": "LB",
     "school": "TCU",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 229,
     "height": "6-3",
     "forty": 4.53,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 65,
     "sources_count": 3,
     "rankings": {
@@ -8932,7 +8932,9 @@
         "grade": 76
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 6,
+    "draft_pick": 212
   },
   {
     "name": "Isaiah World",
