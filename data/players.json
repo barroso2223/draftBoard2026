@@ -5993,11 +5993,11 @@
     "name": "Seth McGowan",
     "position": "RB",
     "school": "Kentucky",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 223,
     "height": "6-0",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.1,
     "sources_count": 3,
     "rankings": {
@@ -6011,7 +6011,9 @@
         "grade": 78
       }
     },
-    "summary": "The film on McGowan tells a clear story: this is a runner who sees it, trusts it, and hits it. Between the tackles in man and power..."
+    "summary": "The film on McGowan tells a clear story: this is a runner who sees it, trusts it, and hits it. Between the tackles in man and power...",
+    "draft_round": 7,
+    "draft_pick": 237
   },
   {
     "name": "Kevin Coleman Jr.",
