@@ -2113,11 +2113,11 @@
     "name": "Zakee Wheatley",
     "position": "S",
     "school": "Penn State",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 203,
     "height": "6-3",
     "forty": 4.62,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.9,
     "sources_count": 4,
     "rankings": {
@@ -2134,7 +2134,9 @@
         "grade": 81
       }
     },
-    "summary": "Wheatley's best fit at the next level is as a free safety in a defense that values range and coverage ability over box physicality. His..."
+    "summary": "Wheatley's best fit at the next level is as a free safety in a defense that values range and coverage ability over box physicality. His...",
+    "draft_round": 5,
+    "draft_pick": 151
   },
   {
     "name": "Bud Clark",
