@@ -1788,7 +1788,10 @@
     "overall": 200,
     "round": 6,
     "pick": 19,
-    "team": "Carolina Panthers"
+    "team": "Carolina Panthers",
+    "player": "Dj Campbell",
+    "position": "OG",
+    "school": "Texas"
   },
   {
     "overall": 201,

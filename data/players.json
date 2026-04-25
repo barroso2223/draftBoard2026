@@ -4138,11 +4138,11 @@
     "name": "DJ Campbell",
     "position": "OG",
     "school": "Texas",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 313,
     "height": "6-3",
     "forty": 5.01,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.8,
     "sources_count": 3,
     "rankings": {
@@ -4156,7 +4156,9 @@
         "grade": 79
       }
     },
-    "summary": "Campbell belongs in a gap-heavy offense where he can stay square and work in tight quarters. That's where his tape looks best. Watch him..."
+    "summary": "Campbell belongs in a gap-heavy offense where he can stay square and work in tight quarters. That's where his tape looks best. Watch him...",
+    "draft_round": 6,
+    "draft_pick": 200
   },
   {
     "name": "Tacario Davis",
