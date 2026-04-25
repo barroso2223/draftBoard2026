@@ -2283,7 +2283,10 @@
     "overall": 255,
     "round": 7,
     "pick": 39,
-    "team": "Green Bay Packers"
+    "team": "Green Bay Packers",
+    "player": "Michael Dansby",
+    "position": "DB",
+    "school": "Arizona"
   },
   {
     "overall": 256,
