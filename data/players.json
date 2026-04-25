@@ -2005,11 +2005,11 @@
     "name": "Germie Bernard",
     "position": "WR",
     "school": "Alabama",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 206,
     "height": "6-1",
     "forty": 4.48,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80,
     "sources_count": 4,
     "rankings": {
@@ -2026,7 +2026,9 @@
         "grade": 80
       }
     },
-    "summary": "Bernard is the kind of receiver who is going to make a quarterback's life easier from Day 1. He knows where to be, he knows when to be..."
+    "summary": "Bernard is the kind of receiver who is going to make a quarterback's life easier from Day 1. He knows where to be, he knows when to be...",
+    "draft_round": 2,
+    "draft_pick": 47
   },
   {
     "name": "Max Klare",
