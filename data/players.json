@@ -6479,11 +6479,11 @@
     "name": "Micah Morris",
     "position": "OG",
     "school": "Georgia",
-    "team": "",
+    "team": "Los Angeles Rams",
     "weight": 334,
     "height": "6-5",
     "forty": 5.09,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69.3,
     "sources_count": 3,
     "rankings": {
@@ -6497,7 +6497,9 @@
         "grade": 73
       }
     },
-    "summary": "Built like a prototypical NFL guard with natural power and mauler mentality in the run game. Shows flashes of dominance when asked to dig..."
+    "summary": "Built like a prototypical NFL guard with natural power and mauler mentality in the run game. Shows flashes of dominance when asked to dig...",
+    "draft_round": 6,
+    "draft_pick": 207
   },
   {
     "name": "Matt Gulbin",
