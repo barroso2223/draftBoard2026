@@ -435,7 +435,10 @@
     "overall": 49,
     "round": 2,
     "pick": 17,
-    "team": "Minnesota Vikings"
+    "team": "Minnesota Vikings",
+    "player": "Lee Hunter",
+    "position": "DT",
+    "school": "Texas Tech"
   },
   {
     "overall": 50,

@@ -1794,11 +1794,11 @@
     "name": "Lee Hunter",
     "position": "DT",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 318,
     "height": "6-4",
     "forty": 5.18,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.8,
     "sources_count": 4,
     "rankings": {
@@ -1815,7 +1815,9 @@
         "grade": 81
       }
     },
-    "summary": "Hunter is a run-stuffing nose tackle, and there is no reason to pretend the projection is anything more complicated than that. What he..."
+    "summary": "Hunter is a run-stuffing nose tackle, and there is no reason to pretend the projection is anything more complicated than that. What he...",
+    "draft_round": 2,
+    "draft_pick": 49
   },
   {
     "name": "Keylan Rutledge",

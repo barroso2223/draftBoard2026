@@ -430,5 +430,14 @@
     "name": "Avieon Terrell",
     "position": "CB",
     "school": "Clemson"
+  },
+  {
+    "overall": 49,
+    "round": 2,
+    "pick": 17,
+    "team": "Minnesota Vikings",
+    "name": "Lee Hunter",
+    "position": "DT",
+    "school": "Texas Tech"
   }
 ]
