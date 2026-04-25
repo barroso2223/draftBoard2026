@@ -511,5 +511,14 @@
     "name": "Logan Jones",
     "position": "C",
     "school": "Iowa"
+  },
+  {
+    "overall": 58,
+    "round": 2,
+    "pick": 26,
+    "team": "San Francisco 49ers",
+    "name": "Emmanuel McNeil-Warren",
+    "position": "S",
+    "school": "Toledo"
   }
 ]

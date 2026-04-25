@@ -536,11 +536,11 @@
     "name": "Emmanuel McNeil-Warren",
     "position": "S",
     "school": "Toledo",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 86,
     "sources_count": 3,
     "rankings": {
@@ -553,7 +553,9 @@
       "scouting": {
         "grade": 91
       }
-    }
+    },
+    "draft_round": 2,
+    "draft_pick": 58
   },
   {
     "name": "Jermod McCoy",
