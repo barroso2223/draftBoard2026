@@ -6702,11 +6702,11 @@
     "name": "Dallen Bentley",
     "position": "TE",
     "school": "Utah",
-    "team": "",
+    "team": "Denver Broncos",
     "weight": 253,
     "height": "6-4",
     "forty": 4.62,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.8,
     "sources_count": 4,
     "rankings": {
@@ -6723,7 +6723,9 @@
         "grade": 80
       }
     },
-    "summary": "Bentley's film tells the story of a late bloomer who maximized a long-awaited opportunity. The receiving production in 2025 was..."
+    "summary": "Bentley's film tells the story of a late bloomer who maximized a long-awaited opportunity. The receiving production in 2025 was...",
+    "draft_round": 7,
+    "draft_pick": 256
   },
   {
     "name": "Eric O'Neill",

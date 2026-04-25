@@ -2292,7 +2292,10 @@
     "overall": 256,
     "round": 7,
     "pick": 40,
-    "team": "Denver Broncos"
+    "team": "Denver Broncos",
+    "player": "Dallen Bentley",
+    "position": "TE",
+    "school": "Utah"
   },
   {
     "overall": 257,

@@ -2275,5 +2275,14 @@
     "name": "Michael Dansby",
     "position": "DB",
     "school": "Arizona"
+  },
+  {
+    "overall": 256,
+    "round": 7,
+    "pick": 40,
+    "team": "Denver Broncos",
+    "name": "Dallen Bentley",
+    "position": "TE",
+    "school": "Utah"
   }
 ]
