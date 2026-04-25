@@ -1501,5 +1501,14 @@
     "name": "Joe Royer",
     "position": "TE",
     "school": "Cincinnati"
+  },
+  {
+    "overall": 171,
+    "round": 5,
+    "pick": 31,
+    "team": "New England Patriots",
+    "name": "Karon Prunty",
+    "position": "DB",
+    "school": "Wake Forest"
   }
 ]

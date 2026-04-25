@@ -10772,11 +10772,11 @@
     "name": "Karon Prunty",
     "position": "CB",
     "school": "Wake Forest",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 192,
     "height": "6-2",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 60.6,
     "sources_count": 1,
     "rankings": {
@@ -10784,7 +10784,9 @@
         "rating": 70.6
       }
     },
-    "summary": "Has the change-of-direction ability to mirror underneath but did solid work out of press and off coverage. Alert defender for zone..."
+    "summary": "Has the change-of-direction ability to mirror underneath but did solid work out of press and off coverage. Alert defender for zone...",
+    "draft_round": 5,
+    "draft_pick": 171
   },
   {
     "name": "Sav'ell Smalls",
