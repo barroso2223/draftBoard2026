@@ -1596,11 +1596,11 @@
     "name": "Mike Washington Jr.",
     "position": "RB",
     "school": "Arkansas",
-    "team": "",
+    "team": "Atlanta Falcons",
     "weight": 223,
     "height": "6-1",
     "forty": 4.33,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.7,
     "sources_count": 4,
     "rankings": {
@@ -1617,7 +1617,9 @@
         "grade": 85
       }
     },
-    "summary": "Washington is a difficult evaluation because the tools are so loud but the full picture still has some rough edges. The speed is absurd for..."
+    "summary": "Washington is a difficult evaluation because the tools are so loud but the full picture still has some rough edges. The speed is absurd for...",
+    "draft_round": 4,
+    "draft_pick": 122
   },
   {
     "name": "Jake Slaughter",
