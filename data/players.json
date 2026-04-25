@@ -2854,11 +2854,11 @@
     "name": "Chandler Rivers",
     "position": "CB",
     "school": "Duke",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 185,
     "height": "5-10",
     "forty": 4.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 77.4,
     "sources_count": 4,
     "rankings": {
@@ -2875,7 +2875,9 @@
         "grade": 84
       }
     },
-    "summary": "Rivers fits best as an inside cornerback at the next level. His frame and arm length will make it tough to hold up consistently on the..."
+    "summary": "Rivers fits best as an inside cornerback at the next level. His frame and arm length will make it tough to hold up consistently on the...",
+    "draft_round": 5,
+    "draft_pick": 162
   },
   {
     "name": "Jalon Daniels",

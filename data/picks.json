@@ -1420,5 +1420,14 @@
     "name": "Emmett Johnson",
     "position": "RB",
     "school": "Nebraska"
+  },
+  {
+    "overall": 162,
+    "round": 5,
+    "pick": 22,
+    "team": "Baltimore Ravens",
+    "name": "Chandler Rivers",
+    "position": "CB",
+    "school": "Duke"
   }
 ]
