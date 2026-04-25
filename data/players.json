@@ -2054,11 +2054,11 @@
     "name": "Max Klare",
     "position": "TE",
     "school": "Ohio State",
-    "team": "",
+    "team": "Los Angeles Rams",
     "weight": 246,
     "height": "6-4",
     "forty": 4.7,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80,
     "sources_count": 4,
     "rankings": {
@@ -2075,7 +2075,9 @@
         "grade": 78
       }
     },
-    "summary": "Klare is a pass-catching tight end first, and his NFL value will be defined by how quickly an offense can get creative with his alignments...."
+    "summary": "Klare is a pass-catching tight end first, and his NFL value will be defined by how quickly an offense can get creative with his alignments....",
+    "draft_round": 2,
+    "draft_pick": 61
   },
   {
     "name": "Zakee Wheatley",
