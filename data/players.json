@@ -7679,11 +7679,11 @@
     "name": "Will Kacmarek",
     "position": "TE",
     "school": "Ohio State",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 261,
     "height": "6-6",
     "forty": 4.74,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67,
     "sources_count": 4,
     "rankings": {
@@ -7700,7 +7700,9 @@
         "grade": 73
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 3,
+    "draft_pick": 87
   },
   {
     "name": "Avery Smith",
