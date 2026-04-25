@@ -6095,11 +6095,11 @@
     "name": "Deven Eastern",
     "position": "DT",
     "school": "Minnesota",
-    "team": "",
+    "team": "New York Jets",
     "weight": 315,
     "height": "6-5",
     "forty": 5.15,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70,
     "sources_count": 3,
     "rankings": {
@@ -6113,7 +6113,9 @@
         "grade": 75
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 7,
+    "draft_pick": 242
   },
   {
     "name": "Francis Mauigoa",
