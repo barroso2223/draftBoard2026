@@ -4266,11 +4266,11 @@
     "name": "Josh Cameron",
     "position": "WR",
     "school": "Baylor",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 220,
     "height": "6-2",
     "forty": 4.65,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.6,
     "sources_count": 4,
     "rankings": {
@@ -4287,7 +4287,9 @@
         "grade": 76
       }
     },
-    "summary": "Cameron is not going to be the guy who takes the top off a defense or runs away from anyone in the open field. That much is obvious..."
+    "summary": "Cameron is not going to be the guy who takes the top off a defense or runs away from anyone in the open field. That much is obvious...",
+    "draft_round": 6,
+    "draft_pick": 191
   },
   {
     "name": "Jaylon Guilbeau",
