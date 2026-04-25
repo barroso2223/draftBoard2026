@@ -6115,11 +6115,11 @@
     "name": "Kaleb Elarms-Orr",
     "position": "LB",
     "school": "TCU",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 234,
     "height": "6-2",
     "forty": 4.47,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69.8,
     "sources_count": 4,
     "rankings": {
@@ -6136,7 +6136,9 @@
         "grade": 79
       }
     },
-    "summary": "There is a real football player in Elarms-Orr, but the tape tells you he is not a three-down starter at the next level right now...."
+    "summary": "There is a real football player in Elarms-Orr, but the tape tells you he is not a three-down starter at the next level right now....",
+    "draft_round": 4,
+    "draft_pick": 126
   },
   {
     "name": "Terion Stewart",

@@ -1123,5 +1123,14 @@
     "name": "Skyler Bell",
     "position": "WR",
     "school": "Connecticut"
+  },
+  {
+    "overall": 126,
+    "round": 4,
+    "pick": 26,
+    "team": "Buffalo Bills",
+    "name": "Kaleb Elarms-Orr",
+    "position": "LB",
+    "school": "Tcu"
   }
 ]
