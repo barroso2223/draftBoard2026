@@ -2402,11 +2402,11 @@
     "name": "Romello Height",
     "position": "EDGE",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 239,
     "height": "6-3",
     "forty": 4.64,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79,
     "sources_count": 3,
     "rankings": {
@@ -2420,7 +2420,9 @@
         "grade": 83
       }
     },
-    "summary": "Height profiles as a situational pass rusher who can contribute immediately on third downs while developing the strength and technique to..."
+    "summary": "Height profiles as a situational pass rusher who can contribute immediately on third downs while developing the strength and technique to...",
+    "draft_round": 3,
+    "draft_pick": 70
   },
   {
     "name": "Jalon Kilgore",
