@@ -3719,11 +3719,11 @@
     "name": "Carver Willis",
     "position": "OT",
     "school": "Washington",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 303,
     "height": "6-5",
     "forty": 5.11,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.8,
     "sources_count": 2,
     "rankings": {
@@ -3734,7 +3734,9 @@
         "grade": 71
       }
     },
-    "summary": "Willis brings real value as a versatile interior lineman who can back up multiple positions and compete for a starting guard spot in a..."
+    "summary": "Willis brings real value as a versatile interior lineman who can back up multiple positions and compete for a starting guard spot in a...",
+    "draft_round": 4,
+    "draft_pick": 127
   },
   {
     "name": "Dani Dennis-Sutto...",

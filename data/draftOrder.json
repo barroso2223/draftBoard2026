@@ -1137,7 +1137,10 @@
     "overall": 127,
     "round": 4,
     "pick": 27,
-    "team": "San Francisco 49ers"
+    "team": "San Francisco 49ers",
+    "player": "Carver Willis",
+    "position": "OT",
+    "school": "Washington"
   },
   {
     "overall": 128,
