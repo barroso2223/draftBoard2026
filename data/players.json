@@ -638,11 +638,11 @@
     "name": "Avieon Terrell",
     "position": "CB",
     "school": "Clemson",
-    "team": "",
+    "team": "Atlanta Falcons",
     "weight": 186,
     "height": "5-11",
     "forty": 4.39,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.5,
     "sources_count": 4,
     "rankings": {
@@ -659,7 +659,9 @@
         "grade": 87
       }
     },
-    "summary": "Terrell is a starting caliber NFL corner who should contribute from day one. His combination of elite ball skills, fluid athleticism, and..."
+    "summary": "Terrell is a starting caliber NFL corner who should contribute from day one. His combination of elite ball skills, fluid athleticism, and...",
+    "draft_round": 2,
+    "draft_pick": 48
   },
   {
     "name": "Monroe Freeling",

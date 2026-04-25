@@ -421,5 +421,14 @@
     "name": "Germie Bernard",
     "position": "WR",
     "school": "Alabama"
+  },
+  {
+    "overall": 48,
+    "round": 2,
+    "pick": 16,
+    "team": "Atlanta Falcons",
+    "name": "Avieon Terrell",
+    "position": "CB",
+    "school": "Clemson"
   }
 ]
