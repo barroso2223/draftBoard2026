@@ -5206,11 +5206,11 @@
     "name": "Caden Curry",
     "position": "EDGE",
     "school": "Ohio State",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 257,
     "height": "6-3",
     "forty": 4.78,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.5,
     "sources_count": 3,
     "rankings": {
@@ -5224,7 +5224,9 @@
         "grade": 77
       }
     },
-    "summary": "Curry's relentless motor and ability to wreak havoc in the backfield translate directly to the professional level, and his performance..."
+    "summary": "Curry's relentless motor and ability to wreak havoc in the backfield translate directly to the professional level, and his performance...",
+    "draft_round": 6,
+    "draft_pick": 214
   },
   {
     "name": "Bauer Sharp",
