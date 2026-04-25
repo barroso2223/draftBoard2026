@@ -5725,11 +5725,11 @@
     "name": "Domani Jackson",
     "position": "CB",
     "school": "Alabama",
-    "team": "",
+    "team": "Green Bay Packers",
     "weight": 194,
     "height": "6-1",
     "forty": 4.41,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.6,
     "sources_count": 4,
     "rankings": {
@@ -5746,7 +5746,9 @@
         "grade": 78
       }
     },
-    "summary": "Jackson has the physical profile to play outside corner in the NFL. The length, the speed, and the willingness to get physical at the..."
+    "summary": "Jackson has the physical profile to play outside corner in the NFL. The length, the speed, and the willingness to get physical at the...",
+    "draft_round": 6,
+    "draft_pick": 201
   },
   {
     "name": "Damonic Williams",

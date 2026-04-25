@@ -1797,7 +1797,10 @@
     "overall": 201,
     "round": 6,
     "pick": 20,
-    "team": "Green Bay Packers"
+    "team": "Green Bay Packers",
+    "player": "Domani Jackson",
+    "position": "CB",
+    "school": "Alabama"
   },
   {
     "overall": 202,
