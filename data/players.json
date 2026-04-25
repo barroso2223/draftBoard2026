@@ -4345,11 +4345,11 @@
     "name": "J.C. Davis",
     "position": "OT",
     "school": "Illinois",
-    "team": "",
+    "team": "New York Giants",
     "weight": 322,
     "height": "6-4",
     "forty": 5.16,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.4,
     "sources_count": 3,
     "rankings": {
@@ -4363,7 +4363,9 @@
         "grade": 78
       }
     },
-    "summary": "Davis fits best in a scheme that keeps things relatively simple for him up front. A gap or power-heavy run game would let him use his..."
+    "summary": "Davis fits best in a scheme that keeps things relatively simple for him up front. A gap or power-heavy run game would let him use his...",
+    "draft_round": 6,
+    "draft_pick": 192
   },
   {
     "name": "Eric McAlister",

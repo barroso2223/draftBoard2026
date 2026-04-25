@@ -1699,5 +1699,14 @@
     "name": "Josh Cameron",
     "position": "WR",
     "school": "Baylor"
+  },
+  {
+    "overall": 192,
+    "round": 6,
+    "pick": 11,
+    "team": "New York Giants",
+    "name": "J.C. Davis",
+    "position": "OT",
+    "school": "Illinois"
   }
 ]
