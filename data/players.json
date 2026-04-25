@@ -1448,11 +1448,11 @@
     "name": "Zachariah Branch",
     "position": "WR",
     "school": "Georgia",
-    "team": "",
+    "team": "Atlanta Falcons",
     "weight": 177,
     "height": "5-9",
     "forty": 4.35,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.2,
     "sources_count": 4,
     "rankings": {
@@ -1469,7 +1469,9 @@
         "grade": 83
       }
     },
-    "summary": "Branch's NFL future is in the slot, and his skill set maps cleanly to that role. His speed and burst give him a clear athletic advantage..."
+    "summary": "Branch's NFL future is in the slot, and his skill set maps cleanly to that role. His speed and burst give him a clear athletic advantage...",
+    "draft_round": 3,
+    "draft_pick": 79
   },
   {
     "name": "Skyler Bell",
