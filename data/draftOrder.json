@@ -1275,7 +1275,10 @@
     "overall": 143,
     "round": 5,
     "pick": 3,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Reggie Virgil",
+    "position": "WR",
+    "school": "Texas Tech"
   },
   {
     "overall": 144,

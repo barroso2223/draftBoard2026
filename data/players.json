@@ -7509,11 +7509,11 @@
     "name": "Reggie Virgil",
     "position": "WR",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 187,
     "height": "6-3",
     "forty": 4.57,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67.3,
     "sources_count": 4,
     "rankings": {
@@ -7530,7 +7530,9 @@
         "grade": 70
       }
     },
-    "summary": "What you see with Virgil is a tall, fast receiver who can threaten a defense vertically and give a quarterback a reliable target on..."
+    "summary": "What you see with Virgil is a tall, fast receiver who can threaten a defense vertically and give a quarterback a reliable target on...",
+    "draft_round": 5,
+    "draft_pick": 143
   },
   {
     "name": "TJ Hall",
