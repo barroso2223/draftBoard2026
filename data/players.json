@@ -1485,11 +1485,11 @@
     "name": "Skyler Bell",
     "position": "WR",
     "school": "Connecticut",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 192,
     "height": "6-0",
     "forty": 4.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.2,
     "sources_count": 4,
     "rankings": {
@@ -1506,7 +1506,9 @@
         "grade": 90
       }
     },
-    "summary": "Bell's best role at the next level is as a slot receiver or movement piece in a quick-passing offense. The Combine confirmed what the tape..."
+    "summary": "Bell's best role at the next level is as a slot receiver or movement piece in a quick-passing offense. The Combine confirmed what the tape...",
+    "draft_round": 4,
+    "draft_pick": 125
   },
   {
     "name": "A.J. Haulcy",

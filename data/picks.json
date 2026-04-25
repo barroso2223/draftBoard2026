@@ -1114,5 +1114,14 @@
     "name": "Malik Muhammad",
     "position": "CB",
     "school": "Texas"
+  },
+  {
+    "overall": 125,
+    "round": 4,
+    "pick": 25,
+    "team": "Buffalo Bills",
+    "name": "Skyler Bell",
+    "position": "WR",
+    "school": "Connecticut"
   }
 ]

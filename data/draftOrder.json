@@ -1119,7 +1119,10 @@
     "overall": 125,
     "round": 4,
     "pick": 25,
-    "team": "Buffalo Bills"
+    "team": "Buffalo Bills",
+    "player": "Skyler Bell",
+    "position": "WR",
+    "school": "Connecticut"
   },
   {
     "overall": 126,
