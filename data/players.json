@@ -10645,11 +10645,11 @@
     "name": "Ethan Onianwa",
     "position": "OT",
     "school": "Ohio State",
-    "team": "",
+    "team": "Atlanta Falcons",
     "weight": 331,
     "height": "6-6",
     "forty": 5.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 61,
     "sources_count": 1,
     "rankings": {
@@ -10657,7 +10657,9 @@
         "rating": 71
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 7,
+    "draft_pick": 231
   },
   {
     "name": "Byron Cardwell Jr....",
