@@ -2265,13 +2265,19 @@
     "overall": 253,
     "round": 7,
     "pick": 37,
-    "team": "Baltimore Ravens"
+    "team": "Baltimore Ravens",
+    "player": "Evan Beerntsen",
+    "position": "OG",
+    "school": "Northwestern"
   },
   {
     "overall": 254,
     "round": 7,
     "pick": 38,
-    "team": "Indianapolis Colts"
+    "team": "Indianapolis Colts",
+    "player": "Deion Burks",
+    "position": "WR",
+    "school": "Oklahoma"
   },
   {
     "overall": 255,

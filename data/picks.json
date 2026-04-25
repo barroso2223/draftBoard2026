@@ -2248,5 +2248,23 @@
     "name": "Keyshawn James-Newby",
     "position": "EDGE",
     "school": "New Mexico"
+  },
+  {
+    "overall": 253,
+    "round": 7,
+    "pick": 37,
+    "team": "Baltimore Ravens",
+    "name": "Evan Beerntsen",
+    "position": "OG",
+    "school": "Northwestern"
+  },
+  {
+    "overall": 254,
+    "round": 7,
+    "pick": 38,
+    "team": "Indianapolis Colts",
+    "name": "Deion Burks",
+    "position": "WR",
+    "school": "Oklahoma"
   }
 ]

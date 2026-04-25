@@ -1983,11 +1983,11 @@
     "name": "Deion Burks",
     "position": "WR",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 180,
     "height": "5-10",
     "forty": 4.3,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.2,
     "sources_count": 4,
     "rankings": {
@@ -2004,7 +2004,9 @@
         "grade": 84
       }
     },
-    "summary": "The Combine answered the one question that still lingered with Burks: just how athletic is he? Finishing in the top five among receivers in..."
+    "summary": "The Combine answered the one question that still lingered with Burks: just how athletic is he? Finishing in the top five among receivers in...",
+    "draft_round": 7,
+    "draft_pick": 254
   },
   {
     "name": "Treydan Stukes",
@@ -6805,11 +6807,11 @@
     "name": "Evan Beerntsen",
     "position": "OG",
     "school": "Northwestern",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 301,
     "height": "6-4",
     "forty": 5.25,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.7,
     "sources_count": 3,
     "rankings": {
@@ -6823,7 +6825,9 @@
         "grade": 74
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 7,
+    "draft_pick": 253
   },
   {
     "name": "Jeremiah Wright",
