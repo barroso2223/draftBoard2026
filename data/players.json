@@ -5571,11 +5571,11 @@
     "name": "Marlin Klein",
     "position": "TE",
     "school": "Michigan",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 248,
     "height": "6-6",
     "forty": 4.61,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.4,
     "sources_count": 4,
     "rankings": {
@@ -5592,7 +5592,9 @@
         "grade": 78
       }
     },
-    "summary": "Klein is a fascinating evaluation because the physical tools genuinely pop when you watch him work. A 6'6\" tight end who can run the..."
+    "summary": "Klein is a fascinating evaluation because the physical tools genuinely pop when you watch him work. A 6'6\" tight end who can run the...",
+    "draft_round": 2,
+    "draft_pick": 59
   },
   {
     "name": "Hezekiah Masses",
