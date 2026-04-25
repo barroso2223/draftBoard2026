@@ -12147,18 +12147,20 @@
     "name": "Landon Robinson",
     "position": "DT",
     "school": "Navy",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 48,
     "sources_count": 1,
     "rankings": {
       "bleacher": {
         "grade": 58
       }
-    }
+    },
+    "draft_round": 7,
+    "draft_pick": 226
   },
   {
     "name": "Wesley Williams",
