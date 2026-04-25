@@ -2339,11 +2339,11 @@
     "name": "Jaishawn Barham",
     "position": "EDGE",
     "school": "Michigan",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 240,
     "height": "6-4",
     "forty": 4.64,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.3,
     "sources_count": 2,
     "rankings": {
@@ -2354,7 +2354,9 @@
         "grade": 75
       }
     },
-    "summary": "Run defense is the calling card here, full stop. The way Barham attacks blocks, fills gaps, and plays downhill is the kind of physicality..."
+    "summary": "Run defense is the calling card here, full stop. The way Barham attacks blocks, fills gaps, and plays downhill is the kind of physicality...",
+    "draft_round": 3,
+    "draft_pick": 92
   },
   {
     "name": "Domonique Orange",
