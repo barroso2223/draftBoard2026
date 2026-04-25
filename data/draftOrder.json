@@ -579,7 +579,10 @@
     "overall": 65,
     "round": 3,
     "pick": 1,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Carson Beck",
+    "position": "QB",
+    "school": "Miami (FL)"
   },
   {
     "overall": 66,

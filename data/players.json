@@ -3835,11 +3835,11 @@
     "name": "Carson Beck",
     "position": "QB",
     "school": "Miami",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 233,
     "height": "6-5",
     "forty": 4.84,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.4,
     "sources_count": 4,
     "rankings": {
@@ -3856,7 +3856,9 @@
         "grade": 78
       }
     },
-    "summary": "Here's what you need to understand about Carson Beck - the physical tools have never been the question. Stand him next to any quarterback..."
+    "summary": "Here's what you need to understand about Carson Beck - the physical tools have never been the question. Stand him next to any quarterback...",
+    "draft_round": 3,
+    "draft_pick": 65
   },
   {
     "name": "Ahmaad Moses",

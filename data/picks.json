@@ -574,5 +574,14 @@
     "name": "Bud Clark",
     "position": "S",
     "school": "TCU"
+  },
+  {
+    "overall": 65,
+    "round": 3,
+    "pick": 1,
+    "team": "Arizona Cardinals",
+    "name": "Carson Beck",
+    "position": "QB",
+    "school": "Miami (FL)"
   }
 ]
