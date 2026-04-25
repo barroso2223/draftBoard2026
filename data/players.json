@@ -5768,11 +5768,11 @@
     "name": "Hezekiah Masses",
     "position": "CB",
     "school": "California",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 179,
     "height": "6-1",
     "forty": 4.46,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.3,
     "sources_count": 4,
     "rankings": {
@@ -5789,7 +5789,9 @@
         "grade": 77
       }
     },
-    "summary": "Watch Masses play and the first thing that jumps out is how well he sees the field in zone. His eyes, his trigger, and his ability to read..."
+    "summary": "Watch Masses play and the first thing that jumps out is how well he sees the field in zone. His eyes, his trigger, and his ability to read...",
+    "draft_round": 5,
+    "draft_pick": 175
   },
   {
     "name": "Jeff Caldwell",

@@ -1537,5 +1537,14 @@
     "name": "Adam Randall",
     "position": "RB",
     "school": "Clemson"
+  },
+  {
+    "overall": 175,
+    "round": 5,
+    "pick": 35,
+    "team": "Las Vegas Raiders",
+    "name": "Hezekiah Masses",
+    "position": "CB",
+    "school": "California"
   }
 ]
