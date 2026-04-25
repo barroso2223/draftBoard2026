@@ -1870,5 +1870,14 @@
     "name": "Gabe Rubio",
     "position": "EDGE",
     "school": "Notre Dame"
+  },
+  {
+    "overall": 211,
+    "round": 6,
+    "pick": 30,
+    "team": "Baltimore Ravens",
+    "name": "Ryan Eckley",
+    "position": "P",
+    "school": "Michigan State"
   }
 ]
