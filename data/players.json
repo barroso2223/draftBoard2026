@@ -5662,11 +5662,11 @@
     "name": "Malik Benson",
     "position": "WR",
     "school": "Oregon",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 189,
     "height": "6-0",
     "forty": 4.37,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.6,
     "sources_count": 3,
     "rankings": {
@@ -5680,7 +5680,9 @@
         "grade": 75
       }
     },
-    "summary": "Benson's NFL value is tied to one thing above all else: his ability to stretch the field. That speed is real, and it shows up on tape in..."
+    "summary": "Benson's NFL value is tied to one thing above all else: his ability to stretch the field. That speed is real, and it shows up on tape in...",
+    "draft_round": 6,
+    "draft_pick": 195
   },
   {
     "name": "Bryce Boettcher",
