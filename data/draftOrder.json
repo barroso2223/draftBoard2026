@@ -1146,7 +1146,10 @@
     "overall": 128,
     "round": 4,
     "pick": 28,
-    "team": "New York Jets"
+    "team": "New York Jets",
+    "player": "Connor Lew",
+    "position": "C",
+    "school": "Auburn"
   },
   {
     "overall": 129,

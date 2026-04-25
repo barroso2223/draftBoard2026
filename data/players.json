@@ -3138,11 +3138,11 @@
     "name": "Connor Lew",
     "position": "C",
     "school": "Auburn",
-    "team": "",
+    "team": "New York Jets",
     "weight": 310,
     "height": "6-4",
     "forty": 5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.4,
     "sources_count": 2,
     "rankings": {
@@ -3153,7 +3153,9 @@
         "grade": 68
       }
     },
-    "summary": "Lew's sophomore pass protection tape is what sells you on this player. He looked like a polished veteran reading pressure and keeping his..."
+    "summary": "Lew's sophomore pass protection tape is what sells you on this player. He looked like a polished veteran reading pressure and keeping his...",
+    "draft_round": 4,
+    "draft_pick": 128
   },
   {
     "name": "Jadon Canady",
