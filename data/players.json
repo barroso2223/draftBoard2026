@@ -1039,11 +1039,11 @@
     "name": "Gennings Dunker",
     "position": "OT",
     "school": "Iowa",
-    "team": "",
+    "team": "Seattle Seahawks",
     "weight": 319,
     "height": "6-5",
     "forty": 5.18,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.7,
     "sources_count": 3,
     "rankings": {
@@ -1057,7 +1057,9 @@
         "grade": 83
       }
     },
-    "summary": "Dunker's combination of raw power, grip strength, and sheer nastiness makes him a legitimate tone-setter up front. The issue is that phone..."
+    "summary": "Dunker's combination of raw power, grip strength, and sheer nastiness makes him a legitimate tone-setter up front. The issue is that phone...",
+    "draft_round": 3,
+    "draft_pick": 96
   },
   {
     "name": "Chris Brazzell II",

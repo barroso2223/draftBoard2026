@@ -853,5 +853,14 @@
     "name": "Eli Raridon",
     "position": "TE",
     "school": "Notre Dame"
+  },
+  {
+    "overall": 96,
+    "round": 3,
+    "pick": 32,
+    "team": "Seattle Seahawks",
+    "name": "Gennings Dunker",
+    "position": "OT",
+    "school": "Iowa"
   }
 ]
