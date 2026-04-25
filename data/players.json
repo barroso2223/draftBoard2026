@@ -3418,11 +3418,11 @@
     "name": "CJ Daniels",
     "position": "WR",
     "school": "Miami",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": 202,
     "height": "6-2",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.7,
     "sources_count": 3,
     "rankings": {
@@ -3436,7 +3436,9 @@
         "grade": 79
       }
     },
-    "summary": "Daniels is the type of receiver who probably won't light up a room during the pre-draft process, but put his tape on and you see a guy..."
+    "summary": "Daniels is the type of receiver who probably won't light up a room during the pre-draft process, but put his tape on and you see a guy...",
+    "draft_round": 6,
+    "draft_pick": 197
   },
   {
     "name": "Wesley Williams",
