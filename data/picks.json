@@ -453,7 +453,7 @@
     "overall": 51,
     "round": 2,
     "pick": 19,
-    "team": "Carolina Panthers",
+    "team": "Minnesota Vikings",
     "name": "Jake Golday",
     "position": "LB",
     "school": "Cincinnati"
@@ -471,7 +471,7 @@
     "overall": 53,
     "round": 2,
     "pick": 21,
-    "team": "Pittsburgh Steelers",
+    "team": "Indianapolis Colts",
     "name": "CJ Allen",
     "position": "LB",
     "school": "Georgia"
@@ -489,7 +489,7 @@
     "overall": 55,
     "round": 2,
     "pick": 23,
-    "team": "Los Angeles Chargers",
+    "team": "New England Patriots",
     "name": "Gabe Jacas",
     "position": "EDGE",
     "school": "Illinois"
@@ -516,7 +516,7 @@
     "overall": 58,
     "round": 2,
     "pick": 26,
-    "team": "San Francisco 49ers",
+    "team": "Cleveland Browns",
     "name": "Emmanuel McNeil-Warren",
     "position": "S",
     "school": "Toledo"
@@ -534,8 +534,8 @@
     "overall": 60,
     "round": 2,
     "pick": 28,
-    "team": "Chicago Bears",
-    "name": "Anthony Hill",
+    "team": "Tennessee Titans",
+    "name": "Anthony Hill Jr.",
     "position": "LB",
     "school": "Texas"
   },
@@ -546,22 +546,22 @@
     "team": "Los Angeles Rams",
     "name": "Max Klare",
     "position": "TE",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 62,
     "round": 2,
     "pick": 30,
-    "team": "Denver Broncos",
+    "team": "Buffalo Bills",
     "name": "Davison Igbinosun",
     "position": "CB",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 63,
     "round": 2,
     "pick": 31,
-    "team": "New England Patriots",
+    "team": "Los Angeles Chargers",
     "name": "Jake Slaughter",
     "position": "C",
     "school": "Florida"
@@ -570,7 +570,7 @@
     "overall": 64,
     "round": 2,
     "pick": 32,
-    "team": "Seattle Seahawks",
+    "team": "Philadelphia Eagles",
     "name": "Bud Clark",
     "position": "S",
     "school": "TCU"
@@ -582,13 +582,13 @@
     "team": "Arizona Cardinals",
     "name": "Carson Beck",
     "position": "QB",
-    "school": "Miami (FL)"
+    "school": "Miami"
   },
   {
     "overall": 66,
     "round": 3,
     "pick": 2,
-    "team": "Buffalo Bills",
+    "team": "Denver Broncos",
     "name": "Tyler Onyedim",
     "position": "DT",
     "school": "Texas A&M"
@@ -609,13 +609,13 @@
     "team": "Philadelphia Eagles",
     "name": "Markel Bell",
     "position": "OT",
-    "school": "Miami (FL)"
+    "school": "Miami"
   },
   {
     "overall": 69,
     "round": 3,
     "pick": 5,
-    "team": "Tennessee Titans",
+    "team": "Chicago Bears",
     "name": "Sam Roush",
     "position": "TE",
     "school": "Stanford"
@@ -624,7 +624,7 @@
     "overall": 70,
     "round": 3,
     "pick": 6,
-    "team": "Cleveland Browns",
+    "team": "San Francisco 49ers",
     "name": "Romello Height",
     "position": "EDGE",
     "school": "Texas Tech"
@@ -660,7 +660,7 @@
     "overall": 74,
     "round": 3,
     "pick": 10,
-    "team": "Cleveland Browns",
+    "team": "New York Giants",
     "name": "Malachi Fields",
     "position": "WR",
     "school": "Notre Dame"
@@ -681,13 +681,13 @@
     "team": "Pittsburgh Steelers",
     "name": "Drew Allar",
     "position": "QB",
-    "school": "Penn St."
+    "school": "Penn State"
   },
   {
     "overall": 77,
     "round": 3,
     "pick": 13,
-    "team": "Tampa Bay Buccaneers",
+    "team": "Green Bay Packers",
     "name": "Chris McClellan",
     "position": "DT",
     "school": "Missouri"
@@ -735,14 +735,14 @@
     "team": "Minnesota Vikings",
     "name": "Domonique Orange",
     "position": "DT",
-    "school": "Iowa St."
+    "school": "Iowa State"
   },
   {
     "overall": 83,
     "round": 3,
     "pick": 19,
     "team": "Carolina Panthers",
-    "name": "Chris Brazzell",
+    "name": "Chris Brazzell II",
     "position": "WR",
     "school": "Tennessee"
   },
@@ -750,10 +750,10 @@
     "overall": 84,
     "round": 3,
     "pick": 20,
-    "team": "Green Bay Packers",
+    "team": "Tampa Bay Buccaneers",
     "name": "Ted Hurst",
     "position": "WR",
-    "school": "Georgia St."
+    "school": "Georgia State"
   },
   {
     "overall": 85,
@@ -768,7 +768,7 @@
     "overall": 86,
     "round": 3,
     "pick": 22,
-    "team": "Los Angeles Chargers",
+    "team": "Cleveland Browns",
     "name": "Austin Barber",
     "position": "OT",
     "school": "Florida"
@@ -780,7 +780,7 @@
     "team": "Miami Dolphins",
     "name": "Will Kacmarek",
     "position": "TE",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 88,
@@ -813,9 +813,9 @@
     "overall": 91,
     "round": 3,
     "pick": 27,
-    "team": "Houston Texans",
-    "name": "Trey Zuhn",
-    "position": "OT",
+    "team": "Las Vegas Raiders",
+    "name": "Trey Zuhn III",
+    "position": "C",
     "school": "Texas A&M"
   },
   {
@@ -858,9 +858,9 @@
     "overall": 96,
     "round": 3,
     "pick": 32,
-    "team": "Seattle Seahawks",
+    "team": "Pittsburgh Steelers",
     "name": "Gennings Dunker",
-    "position": "OT",
+    "position": "OG",
     "school": "Iowa"
   },
   {
@@ -876,16 +876,16 @@
     "overall": 98,
     "round": 3,
     "pick": 34,
-    "team": "Philadelphia Eagles",
+    "team": "Minnesota Vikings",
     "name": "Jakobe Thomas",
     "position": "S",
-    "school": "Miami (FL)"
+    "school": "Miami"
   },
   {
     "overall": 99,
     "round": 3,
     "pick": 35,
-    "team": "Pittsburgh Steelers",
+    "team": "Seattle Seahawks",
     "name": "Julian Neal",
     "position": "CB",
     "school": "Arkansas"

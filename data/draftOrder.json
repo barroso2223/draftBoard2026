@@ -453,7 +453,7 @@
     "overall": 51,
     "round": 2,
     "pick": 19,
-    "team": "Carolina Panthers",
+    "team": "Minnesota Vikings",
     "player": "Jake Golday",
     "position": "LB",
     "school": "Cincinnati"
@@ -471,7 +471,7 @@
     "overall": 53,
     "round": 2,
     "pick": 21,
-    "team": "Pittsburgh Steelers",
+    "team": "Indianapolis Colts",
     "player": "CJ Allen",
     "position": "LB",
     "school": "Georgia"
@@ -489,7 +489,7 @@
     "overall": 55,
     "round": 2,
     "pick": 23,
-    "team": "Los Angeles Chargers",
+    "team": "New England Patriots",
     "player": "Gabe Jacas",
     "position": "EDGE",
     "school": "Illinois"
@@ -516,7 +516,7 @@
     "overall": 58,
     "round": 2,
     "pick": 26,
-    "team": "San Francisco 49ers",
+    "team": "Cleveland Browns",
     "player": "Emmanuel McNeil-Warren",
     "position": "S",
     "school": "Toledo"
@@ -534,8 +534,8 @@
     "overall": 60,
     "round": 2,
     "pick": 28,
-    "team": "Chicago Bears",
-    "player": "Anthony Hill",
+    "team": "Tennessee Titans",
+    "player": "Anthony Hill Jr.",
     "position": "LB",
     "school": "Texas"
   },
@@ -546,22 +546,22 @@
     "team": "Los Angeles Rams",
     "player": "Max Klare",
     "position": "TE",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 62,
     "round": 2,
     "pick": 30,
-    "team": "Denver Broncos",
+    "team": "Buffalo Bills",
     "player": "Davison Igbinosun",
     "position": "CB",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 63,
     "round": 2,
     "pick": 31,
-    "team": "New England Patriots",
+    "team": "Los Angeles Chargers",
     "player": "Jake Slaughter",
     "position": "C",
     "school": "Florida"
@@ -570,7 +570,7 @@
     "overall": 64,
     "round": 2,
     "pick": 32,
-    "team": "Seattle Seahawks",
+    "team": "Philadelphia Eagles",
     "player": "Bud Clark",
     "position": "S",
     "school": "TCU"
@@ -582,13 +582,13 @@
     "team": "Arizona Cardinals",
     "player": "Carson Beck",
     "position": "QB",
-    "school": "Miami (FL)"
+    "school": "Miami"
   },
   {
     "overall": 66,
     "round": 3,
     "pick": 2,
-    "team": "Buffalo Bills",
+    "team": "Denver Broncos",
     "player": "Tyler Onyedim",
     "position": "DT",
     "school": "Texas A&M"
@@ -609,13 +609,13 @@
     "team": "Philadelphia Eagles",
     "player": "Markel Bell",
     "position": "OT",
-    "school": "Miami (FL)"
+    "school": "Miami"
   },
   {
     "overall": 69,
     "round": 3,
     "pick": 5,
-    "team": "Tennessee Titans",
+    "team": "Chicago Bears",
     "player": "Sam Roush",
     "position": "TE",
     "school": "Stanford"
@@ -624,7 +624,7 @@
     "overall": 70,
     "round": 3,
     "pick": 6,
-    "team": "Cleveland Browns",
+    "team": "San Francisco 49ers",
     "player": "Romello Height",
     "position": "EDGE",
     "school": "Texas Tech"
@@ -660,7 +660,7 @@
     "overall": 74,
     "round": 3,
     "pick": 10,
-    "team": "Cleveland Browns",
+    "team": "New York Giants",
     "player": "Malachi Fields",
     "position": "WR",
     "school": "Notre Dame"
@@ -681,13 +681,13 @@
     "team": "Pittsburgh Steelers",
     "player": "Drew Allar",
     "position": "QB",
-    "school": "Penn St."
+    "school": "Penn State"
   },
   {
     "overall": 77,
     "round": 3,
     "pick": 13,
-    "team": "Tampa Bay Buccaneers",
+    "team": "Green Bay Packers",
     "player": "Chris McClellan",
     "position": "DT",
     "school": "Missouri"
@@ -735,14 +735,14 @@
     "team": "Minnesota Vikings",
     "player": "Domonique Orange",
     "position": "DT",
-    "school": "Iowa St."
+    "school": "Iowa State"
   },
   {
     "overall": 83,
     "round": 3,
     "pick": 19,
     "team": "Carolina Panthers",
-    "player": "Chris Brazzell",
+    "player": "Chris Brazzell II",
     "position": "WR",
     "school": "Tennessee"
   },
@@ -750,10 +750,10 @@
     "overall": 84,
     "round": 3,
     "pick": 20,
-    "team": "Green Bay Packers",
+    "team": "Tampa Bay Buccaneers",
     "player": "Ted Hurst",
     "position": "WR",
-    "school": "Georgia St."
+    "school": "Georgia State"
   },
   {
     "overall": 85,
@@ -768,7 +768,7 @@
     "overall": 86,
     "round": 3,
     "pick": 22,
-    "team": "Los Angeles Chargers",
+    "team": "Cleveland Browns",
     "player": "Austin Barber",
     "position": "OT",
     "school": "Florida"
@@ -780,7 +780,7 @@
     "team": "Miami Dolphins",
     "player": "Will Kacmarek",
     "position": "TE",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 88,
@@ -813,9 +813,9 @@
     "overall": 91,
     "round": 3,
     "pick": 27,
-    "team": "Houston Texans",
-    "player": "Trey Zuhn",
-    "position": "OT",
+    "team": "Las Vegas Raiders",
+    "player": "Trey Zuhn III",
+    "position": "C",
     "school": "Texas A&M"
   },
   {
@@ -858,9 +858,9 @@
     "overall": 96,
     "round": 3,
     "pick": 32,
-    "team": "Seattle Seahawks",
+    "team": "Pittsburgh Steelers",
     "player": "Gennings Dunker",
-    "position": "OT",
+    "position": "OG",
     "school": "Iowa"
   },
   {
@@ -876,16 +876,16 @@
     "overall": 98,
     "round": 3,
     "pick": 34,
-    "team": "Philadelphia Eagles",
+    "team": "Minnesota Vikings",
     "player": "Jakobe Thomas",
     "position": "S",
-    "school": "Miami (FL)"
+    "school": "Miami"
   },
   {
     "overall": 99,
     "round": 3,
     "pick": 35,
-    "team": "Pittsburgh Steelers",
+    "team": "Seattle Seahawks",
     "player": "Julian Neal",
     "position": "CB",
     "school": "Arkansas"
@@ -927,7 +927,7 @@
     "overall": 105,
     "round": 4,
     "pick": 5,
-    "team": "New York Giants"
+    "team": "Los Angeles Chargers"
   },
   {
     "overall": 106,
@@ -939,7 +939,7 @@
     "overall": 107,
     "round": 4,
     "pick": 7,
-    "team": "Cleveland Browns"
+    "team": "San Francisco 49ers"
   },
   {
     "overall": 108,
@@ -999,7 +999,7 @@
     "overall": 117,
     "round": 4,
     "pick": 17,
-    "team": "Las Vegas Raiders"
+    "team": "Houston Texans"
   },
   {
     "overall": 118,
@@ -1065,7 +1065,7 @@
     "overall": 128,
     "round": 4,
     "pick": 28,
-    "team": "Detroit Lions"
+    "team": "New York Jets"
   },
   {
     "overall": 129,
@@ -1083,7 +1083,7 @@
     "overall": 131,
     "round": 4,
     "pick": 31,
-    "team": "New England Patriots"
+    "team": "Los Angeles Chargers"
   },
   {
     "overall": 132,
@@ -1107,7 +1107,7 @@
     "overall": 135,
     "round": 4,
     "pick": 35,
-    "team": "Pittsburgh Steelers"
+    "team": "Indianapolis Colts"
   },
   {
     "overall": 136,
@@ -1161,13 +1161,13 @@
     "overall": 144,
     "round": 5,
     "pick": 4,
-    "team": "Tennessee Titans"
+    "team": "Chicago Bears"
   },
   {
     "overall": 145,
     "round": 5,
     "pick": 5,
-    "team": "New York Giants"
+    "team": "Los Angeles Chargers"
   },
   {
     "overall": 146,
@@ -1209,7 +1209,7 @@
     "overall": 152,
     "round": 5,
     "pick": 12,
-    "team": "Dallas Cowboys"
+    "team": "Cleveland Browns"
   },
   {
     "overall": 153,
@@ -1251,13 +1251,13 @@
     "overall": 159,
     "round": 5,
     "pick": 19,
-    "team": "Carolina Panthers"
+    "team": "Minnesota Vikings"
   },
   {
     "overall": 160,
     "round": 5,
     "pick": 20,
-    "team": "Green Bay Packers"
+    "team": "Tampa Bay Buccaneers"
   },
   {
     "overall": 161,
@@ -1359,7 +1359,7 @@
     "overall": 177,
     "round": 5,
     "pick": 37,
-    "team": "Miami Dolphins"
+    "team": "Dallas Cowboys"
   },
   {
     "overall": 178,
@@ -1377,7 +1377,7 @@
     "overall": 180,
     "round": 5,
     "pick": 40,
-    "team": "Miami Dolphins"
+    "team": "Dallas Cowboys"
   },
   {
     "overall": 181,
@@ -1389,7 +1389,7 @@
     "overall": 182,
     "round": 6,
     "pick": 1,
-    "team": "Buffalo Bills"
+    "team": "Denver Broncos"
   },
   {
     "overall": 183,
@@ -1473,7 +1473,7 @@
     "overall": 196,
     "round": 6,
     "pick": 15,
-    "team": "Minnesota Vikings"
+    "team": "Carolina Panthers"
   },
   {
     "overall": 197,
@@ -1509,7 +1509,7 @@
     "overall": 202,
     "round": 6,
     "pick": 21,
-    "team": "New England Patriots"
+    "team": "Los Angeles Chargers"
   },
   {
     "overall": 203,
@@ -1533,7 +1533,7 @@
     "overall": 206,
     "round": 6,
     "pick": 25,
-    "team": "Cleveland Browns"
+    "team": "Los Angeles Chargers"
   },
   {
     "overall": 207,
@@ -1593,7 +1593,7 @@
     "overall": 216,
     "round": 6,
     "pick": 35,
-    "team": "Pittsburgh Steelers"
+    "team": "Seattle Seahawks"
   },
   {
     "overall": 217,
@@ -1719,7 +1719,7 @@
     "overall": 237,
     "round": 7,
     "pick": 21,
-    "team": "Pittsburgh Steelers"
+    "team": "Indianapolis Colts"
   },
   {
     "overall": 238,
@@ -1761,7 +1761,7 @@
     "overall": 244,
     "round": 7,
     "pick": 28,
-    "team": "Minnesota Vikings"
+    "team": "Philadelphia Eagles"
   },
   {
     "overall": 245,
@@ -1791,7 +1791,7 @@
     "overall": 249,
     "round": 7,
     "pick": 33,
-    "team": "Indianapolis Colts"
+    "team": "Pittsburgh Steelers"
   },
   {
     "overall": 250,
