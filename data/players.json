@@ -8515,11 +8515,11 @@
     "name": "Ar'maj Reed-Adams",
     "position": "OG",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 314,
     "height": "6-6",
     "forty": 5.28,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 65.7,
     "sources_count": 4,
     "rankings": {
@@ -8536,7 +8536,9 @@
         "grade": 75
       }
     },
-    "summary": "Reed-Adams is best suited for a power-oriented rushing attack where he can fire downhill and move people at the point of attack. His run..."
+    "summary": "Reed-Adams is best suited for a power-oriented rushing attack where he can fire downhill and move people at the point of attack. His run...",
+    "draft_round": 7,
+    "draft_pick": 241
   },
   {
     "name": "Luke Altmyer",
