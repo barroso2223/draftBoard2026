@@ -646,5 +646,14 @@
     "name": "Tacario Davis",
     "position": "CB",
     "school": "Washington"
+  },
+  {
+    "overall": 73,
+    "round": 3,
+    "pick": 9,
+    "team": "New Orleans Saints",
+    "name": "Oscar Delp",
+    "position": "TE",
+    "school": "Georgia"
   }
 ]

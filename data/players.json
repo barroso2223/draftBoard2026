@@ -5117,11 +5117,11 @@
     "name": "Oscar Delp",
     "position": "TE",
     "school": "Georgia",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 245,
     "height": "6-5",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.3,
     "sources_count": 4,
     "rankings": {
@@ -5138,7 +5138,9 @@
         "grade": 77
       }
     },
-    "summary": "Watch the Delp's tape and you will see him lined up wide or in the slot far more often than inline next to the tackle. That tells you..."
+    "summary": "Watch the Delp's tape and you will see him lined up wide or in the slot far more often than inline next to the tackle. That tells you...",
+    "draft_round": 3,
+    "draft_pick": 73
   },
   {
     "name": "Anez Cooper",
