@@ -610,5 +610,14 @@
     "name": "Markel Bell",
     "position": "OT",
     "school": "Miami (FL)"
+  },
+  {
+    "overall": 69,
+    "round": 3,
+    "pick": 5,
+    "team": "Tennessee Titans",
+    "name": "Sam Roush",
+    "position": "TE",
+    "school": "Stanford"
   }
 ]

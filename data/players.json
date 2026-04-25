@@ -2373,11 +2373,11 @@
     "name": "Sam Roush",
     "position": "TE",
     "school": "Stanford",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": 267,
     "height": "6-6",
     "forty": 4.7,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.2,
     "sources_count": 4,
     "rankings": {
@@ -2394,7 +2394,9 @@
         "grade": 83
       }
     },
-    "summary": "Indianapolis changed the conversation on Sam Roush. Before the Combine, the tape showed a well-coached, ascending tight end from a..."
+    "summary": "Indianapolis changed the conversation on Sam Roush. Before the Combine, the tape showed a well-coached, ascending tight end from a...",
+    "draft_round": 3,
+    "draft_pick": 69
   },
   {
     "name": "Romello Height",

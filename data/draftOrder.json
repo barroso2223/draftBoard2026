@@ -615,7 +615,10 @@
     "overall": 69,
     "round": 3,
     "pick": 5,
-    "team": "Tennessee Titans"
+    "team": "Tennessee Titans",
+    "player": "Sam Roush",
+    "position": "TE",
+    "school": "Stanford"
   },
   {
     "overall": 70,
