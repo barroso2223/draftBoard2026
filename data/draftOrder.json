@@ -795,7 +795,10 @@
     "overall": 89,
     "round": 3,
     "pick": 25,
-    "team": "Chicago Bears"
+    "team": "Chicago Bears",
+    "player": "Zavion Thomas",
+    "position": "WR",
+    "school": "LSU"
   },
   {
     "overall": 90,

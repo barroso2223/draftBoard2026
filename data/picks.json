@@ -790,5 +790,14 @@
     "name": "Emmanuel Pregnon",
     "position": "OG",
     "school": "Oregon"
+  },
+  {
+    "overall": 89,
+    "round": 3,
+    "pick": 25,
+    "team": "Chicago Bears",
+    "name": "Zavion Thomas",
+    "position": "WR",
+    "school": "LSU"
   }
 ]

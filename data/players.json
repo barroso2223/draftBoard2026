@@ -8165,11 +8165,11 @@
     "name": "Zavion Thomas",
     "position": "WR",
     "school": "LSU",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 190,
     "height": "5-10",
     "forty": 4.28,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66,
     "sources_count": 3,
     "rankings": {
@@ -8183,7 +8183,9 @@
         "grade": 72
       }
     },
-    "summary": "Thomas is an interesting evaluation because what he does well, he does really well, but the total package leaves you wanting a bit..."
+    "summary": "Thomas is an interesting evaluation because what he does well, he does really well, but the total package leaves you wanting a bit...",
+    "draft_round": 3,
+    "draft_pick": 89
   },
   {
     "name": "Wesley Bissainthe",
