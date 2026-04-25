@@ -5622,11 +5622,11 @@
     "name": "Bryce Boettcher",
     "position": "LB",
     "school": "Oregon",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 233,
     "height": "6-1",
     "forty": 4.69,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.6,
     "sources_count": 4,
     "rankings": {
@@ -5643,7 +5643,9 @@
         "grade": 79
       }
     },
-    "summary": "Boettcher's best path to an NFL roster runs through his coverage ability and special teams value. His zone awareness is solid, he tracks..."
+    "summary": "Boettcher's best path to an NFL roster runs through his coverage ability and special teams value. His zone awareness is solid, he tracks...",
+    "draft_round": 4,
+    "draft_pick": 135
   },
   {
     "name": "Domani Jackson",
