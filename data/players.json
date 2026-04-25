@@ -9232,11 +9232,11 @@
     "name": "Behren Morton",
     "position": "QB",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 221,
     "height": "6-2",
     "forty": 4.7,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64.3,
     "sources_count": 3,
     "rankings": {
@@ -9250,7 +9250,9 @@
         "grade": 69
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 7,
+    "draft_pick": 234
   },
   {
     "name": "Robert Spears-Jennings",
