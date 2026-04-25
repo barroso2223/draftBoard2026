@@ -4032,11 +4032,11 @@
     "name": "Trey Zuhn III",
     "position": "OT",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 312,
     "height": "6-6",
     "forty": 5.1,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.8,
     "sources_count": 1,
     "rankings": {
@@ -4044,7 +4044,9 @@
         "rating": 83.8
       }
     },
-    "summary": "Zuhn's pass protection is elite by any measure. His 2025 tape showed a player who gave up almost nothing across over 400 pass-blocking..."
+    "summary": "Zuhn's pass protection is elite by any measure. His 2025 tape showed a player who gave up almost nothing across over 400 pass-blocking...",
+    "draft_round": 3,
+    "draft_pick": 91
   },
   {
     "name": "DJ Campbell",
