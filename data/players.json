@@ -2628,11 +2628,11 @@
     "name": "LT Overton",
     "position": "EDGE",
     "school": "Alabama",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 274,
     "height": "6-3",
     "forty": 4.87,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 78.3,
     "sources_count": 3,
     "rankings": {
@@ -2646,7 +2646,9 @@
         "grade": 81
       }
     },
-    "summary": "Overton profiles as a day two selection who earns a rotational role immediately and develops into a starter with time. His best fit is in..."
+    "summary": "Overton profiles as a day two selection who earns a rotational role immediately and develops into a starter with time. His best fit is in...",
+    "draft_round": 4,
+    "draft_pick": 137
   },
   {
     "name": "Nyjalik Kelly",
