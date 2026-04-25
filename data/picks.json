@@ -1789,5 +1789,14 @@
     "name": "Domani Jackson",
     "position": "CB",
     "school": "Alabama"
+  },
+  {
+    "overall": 202,
+    "round": 6,
+    "pick": 21,
+    "team": "Los Angeles Chargers",
+    "name": "Logan Taylor",
+    "position": "OG",
+    "school": "Boston College"
   }
 ]

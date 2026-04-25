@@ -8026,11 +8026,11 @@
     "name": "Logan Taylor",
     "position": "OG",
     "school": "Boston College",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 314,
     "height": "6-7",
     "forty": 5.19,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66.9,
     "sources_count": 4,
     "rankings": {
@@ -8047,7 +8047,9 @@
         "grade": 74
       }
     },
-    "summary": "Taylor's best fit at the next level is as a swing interior lineman in a gap or inside zone scheme, where his understanding of angles..."
+    "summary": "Taylor's best fit at the next level is as a swing interior lineman in a gap or inside zone scheme, where his understanding of angles...",
+    "draft_round": 6,
+    "draft_pick": 202
   },
   {
     "name": "Roderick Kearney",
