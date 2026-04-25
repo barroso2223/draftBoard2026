@@ -2894,11 +2894,11 @@
     "name": "Kamari Ramsey",
     "position": "S",
     "school": "USC",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 202,
     "height": "6-0",
     "forty": 4.47,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 77.2,
     "sources_count": 4,
     "rankings": {
@@ -2915,7 +2915,9 @@
         "grade": 79
       }
     },
-    "summary": "Ramsey's 2025 tape requires careful context. Injuries across USC's secondary pushed him into the nickel for about half his starts, moving..."
+    "summary": "Ramsey's 2025 tape requires careful context. Injuries across USC's secondary pushed him into the nickel for about half his starts, moving...",
+    "draft_round": 4,
+    "draft_pick": 141
   },
   {
     "name": "Justin Joly",
