@@ -1731,11 +1731,11 @@
     "name": "Brian Parker II",
     "position": "OT",
     "school": "Duke",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 309,
     "height": "6-5",
     "forty": 5.14,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.3,
     "sources_count": 2,
     "rankings": {
@@ -1746,7 +1746,9 @@
         "grade": 78
       }
     },
-    "summary": "Parker's future in the NFL is almost certainly on the interior, and that is not a knock. His tape at right tackle is excellent, but the..."
+    "summary": "Parker's future in the NFL is almost certainly on the interior, and that is not a knock. His tape at right tackle is excellent, but the...",
+    "draft_round": 6,
+    "draft_pick": 189
   },
   {
     "name": "Chris Bell",
