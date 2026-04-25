@@ -7318,11 +7318,11 @@
     "name": "Emmanuel Henderson Jr...",
     "position": "WR",
     "school": "Kansas",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 185,
     "height": "6-1",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68,
     "sources_count": 1,
     "rankings": {
@@ -7330,7 +7330,9 @@
         "rating": 78
       }
     },
-    "summary": "Henderson's NFL path runs through the special teams room first and foremost, and that is not an insult. How many guys can field..."
+    "summary": "Henderson's NFL path runs through the special teams room first and foremost, and that is not an insult. How many guys can field...",
+    "draft_round": 6,
+    "draft_pick": 199
   },
   {
     "name": "Kalil Alexander",
