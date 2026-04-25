@@ -5530,11 +5530,11 @@
     "name": "Josh Cuevas",
     "position": "TE",
     "school": "Alabama",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 245,
     "height": "6-3",
     "forty": 4.65,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.9,
     "sources_count": 4,
     "rankings": {
@@ -5551,7 +5551,9 @@
         "grade": 80
       }
     },
-    "summary": "Cuevas is a polished route runner who knows how to uncover in zone coverage and settle into soft spots. He is not going to run past..."
+    "summary": "Cuevas is a polished route runner who knows how to uncover in zone coverage and settle into soft spots. He is not going to run past...",
+    "draft_round": 5,
+    "draft_pick": 173
   },
   {
     "name": "Keagen Trost",
