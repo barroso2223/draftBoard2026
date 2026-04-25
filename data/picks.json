@@ -2086,5 +2086,14 @@
     "name": "Behren Morton",
     "position": "QB",
     "school": "Texas Tech"
+  },
+  {
+    "overall": 235,
+    "round": 7,
+    "pick": 19,
+    "team": "Minnesota Vikings",
+    "name": "Gavin Gerhardt",
+    "position": "C",
+    "school": "Cincinnati"
   }
 ]
