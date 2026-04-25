@@ -5214,11 +5214,11 @@
     "name": "Bauer Sharp",
     "position": "TE",
     "school": "LSU",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 249,
     "height": "6-5",
     "forty": 4.63,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.5,
     "sources_count": 2,
     "rankings": {
@@ -5229,7 +5229,9 @@
         "grade": 68
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 6,
+    "draft_pick": 185
   },
   {
     "name": "Trey Zuhn III",

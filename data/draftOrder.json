@@ -1653,7 +1653,10 @@
     "overall": 185,
     "round": 6,
     "pick": 4,
-    "team": "Las Vegas Raiders"
+    "team": "Las Vegas Raiders",
+    "player": "Bauer Sharp",
+    "position": "TE",
+    "school": "Lsu"
   },
   {
     "overall": 186,
