@@ -7131,11 +7131,11 @@
     "name": "Tanner Koziol",
     "position": "TE",
     "school": "Houston",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 247,
     "height": "6-6",
     "forty": 4.7,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68,
     "sources_count": 4,
     "rankings": {
@@ -7152,7 +7152,9 @@
         "grade": 78
       }
     },
-    "summary": "Koziol's Combine told you exactly what he is. The vertical and broad jump were among the best marks for tight ends in this class,..."
+    "summary": "Koziol's Combine told you exactly what he is. The vertical and broad jump were among the best marks for tight ends in this class,...",
+    "draft_round": 5,
+    "draft_pick": 164
   },
   {
     "name": "Brett Norfleet",
