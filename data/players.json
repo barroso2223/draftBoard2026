@@ -2470,11 +2470,11 @@
     "name": "Jalon Kilgore",
     "position": "S",
     "school": "South Carolina",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79,
     "sources_count": 3,
     "rankings": {
@@ -2487,7 +2487,9 @@
       "scouting": {
         "grade": 83
       }
-    }
+    },
+    "draft_round": 5,
+    "draft_pick": 167
   },
   {
     "name": "Dani Dennis-Sutton",
