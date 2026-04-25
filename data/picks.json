@@ -1681,5 +1681,14 @@
     "name": "Brian Parker II",
     "position": "C",
     "school": "Duke"
+  },
+  {
+    "overall": 190,
+    "round": 6,
+    "pick": 9,
+    "team": "New Orleans Saints",
+    "name": "Barion Brown",
+    "position": "WR",
+    "school": "Lsu"
   }
 ]

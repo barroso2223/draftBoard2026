@@ -9229,11 +9229,11 @@
     "name": "Barion Brown",
     "position": "WR",
     "school": "LSU",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 177,
     "height": "5-11",
     "forty": 4.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64.2,
     "sources_count": 4,
     "rankings": {
@@ -9250,7 +9250,9 @@
         "grade": 69
       }
     },
-    "summary": "Brown's combine speed showed up right where the tape said it would, but speed alone does not make a receiver at the next level. Watch his..."
+    "summary": "Brown's combine speed showed up right where the tape said it would, but speed alone does not make a receiver at the next level. Watch his...",
+    "draft_round": 6,
+    "draft_pick": 190
   },
   {
     "name": "Fred Davis II",
