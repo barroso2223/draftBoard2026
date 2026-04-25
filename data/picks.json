@@ -871,5 +871,23 @@
     "name": "Caleb Tiernan",
     "position": "OT",
     "school": "Northwestern"
+  },
+  {
+    "overall": 98,
+    "round": 3,
+    "pick": 34,
+    "team": "Philadelphia Eagles",
+    "name": "Jakobe Thomas",
+    "position": "S",
+    "school": "Miami (FL)"
+  },
+  {
+    "overall": 99,
+    "round": 3,
+    "pick": 35,
+    "team": "Pittsburgh Steelers",
+    "name": "Julian Neal",
+    "position": "CB",
+    "school": "Arkansas"
   }
 ]

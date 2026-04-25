@@ -876,13 +876,19 @@
     "overall": 98,
     "round": 3,
     "pick": 34,
-    "team": "Philadelphia Eagles"
+    "team": "Philadelphia Eagles",
+    "player": "Jakobe Thomas",
+    "position": "S",
+    "school": "Miami (FL)"
   },
   {
     "overall": 99,
     "round": 3,
     "pick": 35,
-    "team": "Pittsburgh Steelers"
+    "team": "Pittsburgh Steelers",
+    "player": "Julian Neal",
+    "position": "CB",
+    "school": "Arkansas"
   },
   {
     "overall": 100,

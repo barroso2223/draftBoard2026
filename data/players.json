@@ -4449,11 +4449,11 @@
     "name": "Jakobe Thomas",
     "position": "S",
     "school": "Miami",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": 211,
     "height": "6-1",
     "forty": 4.55,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.1,
     "sources_count": 4,
     "rankings": {
@@ -4470,7 +4470,9 @@
         "grade": 76
       }
     },
-    "summary": "Thomas' combination of size, instincts, and ball skills checks boxes that defensive coordinators desperately need when constructing their..."
+    "summary": "Thomas' combination of size, instincts, and ball skills checks boxes that defensive coordinators desperately need when constructing their...",
+    "draft_round": 3,
+    "draft_pick": 98
   },
   {
     "name": "Drew Allar",
@@ -4737,11 +4739,11 @@
     "name": "Julian Neal",
     "position": "CB",
     "school": "Arkansas",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 203,
     "height": "6-2",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.4,
     "sources_count": 4,
     "rankings": {
@@ -4758,7 +4760,9 @@
         "grade": 80
       }
     },
-    "summary": "Neal's best football is going to come in a defense that plays a lot of zone. His zone coverage marks are noticeably stronger than his man..."
+    "summary": "Neal's best football is going to come in a defense that plays a lot of zone. His zone coverage marks are noticeably stronger than his man...",
+    "draft_round": 3,
+    "draft_pick": 99
   },
   {
     "name": "Kendrick Law",
