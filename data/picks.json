@@ -2185,5 +2185,14 @@
     "name": "Jam Miller",
     "position": "RB",
     "school": "Alabama"
+  },
+  {
+    "overall": 246,
+    "round": 7,
+    "pick": 30,
+    "team": "Denver Broncos",
+    "name": "Miles Scott",
+    "position": "DB",
+    "school": "Illinois"
   }
 ]
