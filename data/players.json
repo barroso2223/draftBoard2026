@@ -4324,11 +4324,11 @@
     "name": "Markel Bell",
     "position": "OT",
     "school": "Miami",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": 346,
     "height": "6-9",
     "forty": 5.36,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.2,
     "sources_count": 4,
     "rankings": {
@@ -4345,7 +4345,9 @@
         "grade": 82
       }
     },
-    "summary": "Bell's NFL value lives and dies in pass protection, and the tape says there is real starter-quality ability on that side of the ball...."
+    "summary": "Bell's NFL value lives and dies in pass protection, and the tape says there is real starter-quality ability on that side of the ball....",
+    "draft_round": 3,
+    "draft_pick": 68
   },
   {
     "name": "Albert Regis",
