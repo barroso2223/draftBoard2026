@@ -597,7 +597,10 @@
     "overall": 67,
     "round": 3,
     "pick": 3,
-    "team": "Las Vegas Raiders"
+    "team": "Las Vegas Raiders",
+    "player": "Keyron Crawford",
+    "position": "EDGE",
+    "school": "Auburn"
   },
   {
     "overall": 68,

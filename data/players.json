@@ -1788,11 +1788,11 @@
     "name": "Keyron Crawford",
     "position": "EDGE",
     "school": "Auburn",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 253,
     "height": "6-4",
     "forty": 4.8,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.2,
     "sources_count": 3,
     "rankings": {
@@ -1806,7 +1806,9 @@
         "grade": 80
       }
     },
-    "summary": "Crawford's transition from basketball court to football field makes his developmental arc unlike most prospects in this class. He's..."
+    "summary": "Crawford's transition from basketball court to football field makes his developmental arc unlike most prospects in this class. He's...",
+    "draft_round": 3,
+    "draft_pick": 67
   },
   {
     "name": "Lee Hunter",
