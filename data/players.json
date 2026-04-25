@@ -9947,11 +9947,11 @@
     "name": "Gabriel Rubio",
     "position": "DT",
     "school": "Notre Dame",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 322,
     "height": "6-5",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 63.7,
     "sources_count": 1,
     "rankings": {
@@ -9959,7 +9959,9 @@
         "rating": 73.7
       }
     },
-    "summary": "Rubio has heavy hands and uses them aggressively, rocking offensive linemen back. He shows the ability to disengage and out-grapple..."
+    "summary": "Rubio has heavy hands and uses them aggressively, rocking offensive linemen back. He shows the ability to disengage and out-grapple...",
+    "draft_round": 6,
+    "draft_pick": 210
   },
   {
     "name": "Avante Dickerson",

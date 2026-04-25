@@ -1861,5 +1861,14 @@
     "name": "Matt Gulbin",
     "position": "C",
     "school": "Michigan State"
+  },
+  {
+    "overall": 210,
+    "round": 6,
+    "pick": 29,
+    "team": "Kansas City Chiefs",
+    "name": "Gabe Rubio",
+    "position": "EDGE",
+    "school": "Notre Dame"
   }
 ]
