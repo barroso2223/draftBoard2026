@@ -1303,5 +1303,14 @@
     "name": "Joshua Josephs",
     "position": "EDGE",
     "school": "Tennessee"
+  },
+  {
+    "overall": 148,
+    "round": 5,
+    "pick": 8,
+    "team": "Cleveland Browns",
+    "name": "Beau Stephens",
+    "position": "OG",
+    "school": "Iowa"
   }
 ]

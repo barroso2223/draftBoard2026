@@ -3075,11 +3075,11 @@
     "name": "Beau Stephens",
     "position": "OG",
     "school": "Iowa",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 315,
     "height": "6-6",
     "forty": 5.35,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.8,
     "sources_count": 3,
     "rankings": {
@@ -3093,7 +3093,9 @@
         "grade": 79
       }
     },
-    "summary": "What you see with Stephens is a guard whose 2025 tape is dramatically better than anything he put on film before it. That kind of jump,..."
+    "summary": "What you see with Stephens is a guard whose 2025 tape is dramatically better than anything he put on film before it. That kind of jump,...",
+    "draft_round": 5,
+    "draft_pick": 148
   },
   {
     "name": "Michael Trigg",
