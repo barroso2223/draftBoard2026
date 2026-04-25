@@ -8647,11 +8647,11 @@
     "name": "Pat Coogan",
     "position": "C",
     "school": "Indiana",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": 311,
     "height": "6-5",
     "forty": 5.2,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 65.1,
     "sources_count": 2,
     "rankings": {
@@ -8662,7 +8662,9 @@
         "grade": 49
       }
     },
-    "summary": "Coogan's best football will come in a gap or inside zone scheme where his responsibilities stay between the tackles. He processes well,..."
+    "summary": "Coogan's best football will come in a gap or inside zone scheme where his responsibilities stay between the tackles. He processes well,...",
+    "draft_round": 6,
+    "draft_pick": 194
   },
   {
     "name": "Alex Harkey",
