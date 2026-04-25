@@ -1950,7 +1950,10 @@
     "overall": 218,
     "round": 7,
     "pick": 2,
-    "team": "Dallas Cowboys"
+    "team": "Dallas Cowboys",
+    "player": "Anthony Smith",
+    "position": "WR",
+    "school": "East Carolina"
   },
   {
     "overall": 219,

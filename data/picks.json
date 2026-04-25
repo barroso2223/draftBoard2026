@@ -1933,5 +1933,14 @@
     "name": "Jayden Williams",
     "position": "OT",
     "school": "Mississippi"
+  },
+  {
+    "overall": 218,
+    "round": 6,
+    "pick": 2,
+    "team": "Dallas Cowboys",
+    "name": "Anthony Smith",
+    "position": "WR",
+    "school": "East Carolina"
   }
 ]
