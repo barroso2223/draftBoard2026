@@ -1924,5 +1924,14 @@
     "name": "Caden Curry",
     "position": "EDGE",
     "school": "Ohio State"
+  },
+  {
+    "overall": 217,
+    "round": 6,
+    "pick": 1,
+    "team": "Arizona Cardinals",
+    "name": "Jayden Williams",
+    "position": "OT",
+    "school": "Mississippi"
   }
 ]

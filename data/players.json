@@ -9146,11 +9146,11 @@
     "name": "Ayden Williams",
     "position": "WR",
     "school": "Mississippi State",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 205,
     "height": "6-3",
     "forty": 4.65,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64.4,
     "sources_count": 1,
     "rankings": {
@@ -9158,7 +9158,9 @@
         "rating": 74.4
       }
     },
-    "summary": "Williams catches the ball with his large, soft hands and is tough. Deceptive jets and a smooth route runner. Does not have exceptional..."
+    "summary": "Williams catches the ball with his large, soft hands and is tough. Deceptive jets and a smooth route runner. Does not have exceptional...",
+    "draft_round": 6,
+    "draft_pick": 217
   },
   {
     "name": "Sawyer Robertson",
