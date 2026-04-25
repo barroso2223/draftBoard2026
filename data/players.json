@@ -7570,11 +7570,11 @@
     "name": "Quintayvious Hutchins",
     "position": "EDGE",
     "school": "Boston College",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 233,
     "height": "6-3",
     "forty": 4.74,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67.4,
     "sources_count": 3,
     "rankings": {
@@ -7588,7 +7588,9 @@
         "grade": 77
       }
     },
-    "summary": "Hutchins is not going to wow anyone at a weigh-in or blow the doors off at the combine with his first step. What he will do is show up..."
+    "summary": "Hutchins is not going to wow anyone at a weigh-in or blow the doors off at the combine with his first step. What he will do is show up...",
+    "draft_round": 7,
+    "draft_pick": 247
   },
   {
     "name": "Kaleb Proctor",
