@@ -4405,11 +4405,11 @@
     "name": "Andre Fuller",
     "position": "CB",
     "school": "Toledo",
-    "team": "",
+    "team": "Green Bay Packers",
     "weight": 200,
     "height": "6-1",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.3,
     "sources_count": 3,
     "rankings": {
@@ -4423,7 +4423,9 @@
         "grade": 77
       }
     },
-    "summary": "Fuller has prototypical size for a boundary corner, legitimate speed, and a brand of press-man physicality that NFL coaches drool over on..."
+    "summary": "Fuller has prototypical size for a boundary corner, legitimate speed, and a brand of press-man physicality that NFL coaches drool over on...",
+    "draft_round": 7,
+    "draft_pick": 236
   },
   {
     "name": "Jonah Coleman",

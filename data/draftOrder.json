@@ -2112,7 +2112,10 @@
     "overall": 236,
     "round": 7,
     "pick": 20,
-    "team": "Green Bay Packers"
+    "team": "Green Bay Packers",
+    "player": "Andre Fuller",
+    "position": "CB",
+    "school": "Toledo"
   },
   {
     "overall": 237,
