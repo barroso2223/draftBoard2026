@@ -1483,5 +1483,14 @@
     "name": "Kendrick Law",
     "position": "WR",
     "school": "Kentucky"
+  },
+  {
+    "overall": 169,
+    "round": 5,
+    "pick": 29,
+    "team": "Kansas City Chiefs",
+    "name": "Riley Nowakowski",
+    "position": "TE",
+    "school": "Indiana"
   }
 ]

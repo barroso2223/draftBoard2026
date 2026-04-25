@@ -8077,11 +8077,11 @@
     "name": "Riley Nowakowski",
     "position": "TE",
     "school": "Indiana",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 250,
     "height": "6-2",
     "forty": 4.66,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66.7,
     "sources_count": 4,
     "rankings": {
@@ -8098,7 +8098,9 @@
         "grade": 72
       }
     },
-    "summary": "Nowakowski fits best as an H-back or move tight end in an offense that values versatility over positional purity. His blocking technique..."
+    "summary": "Nowakowski fits best as an H-back or move tight end in an offense that values versatility over positional purity. His blocking technique...",
+    "draft_round": 5,
+    "draft_pick": 169
   },
   {
     "name": "Garrett DiGiorgio",
