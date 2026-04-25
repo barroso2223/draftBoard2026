@@ -10451,11 +10451,11 @@
     "name": "Alex Harkey",
     "position": "OG",
     "school": "Oregon",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 62.3,
     "sources_count": 3,
     "rankings": {
@@ -10468,7 +10468,9 @@
       "scouting": {
         "grade": 74
       }
-    }
+    },
+    "draft_round": 6,
+    "draft_pick": 206
   },
   {
     "name": "Blake Shapen",
