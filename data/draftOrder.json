@@ -1266,7 +1266,10 @@
     "overall": 142,
     "round": 5,
     "pick": 2,
-    "team": "Tennessee Titans"
+    "team": "Tennessee Titans",
+    "player": "Fernando Carmona",
+    "position": "OG",
+    "school": "Arkansas"
   },
   {
     "overall": 143,

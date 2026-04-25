@@ -10902,11 +10902,11 @@
     "name": "Fernando Carmona",
     "position": "OG",
     "school": "Arkansas",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 60,
     "sources_count": 3,
     "rankings": {
@@ -10919,7 +10919,9 @@
       "scouting": {
         "grade": 72
       }
-    }
+    },
+    "draft_round": 4,
+    "draft_pick": 142
   },
   {
     "name": "Jaleel Skinner",
