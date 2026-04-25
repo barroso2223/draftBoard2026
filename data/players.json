@@ -2709,11 +2709,11 @@
     "name": "Ja'Kobi Lane",
     "position": "WR",
     "school": "USC",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 200,
     "height": "6-4",
     "forty": 4.47,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 77.9,
     "sources_count": 4,
     "rankings": {
@@ -2730,7 +2730,9 @@
         "grade": 82
       }
     },
-    "summary": "Lane's game is built around the catch point, and that skill translates. He wins above the rim, owns contested situations, and understands..."
+    "summary": "Lane's game is built around the catch point, and that skill translates. He wins above the rim, owns contested situations, and understands...",
+    "draft_round": 3,
+    "draft_pick": 80
   },
   {
     "name": "Logan Fano",

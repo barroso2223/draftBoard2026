@@ -714,7 +714,10 @@
     "overall": 80,
     "round": 3,
     "pick": 16,
-    "team": "Baltimore Ravens"
+    "team": "Baltimore Ravens",
+    "player": "Ja'Kobi Lane",
+    "position": "WR",
+    "school": "USC"
   },
   {
     "overall": 81,
