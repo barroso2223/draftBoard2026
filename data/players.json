@@ -4480,11 +4480,11 @@
     "name": "DeMonte Capehart",
     "position": "DT",
     "school": "Clemson",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 313,
     "height": "6-5",
     "forty": 4.85,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.1,
     "sources_count": 4,
     "rankings": {
@@ -4501,7 +4501,9 @@
         "grade": 80
       }
     },
-    "summary": "Capehart's combine workout changed the conversation around him. He posted one of the fastest 40 times among defensive tackles in the..."
+    "summary": "Capehart's combine workout changed the conversation around him. He posted one of the fastest 40 times among defensive tackles in the...",
+    "draft_round": 5,
+    "draft_pick": 155
   },
   {
     "name": "Jakobe Thomas",
