@@ -4369,11 +4369,11 @@
     "name": "Albert Regis",
     "position": "DT",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 295,
     "height": "6-1",
     "forty": 4.88,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.2,
     "sources_count": 4,
     "rankings": {
@@ -4390,7 +4390,9 @@
         "grade": 78
       }
     },
-    "summary": "Put the tape on and you see a classic space-eating nose tackle who can anchor a run defense but won't give you much as a pass rusher...."
+    "summary": "Put the tape on and you see a classic space-eating nose tackle who can anchor a run defense but won't give you much as a pass rusher....",
+    "draft_round": 3,
+    "draft_pick": 81
   },
   {
     "name": "DeMonte Capehart",
