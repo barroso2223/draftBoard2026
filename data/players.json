@@ -4844,11 +4844,11 @@
     "name": "Kendrick Law",
     "position": "WR",
     "school": "Kentucky",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 203,
     "height": "5-11",
     "forty": 4.45,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.4,
     "sources_count": 3,
     "rankings": {
@@ -4862,7 +4862,9 @@
         "grade": 76
       }
     },
-    "summary": "Law is a catch-and-run receiver whose combine performance added a dimension to his evaluation that the college tape alone does not..."
+    "summary": "Law is a catch-and-run receiver whose combine performance added a dimension to his evaluation that the college tape alone does not...",
+    "draft_round": 5,
+    "draft_pick": 168
   },
   {
     "name": "Brenen Thompson",
