@@ -3336,11 +3336,11 @@
     "name": "Kyle Louis",
     "position": "LB",
     "school": "Pittsburgh",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 220,
     "height": "6-0",
     "forty": 4.53,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.7,
     "sources_count": 4,
     "rankings": {
@@ -3357,7 +3357,9 @@
         "grade": 80
       }
     },
-    "summary": "Louis belongs in a 4-3 scheme as a weakside linebacker where the front four can keep his frame clean. Put him in space and let him play..."
+    "summary": "Louis belongs in a 4-3 scheme as a weakside linebacker where the front four can keep his frame clean. Put him in space and let him play...",
+    "draft_round": 4,
+    "draft_pick": 138
   },
   {
     "name": "Bryce Lance",
