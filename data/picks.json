@@ -439,5 +439,14 @@
     "name": "Lee Hunter",
     "position": "DT",
     "school": "Texas Tech"
+  },
+  {
+    "overall": 50,
+    "round": 2,
+    "pick": 18,
+    "team": "Detroit Lions",
+    "name": "D'Angelo Ponds",
+    "position": "CB",
+    "school": "Indiana"
   }
 ]

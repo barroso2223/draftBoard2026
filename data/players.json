@@ -1407,11 +1407,11 @@
     "name": "D'Angelo Ponds",
     "position": "CB",
     "school": "Indiana",
-    "team": "",
+    "team": "Detroit Lions",
     "weight": 182,
     "height": "5-9",
     "forty": 4.35,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.3,
     "sources_count": 4,
     "rankings": {
@@ -1428,7 +1428,9 @@
         "grade": 86
       }
     },
-    "summary": "The Combine changed the calculus on Ponds. Before Indianapolis, the conversation centered on whether his tape could outweigh his tape..."
+    "summary": "The Combine changed the calculus on Ponds. Before Indianapolis, the conversation centered on whether his tape could outweigh his tape...",
+    "draft_round": 2,
+    "draft_pick": 50
   },
   {
     "name": "Zachariah Branch",

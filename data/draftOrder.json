@@ -444,7 +444,10 @@
     "overall": 50,
     "round": 2,
     "pick": 18,
-    "team": "Detroit Lions"
+    "team": "Detroit Lions",
+    "player": "D'Angelo Ponds",
+    "position": "CB",
+    "school": "Indiana"
   },
   {
     "overall": 51,
