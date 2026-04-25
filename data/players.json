@@ -7541,11 +7541,11 @@
     "name": "Aiden Fisher",
     "position": "LB",
     "school": "Indiana",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 232,
     "height": "6-1",
     "forty": 4.7,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67.5,
     "sources_count": 4,
     "rankings": {
@@ -7562,7 +7562,9 @@
         "grade": 79
       }
     },
-    "summary": "Fisher's path to a roster will run through his ability to be a dependable early-down run defender and a quality special teams..."
+    "summary": "Fisher's path to a roster will run through his ability to be a dependable early-down run defender and a quality special teams...",
+    "draft_round": 7,
+    "draft_pick": 243
   },
   {
     "name": "Quintayvious Hutchins",
