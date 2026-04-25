@@ -291,103 +291,154 @@
     "overall": 33,
     "round": 2,
     "pick": 1,
-    "team": "San Francisco 49ers"
+    "team": "San Francisco 49ers",
+    "player": "De'Zhaun Stribling",
+    "position": "WR",
+    "school": "Mississippi"
   },
   {
     "overall": 34,
     "round": 2,
     "pick": 2,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Chase Bisontis",
+    "position": "OG",
+    "school": "Texas A&M"
   },
   {
     "overall": 35,
     "round": 2,
     "pick": 3,
-    "team": "Buffalo Bills"
+    "team": "Buffalo Bills",
+    "player": "T.J. Parker",
+    "position": "EDGE",
+    "school": "Clemson"
   },
   {
     "overall": 36,
     "round": 2,
     "pick": 4,
-    "team": "Las Vegas Raiders"
+    "team": "Las Vegas Raiders",
+    "player": "Kayden McDonald",
+    "position": "DT",
+    "school": "Ohio St."
   },
   {
     "overall": 37,
     "round": 2,
     "pick": 5,
-    "team": "New York Giants"
+    "team": "New York Giants",
+    "player": "Colton Hood",
+    "position": "CB",
+    "school": "Tennessee"
   },
   {
     "overall": 38,
     "round": 2,
     "pick": 6,
-    "team": "Houston Texans"
+    "team": "Houston Texans",
+    "player": "Treydan Stukes",
+    "position": "CB",
+    "school": "Arizona"
   },
   {
     "overall": 39,
     "round": 2,
     "pick": 7,
-    "team": "Cleveland Browns"
+    "team": "Cleveland Browns",
+    "player": "Denzel Boston",
+    "position": "WR",
+    "school": "Washington"
   },
   {
     "overall": 40,
     "round": 2,
     "pick": 8,
-    "team": "Kansas City Chiefs"
+    "team": "Kansas City Chiefs",
+    "player": "R Mason Thomas",
+    "position": "EDGE",
+    "school": "Oklahoma"
   },
   {
     "overall": 41,
     "round": 2,
     "pick": 9,
-    "team": "Cincinnati Bengals"
+    "team": "Cincinnati Bengals",
+    "player": "Cashius Howell",
+    "position": "EDGE",
+    "school": "Texas A&M"
   },
   {
     "overall": 42,
     "round": 2,
     "pick": 10,
-    "team": "New Orleans Saints"
+    "team": "New Orleans Saints",
+    "player": "Christen Miller",
+    "position": "DT",
+    "school": "Georgia"
   },
   {
     "overall": 43,
     "round": 2,
     "pick": 11,
-    "team": "Miami Dolphins"
+    "team": "Miami Dolphins",
+    "player": "Jacob Rodriguez",
+    "position": "LB",
+    "school": "Texas Tech"
   },
   {
     "overall": 44,
     "round": 2,
     "pick": 12,
-    "team": "New York Jets"
+    "team": "New York Jets",
+    "player": "Derrick Moore",
+    "position": "EDGE",
+    "school": "Michigan"
   },
   {
     "overall": 45,
     "round": 2,
     "pick": 13,
-    "team": "Baltimore Ravens"
+    "team": "Baltimore Ravens",
+    "player": "Zion Young",
+    "position": "EDGE",
+    "school": "Missouri"
   },
   {
     "overall": 46,
     "round": 2,
     "pick": 14,
-    "team": "Tampa Bay Buccaneers"
+    "team": "Tampa Bay Buccaneers",
+    "player": "Josiah Trotter",
+    "position": "LB",
+    "school": "Missouri"
   },
   {
     "overall": 47,
     "round": 2,
     "pick": 15,
-    "team": "Indianapolis Colts"
+    "team": "Indianapolis Colts",
+    "player": "Germie Bernard",
+    "position": "WR",
+    "school": "Alabama"
   },
   {
     "overall": 48,
     "round": 2,
     "pick": 16,
-    "team": "Atlanta Falcons"
+    "team": "Atlanta Falcons",
+    "player": "Avieon Terrell",
+    "position": "CB",
+    "school": "Clemson"
   },
   {
     "overall": 49,
     "round": 2,
     "pick": 17,
-    "team": "Minnesota Vikings"
+    "team": "Minnesota Vikings",
+    "player": "Lee Hunter",
+    "position": "DT",
+    "school": "Texas Tech"
   },
   {
     "overall": 50,

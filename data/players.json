@@ -368,11 +368,11 @@
     "name": "Cashius Howell",
     "position": "EDGE",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 253,
     "height": "6-2",
     "forty": 4.59,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 87.7,
     "sources_count": 3,
     "rankings": {
@@ -386,7 +386,9 @@
         "grade": 90
       }
     },
-    "summary": "Indianapolis changed the calculus on Howell, and anybody who tells you otherwise is not being straight with you. The 30 1/4-inch arms and..."
+    "summary": "Indianapolis changed the calculus on Howell, and anybody who tells you otherwise is not being straight with you. The 30 1/4-inch arms and...",
+    "draft_round": 2,
+    "draft_pick": 41
   },
   {
     "name": "Carnell Tate",
@@ -584,11 +586,11 @@
     "name": "Zion Young",
     "position": "EDGE",
     "school": "Missouri",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 262,
     "height": "6-6",
     "forty": 4.75,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.9,
     "sources_count": 3,
     "rankings": {
@@ -602,17 +604,19 @@
         "grade": 86
       }
     },
-    "summary": "Young's tape at Missouri tells the story of a player whose impact on the game goes well beyond what the box score captures. The sack..."
+    "summary": "Young's tape at Missouri tells the story of a player whose impact on the game goes well beyond what the box score captures. The sack...",
+    "draft_round": 2,
+    "draft_pick": 45
   },
   {
     "name": "T.J. Parker",
     "position": "EDGE",
     "school": "Clemson",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 263,
     "height": "6-4",
     "forty": 4.68,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.7,
     "sources_count": 3,
     "rankings": {
@@ -626,17 +630,19 @@
         "grade": 88
       }
     },
-    "summary": "Put the tape on from 2024 and you see a defender who bends games to his will. The Pittsburgh performance alone shows what Parker is capable..."
+    "summary": "Put the tape on from 2024 and you see a defender who bends games to his will. The Pittsburgh performance alone shows what Parker is capable...",
+    "draft_round": 2,
+    "draft_pick": 35
   },
   {
     "name": "Avieon Terrell",
     "position": "CB",
     "school": "Clemson",
-    "team": "",
+    "team": "Atlanta Falcons",
     "weight": 186,
     "height": "5-11",
     "forty": 4.39,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.5,
     "sources_count": 4,
     "rankings": {
@@ -653,7 +659,9 @@
         "grade": 87
       }
     },
-    "summary": "Terrell is a starting caliber NFL corner who should contribute from day one. His combination of elite ball skills, fluid athleticism, and..."
+    "summary": "Terrell is a starting caliber NFL corner who should contribute from day one. His combination of elite ball skills, fluid athleticism, and...",
+    "draft_round": 2,
+    "draft_pick": 48
   },
   {
     "name": "Monroe Freeling",
@@ -742,11 +750,11 @@
     "name": "Denzel Boston",
     "position": "WR",
     "school": "Washington",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 212,
     "height": "6-4",
     "forty": 4.6,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.1,
     "sources_count": 4,
     "rankings": {
@@ -763,7 +771,9 @@
         "grade": 89
       }
     },
-    "summary": "Boston isn't going to run past NFL corners with pure speed, and his decision to skip the 40-yard dash at Washington's pro day only adds to..."
+    "summary": "Boston isn't going to run past NFL corners with pure speed, and his decision to skip the 40-yard dash at Washington's pro day only adds to...",
+    "draft_round": 2,
+    "draft_pick": 39
   },
   {
     "name": "Gabe Jacas",
@@ -851,11 +861,11 @@
     "name": "Kayden McDonald",
     "position": "DT",
     "school": "Ohio State",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 326,
     "height": "6-2",
     "forty": 5.15,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.6,
     "sources_count": 4,
     "rankings": {
@@ -872,7 +882,9 @@
         "grade": 85
       }
     },
-    "summary": "McDonald is a throwback nose tackle in an era obsessed with pass rushers, and there is real value in that. Watch his film against..."
+    "summary": "McDonald is a throwback nose tackle in an era obsessed with pass rushers, and there is real value in that. Watch his film against...",
+    "draft_round": 2,
+    "draft_pick": 36
   },
   {
     "name": "CJ Allen",
@@ -934,11 +946,11 @@
     "name": "Colton Hood",
     "position": "CB",
     "school": "Tennessee",
-    "team": "",
+    "team": "New York Giants",
     "weight": 193,
     "height": "6-0",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.3,
     "sources_count": 4,
     "rankings": {
@@ -955,7 +967,9 @@
         "grade": 88
       }
     },
-    "summary": "Hood's best football is played within ten yards of the line, where his press technique, jam strength, and diagnostic ability combine to..."
+    "summary": "Hood's best football is played within ten yards of the line, where his press technique, jam strength, and diagnostic ability combine to...",
+    "draft_round": 2,
+    "draft_pick": 37
   },
   {
     "name": "Emmanuel Pregnon",
@@ -1229,11 +1243,11 @@
     "name": "R Mason Thomas",
     "position": "EDGE",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 241,
     "height": "6-2",
     "forty": 4.67,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.7,
     "sources_count": 3,
     "rankings": {
@@ -1247,7 +1261,9 @@
         "grade": 83
       }
     },
-    "summary": "Thomas is a pass rush weapon, full stop. That first-step explosion, the ability to bend the corner at absurd angles, and the violent..."
+    "summary": "Thomas is a pass rush weapon, full stop. That first-step explosion, the ability to bend the corner at absurd angles, and the violent...",
+    "draft_round": 2,
+    "draft_pick": 40
   },
   {
     "name": "Jake Golday",
@@ -1280,11 +1296,11 @@
     "name": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan",
-    "team": "",
+    "team": "New York Jets",
     "weight": 255,
     "height": "6-4",
     "forty": 4.65,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.6,
     "sources_count": 3,
     "rankings": {
@@ -1298,7 +1314,9 @@
         "grade": 82
       }
     },
-    "summary": "Moore's pass rush ability is the reason he will get drafted, and the senior season tape backs it up. The bull rush generates real pocket..."
+    "summary": "Moore's pass rush ability is the reason he will get drafted, and the senior season tape backs it up. The bull rush generates real pocket...",
+    "draft_round": 2,
+    "draft_pick": 44
   },
   {
     "name": "Brandon Cisse",
@@ -1331,11 +1349,11 @@
     "name": "Christen Miller",
     "position": "DT",
     "school": "Georgia",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 321,
     "height": "6-4",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.5,
     "sources_count": 4,
     "rankings": {
@@ -1352,7 +1370,9 @@
         "grade": 86
       }
     },
-    "summary": "Put the tape on and you see a defensive tackle who can absolutely wreck a running game. Miller's ability to hold the point of attack,..."
+    "summary": "Put the tape on and you see a defensive tackle who can absolutely wreck a running game. Miller's ability to hold the point of attack,...",
+    "draft_round": 2,
+    "draft_pick": 42
   },
   {
     "name": "Jadarian Price",
@@ -1495,11 +1515,11 @@
     "name": "Chase Bisontis",
     "position": "OG",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 315,
     "height": "6-5",
     "forty": 5.02,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.9,
     "sources_count": 3,
     "rankings": {
@@ -1513,17 +1533,19 @@
         "grade": 86
       }
     },
-    "summary": "Bisontis makes the most sense as a left guard at the next level, though his freshman experience at right tackle adds some flexibility...."
+    "summary": "Bisontis makes the most sense as a left guard at the next level, though his freshman experience at right tackle adds some flexibility....",
+    "draft_round": 2,
+    "draft_pick": 34
   },
   {
     "name": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 231,
     "height": "6-1",
     "forty": 4.57,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.7,
     "sources_count": 4,
     "rankings": {
@@ -1540,7 +1562,9 @@
         "grade": 85
       }
     },
-    "summary": "Rodriguez is one of those rare college linebackers whose production and testing both check out. The tackle totals, the turnover numbers,..."
+    "summary": "Rodriguez is one of those rare college linebackers whose production and testing both check out. The tackle totals, the turnover numbers,...",
+    "draft_round": 2,
+    "draft_pick": 43
   },
   {
     "name": "Mike Washington Jr.",
@@ -1770,11 +1794,11 @@
     "name": "Lee Hunter",
     "position": "DT",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 318,
     "height": "6-4",
     "forty": 5.18,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.8,
     "sources_count": 4,
     "rankings": {
@@ -1791,7 +1815,9 @@
         "grade": 81
       }
     },
-    "summary": "Hunter is a run-stuffing nose tackle, and there is no reason to pretend the projection is anything more complicated than that. What he..."
+    "summary": "Hunter is a run-stuffing nose tackle, and there is no reason to pretend the projection is anything more complicated than that. What he...",
+    "draft_round": 2,
+    "draft_pick": 49
   },
   {
     "name": "Keylan Rutledge",
@@ -1826,11 +1852,11 @@
     "name": "Josiah Trotter",
     "position": "LB",
     "school": "Missouri",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 237,
     "height": "6-2",
     "forty": 4.61,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.5,
     "sources_count": 4,
     "rankings": {
@@ -1847,7 +1873,9 @@
         "grade": 81
       }
     },
-    "summary": "Trotter plays with a physicality that shows up immediately on tape. He trusts his reads, triggers downhill without hesitation, and meets..."
+    "summary": "Trotter plays with a physicality that shows up immediately on tape. He trusts his reads, triggers downhill without hesitation, and meets...",
+    "draft_round": 2,
+    "draft_pick": 46
   },
   {
     "name": "Malik Muhammad",
@@ -1934,11 +1962,11 @@
     "name": "Treydan Stukes",
     "position": "CB",
     "school": "Arizona",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 190,
     "height": "6-1",
     "forty": 4.33,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.2,
     "sources_count": 3,
     "rankings": {
@@ -1952,7 +1980,9 @@
         "grade": 82
       }
     },
-    "summary": "Stukes is not going to be the guy you line up on the boundary in press-man and ask to mirror Amon-Ra St. Brown on a five-yard option..."
+    "summary": "Stukes is not going to be the guy you line up on the boundary in press-man and ask to mirror Amon-Ra St. Brown on a five-yard option...",
+    "draft_round": 2,
+    "draft_pick": 38
   },
   {
     "name": "Tyreak Sapp",
@@ -1979,11 +2009,11 @@
     "name": "Germie Bernard",
     "position": "WR",
     "school": "Alabama",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 206,
     "height": "6-1",
     "forty": 4.48,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80,
     "sources_count": 4,
     "rankings": {
@@ -2000,7 +2030,9 @@
         "grade": 80
       }
     },
-    "summary": "Bernard is the kind of receiver who is going to make a quarterback's life easier from Day 1. He knows where to be, he knows when to be..."
+    "summary": "Bernard is the kind of receiver who is going to make a quarterback's life easier from Day 1. He knows where to be, he knows when to be...",
+    "draft_round": 2,
+    "draft_pick": 47
   },
   {
     "name": "Max Klare",
@@ -2135,11 +2167,11 @@
     "name": "De'Zhaun Stribling",
     "position": "WR",
     "school": "Mississippi",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 207,
     "height": "6-2",
     "forty": 4.36,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.7,
     "sources_count": 4,
     "rankings": {
@@ -2156,7 +2188,9 @@
         "grade": 80
       }
     },
-    "summary": "Stribling's best reps are the ones where he gets vertical in a hurry and makes corners pay for giving him space. When defensive backs..."
+    "summary": "Stribling's best reps are the ones where he gets vertical in a hurry and makes corners pay for giving him space. When defensive backs...",
+    "draft_round": 2,
+    "draft_pick": 33
   },
   {
     "name": "Keith Abney II",
