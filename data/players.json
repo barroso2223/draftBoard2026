@@ -11831,11 +11831,11 @@
     "name": "Cole Wisniewski",
     "position": "S",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 52,
     "sources_count": 2,
     "rankings": {
@@ -11845,7 +11845,9 @@
       "espn": {
         "grade": 45
       }
-    }
+    },
+    "draft_round": 7,
+    "draft_pick": 244
   },
   {
     "name": "Tywone Malone Jr.",
