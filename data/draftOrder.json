@@ -1284,7 +1284,10 @@
     "overall": 144,
     "round": 5,
     "pick": 4,
-    "team": "Chicago Bears"
+    "team": "Chicago Bears",
+    "player": "Sam Hecht",
+    "position": "C",
+    "school": "Kansas State"
   },
   {
     "overall": 145,

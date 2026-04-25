@@ -1708,11 +1708,11 @@
     "name": "Sam Hecht",
     "position": "C",
     "school": "Kansas State",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 303,
     "height": "6-4",
     "forty": 5.1,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.4,
     "sources_count": 2,
     "rankings": {
@@ -1723,7 +1723,9 @@
         "grade": 78
       }
     },
-    "summary": "Hecht isn't a guy winning with elite athleticism or freakish power. He wins because he's always in the right spot, always balanced, always..."
+    "summary": "Hecht isn't a guy winning with elite athleticism or freakish power. He wins because he's always in the right spot, always balanced, always...",
+    "draft_round": 5,
+    "draft_pick": 144
   },
   {
     "name": "Brian Parker II",
