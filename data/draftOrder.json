@@ -489,7 +489,10 @@
     "overall": 55,
     "round": 2,
     "pick": 23,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Gabe Jacas",
+    "position": "EDGE",
+    "school": "Illinois"
   },
   {
     "overall": 56,

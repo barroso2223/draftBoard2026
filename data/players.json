@@ -779,11 +779,11 @@
     "name": "Gabe Jacas",
     "position": "EDGE",
     "school": "Illinois",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 260,
     "height": "6-4",
     "forty": 4.8,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85,
     "sources_count": 3,
     "rankings": {
@@ -797,7 +797,9 @@
         "grade": 86
       }
     },
-    "summary": "There's genuine NFL-caliber ability in Jacas' game, though teams will need to carefully evaluate what they're getting versus what they hope..."
+    "summary": "There's genuine NFL-caliber ability in Jacas' game, though teams will need to carefully evaluate what they're getting versus what they hope...",
+    "draft_round": 2,
+    "draft_pick": 55
   },
   {
     "name": "Caleb Lomu",

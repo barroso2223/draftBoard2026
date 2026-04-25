@@ -484,5 +484,14 @@
     "name": "Eli Stowers",
     "position": "TE",
     "school": "Vanderbilt"
+  },
+  {
+    "overall": 55,
+    "round": 2,
+    "pick": 23,
+    "team": "Los Angeles Chargers",
+    "name": "Gabe Jacas",
+    "position": "EDGE",
+    "school": "Illinois"
   }
 ]
