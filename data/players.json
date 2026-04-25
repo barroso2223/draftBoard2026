@@ -4302,11 +4302,11 @@
     "name": "Nicholas Singleton",
     "position": "RB",
     "school": "Penn State",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": 219,
     "height": "6-0",
     "forty": 4.39,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.4,
     "sources_count": 4,
     "rankings": {
@@ -4323,7 +4323,9 @@
         "grade": 79
       }
     },
-    "summary": "Singleton's film tells two different stories depending on which season you watch. The 2024 tape shows a back with genuine three-down..."
+    "summary": "Singleton's film tells two different stories depending on which season you watch. The 2024 tape shows a back with genuine three-down...",
+    "draft_round": 5,
+    "draft_pick": 165
   },
   {
     "name": "J.C. Davis",

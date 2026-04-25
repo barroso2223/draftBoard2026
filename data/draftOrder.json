@@ -1470,7 +1470,10 @@
     "overall": 165,
     "round": 5,
     "pick": 25,
-    "team": "Tennessee Titans"
+    "team": "Tennessee Titans",
+    "player": "Nicholas Singleton",
+    "position": "RB",
+    "school": "Penn State"
   },
   {
     "overall": 166,

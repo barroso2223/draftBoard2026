@@ -1447,5 +1447,14 @@
     "name": "Tanner Koziol",
     "position": "TE",
     "school": "Houston"
+  },
+  {
+    "overall": 165,
+    "round": 5,
+    "pick": 25,
+    "team": "Tennessee Titans",
+    "name": "Nicholas Singleton",
+    "position": "RB",
+    "school": "Penn State"
   }
 ]
