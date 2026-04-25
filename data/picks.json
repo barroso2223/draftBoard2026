@@ -898,5 +898,59 @@
     "name": "Jalen Huskey",
     "position": "CB",
     "school": "Maryland"
+  },
+  {
+    "overall": 101,
+    "round": 4,
+    "pick": 1,
+    "team": "Buffalo Bills",
+    "name": "Jermod McCoy",
+    "position": "CB",
+    "school": "Tennessee"
+  },
+  {
+    "overall": 102,
+    "round": 4,
+    "pick": 2,
+    "team": "Las Vegas Raiders",
+    "name": "Jude Bowry",
+    "position": "OT",
+    "school": "Boston College"
+  },
+  {
+    "overall": 103,
+    "round": 4,
+    "pick": 3,
+    "team": "New York Jets",
+    "name": "Darrell Jackson Jr.",
+    "position": "DT",
+    "school": "Florida State"
+  },
+  {
+    "overall": 104,
+    "round": 4,
+    "pick": 4,
+    "team": "Arizona Cardinals",
+    "name": "Kaleb Proctor",
+    "position": "DT",
+    "school": "Southeastern Louisiana"
+  },
+  {
+    "overall": 105,
+    "round": 4,
+    "pick": 5,
+    "team": "Los Angeles Chargers",
+    "name": "Brenen Thompson",
+    "position": "WR",
+    "school": "Mississippi State"
+  },
+  {
+    "overall": 106,
+    "round": 4,
+    "pick": 6,
+    "team": "Houston Texans",
+    "name": "Febechi Nwaiwu",
+    "position": "OG",
+    "school": "Oklahoma"
   }
 ]
