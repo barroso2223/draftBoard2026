@@ -745,5 +745,14 @@
     "name": "Chris Brazzell",
     "position": "WR",
     "school": "Tennessee"
+  },
+  {
+    "overall": 84,
+    "round": 3,
+    "pick": 20,
+    "team": "Green Bay Packers",
+    "name": "Ted Hurst",
+    "position": "WR",
+    "school": "Georgia St."
   }
 ]

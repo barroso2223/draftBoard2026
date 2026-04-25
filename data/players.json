@@ -2308,11 +2308,11 @@
     "name": "Ted Hurst",
     "position": "WR",
     "school": "Georgia State",
-    "team": "",
+    "team": "Green Bay Packers",
     "weight": 206,
     "height": "6-4",
     "forty": 4.42,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.4,
     "sources_count": 4,
     "rankings": {
@@ -2329,7 +2329,9 @@
         "grade": 80
       }
     },
-    "summary": "Hurst fits best as a \"Z\" receiver in an offense that uses motion and formation variety to manufacture free releases. That matters early in..."
+    "summary": "Hurst fits best as a \"Z\" receiver in an offense that uses motion and formation variety to manufacture free releases. That matters early in...",
+    "draft_round": 3,
+    "draft_pick": 84
   },
   {
     "name": "Jaishawn Barham",

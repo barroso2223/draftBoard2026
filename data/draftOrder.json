@@ -750,7 +750,10 @@
     "overall": 84,
     "round": 3,
     "pick": 20,
-    "team": "Green Bay Packers"
+    "team": "Green Bay Packers",
+    "player": "Ted Hurst",
+    "position": "WR",
+    "school": "Georgia St."
   },
   {
     "overall": 85,
