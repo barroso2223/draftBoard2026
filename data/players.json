@@ -6253,11 +6253,11 @@
     "name": "Charles Demmings",
     "position": "CB",
     "school": "Stephen F. Austin",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 193,
     "height": "6-1",
     "forty": 4.41,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69.7,
     "sources_count": 4,
     "rankings": {
@@ -6274,7 +6274,9 @@
         "grade": 78
       }
     },
-    "summary": "Demmings has the frame and movement skills to compete for a role as a boundary corner, and his best fit is a scheme that lets him..."
+    "summary": "Demmings has the frame and movement skills to compete for a role as a boundary corner, and his best fit is a scheme that lets him...",
+    "draft_round": 5,
+    "draft_pick": 163
   },
   {
     "name": "Alan Herron",
