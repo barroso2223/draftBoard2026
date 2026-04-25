@@ -7037,11 +7037,11 @@
     "name": "Justin Jefferson",
     "position": "LB",
     "school": "Alabama",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 223,
     "height": "6-0",
     "forty": 4.57,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.3,
     "sources_count": 4,
     "rankings": {
@@ -7058,7 +7058,9 @@
         "grade": 76
       }
     },
-    "summary": "Jefferson is a classic modern-day WILL linebacker whose calling card is his ability to run and cover. At 227 pounds with 4.4 speed, he..."
+    "summary": "Jefferson is a classic modern-day WILL linebacker whose calling card is his ability to run and cover. At 227 pounds with 4.4 speed, he...",
+    "draft_round": 5,
+    "draft_pick": 149
   },
   {
     "name": "Lander Barton",

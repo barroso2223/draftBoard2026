@@ -1329,7 +1329,10 @@
     "overall": 149,
     "round": 5,
     "pick": 9,
-    "team": "Cleveland Browns"
+    "team": "Cleveland Browns",
+    "player": "Justin Jefferson",
+    "position": "LB",
+    "school": "Alabama"
   },
   {
     "overall": 150,
