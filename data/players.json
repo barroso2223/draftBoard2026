@@ -1061,11 +1061,11 @@
     "name": "Chris Brazzell II",
     "position": "WR",
     "school": "Tennessee",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 198,
     "height": "6-4",
     "forty": 4.37,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.6,
     "sources_count": 4,
     "rankings": {
@@ -1082,7 +1082,9 @@
         "grade": 85
       }
     },
-    "summary": "Brazzell walked into Indianapolis with a reputation as a long, fluid receiver who could win downfield and at the catch point. He walked out..."
+    "summary": "Brazzell walked into Indianapolis with a reputation as a long, fluid receiver who could win downfield and at the catch point. He walked out...",
+    "draft_round": 3,
+    "draft_pick": 83
   },
   {
     "name": "Chris Johnson",

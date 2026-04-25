@@ -736,5 +736,14 @@
     "name": "Domonique Orange",
     "position": "DT",
     "school": "Iowa St."
+  },
+  {
+    "overall": 83,
+    "round": 3,
+    "pick": 19,
+    "team": "Carolina Panthers",
+    "name": "Chris Brazzell",
+    "position": "WR",
+    "school": "Tennessee"
   }
 ]
