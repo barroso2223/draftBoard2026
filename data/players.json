@@ -5165,11 +5165,11 @@
     "name": "Rayshaun Benny",
     "position": "DT",
     "school": "Michigan",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 298,
     "height": "6-3",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.9,
     "sources_count": 4,
     "rankings": {
@@ -5186,7 +5186,9 @@
         "grade": 79
       }
     },
-    "summary": "Benny is a run-first defensive tackle whose best football comes between the tackles in traditional two-gap fronts. He can hold his gap,..."
+    "summary": "Benny is a run-first defensive tackle whose best football comes between the tackles in traditional two-gap fronts. He can hold his gap,...",
+    "draft_round": 7,
+    "draft_pick": 250
   },
   {
     "name": "Kaden Wetjen",
