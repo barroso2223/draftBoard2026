@@ -754,5 +754,14 @@
     "name": "Ted Hurst",
     "position": "WR",
     "school": "Georgia St."
+  },
+  {
+    "overall": 85,
+    "round": 3,
+    "pick": 21,
+    "team": "Pittsburgh Steelers",
+    "name": "Daylen Everette",
+    "position": "CB",
+    "school": "Georgia"
   }
 ]

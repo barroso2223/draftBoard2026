@@ -2765,11 +2765,11 @@
     "name": "Daylen Everette",
     "position": "CB",
     "school": "Georgia",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 196,
     "height": "6-1",
     "forty": 4.38,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 77.5,
     "sources_count": 4,
     "rankings": {
@@ -2786,7 +2786,9 @@
         "grade": 86
       }
     },
-    "summary": "Everette's best football at the next level will come in a zone-heavy scheme. Cover 3 and quarters concepts let him use that press..."
+    "summary": "Everette's best football at the next level will come in a zone-heavy scheme. Cover 3 and quarters concepts let him use that press...",
+    "draft_round": 3,
+    "draft_pick": 85
   },
   {
     "name": "Travis Burke",
