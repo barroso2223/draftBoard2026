@@ -1611,11 +1611,11 @@
     "name": "Jake Slaughter",
     "position": "C",
     "school": "Florida",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 303,
     "height": "6-5",
     "forty": 5.1,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.6,
     "sources_count": 2,
     "rankings": {
@@ -1626,7 +1626,9 @@
         "grade": 78
       }
     },
-    "summary": "Slaughter's pass protection is NFL-ready. The tape against Georgia, Texas, and Ole Miss tells the story: he diagnosed pressures, handled..."
+    "summary": "Slaughter's pass protection is NFL-ready. The tape against Georgia, Texas, and Ole Miss tells the story: he diagnosed pressures, handled...",
+    "draft_round": 2,
+    "draft_pick": 63
   },
   {
     "name": "Eli Stowers",
