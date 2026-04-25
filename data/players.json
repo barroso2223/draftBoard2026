@@ -7003,11 +7003,11 @@
     "name": "Tim Keenan III",
     "position": "DT",
     "school": "Alabama",
-    "team": "",
+    "team": "Los Angeles Rams",
     "weight": 327,
     "height": "6-1",
     "forty": 5.31,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.4,
     "sources_count": 4,
     "rankings": {
@@ -7024,7 +7024,9 @@
         "grade": 74
       }
     },
-    "summary": "Keenan fits best as a 1-technique nose tackle in an odd front or a two-gapping interior defender in a system that values space-eating over..."
+    "summary": "Keenan fits best as a 1-technique nose tackle in an odd front or a two-gapping interior defender in a system that values space-eating over...",
+    "draft_round": 7,
+    "draft_pick": 232
   },
   {
     "name": "Jaydn Ott",
