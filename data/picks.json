@@ -493,5 +493,14 @@
     "name": "Gabe Jacas",
     "position": "EDGE",
     "school": "Illinois"
+  },
+  {
+    "overall": 56,
+    "round": 2,
+    "pick": 24,
+    "team": "Jacksonville Jaguars",
+    "name": "Nate Boerkircher",
+    "position": "TE",
+    "school": "Texas A&M"
   }
 ]
