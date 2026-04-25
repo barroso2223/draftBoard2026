@@ -1969,5 +1969,14 @@
     "name": "Jack Endries",
     "position": "TE",
     "school": "Texas"
+  },
+  {
+    "overall": 222,
+    "round": 7,
+    "pick": 6,
+    "team": "Detroit Lions",
+    "name": "Tyre West",
+    "position": "DT",
+    "school": "Tennessee"
   }
 ]
