@@ -286,5 +286,122 @@
     "name": "Jadarian Price",
     "position": "RB",
     "school": "Notre Dame"
+  },
+  {
+    "overall": 33,
+    "round": 2,
+    "pick": 1,
+    "team": "San Francisco 49ers",
+    "name": "De'Zhaun Stribling",
+    "position": "WR",
+    "school": "Mississippi"
+  },
+  {
+    "overall": 34,
+    "round": 2,
+    "pick": 2,
+    "team": "Arizona Cardinals",
+    "name": "Chase Bisontis",
+    "position": "OG",
+    "school": "Texas A&M"
+  },
+  {
+    "overall": 35,
+    "round": 2,
+    "pick": 3,
+    "team": "Buffalo Bills",
+    "name": "T.J. Parker",
+    "position": "EDGE",
+    "school": "Clemson"
+  },
+  {
+    "overall": 36,
+    "round": 2,
+    "pick": 4,
+    "team": "Houston Texans",
+    "name": "Kayden McDonald",
+    "position": "DT",
+    "school": "Ohio State"
+  },
+  {
+    "overall": 37,
+    "round": 2,
+    "pick": 5,
+    "team": "New York Giants",
+    "name": "Colton Hood",
+    "position": "CB",
+    "school": "Tennessee"
+  },
+  {
+    "overall": 38,
+    "round": 2,
+    "pick": 6,
+    "team": "Las Vegas Raiders",
+    "name": "Treydan Stukes",
+    "position": "S",
+    "school": "Arizona"
+  },
+  {
+    "overall": 39,
+    "round": 2,
+    "pick": 7,
+    "team": "Cleveland Browns",
+    "name": "Denzel Boston",
+    "position": "WR",
+    "school": "Washington"
+  },
+  {
+    "overall": 40,
+    "round": 2,
+    "pick": 8,
+    "team": "Kansas City Chiefs",
+    "name": "R Mason Thomas",
+    "position": "EDGE",
+    "school": "Oklahoma"
+  },
+  {
+    "overall": 41,
+    "round": 2,
+    "pick": 9,
+    "team": "Cincinnati Bengals",
+    "name": "Cashius Howell",
+    "position": "EDGE",
+    "school": "Texas A&M"
+  },
+  {
+    "overall": 42,
+    "round": 2,
+    "pick": 10,
+    "team": "New Orleans Saints",
+    "name": "Christen Miller",
+    "position": "DT",
+    "school": "Georgia"
+  },
+  {
+    "overall": 43,
+    "round": 2,
+    "pick": 11,
+    "team": "Baltimore Ravens",
+    "name": "Jacob Rodriguez",
+    "position": "LB",
+    "school": "Texas Tech"
+  },
+  {
+    "overall": 44,
+    "round": 2,
+    "pick": 12,
+    "team": "Detroit Lions",
+    "name": "Derrick Moore",
+    "position": "EDGE",
+    "school": "Michigan"
+  },
+  {
+    "overall": 45,
+    "round": 2,
+    "pick": 13,
+    "team": "Baltimore Ravens",
+    "name": "Zion Young",
+    "position": "EDGE",
+    "school": "Missouri"
   }
 ]
