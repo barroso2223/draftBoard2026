@@ -637,5 +637,14 @@
     "name": "Antonio Williams",
     "position": "WR",
     "school": "Clemson"
+  },
+  {
+    "overall": 72,
+    "round": 3,
+    "pick": 8,
+    "team": "Cincinnati Bengals",
+    "name": "Tacario Davis",
+    "position": "CB",
+    "school": "Washington"
   }
 ]

@@ -4054,11 +4054,11 @@
     "name": "Tacario Davis",
     "position": "CB",
     "school": "Washington",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 194,
     "height": "6-4",
     "forty": 4.41,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.7,
     "sources_count": 4,
     "rankings": {
@@ -4075,7 +4075,9 @@
         "grade": 78
       }
     },
-    "summary": "The Combine changed things for Tacario Davis, and it would be dishonest to pretend otherwise. A 6'4\" corner running 4.41 at 194 pounds with..."
+    "summary": "The Combine changed things for Tacario Davis, and it would be dishonest to pretend otherwise. A 6'4\" corner running 4.41 at 194 pounds with...",
+    "draft_round": 3,
+    "draft_pick": 72
   },
   {
     "name": "Eric Rivers",
