@@ -840,7 +840,10 @@
     "overall": 94,
     "round": 3,
     "pick": 30,
-    "team": "Miami Dolphins"
+    "team": "Miami Dolphins",
+    "player": "Chris Bell",
+    "position": "WR",
+    "school": "Louisville"
   },
   {
     "overall": 95,

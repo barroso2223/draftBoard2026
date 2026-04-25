@@ -1742,11 +1742,11 @@
     "name": "Chris Bell",
     "position": "WR",
     "school": "Louisville",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 222,
     "height": "6-2",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.2,
     "sources_count": 4,
     "rankings": {
@@ -1763,7 +1763,9 @@
         "grade": 82
       }
     },
-    "summary": "Bell has the look and feel of a true X receiver at the NFL level. That size and speed combination at 6-foot-2, 220 pounds with a 4.4 forty..."
+    "summary": "Bell has the look and feel of a true X receiver at the NFL level. That size and speed combination at 6-foot-2, 220 pounds with a 4.4 forty...",
+    "draft_round": 3,
+    "draft_pick": 94
   },
   {
     "name": "Malachi Fields",
