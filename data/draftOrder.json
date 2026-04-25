@@ -1338,7 +1338,10 @@
     "overall": 150,
     "round": 5,
     "pick": 10,
-    "team": "New Orleans Saints"
+    "team": "New Orleans Saints",
+    "player": "Dalton Johnson",
+    "position": "S",
+    "school": "Arizona"
   },
   {
     "overall": 151,

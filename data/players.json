@@ -8528,11 +8528,11 @@
     "name": "Dalton Johnson",
     "position": "S",
     "school": "Arizona",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 192,
     "height": "5-11",
     "forty": 4.41,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 65.3,
     "sources_count": 4,
     "rankings": {
@@ -8549,7 +8549,9 @@
         "grade": 76
       }
     },
-    "summary": "The way I see it, Johnson's tape from 2025 tells the story of a player whose coverage instincts finally caught up to his run-support..."
+    "summary": "The way I see it, Johnson's tape from 2025 tells the story of a player whose coverage instincts finally caught up to his run-support...",
+    "draft_round": 5,
+    "draft_pick": 150
   },
   {
     "name": "Joe Fagnano",

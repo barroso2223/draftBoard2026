@@ -1321,5 +1321,14 @@
     "name": "Justin Jefferson",
     "position": "LB",
     "school": "Alabama"
+  },
+  {
+    "overall": 150,
+    "round": 5,
+    "pick": 10,
+    "team": "New Orleans Saints",
+    "name": "Dalton Johnson",
+    "position": "S",
+    "school": "Arizona"
   }
 ]
