@@ -318,10 +318,10 @@
     "overall": 36,
     "round": 2,
     "pick": 4,
-    "team": "Las Vegas Raiders",
+    "team": "Houston Texans",
     "player": "Kayden McDonald",
     "position": "DT",
-    "school": "Ohio St."
+    "school": "Ohio State"
   },
   {
     "overall": 37,
@@ -336,9 +336,9 @@
     "overall": 38,
     "round": 2,
     "pick": 6,
-    "team": "Houston Texans",
+    "team": "Las Vegas Raiders",
     "player": "Treydan Stukes",
-    "position": "CB",
+    "position": "S",
     "school": "Arizona"
   },
   {
@@ -381,7 +381,7 @@
     "overall": 43,
     "round": 2,
     "pick": 11,
-    "team": "Miami Dolphins",
+    "team": "Baltimore Ravens",
     "player": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech"
@@ -390,7 +390,7 @@
     "overall": 44,
     "round": 2,
     "pick": 12,
-    "team": "New York Jets",
+    "team": "Detroit Lions",
     "player": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan"

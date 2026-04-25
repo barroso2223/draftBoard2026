@@ -861,7 +861,7 @@
     "name": "Kayden McDonald",
     "position": "DT",
     "school": "Ohio State",
-    "team": "Las Vegas Raiders",
+    "team": "Houston Texans",
     "weight": 326,
     "height": "6-2",
     "forty": 5.15,
@@ -1296,7 +1296,7 @@
     "name": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan",
-    "team": "New York Jets",
+    "team": "Detroit Lions",
     "weight": 255,
     "height": "6-4",
     "forty": 4.65,
@@ -1541,7 +1541,7 @@
     "name": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech",
-    "team": "Miami Dolphins",
+    "team": "Baltimore Ravens",
     "weight": 231,
     "height": "6-1",
     "forty": 4.57,
@@ -6415,18 +6415,20 @@
     "name": "Treydan Stukes",
     "position": "S",
     "school": "Arizona",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69,
     "sources_count": 1,
     "rankings": {
       "espn": {
         "grade": 79
       }
-    }
+    },
+    "draft_round": 2,
+    "draft_pick": 38
   },
   {
     "name": "Dallen Bentley",

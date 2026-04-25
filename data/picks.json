@@ -403,5 +403,41 @@
     "name": "Zion Young",
     "position": "EDGE",
     "school": "Missouri"
+  },
+  {
+    "overall": 46,
+    "round": 2,
+    "pick": 14,
+    "team": "Tampa Bay Buccaneers",
+    "name": "Josiah Trotter",
+    "position": "LB",
+    "school": "Missouri"
+  },
+  {
+    "overall": 47,
+    "round": 2,
+    "pick": 15,
+    "team": "Indianapolis Colts",
+    "name": "Germie Bernard",
+    "position": "WR",
+    "school": "Alabama"
+  },
+  {
+    "overall": 48,
+    "round": 2,
+    "pick": 16,
+    "team": "Atlanta Falcons",
+    "name": "Avieon Terrell",
+    "position": "CB",
+    "school": "Clemson"
+  },
+  {
+    "overall": 49,
+    "round": 2,
+    "pick": 17,
+    "team": "Minnesota Vikings",
+    "name": "Lee Hunter",
+    "position": "DT",
+    "school": "Texas Tech"
   }
 ]
