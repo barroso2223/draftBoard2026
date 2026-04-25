@@ -8187,11 +8187,11 @@
     "name": "Matthew Hibner",
     "position": "TE",
     "school": "SMU",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 251,
     "height": "6-4",
     "forty": 4.57,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66.3,
     "sources_count": 3,
     "rankings": {
@@ -8205,7 +8205,9 @@
         "grade": 72
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 4,
+    "draft_pick": 133
   },
   {
     "name": "Jaylon Braxton",
