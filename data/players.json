@@ -10109,11 +10109,11 @@
     "name": "Kaelon Black",
     "position": "RB",
     "school": "Indiana",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 210,
     "height": "5-10",
     "forty": 4.45,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 62.9,
     "sources_count": 3,
     "rankings": {
@@ -10127,7 +10127,9 @@
         "grade": 47
       }
     },
-    "summary": "Black's tape screams \"reliable early-down grinder who won't lose you a game.\" He is the kind of back who picks up the hard four yards..."
+    "summary": "Black's tape screams \"reliable early-down grinder who won't lose you a game.\" He is the kind of back who picks up the hard four yards...",
+    "draft_round": 3,
+    "draft_pick": 90
   },
   {
     "name": "Squirrel White",

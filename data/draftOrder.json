@@ -804,7 +804,10 @@
     "overall": 90,
     "round": 3,
     "pick": 26,
-    "team": "San Francisco 49ers"
+    "team": "San Francisco 49ers",
+    "player": "Kaelon Black",
+    "position": "RB",
+    "school": "Indiana"
   },
   {
     "overall": 91,
