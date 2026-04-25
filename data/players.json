@@ -3361,11 +3361,11 @@
     "name": "Bryce Lance",
     "position": "WR",
     "school": "North Dakota State",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 204,
     "height": "6-3",
     "forty": 4.34,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.7,
     "sources_count": 4,
     "rankings": {
@@ -3382,7 +3382,9 @@
         "grade": 80
       }
     },
-    "summary": "The Combine changed everything for Bryce Lance. Before Indianapolis, the scouting conversation centered on a productive FCS receiver who..."
+    "summary": "The Combine changed everything for Bryce Lance. Before Indianapolis, the scouting conversation centered on a productive FCS receiver who...",
+    "draft_round": 4,
+    "draft_pick": 136
   },
   {
     "name": "CJ Daniels",
