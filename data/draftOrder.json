@@ -1110,7 +1110,10 @@
     "overall": 124,
     "round": 4,
     "pick": 24,
-    "team": "Jacksonville Jaguars"
+    "team": "Jacksonville Jaguars",
+    "player": "Malik Muhammad",
+    "position": "CB",
+    "school": "Texas"
   },
   {
     "overall": 125,

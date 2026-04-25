@@ -1919,11 +1919,11 @@
     "name": "Malik Muhammad",
     "position": "CB",
     "school": "Texas",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 182,
     "height": "6-0",
     "forty": 4.42,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.4,
     "sources_count": 4,
     "rankings": {
@@ -1940,7 +1940,9 @@
         "grade": 80
       }
     },
-    "summary": "Muhammad's combine performance answered the one lingering question about his candidacy: how the athleticism would test in a controlled..."
+    "summary": "Muhammad's combine performance answered the one lingering question about his candidacy: how the athleticism would test in a controlled...",
+    "draft_round": 4,
+    "draft_pick": 124
   },
   {
     "name": "Elijah Sarratt",
