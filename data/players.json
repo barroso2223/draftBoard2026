@@ -3469,11 +3469,11 @@
     "name": "Austin Barber",
     "position": "OT",
     "school": "Florida",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 318,
     "height": "6-7",
     "forty": 5.12,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.2,
     "sources_count": 4,
     "rankings": {
@@ -3490,7 +3490,9 @@
         "grade": 82
       }
     },
-    "summary": "Barber's best football will come in a zone-heavy offense that asks him to move, reach, and climb rather than anchor down in phone-booth..."
+    "summary": "Barber's best football will come in a zone-heavy offense that asks him to move, reach, and climb rather than anchor down in phone-booth...",
+    "draft_round": 3,
+    "draft_pick": 86
   },
   {
     "name": "Emmanuel McNeil-Warre...",
