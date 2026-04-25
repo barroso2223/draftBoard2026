@@ -6561,11 +6561,11 @@
     "name": "Jaren Kanak",
     "position": "TE",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": 234,
     "height": "6-2",
     "forty": 4.52,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69,
     "sources_count": 3,
     "rankings": {
@@ -6579,7 +6579,9 @@
         "grade": 69
       }
     },
-    "summary": "Here's the deal with Kanak: he's not a tight end in the traditional sense, and NFL teams need to stop evaluating him like one. At 6'2\",..."
+    "summary": "Here's the deal with Kanak: he's not a tight end in the traditional sense, and NFL teams need to stop evaluating him like one. At 6'2\",...",
+    "draft_round": 7,
+    "draft_pick": 225
   },
   {
     "name": "Miller Moss",
