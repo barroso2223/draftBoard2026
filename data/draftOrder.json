@@ -894,7 +894,10 @@
     "overall": 100,
     "round": 3,
     "pick": 36,
-    "team": "Jacksonville Jaguars"
+    "team": "Jacksonville Jaguars",
+    "player": "Jalen Huskey",
+    "position": "S",
+    "school": "Maryland"
   },
   {
     "overall": 101,

@@ -5269,11 +5269,11 @@
     "name": "Jalen Huskey",
     "position": "S",
     "school": "Maryland",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 196,
     "height": "6-1",
     "forty": 4.58,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.3,
     "sources_count": 3,
     "rankings": {
@@ -5287,7 +5287,9 @@
         "grade": 72
       }
     },
-    "summary": "Huskey needs a two-high defense that asks its safeties to read and react rather than run with people. He processes quickly, gets to his..."
+    "summary": "Huskey needs a two-high defense that asks its safeties to read and react rather than run with people. He processes quickly, gets to his...",
+    "draft_round": 3,
+    "draft_pick": 100
   },
   {
     "name": "Joshua Braun",
