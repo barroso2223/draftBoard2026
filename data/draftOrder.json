@@ -1293,7 +1293,10 @@
     "overall": 145,
     "round": 5,
     "pick": 5,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Nick Barrett",
+    "position": "DT",
+    "school": "South Carolina"
   },
   {
     "overall": 146,

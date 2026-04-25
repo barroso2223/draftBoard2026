@@ -7564,11 +7564,11 @@
     "name": "Nick Barrett",
     "position": "DT",
     "school": "South Carolina",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 312,
     "height": "6-3",
     "forty": 5.1,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67.2,
     "sources_count": 4,
     "rankings": {
@@ -7585,7 +7585,9 @@
         "grade": 76
       }
     },
-    "summary": "Barrett's value at the next level is straightforward: he is a run-stuffing nose tackle who can eat blocks and keep linebackers clean..."
+    "summary": "Barrett's value at the next level is straightforward: he is a run-stuffing nose tackle who can eat blocks and keep linebackers clean...",
+    "draft_round": 5,
+    "draft_pick": 145
   },
   {
     "name": "Riley Mahlman",

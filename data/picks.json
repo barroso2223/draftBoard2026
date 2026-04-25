@@ -1276,5 +1276,14 @@
     "name": "Sam Hecht",
     "position": "C",
     "school": "Kansas State"
+  },
+  {
+    "overall": 145,
+    "round": 5,
+    "pick": 5,
+    "team": "Los Angeles Chargers",
+    "name": "Nick Barrett",
+    "position": "DT",
+    "school": "South Carolina"
   }
 ]
