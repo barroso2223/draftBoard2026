@@ -5900,11 +5900,11 @@
     "name": "Billy Schrauth",
     "position": "OG",
     "school": "Notre Dame",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 310,
     "height": "6-5",
     "forty": 5.25,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.1,
     "sources_count": 4,
     "rankings": {
@@ -5921,7 +5921,9 @@
         "grade": 72
       }
     },
-    "summary": "What you have with Schrauth is a guard who protects the passer at a legitimately high level and whose technique in that phase of the..."
+    "summary": "What you have with Schrauth is a guard who protects the passer at a legitimately high level and whose technique in that phase of the...",
+    "draft_round": 5,
+    "draft_pick": 160
   },
   {
     "name": "Seth McGowan",

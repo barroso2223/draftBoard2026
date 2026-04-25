@@ -1425,7 +1425,10 @@
     "overall": 160,
     "round": 5,
     "pick": 20,
-    "team": "Tampa Bay Buccaneers"
+    "team": "Tampa Bay Buccaneers",
+    "player": "Billy Schrauth",
+    "position": "OG",
+    "school": "Notre Dame"
   },
   {
     "overall": 161,

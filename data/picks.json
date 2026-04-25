@@ -1402,5 +1402,14 @@
     "name": "Michael Taaffe",
     "position": "S",
     "school": "Texas"
+  },
+  {
+    "overall": 160,
+    "round": 5,
+    "pick": 20,
+    "team": "Tampa Bay Buccaneers",
+    "name": "Billy Schrauth",
+    "position": "OG",
+    "school": "Notre Dame"
   }
 ]
