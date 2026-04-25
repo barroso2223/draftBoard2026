@@ -2689,11 +2689,11 @@
     "name": "Garrett Nussmeier",
     "position": "QB",
     "school": "LSU",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 203,
     "height": "6-2",
     "forty": 4.82,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 78,
     "sources_count": 4,
     "rankings": {
@@ -2710,7 +2710,9 @@
         "grade": 77
       }
     },
-    "summary": "The abdominal injury that wrecked Nussmeier's 2025 season makes evaluation tricky, but the Senior Bowl performance confirmed what the 2024..."
+    "summary": "The abdominal injury that wrecked Nussmeier's 2025 season makes evaluation tricky, but the Senior Bowl performance confirmed what the 2024...",
+    "draft_round": 7,
+    "draft_pick": 249
   },
   {
     "name": "Cyrus Allen",
