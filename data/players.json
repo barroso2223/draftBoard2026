@@ -2275,11 +2275,11 @@
     "name": "Joshua Josephs",
     "position": "EDGE",
     "school": "Tennessee",
-    "team": "",
+    "team": "Washington Commanders",
     "weight": 242,
     "height": "6-3",
     "forty": 4.68,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.5,
     "sources_count": 3,
     "rankings": {
@@ -2293,7 +2293,9 @@
         "grade": 80
       }
     },
-    "summary": "Watch him play and you see an edge defender whose athletic profile makes coordinators drool. The combination of 4.6ish speed, 34-plus inch..."
+    "summary": "Watch him play and you see an edge defender whose athletic profile makes coordinators drool. The combination of 4.6ish speed, 34-plus inch...",
+    "draft_round": 5,
+    "draft_pick": 147
   },
   {
     "name": "Antonio Williams",
