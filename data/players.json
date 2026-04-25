@@ -9749,18 +9749,20 @@
     "name": "Bobby Jamison-Travis",
     "position": "DT",
     "school": "Auburn",
-    "team": "",
+    "team": "New York Giants",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64,
     "sources_count": 1,
     "rankings": {
       "scouting": {
         "grade": 74
       }
-    }
+    },
+    "draft_round": 6,
+    "draft_pick": 186
   },
   {
     "name": "Scooby Williams",
