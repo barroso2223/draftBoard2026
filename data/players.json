@@ -10771,11 +10771,11 @@
     "name": "Brandon Cleveland",
     "position": "DT",
     "school": "NC State",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 61,
     "sources_count": 2,
     "rankings": {
@@ -10785,7 +10785,9 @@
       "scouting": {
         "grade": 74
       }
-    }
+    },
+    "draft_round": 7,
+    "draft_pick": 229
   },
   {
     "name": "Jalen Walthall",
