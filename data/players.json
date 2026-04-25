@@ -8186,11 +8186,11 @@
     "name": "Toriano Pride Jr.",
     "position": "CB",
     "school": "Missouri",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 185,
     "height": "5-10",
     "forty": 4.32,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66.5,
     "sources_count": 4,
     "rankings": {
@@ -8207,7 +8207,9 @@
         "grade": 75
       }
     },
-    "summary": "Pride's best football came in his final season at Missouri, and the Combine backed up a lot of what the tape showed. The speed is real, the..."
+    "summary": "Pride's best football came in his final season at Missouri, and the Combine backed up a lot of what the tape showed. The speed is real, the...",
+    "draft_round": 7,
+    "draft_pick": 220
   },
   {
     "name": "John Michael Gyllenborg",
