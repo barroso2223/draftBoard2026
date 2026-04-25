@@ -6658,11 +6658,11 @@
     "name": "Caleb Douglas",
     "position": "WR",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 206,
     "height": "6-4",
     "forty": 4.39,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.5,
     "sources_count": 4,
     "rankings": {
@@ -6679,7 +6679,9 @@
         "grade": 78
       }
     },
-    "summary": "Douglas confirmed the build-up speed at the combine that you can see on his longer gains at Texas Tech. A 6-4 receiver who can run..."
+    "summary": "Douglas confirmed the build-up speed at the combine that you can see on his longer gains at Texas Tech. A 6-4 receiver who can run...",
+    "draft_round": 3,
+    "draft_pick": 75
   },
   {
     "name": "Tristan Leigh",

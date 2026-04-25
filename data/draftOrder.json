@@ -669,7 +669,10 @@
     "overall": 75,
     "round": 3,
     "pick": 11,
-    "team": "Miami Dolphins"
+    "team": "Miami Dolphins",
+    "player": "Caleb Douglas",
+    "position": "WR",
+    "school": "Texas Tech"
   },
   {
     "overall": 76,
