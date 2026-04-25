@@ -2461,11 +2461,11 @@
     "name": "Davison Igbinosun",
     "position": "CB",
     "school": "Ohio State",
-    "team": "",
+    "team": "Denver Broncos",
     "weight": 189,
     "height": "6-2",
     "forty": 4.45,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 78.9,
     "sources_count": 4,
     "rankings": {
@@ -2482,7 +2482,9 @@
         "grade": 83
       }
     },
-    "summary": "Igbinosun fits best on the boundary in a zone-heavy scheme where he can use his eyes and length rather than being asked to mirror in space..."
+    "summary": "Igbinosun fits best on the boundary in a zone-heavy scheme where he can use his eyes and length rather than being asked to mirror in space...",
+    "draft_round": 2,
+    "draft_pick": 62
   },
   {
     "name": "Mason Reiger",
