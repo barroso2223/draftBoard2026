@@ -849,7 +849,10 @@
     "overall": 95,
     "round": 3,
     "pick": 31,
-    "team": "New England Patriots"
+    "team": "New England Patriots",
+    "player": "Eli Raridon",
+    "position": "TE",
+    "school": "Notre Dame"
   },
   {
     "overall": 96,

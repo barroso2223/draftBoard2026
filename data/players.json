@@ -3744,11 +3744,11 @@
     "name": "Eli Raridon",
     "position": "TE",
     "school": "Notre Dame",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 245,
     "height": "6-6",
     "forty": 4.62,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.6,
     "sources_count": 4,
     "rankings": {
@@ -3765,7 +3765,9 @@
         "grade": 78
       }
     },
-    "summary": "Watch enough tape on Raridon and you see a tight end who can contribute right away in specific packages while developing into something..."
+    "summary": "Watch enough tape on Raridon and you see a tight end who can contribute right away in specific packages while developing into something...",
+    "draft_round": 3,
+    "draft_pick": 95
   },
   {
     "name": "Jordan Hudson",

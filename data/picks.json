@@ -844,5 +844,14 @@
     "name": "Chris Bell",
     "position": "WR",
     "school": "Louisville"
+  },
+  {
+    "overall": 95,
+    "round": 3,
+    "pick": 31,
+    "team": "New England Patriots",
+    "name": "Eli Raridon",
+    "position": "TE",
+    "school": "Notre Dame"
   }
 ]
