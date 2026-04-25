@@ -7,46 +7,15 @@ const { chromium } = require("playwright");
 
 const dataDir = path.join(__dirname, "../data");
 const picksPath = path.join(dataDir, "picks.json");
+const draftOrdPath = path.join(dataDir, "draftOrder.json");
 
 const YAHOO_ARTICLE =
   "https://sports.yahoo.com/articles/2026-nfl-draft-picks-full-092859120.html";
 
 const NFL_ROUNDS = [4, 5, 6, 7];
 
-const TEAM_MAP = {
-  ARI: "Arizona Cardinals",
-  ATL: "Atlanta Falcons",
-  BAL: "Baltimore Ravens",
-  BUF: "Buffalo Bills",
-  CAR: "Carolina Panthers",
-  CHI: "Chicago Bears",
-  CIN: "Cincinnati Bengals",
-  CLE: "Cleveland Browns",
-  DAL: "Dallas Cowboys",
-  DEN: "Denver Broncos",
-  DET: "Detroit Lions",
-  GB: "Green Bay Packers",
-  HOU: "Houston Texans",
-  IND: "Indianapolis Colts",
-  JAX: "Jacksonville Jaguars",
-  KC: "Kansas City Chiefs",
-  LV: "Las Vegas Raiders",
-  LAC: "Los Angeles Chargers",
-  LAR: "Los Angeles Rams",
-  MIA: "Miami Dolphins",
-  MIN: "Minnesota Vikings",
-  NE: "New England Patriots",
-  NO: "New Orleans Saints",
-  NYG: "New York Giants",
-  NYJ: "New York Jets",
-  PHI: "Philadelphia Eagles",
-  PIT: "Pittsburgh Steelers",
-  SEA: "Seattle Seahawks",
-  SF: "San Francisco 49ers",
-  TB: "Tampa Bay Buccaneers",
-  TEN: "Tennessee Titans",
-  WAS: "Washington Commanders",
-};
+const POS_REGEX =
+  /^(QB|RB|WR|TE|OT|OG|OL|C|G|T|EDGE|DE|DT|LB|ILB|OLB|CB|DB|S|SAF|FS|SS|K|P|LS)$/i;
 
 const POS_MAP = {
   SAF: "S",
@@ -64,7 +33,7 @@ function normalizePos(pos) {
 }
 
 function titleCase(str) {
-  return str
+  return (str || "")
     .toLowerCase()
     .replace(/\b\w/g, (c) => c.toUpperCase())
     .replace(/\bJr\b/g, "Jr.")
@@ -81,6 +50,16 @@ function getRoundFromOverall(overall) {
   if (overall <= 181) return 5;
   if (overall <= 216) return 6;
   return 7;
+}
+
+function getDraftOrderTeam(overall) {
+  try {
+    const draftOrder = JSON.parse(fs.readFileSync(draftOrdPath, "utf8"));
+    const slot = draftOrder.find((p) => Number(p.overall) === Number(overall));
+    return slot?.team || "";
+  } catch {
+    return "";
+  }
 }
 
 async function getLines(page, url) {
@@ -121,40 +100,33 @@ async function scrapeNFL() {
       const pickInRound = Number(lines[i]);
       const overall = Number(lines[i + 1].replace(/[()]/g, ""));
 
-      const windowLines = lines.slice(i + 2, i + 18);
+      const a = lines[i + 2];
+      const b = lines[i + 3];
+      const c = lines[i + 4];
+      const d = lines[i + 5];
 
-      const posIndex = windowLines.findIndex((line) =>
-        /^(QB|RB|WR|TE|OT|OG|OL|C|G|T|EDGE|DE|DT|LB|ILB|OLB|CB|DB|S|SAF|FS|SS|K|P|LS)$/i.test(
-          line,
-        ),
-      );
+      if (!a || !b || !c || !d) continue;
+      if (!POS_REGEX.test(c)) continue;
 
-      if (posIndex <= 0) continue;
+      const name = titleCase(`${a} ${b}`);
+      const position = normalizePos(c);
+      const school = titleCase(d);
 
-      const nameParts = windowLines.slice(0, posIndex);
-      const nameRaw = nameParts.join(" ").trim();
-      const position = normalizePos(windowLines[posIndex]);
-      const schoolRaw = windowLines[posIndex + 1];
+      const team = getDraftOrderTeam(overall);
 
-      if (!nameRaw || !schoolRaw) continue;
-      if (/^(Needs:|THE PICK IS IN|ON THE CLOCK)$/i.test(nameRaw)) continue;
-
-      const teamAbbrs = windowLines.filter((line) => TEAM_MAP[line]);
-      const teamAbbr = teamAbbrs[teamAbbrs.length - 1];
-
-      if (!teamAbbr) continue;
-
+      if (!team) continue;
       if (seen.has(overall)) continue;
+
       seen.add(overall);
 
       picks.push({
         overall,
         round,
         pick: pickInRound,
-        team: TEAM_MAP[teamAbbr],
-        name: titleCase(nameRaw),
+        team,
+        name,
         position,
-        school: titleCase(schoolRaw),
+        school,
       });
     }
   }
@@ -209,7 +181,7 @@ async function main() {
 
   try {
     existingPicks = JSON.parse(fs.readFileSync(picksPath, "utf8"));
-  } catch (e) {}
+  } catch {}
 
   console.log(`📋 Current picks.json: ${existingPicks.length} picks`);
 
