@@ -691,5 +691,14 @@
     "name": "Chris McClellan",
     "position": "DT",
     "school": "Missouri"
+  },
+  {
+    "overall": 78,
+    "round": 3,
+    "pick": 14,
+    "team": "Indianapolis Colts",
+    "name": "A.J. Haulcy",
+    "position": "S",
+    "school": "LSU"
   }
 ]
