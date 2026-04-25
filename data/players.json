@@ -3552,11 +3552,11 @@
     "name": "Will Lee III",
     "position": "CB",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 189,
     "height": "6-2",
     "forty": 4.52,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75,
     "sources_count": 4,
     "rankings": {
@@ -3573,7 +3573,9 @@
         "grade": 80
       }
     },
-    "summary": "The Combine told two different stories about Lee. The forty confirmed what evaluators suspected: he does not have the long speed to run..."
+    "summary": "The Combine told two different stories about Lee. The forty confirmed what evaluators suspected: he does not have the long speed to run...",
+    "draft_round": 4,
+    "draft_pick": 129
   },
   {
     "name": "Desmond Reid",

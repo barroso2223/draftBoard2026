@@ -1150,5 +1150,14 @@
     "name": "Connor Lew",
     "position": "C",
     "school": "Auburn"
+  },
+  {
+    "overall": 129,
+    "round": 4,
+    "pick": 29,
+    "team": "Chicago Bears",
+    "name": "Will Lee III",
+    "position": "CB",
+    "school": "Texas A&M"
   }
 ]
