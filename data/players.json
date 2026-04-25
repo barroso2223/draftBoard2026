@@ -5840,11 +5840,11 @@
     "name": "Parker Brailsford",
     "position": "C",
     "school": "Alabama",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 289,
     "height": "6-2",
     "forty": 4.95,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.2,
     "sources_count": 2,
     "rankings": {
@@ -5855,7 +5855,9 @@
         "grade": 57
       }
     },
-    "summary": "Where Brailsford ends up mattering most is in scheme. A zone-heavy offense that wants its center moving laterally, climbing to..."
+    "summary": "Where Brailsford ends up mattering most is in scheme. A zone-heavy offense that wants its center moving laterally, climbing to...",
+    "draft_round": 5,
+    "draft_pick": 146
   },
   {
     "name": "Trey Moore",
