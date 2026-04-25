@@ -561,11 +561,11 @@
     "name": "Jermod McCoy",
     "position": "CB",
     "school": "Tennessee",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 188,
     "height": "6-1",
     "forty": 4.52,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 85.9,
     "sources_count": 4,
     "rankings": {
@@ -582,7 +582,9 @@
         "grade": 87
       }
     },
-    "summary": "McCoy brings scheme versatility that allows him to excel in multiple systems, though he'll particularly shine in defenses emphasizing..."
+    "summary": "McCoy brings scheme versatility that allows him to excel in multiple systems, though he'll particularly shine in defenses emphasizing...",
+    "draft_round": 4,
+    "draft_pick": 101
   },
   {
     "name": "Zion Young",
@@ -1942,11 +1944,11 @@
     "name": "Elijah Sarratt",
     "position": "WR",
     "school": "Indiana",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 210,
     "height": "6-2",
     "forty": 4.6,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 80.2,
     "sources_count": 4,
     "rankings": {
@@ -1963,7 +1965,9 @@
         "grade": 83
       }
     },
-    "summary": "When you watch Sarratt work, you see a receiver who understands exactly what he is and maximizes every tool in his arsenal. He is never..."
+    "summary": "When you watch Sarratt work, you see a receiver who understands exactly what he is and maximizes every tool in his arsenal. He is never...",
+    "draft_round": 4,
+    "draft_pick": 115
   },
   {
     "name": "Deion Burks",
@@ -2178,11 +2182,11 @@
     "name": "Keionte Scott",
     "position": "CB",
     "school": "Miami",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 193,
     "height": "5-11",
     "forty": 4.44,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.7,
     "sources_count": 4,
     "rankings": {
@@ -2199,7 +2203,9 @@
         "grade": 83
       }
     },
-    "summary": "Scott's NFL path is clear: he is a nickel corner in a defense that wants its slot player to do more than just cover. The blitzing..."
+    "summary": "Scott's NFL path is clear: he is a nickel corner in a defense that wants its slot player to do more than just cover. The blitzing...",
+    "draft_round": 4,
+    "draft_pick": 116
   },
   {
     "name": "De'Zhaun Stribling",
@@ -2473,11 +2479,11 @@
     "name": "Dani Dennis-Sutton",
     "position": "EDGE",
     "school": "Penn State",
-    "team": "",
+    "team": "Green Bay Packers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79,
     "sources_count": 2,
     "rankings": {
@@ -2487,7 +2493,9 @@
       "scouting": {
         "grade": 86
       }
-    }
+    },
+    "draft_round": 4,
+    "draft_pick": 120
   },
   {
     "name": "Davison Igbinosun",
@@ -2804,11 +2812,11 @@
     "name": "Travis Burke",
     "position": "OT",
     "school": "Memphis",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 325,
     "height": "6-9",
     "forty": 5.17,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 77.5,
     "sources_count": 3,
     "rankings": {
@@ -2822,7 +2830,9 @@
         "grade": 86
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 4,
+    "draft_pick": 117
   },
   {
     "name": "Chandler Rivers",
@@ -2995,11 +3005,11 @@
     "name": "Gracen Halton",
     "position": "DT",
     "school": "Oklahoma",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 293,
     "height": "6-3",
     "forty": 4.82,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.9,
     "sources_count": 4,
     "rankings": {
@@ -3016,7 +3026,9 @@
         "grade": 83
       }
     },
-    "summary": "Halton's clearest path is as a passing-down 3-technique. You see it when he fires off the snap and splits a guard before the set is..."
+    "summary": "Halton's clearest path is as a passing-down 3-technique. You see it when he fires off the snap and splits a guard before the set is...",
+    "draft_round": 4,
+    "draft_pick": 107
   },
   {
     "name": "Jack Endries",
@@ -3141,11 +3153,11 @@
     "name": "Jadon Canady",
     "position": "CB",
     "school": "Oregon",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 181,
     "height": "5-10",
     "forty": 4.47,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.3,
     "sources_count": 3,
     "rankings": {
@@ -3159,7 +3171,9 @@
         "grade": 78
       }
     },
-    "summary": "Canady's best football is going to be played in the slot. That much is clear after watching him at Oregon, where he thrived working..."
+    "summary": "Canady's best football is going to be played in the slot. That much is clear after watching him at Oregon, where he thrived working...",
+    "draft_round": 4,
+    "draft_pick": 109
   },
   {
     "name": "Ahmari Harvey",
@@ -3254,11 +3268,11 @@
     "name": "Darrell Jackson Jr.",
     "position": "DT",
     "school": "Florida State",
-    "team": "",
+    "team": "New York Jets",
     "weight": 315,
     "height": "6-6",
     "forty": 5.05,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.9,
     "sources_count": 4,
     "rankings": {
@@ -3275,7 +3289,9 @@
         "grade": 80
       }
     },
-    "summary": "Jackson's calling card at the next level will be his run defense. His size and reach give him a natural advantage absorbing blocks and..."
+    "summary": "Jackson's calling card at the next level will be his run defense. His size and reach give him a natural advantage absorbing blocks and...",
+    "draft_round": 4,
+    "draft_pick": 103
   },
   {
     "name": "Deontae Lawson",
@@ -3386,11 +3402,11 @@
     "name": "Wesley Williams",
     "position": "EDGE",
     "school": "Duke",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 256,
     "height": "6-4",
     "forty": 4.89,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.5,
     "sources_count": 2,
     "rankings": {
@@ -3401,7 +3417,9 @@
         "grade": 75
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 4,
+    "draft_pick": 119
   },
   {
     "name": "Karson Sharar",
@@ -3637,11 +3655,11 @@
     "name": "Devin Moore",
     "position": "CB",
     "school": "Florida",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 198,
     "height": "6-3",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.9,
     "sources_count": 4,
     "rankings": {
@@ -3658,17 +3676,19 @@
         "grade": 80
       }
     },
-    "summary": "Moore's combination of length, coverage versatility, and run support gives a defensive coordinator real options. He fits best in a scheme..."
+    "summary": "Moore's combination of length, coverage versatility, and run support gives a defensive coordinator real options. He fits best in a scheme...",
+    "draft_round": 4,
+    "draft_pick": 114
   },
   {
     "name": "Jalen Farmer",
     "position": "OG",
     "school": "Kentucky",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 312,
     "height": "6-5",
     "forty": 4.93,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.9,
     "sources_count": 4,
     "rankings": {
@@ -3685,7 +3705,9 @@
         "grade": 79
       }
     },
-    "summary": "Farmer is a physical tone-setter who brings the kind of demeanor and edge that offensive line coaches spend their careers looking for...."
+    "summary": "Farmer is a physical tone-setter who brings the kind of demeanor and edge that offensive line coaches spend their careers looking for....",
+    "draft_round": 4,
+    "draft_pick": 113
   },
   {
     "name": "Carver Willis",
@@ -4163,11 +4185,11 @@
     "name": "Jude Bowry",
     "position": "OT",
     "school": "Boston College",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 314,
     "height": "6-5",
     "forty": 5.08,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.6,
     "sources_count": 4,
     "rankings": {
@@ -4184,7 +4206,9 @@
         "grade": 80
       }
     },
-    "summary": "Bowry's athletic testing numbers tell a clear story about where his value lies at the next level. His vertical and broad jump ranked..."
+    "summary": "Bowry's athletic testing numbers tell a clear story about where his value lies at the next level. His vertical and broad jump ranked...",
+    "draft_round": 4,
+    "draft_pick": 102
   },
   {
     "name": "Josh Cameron",
@@ -4337,11 +4361,11 @@
     "name": "Jonah Coleman",
     "position": "RB",
     "school": "Washington",
-    "team": "",
+    "team": "Denver Broncos",
     "weight": 220,
     "height": "5-8",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.2,
     "sources_count": 4,
     "rankings": {
@@ -4358,7 +4382,9 @@
         "grade": 84
       }
     },
-    "summary": "Coleman is not going to test his way into a higher draft slot, and his game does not need him to. His vision between the tackles finds..."
+    "summary": "Coleman is not going to test his way into a higher draft slot, and his game does not need him to. His vision between the tackles finds...",
+    "draft_round": 4,
+    "draft_pick": 108
   },
   {
     "name": "Markel Bell",
@@ -4715,11 +4741,11 @@
     "name": "Febechi Nwaiwu",
     "position": "OG",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Houston Texans",
     "weight": 319,
     "height": "6-4",
     "forty": 5.32,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.5,
     "sources_count": 3,
     "rankings": {
@@ -4733,7 +4759,9 @@
         "grade": 69
       }
     },
-    "summary": "When you watch Nwaiwu's 2025 tape in pass protection, there is real NFL-caliber work happening. This is a guard who can anchor..."
+    "summary": "When you watch Nwaiwu's 2025 tape in pass protection, there is real NFL-caliber work happening. This is a guard who can anchor...",
+    "draft_round": 4,
+    "draft_pick": 106
   },
   {
     "name": "Julian Neal",
@@ -4792,11 +4820,11 @@
     "name": "Brenen Thompson",
     "position": "WR",
     "school": "Mississippi State",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 164,
     "height": "5-9",
     "forty": 4.26,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.2,
     "sources_count": 4,
     "rankings": {
@@ -4813,17 +4841,19 @@
         "grade": 76
       }
     },
-    "summary": "Here is what I keep coming back to after watching Thompson: he does one thing at a ridiculous level, and it is the one thing that never..."
+    "summary": "Here is what I keep coming back to after watching Thompson: he does one thing at a ridiculous level, and it is the one thing that never...",
+    "draft_round": 4,
+    "draft_pick": 105
   },
   {
     "name": "Drew Shelton",
     "position": "OT",
     "school": "Penn State",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 313,
     "height": "6-5",
     "forty": 5.16,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.2,
     "sources_count": 4,
     "rankings": {
@@ -4840,17 +4870,19 @@
         "grade": 77
       }
     },
-    "summary": "Shelton's calling card is his movement ability. He can get to spots that most offensive tackles simply cannot reach, and his footwork in..."
+    "summary": "Shelton's calling card is his movement ability. He can get to spots that most offensive tackles simply cannot reach, and his footwork in...",
+    "draft_round": 4,
+    "draft_pick": 112
   },
   {
     "name": "Kage Casey",
     "position": "OT",
     "school": "Boise State",
-    "team": "",
+    "team": "Denver Broncos",
     "weight": 310,
     "height": "6-6",
     "forty": 5.2,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.1,
     "sources_count": 4,
     "rankings": {
@@ -4867,7 +4899,9 @@
         "grade": 78
       }
     },
-    "summary": "Casey's future at the next level is almost certainly inside at guard. His arms measured 32 3/4\" at the Senior Bowl, which is borderline for..."
+    "summary": "Casey's future at the next level is almost certainly inside at guard. His arms measured 32 3/4\" at the Senior Bowl, which is borderline for...",
+    "draft_round": 4,
+    "draft_pick": 111
   },
   {
     "name": "Red Murdock",
@@ -5070,11 +5104,11 @@
     "name": "Kaden Wetjen",
     "position": "WR",
     "school": "Iowa",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 193,
     "height": "5-9",
     "forty": 4.47,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.7,
     "sources_count": 3,
     "rankings": {
@@ -5088,7 +5122,9 @@
         "grade": 72
       }
     },
-    "summary": "Wetjen is walking into the league as one of the most accomplished return specialists in recent college football history, and that..."
+    "summary": "Wetjen is walking into the league as one of the most accomplished return specialists in recent college football history, and that...",
+    "draft_round": 4,
+    "draft_pick": 121
   },
   {
     "name": "Caden Curry",
@@ -5495,11 +5531,11 @@
     "name": "Jimmy Rolder",
     "position": "LB",
     "school": "Michigan",
-    "team": "",
+    "team": "Detroit Lions",
     "weight": 238,
     "height": "6-2",
     "forty": 4.68,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.7,
     "sources_count": 3,
     "rankings": {
@@ -5513,7 +5549,9 @@
         "grade": 76
       }
     },
-    "summary": "What you're getting with Rolder is a linebacker who will absolutely thud you in the run game. I've watched plenty of off-ball..."
+    "summary": "What you're getting with Rolder is a linebacker who will absolutely thud you in the run game. I've watched plenty of off-ball...",
+    "draft_round": 4,
+    "draft_pick": 118
   },
   {
     "name": "Taurean York",
@@ -6905,11 +6943,11 @@
     "name": "Cade Klubnik",
     "position": "QB",
     "school": "Clemson",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 207,
     "height": "6-2",
     "forty": 4.69,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.3,
     "sources_count": 4,
     "rankings": {
@@ -6926,7 +6964,9 @@
         "grade": 78
       }
     },
-    "summary": "Watch Klubnik's 2024 season and you will see a quarterback who looked like he was building toward a top-20 pick. The release is fast, the..."
+    "summary": "Watch Klubnik's 2024 season and you will see a quarterback who looked like he was building toward a top-20 pick. The release is fast, the...",
+    "draft_round": 4,
+    "draft_pick": 110
   },
   {
     "name": "J'Mari Taylor",
@@ -7410,11 +7450,11 @@
     "name": "Kaleb Proctor",
     "position": "DT",
     "school": "Southeastern Louisiana",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 291,
     "height": "6-2",
     "forty": 4.79,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67.3,
     "sources_count": 4,
     "rankings": {
@@ -7431,7 +7471,9 @@
         "grade": 78
       }
     },
-    "summary": "Proctor's calling card at the next level is obvious: he can rush the passer from the interior. That pass rush ability is not just good..."
+    "summary": "Proctor's calling card at the next level is obvious: he can rush the passer from the interior. That pass rush ability is not just good...",
+    "draft_round": 4,
+    "draft_pick": 104
   },
   {
     "name": "Reggie Virgil",

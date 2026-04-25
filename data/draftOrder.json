@@ -903,127 +903,190 @@
     "overall": 101,
     "round": 4,
     "pick": 1,
-    "team": "Buffalo Bills"
+    "team": "Buffalo Bills",
+    "player": "Jermod McCoy",
+    "position": "CB",
+    "school": "Tennessee"
   },
   {
     "overall": 102,
     "round": 4,
     "pick": 2,
-    "team": "Las Vegas Raiders"
+    "team": "Las Vegas Raiders",
+    "player": "Jude Bowry",
+    "position": "OT",
+    "school": "Boston College"
   },
   {
     "overall": 103,
     "round": 4,
     "pick": 3,
-    "team": "New York Jets"
+    "team": "New York Jets",
+    "player": "Darrell Jackson Jr.",
+    "position": "DT",
+    "school": "Florida State"
   },
   {
     "overall": 104,
     "round": 4,
     "pick": 4,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Kaleb Proctor",
+    "position": "DT",
+    "school": "Southeastern Louisiana"
   },
   {
     "overall": 105,
     "round": 4,
     "pick": 5,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Brenen Thompson",
+    "position": "WR",
+    "school": "Mississippi State"
   },
   {
     "overall": 106,
     "round": 4,
     "pick": 6,
-    "team": "Houston Texans"
+    "team": "Houston Texans",
+    "player": "Febechi Nwaiwu",
+    "position": "OG",
+    "school": "Oklahoma"
   },
   {
     "overall": 107,
     "round": 4,
     "pick": 7,
-    "team": "San Francisco 49ers"
+    "team": "San Francisco 49ers",
+    "player": "Gracen Halton",
+    "position": "DT",
+    "school": "Oklahoma"
   },
   {
     "overall": 108,
     "round": 4,
     "pick": 8,
-    "team": "Denver Broncos"
+    "team": "Denver Broncos",
+    "player": "Jonah Coleman",
+    "position": "RB",
+    "school": "Washington"
   },
   {
     "overall": 109,
     "round": 4,
     "pick": 9,
-    "team": "Kansas City Chiefs"
+    "team": "Kansas City Chiefs",
+    "player": "Jadon Canady",
+    "position": "CB",
+    "school": "Oregon"
   },
   {
     "overall": 110,
     "round": 4,
     "pick": 10,
-    "team": "Cincinnati Bengals"
+    "team": "Cincinnati Bengals",
+    "player": "Cade Klubnik",
+    "position": "QB",
+    "school": "Clemson"
   },
   {
     "overall": 111,
     "round": 4,
     "pick": 11,
-    "team": "Denver Broncos"
+    "team": "Denver Broncos",
+    "player": "Kage Casey",
+    "position": "OT",
+    "school": "Boise State"
   },
   {
     "overall": 112,
     "round": 4,
     "pick": 12,
-    "team": "Dallas Cowboys"
+    "team": "Dallas Cowboys",
+    "player": "Drew Shelton",
+    "position": "OT",
+    "school": "Penn State"
   },
   {
     "overall": 113,
     "round": 4,
     "pick": 13,
-    "team": "Indianapolis Colts"
+    "team": "Indianapolis Colts",
+    "player": "Jalen Farmer",
+    "position": "OG",
+    "school": "Kentucky"
   },
   {
     "overall": 114,
     "round": 4,
     "pick": 14,
-    "team": "Dallas Cowboys"
+    "team": "Dallas Cowboys",
+    "player": "Devin Moore",
+    "position": "CB",
+    "school": "Florida"
   },
   {
     "overall": 115,
     "round": 4,
     "pick": 15,
-    "team": "Baltimore Ravens"
+    "team": "Baltimore Ravens",
+    "player": "Elijah Sarratt",
+    "position": "WR",
+    "school": "Indiana"
   },
   {
     "overall": 116,
     "round": 4,
     "pick": 16,
-    "team": "Tampa Bay Buccaneers"
+    "team": "Tampa Bay Buccaneers",
+    "player": "Keionte Scott",
+    "position": "CB",
+    "school": "Miami"
   },
   {
     "overall": 117,
     "round": 4,
     "pick": 17,
-    "team": "Houston Texans"
+    "team": "Houston Texans",
+    "player": "Travis Burke",
+    "position": "OT",
+    "school": "Memphis"
   },
   {
     "overall": 118,
     "round": 4,
     "pick": 18,
-    "team": "Detroit Lions"
+    "team": "Detroit Lions",
+    "player": "Jimmy Rolder",
+    "position": "LB",
+    "school": "Michigan"
   },
   {
     "overall": 119,
     "round": 4,
     "pick": 19,
-    "team": "Carolina Panthers"
+    "team": "Carolina Panthers",
+    "player": "Wesley Williams",
+    "position": "EDGE",
+    "school": "Duke"
   },
   {
     "overall": 120,
     "round": 4,
     "pick": 20,
-    "team": "Green Bay Packers"
+    "team": "Green Bay Packers",
+    "player": "Dani Dennis-Sutton",
+    "position": "EDGE",
+    "school": "Penn State"
   },
   {
     "overall": 121,
     "round": 4,
     "pick": 21,
-    "team": "Pittsburgh Steelers"
+    "team": "Pittsburgh Steelers",
+    "player": "Kaden Wetjen",
+    "position": "WR",
+    "school": "Iowa"
   },
   {
     "overall": 122,
