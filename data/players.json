@@ -5049,11 +5049,11 @@
     "name": "Demond Claiborne",
     "position": "RB",
     "school": "Wake Forest",
-    "team": "",
+    "team": "New England Patriots",
     "weight": 188,
     "height": "5-10",
     "forty": 4.37,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72,
     "sources_count": 4,
     "rankings": {
@@ -5070,7 +5070,9 @@
         "grade": 80
       }
     },
-    "summary": "Claiborne's combine workout confirmed what the tape already suggested: he is one of the fastest backs in this class. That speed, paired..."
+    "summary": "Claiborne's combine workout confirmed what the tape already suggested: he is one of the fastest backs in this class. That speed, paired...",
+    "draft_round": 6,
+    "draft_pick": 198
   },
   {
     "name": "Chase Roberts",
