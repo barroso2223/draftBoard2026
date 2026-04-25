@@ -583,5 +583,14 @@
     "name": "Carson Beck",
     "position": "QB",
     "school": "Miami (FL)"
+  },
+  {
+    "overall": 66,
+    "round": 3,
+    "pick": 2,
+    "team": "Buffalo Bills",
+    "name": "Tyler Onyedim",
+    "position": "DT",
+    "school": "Texas A&M"
   }
 ]

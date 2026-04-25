@@ -5362,11 +5362,11 @@
     "name": "Tyler Onyedim",
     "position": "DT",
     "school": "Texas A&M",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71,
     "sources_count": 2,
     "rankings": {
@@ -5376,7 +5376,9 @@
       "scouting": {
         "grade": 76
       }
-    }
+    },
+    "draft_round": 3,
+    "draft_pick": 66
   },
   {
     "name": "Josh Cuevas",
