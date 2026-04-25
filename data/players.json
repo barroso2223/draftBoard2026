@@ -4010,11 +4010,11 @@
     "name": "Keyshaun Elliott",
     "position": "LB",
     "school": "Arizona State",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": 231,
     "height": "6-2",
     "forty": 4.55,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74.1,
     "sources_count": 3,
     "rankings": {
@@ -4028,7 +4028,9 @@
         "grade": 80
       }
     },
-    "summary": "I have a strong conviction about what Keyshaun Elliott is, and I think it is important to be honest about the ceiling here. This is a..."
+    "summary": "I have a strong conviction about what Keyshaun Elliott is, and I think it is important to be honest about the ceiling here. This is a...",
+    "draft_round": 5,
+    "draft_pick": 166
   },
   {
     "name": "VJ Payne",
