@@ -1725,7 +1725,10 @@
     "overall": 193,
     "round": 6,
     "pick": 12,
-    "team": "New York Giants"
+    "team": "New York Giants",
+    "player": "Jack Kelly",
+    "position": "LB",
+    "school": "Byu"
   },
   {
     "overall": 194,

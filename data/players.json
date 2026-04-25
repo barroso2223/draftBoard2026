@@ -8938,11 +8938,11 @@
     "name": "Jack Kelly",
     "position": "LB",
     "school": "BYU",
-    "team": "",
+    "team": "New York Giants",
     "weight": 240,
     "height": "6-2",
     "forty": 4.57,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64.9,
     "sources_count": 4,
     "rankings": {
@@ -8959,7 +8959,9 @@
         "grade": 76
       }
     },
-    "summary": "Kelly is a pass rusher first, second, and third. When he pins his ears back off the edge or shoots an interior gap on a designed blitz,..."
+    "summary": "Kelly is a pass rusher first, second, and third. When he pins his ears back off the edge or shoots an interior gap on a designed blitz,...",
+    "draft_round": 6,
+    "draft_pick": 193
   },
   {
     "name": "Roydell Williams",
