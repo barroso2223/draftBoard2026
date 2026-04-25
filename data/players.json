@@ -6505,11 +6505,11 @@
     "name": "Matt Gulbin",
     "position": "C",
     "school": "Michigan State",
-    "team": "",
+    "team": "Washington Commanders",
     "weight": 305,
     "height": "6-4",
     "forty": 5.3,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69.2,
     "sources_count": 2,
     "rankings": {
@@ -6520,7 +6520,9 @@
         "grade": 57
       }
     },
-    "summary": "What you see with Gulbin is a player who wins with old-school brute strength and sheer stubbornness rather than any kind of athletic..."
+    "summary": "What you see with Gulbin is a player who wins with old-school brute strength and sheer stubbornness rather than any kind of athletic...",
+    "draft_round": 6,
+    "draft_pick": 209
   },
   {
     "name": "Louis Moore",
