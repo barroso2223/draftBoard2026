@@ -1173,7 +1173,10 @@
     "overall": 131,
     "round": 4,
     "pick": 31,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Genesis Smith",
+    "position": "S",
+    "school": "Arizona"
   },
   {
     "overall": 132,
