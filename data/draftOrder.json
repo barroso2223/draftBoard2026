@@ -678,7 +678,10 @@
     "overall": 76,
     "round": 3,
     "pick": 12,
-    "team": "Pittsburgh Steelers"
+    "team": "Pittsburgh Steelers",
+    "player": "Drew Allar",
+    "position": "QB",
+    "school": "Penn St."
   },
   {
     "overall": 77,

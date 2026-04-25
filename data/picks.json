@@ -673,5 +673,14 @@
     "name": "Caleb Douglas",
     "position": "WR",
     "school": "Texas Tech"
+  },
+  {
+    "overall": 76,
+    "round": 3,
+    "pick": 12,
+    "team": "Pittsburgh Steelers",
+    "name": "Drew Allar",
+    "position": "QB",
+    "school": "Penn St."
   }
 ]

@@ -4444,11 +4444,11 @@
     "name": "Drew Allar",
     "position": "QB",
     "school": "Penn State",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 228,
     "height": "6-5",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.1,
     "sources_count": 4,
     "rankings": {
@@ -4465,7 +4465,9 @@
         "grade": 78
       }
     },
-    "summary": "The conventional wisdom says returning to school is almost always the right call. Sharpen your game, add to the tape, and watch your stock..."
+    "summary": "The conventional wisdom says returning to school is almost always the right call. Sharpen your game, add to the tape, and watch your stock...",
+    "draft_round": 3,
+    "draft_pick": 76
   },
   {
     "name": "Chris McClellan",
