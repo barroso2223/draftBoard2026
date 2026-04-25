@@ -3463,11 +3463,11 @@
     "name": "Karson Sharar",
     "position": "LB",
     "school": "Iowa",
-    "team": "",
+    "team": "Arizona Cardinals",
     "weight": 231,
     "height": "6-2",
     "forty": 4.56,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 75.5,
     "sources_count": 2,
     "rankings": {
@@ -3478,7 +3478,9 @@
         "grade": 76
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 5,
+    "draft_pick": 183
   },
   {
     "name": "Zxavian Harris",
@@ -4673,11 +4675,11 @@
     "name": "Taylen Green",
     "position": "QB",
     "school": "Arkansas",
-    "team": "",
+    "team": "Denver Broncos",
     "weight": 227,
     "height": "6-6",
     "forty": 4.36,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.8,
     "sources_count": 4,
     "rankings": {
@@ -4694,7 +4696,9 @@
         "grade": 75
       }
     },
-    "summary": "The combine workout moved the needle on Green. Posting the fastest time among quarterbacks while also leading the group in vertical and..."
+    "summary": "The combine workout moved the needle on Green. Posting the fastest time among quarterbacks while also leading the group in vertical and...",
+    "draft_round": 5,
+    "draft_pick": 182
   },
   {
     "name": "Zane Durant",

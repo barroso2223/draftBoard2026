@@ -1626,13 +1626,19 @@
     "overall": 182,
     "round": 6,
     "pick": 1,
-    "team": "Denver Broncos"
+    "team": "Denver Broncos",
+    "player": "Taylen Green",
+    "position": "QB",
+    "school": "Arkansas"
   },
   {
     "overall": 183,
     "round": 6,
     "pick": 2,
-    "team": "Arizona Cardinals"
+    "team": "Arizona Cardinals",
+    "player": "Karson Sharar",
+    "position": "LB",
+    "school": "Iowa"
   },
   {
     "overall": 184,

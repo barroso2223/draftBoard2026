@@ -1609,5 +1609,23 @@
     "name": "Enrique Cruz",
     "position": "OT",
     "school": "Kansas"
+  },
+  {
+    "overall": 182,
+    "round": 5,
+    "pick": 1,
+    "team": "Denver Broncos",
+    "name": "Taylen Green",
+    "position": "QB",
+    "school": "Arkansas"
+  },
+  {
+    "overall": 183,
+    "round": 5,
+    "pick": 2,
+    "team": "Arizona Cardinals",
+    "name": "Karson Sharar",
+    "position": "LB",
+    "school": "Iowa"
   }
 ]
