@@ -5973,11 +5973,11 @@
     "name": "Kevin Coleman Jr.",
     "position": "WR",
     "school": "Missouri",
-    "team": "",
+    "team": "Dallas Cowboys",
     "weight": 179,
     "height": "5-10",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70,
     "sources_count": 4,
     "rankings": {
@@ -5994,7 +5994,9 @@
         "grade": 77
       }
     },
-    "summary": "Coleman's game is built on precision, quickness off the snap, and an uncanny ability to find soft spots in zone coverage before defenders..."
+    "summary": "Coleman's game is built on precision, quickness off the snap, and an uncanny ability to find soft spots in zone coverage before defenders...",
+    "draft_round": 5,
+    "draft_pick": 177
   },
   {
     "name": "Vinny Anthony II",
