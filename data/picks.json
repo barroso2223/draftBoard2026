@@ -1159,5 +1159,14 @@
     "name": "Will Lee III",
     "position": "CB",
     "school": "Texas A&M"
+  },
+  {
+    "overall": 130,
+    "round": 4,
+    "pick": 30,
+    "team": "Miami Dolphins",
+    "name": "Trey Moore",
+    "position": "EDGE",
+    "school": "Texas"
   }
 ]

@@ -5847,11 +5847,11 @@
     "name": "Trey Moore",
     "position": "EDGE",
     "school": "Texas",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 243,
     "height": "6-2",
     "forty": 4.54,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.2,
     "sources_count": 2,
     "rankings": {
@@ -5862,7 +5862,9 @@
         "grade": 59
       }
     },
-    "summary": "Moore fits best as a sub-package edge rusher in a 3-4 scheme, the kind of player you send after the quarterback on passing downs and maybe..."
+    "summary": "Moore fits best as a sub-package edge rusher in a 3-4 scheme, the kind of player you send after the quarterback on passing downs and maybe...",
+    "draft_round": 4,
+    "draft_pick": 130
   },
   {
     "name": "Billy Schrauth",

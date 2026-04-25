@@ -1164,7 +1164,10 @@
     "overall": 130,
     "round": 4,
     "pick": 30,
-    "team": "Miami Dolphins"
+    "team": "Miami Dolphins",
+    "player": "Trey Moore",
+    "position": "EDGE",
+    "school": "Texas"
   },
   {
     "overall": 131,
