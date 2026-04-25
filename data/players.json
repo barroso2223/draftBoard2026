@@ -8335,18 +8335,20 @@
     "name": "Kendal Daniels",
     "position": "LB",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66,
     "sources_count": 1,
     "rankings": {
       "scouting": {
         "grade": 76
       }
-    }
+    },
+    "draft_round": 4,
+    "draft_pick": 134
   },
   {
     "name": "Diego Pounds",
