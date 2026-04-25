@@ -502,5 +502,14 @@
     "name": "Nate Boerkircher",
     "position": "TE",
     "school": "Texas A&M"
+  },
+  {
+    "overall": 57,
+    "round": 2,
+    "pick": 25,
+    "team": "Chicago Bears",
+    "name": "Logan Jones",
+    "position": "C",
+    "school": "Iowa"
   }
 ]

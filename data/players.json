@@ -2926,11 +2926,11 @@
     "name": "Logan Jones",
     "position": "C",
     "school": "Iowa",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 299,
     "height": "6-3",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.9,
     "sources_count": 2,
     "rankings": {
@@ -2941,7 +2941,9 @@
         "grade": 69
       }
     },
-    "summary": "Jones' pass protection is the reason he won the Rimington Trophy. Watch his 2025 tape and what stands out is how clean his reps are in the..."
+    "summary": "Jones' pass protection is the reason he won the Rimington Trophy. Watch his 2025 tape and what stands out is how clean his reps are in the...",
+    "draft_round": 2,
+    "draft_pick": 57
   },
   {
     "name": "Gracen Halton",
