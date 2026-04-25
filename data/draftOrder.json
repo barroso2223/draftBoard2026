@@ -1551,7 +1551,10 @@
     "overall": 174,
     "round": 5,
     "pick": 34,
-    "team": "Baltimore Ravens"
+    "team": "Baltimore Ravens",
+    "player": "Adam Randall",
+    "position": "RB",
+    "school": "Clemson"
   },
   {
     "overall": 175,

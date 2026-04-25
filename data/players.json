@@ -6893,11 +6893,11 @@
     "name": "Adam Randall",
     "position": "RB",
     "school": "Clemson",
-    "team": "",
+    "team": "Baltimore Ravens",
     "weight": 232,
     "height": "6-3",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.5,
     "sources_count": 4,
     "rankings": {
@@ -6914,7 +6914,9 @@
         "grade": 72
       }
     },
-    "summary": "Randall's tape tells you two things pretty quickly: he can run downhill with real power, and his receiver background gives him a..."
+    "summary": "Randall's tape tells you two things pretty quickly: he can run downhill with real power, and his receiver background gives him a...",
+    "draft_round": 5,
+    "draft_pick": 174
   },
   {
     "name": "Roman Hemby",

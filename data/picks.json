@@ -1528,5 +1528,14 @@
     "name": "Josh Cuevas",
     "position": "TE",
     "school": "Alabama"
+  },
+  {
+    "overall": 174,
+    "round": 5,
+    "pick": 34,
+    "team": "Baltimore Ravens",
+    "name": "Adam Randall",
+    "position": "RB",
+    "school": "Clemson"
   }
 ]
