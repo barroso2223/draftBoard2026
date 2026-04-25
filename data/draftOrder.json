@@ -453,25 +453,37 @@
     "overall": 51,
     "round": 2,
     "pick": 19,
-    "team": "Carolina Panthers"
+    "team": "Carolina Panthers",
+    "player": "Jake Golday",
+    "position": "LB",
+    "school": "Cincinnati"
   },
   {
     "overall": 52,
     "round": 2,
     "pick": 20,
-    "team": "Green Bay Packers"
+    "team": "Green Bay Packers",
+    "player": "Brandon Cisse",
+    "position": "CB",
+    "school": "South Carolina"
   },
   {
     "overall": 53,
     "round": 2,
     "pick": 21,
-    "team": "Pittsburgh Steelers"
+    "team": "Pittsburgh Steelers",
+    "player": "CJ Allen",
+    "position": "LB",
+    "school": "Georgia"
   },
   {
     "overall": 54,
     "round": 2,
     "pick": 22,
-    "team": "Philadelphia Eagles"
+    "team": "Philadelphia Eagles",
+    "player": "Eli Stowers",
+    "position": "TE",
+    "school": "Vanderbilt"
   },
   {
     "overall": 55,

@@ -890,11 +890,11 @@
     "name": "CJ Allen",
     "position": "LB",
     "school": "Georgia",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": 230,
     "height": "6-1",
     "forty": 4.55,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 84.6,
     "sources_count": 4,
     "rankings": {
@@ -911,7 +911,9 @@
         "grade": 90
       }
     },
-    "summary": "Allen represents exactly what defensive coordinators covet in a modern off-ball linebacker: a player who can be trusted to do his job on..."
+    "summary": "Allen represents exactly what defensive coordinators covet in a modern off-ball linebacker: a player who can be trusted to do his job on...",
+    "draft_round": 2,
+    "draft_pick": 53
   },
   {
     "name": "Kevin Concepcion",
@@ -1269,11 +1271,11 @@
     "name": "Jake Golday",
     "position": "LB",
     "school": "Cincinnati",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 239,
     "height": "6-4",
     "forty": 4.62,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.7,
     "sources_count": 4,
     "rankings": {
@@ -1290,7 +1292,9 @@
         "grade": 87
       }
     },
-    "summary": "With Golday, teams are buying the body, the speed, and the trajectory more than a finished product. The gap between his run defense and..."
+    "summary": "With Golday, teams are buying the body, the speed, and the trajectory more than a finished product. The gap between his run defense and...",
+    "draft_round": 2,
+    "draft_pick": 51
   },
   {
     "name": "Derrick Moore",
@@ -1322,11 +1326,11 @@
     "name": "Brandon Cisse",
     "position": "CB",
     "school": "South Carolina",
-    "team": "",
+    "team": "Green Bay Packers",
     "weight": 189,
     "height": "6-0",
     "forty": 4.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 82.5,
     "sources_count": 4,
     "rankings": {
@@ -1343,7 +1347,9 @@
         "grade": 85
       }
     },
-    "summary": "When you watch his tape you quickly notice first-round talent especially when you watch Cisse operate in man coverage situations. He's got..."
+    "summary": "When you watch his tape you quickly notice first-round talent especially when you watch Cisse operate in man coverage situations. He's got...",
+    "draft_round": 2,
+    "draft_pick": 52
   },
   {
     "name": "Christen Miller",
@@ -1620,11 +1626,11 @@
     "name": "Eli Stowers",
     "position": "TE",
     "school": "Vanderbilt",
-    "team": "",
+    "team": "Philadelphia Eagles",
     "weight": 239,
     "height": "6-4",
     "forty": 4.51,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 81.5,
     "sources_count": 4,
     "rankings": {
@@ -1641,7 +1647,9 @@
         "grade": 85
       }
     },
-    "summary": "Stowers is not a traditional inline tight end and probably never will be. His value at the next level is as a pass-catching weapon who..."
+    "summary": "Stowers is not a traditional inline tight end and probably never will be. His value at the next level is as a pass-catching weapon who...",
+    "draft_round": 2,
+    "draft_pick": 54
   },
   {
     "name": "Max Iheanachor",
