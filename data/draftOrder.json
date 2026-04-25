@@ -1245,13 +1245,19 @@
     "overall": 139,
     "round": 4,
     "pick": 39,
-    "team": "San Francisco 49ers"
+    "team": "San Francisco 49ers",
+    "player": "Ephesians Prysock",
+    "position": "CB",
+    "school": "Washington"
   },
   {
     "overall": 140,
     "round": 4,
     "pick": 40,
-    "team": "New York Jets"
+    "team": "Cincinnati Bengals",
+    "player": "Colbie Young",
+    "position": "WR",
+    "school": "Georgia"
   },
   {
     "overall": 141,
@@ -1419,7 +1425,10 @@
     "overall": 159,
     "round": 5,
     "pick": 19,
-    "team": "Minnesota Vikings"
+    "team": "Minnesota Vikings",
+    "player": "Max Bredeson",
+    "position": "TE",
+    "school": "Michigan"
   },
   {
     "overall": 160,

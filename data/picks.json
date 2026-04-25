@@ -1242,6 +1242,24 @@
     "school": "Pittsburgh"
   },
   {
+    "overall": 139,
+    "round": 4,
+    "pick": 139,
+    "team": "San Francisco 49ers",
+    "name": "Ephesians Prysock",
+    "position": "CB",
+    "school": "Washington"
+  },
+  {
+    "overall": 140,
+    "round": 4,
+    "pick": 140,
+    "team": "Cincinnati Bengals",
+    "name": "Colbie Young",
+    "position": "WR",
+    "school": "Georgia"
+  },
+  {
     "overall": 141,
     "round": 4,
     "pick": 1,
@@ -1402,6 +1420,15 @@
     "name": "Michael Taaffe",
     "position": "S",
     "school": "Texas"
+  },
+  {
+    "overall": 159,
+    "round": 5,
+    "pick": 159,
+    "team": "Minnesota Vikings",
+    "name": "Max Bredeson",
+    "position": "TE",
+    "school": "Michigan"
   },
   {
     "overall": 160,

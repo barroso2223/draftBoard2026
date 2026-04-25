@@ -5307,11 +5307,11 @@
     "name": "Ephesians Prysock",
     "position": "CB",
     "school": "Washington",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 196,
     "height": "6-3",
     "forty": 4.45,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.3,
     "sources_count": 4,
     "rankings": {
@@ -5328,7 +5328,9 @@
         "grade": 77
       }
     },
-    "summary": "After spending a lot of time with Prysock's tape, the phrase that keeps coming back is \"up side.\" There is no other way to describe a..."
+    "summary": "After spending a lot of time with Prysock's tape, the phrase that keeps coming back is \"up side.\" There is no other way to describe a...",
+    "draft_round": 4,
+    "draft_pick": 139
   },
   {
     "name": "Le'Veon Moss",
@@ -9278,11 +9280,11 @@
     "name": "Colbie Young",
     "position": "WR",
     "school": "Georgia",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 218,
     "height": "6-5",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64,
     "sources_count": 3,
     "rankings": {
@@ -9296,17 +9298,19 @@
         "grade": 66
       }
     },
-    "summary": "Young's combination of size, strong hands, and route-running acumen make him an intriguing prospect for NFL teams seeking a possession..."
+    "summary": "Young's combination of size, strong hands, and route-running acumen make him an intriguing prospect for NFL teams seeking a possession...",
+    "draft_round": 4,
+    "draft_pick": 140
   },
   {
     "name": "Max Bredeson",
     "position": "TE",
     "school": "Michigan",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 252,
     "height": "6-2",
     "forty": 4.75,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64,
     "sources_count": 1,
     "rankings": {
@@ -9314,7 +9318,9 @@
         "rating": 74
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 5,
+    "draft_pick": 159
   },
   {
     "name": "Noah Thomas",
