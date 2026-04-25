@@ -1621,7 +1621,7 @@
     "name": "Jake Slaughter",
     "position": "C",
     "school": "Florida",
-    "team": "Los Angeles Chargers",
+    "team": "Las Angeles Chargers",
     "weight": 303,
     "height": "6-5",
     "forty": 5.1,
@@ -2128,7 +2128,7 @@
     "name": "Bud Clark",
     "position": "S",
     "school": "TCU",
-    "team": "Philadelphia Eagles",
+    "team": "Seattle Seahawks",
     "weight": 188,
     "height": "6-1",
     "forty": 4.41,
@@ -12022,18 +12022,20 @@
     "name": "Jalen Huskey",
     "position": "CB",
     "school": "Maryland",
-    "team": "",
+    "team": "Jacksonville Jaguars",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 35,
     "sources_count": 1,
     "rankings": {
       "espn": {
         "grade": 45
       }
-    }
+    },
+    "draft_round": 3,
+    "draft_pick": 100
   },
   {
     "name": "James Brockermeyer",
