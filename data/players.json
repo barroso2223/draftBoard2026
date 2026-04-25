@@ -5100,11 +5100,11 @@
     "name": "Joe Royer",
     "position": "TE",
     "school": "Cincinnati",
-    "team": "",
+    "team": "Denver Broncos",
     "weight": 247,
     "height": "6-5",
     "forty": 4.65,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 71.9,
     "sources_count": 4,
     "rankings": {
@@ -5121,7 +5121,9 @@
         "grade": 77
       }
     },
-    "summary": "Royer is a matchup problem that defensive coordinators will lose sleep over. His natural receiving ability shows up most prominently on..."
+    "summary": "Royer is a matchup problem that defensive coordinators will lose sleep over. His natural receiving ability shows up most prominently on...",
+    "draft_round": 5,
+    "draft_pick": 170
   },
   {
     "name": "Rayshaun Benny",

@@ -1515,7 +1515,10 @@
     "overall": 170,
     "round": 5,
     "pick": 30,
-    "team": "Denver Broncos"
+    "team": "Denver Broncos",
+    "player": "Joe Royer",
+    "position": "TE",
+    "school": "Cincinnati"
   },
   {
     "overall": 171,
