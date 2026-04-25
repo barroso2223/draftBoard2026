@@ -1177,5 +1177,14 @@
     "name": "Genesis Smith",
     "position": "S",
     "school": "Arizona"
+  },
+  {
+    "overall": 132,
+    "round": 4,
+    "pick": 32,
+    "team": "New Orleans Saints",
+    "name": "Jeremiah Wright",
+    "position": "OG",
+    "school": "Auburn"
   }
 ]

@@ -6713,11 +6713,11 @@
     "name": "Jeremiah Wright",
     "position": "OG",
     "school": "Auburn",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 331,
     "height": "6-5",
     "forty": 5.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 68.6,
     "sources_count": 4,
     "rankings": {
@@ -6734,7 +6734,9 @@
         "grade": 71
       }
     },
-    "summary": "Wright is a throwback guard in a league that is increasingly asking its interior linemen to do more in space. He brings a wrecking-ball..."
+    "summary": "Wright is a throwback guard in a league that is increasingly asking its interior linemen to do more in space. He brings a wrecking-ball...",
+    "draft_round": 4,
+    "draft_pick": 132
   },
   {
     "name": "Josh Moten",
