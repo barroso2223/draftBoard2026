@@ -1193,11 +1193,11 @@
     "name": "Anthony Hill Jr.",
     "position": "LB",
     "school": "Texas",
-    "team": "",
+    "team": "Chicago Bears",
     "weight": 238,
     "height": "6-2",
     "forty": 4.51,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 83.2,
     "sources_count": 4,
     "rankings": {
@@ -1214,7 +1214,9 @@
         "grade": 87
       }
     },
-    "summary": "Watch Texas play and the first thing that jumps out is how fast Hill gets from Point A to Point B. This is a linebacker who plays like his..."
+    "summary": "Watch Texas play and the first thing that jumps out is how fast Hill gets from Point A to Point B. This is a linebacker who plays like his...",
+    "draft_round": 2,
+    "draft_pick": 60
   },
   {
     "name": "Blake Miller",

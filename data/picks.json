@@ -529,5 +529,14 @@
     "name": "Marlin Klein",
     "position": "TE",
     "school": "Michigan"
+  },
+  {
+    "overall": 60,
+    "round": 2,
+    "pick": 28,
+    "team": "Chicago Bears",
+    "name": "Anthony Hill",
+    "position": "LB",
+    "school": "Texas"
   }
 ]

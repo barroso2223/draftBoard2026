@@ -534,7 +534,10 @@
     "overall": 60,
     "round": 2,
     "pick": 28,
-    "team": "Chicago Bears"
+    "team": "Chicago Bears",
+    "player": "Anthony Hill",
+    "position": "LB",
+    "school": "Texas"
   },
   {
     "overall": 61,
