@@ -8893,11 +8893,11 @@
     "name": "Wade Woodaz",
     "position": "LB",
     "school": "Clemson",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": 236,
     "height": "6-3",
     "forty": 4.56,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64.7,
     "sources_count": 3,
     "rankings": {
@@ -8911,7 +8911,9 @@
         "grade": 76
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 4,
+    "draft_pick": 123
   },
   {
     "name": "Raheem Anderson II",

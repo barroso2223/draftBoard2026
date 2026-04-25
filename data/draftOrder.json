@@ -1101,7 +1101,10 @@
     "overall": 123,
     "round": 4,
     "pick": 23,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Wade Woodaz",
+    "position": "LB",
+    "school": "Clemson"
   },
   {
     "overall": 124,

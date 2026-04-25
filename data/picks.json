@@ -1096,5 +1096,14 @@
     "name": "Mike Washington Jr..",
     "position": "RB",
     "school": "Arkansas"
+  },
+  {
+    "overall": 123,
+    "round": 4,
+    "pick": 23,
+    "team": "Los Angeles Chargers",
+    "name": "Wade Woodaz",
+    "position": "LB",
+    "school": "Clemson"
   }
 ]
