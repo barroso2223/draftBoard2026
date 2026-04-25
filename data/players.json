@@ -6218,11 +6218,11 @@
     "name": "Michael Taaffe",
     "position": "S",
     "school": "Texas",
-    "team": "",
+    "team": "Carolina Panthers",
     "weight": 190,
     "height": "6-0",
     "forty": 4.5,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 69.7,
     "sources_count": 4,
     "rankings": {
@@ -6239,7 +6239,9 @@
         "grade": 78
       }
     },
-    "summary": "Taaffe is a coverage safety whose processing speed and instincts in zone are well ahead of where most college defensive backs operate...."
+    "summary": "Taaffe is a coverage safety whose processing speed and instincts in zone are well ahead of where most college defensive backs operate....",
+    "draft_round": 5,
+    "draft_pick": 158
   },
   {
     "name": "Charles Demmings",
