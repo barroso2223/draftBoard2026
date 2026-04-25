@@ -10845,11 +10845,11 @@
     "name": "Eli Heidenreich",
     "position": "RB",
     "school": "Navy",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 60.7,
     "sources_count": 3,
     "rankings": {
@@ -10862,7 +10862,9 @@
       "scouting": {
         "grade": 77
       }
-    }
+    },
+    "draft_round": 7,
+    "draft_pick": 230
   },
   {
     "name": "Karon Prunty",
