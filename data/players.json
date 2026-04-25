@@ -2929,11 +2929,11 @@
     "name": "Justin Joly",
     "position": "TE",
     "school": "NC State",
-    "team": "",
+    "team": "Cleveland Browns",
     "weight": 241,
     "height": "6-4",
     "forty": 4.75,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 77.1,
     "sources_count": 4,
     "rankings": {
@@ -2950,7 +2950,9 @@
         "grade": 79
       }
     },
-    "summary": "An offense that moves its tight ends around and features them as receivers is where Joly makes the most sense. His receiving ability is..."
+    "summary": "An offense that moves its tight ends around and features them as receivers is where Joly makes the most sense. His receiving ability is...",
+    "draft_round": 5,
+    "draft_pick": 152
   },
   {
     "name": "Fa'alili Fa'amoe",
