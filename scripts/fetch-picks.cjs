@@ -1,5 +1,5 @@
 // scripts/fetch-picks.cjs
-// Scrapes Yahoo Sports for live draft picks
+// Scrapes Yahoo Sports article for live draft picks with correct team ownership
 
 const fs = require("fs");
 const path = require("path");
@@ -7,7 +7,9 @@ const { chromium } = require("playwright");
 
 const dataDir = path.join(__dirname, "../data");
 const picksPath = path.join(dataDir, "picks.json");
-const draftOrdPath = path.join(dataDir, "draftOrder.json");
+
+const YAHOO_ARTICLE =
+  "https://sports.yahoo.com/articles/2026-nfl-draft-picks-full-092859120.html";
 
 const POS_MAP = {
   SAF: "S",
@@ -24,65 +26,75 @@ function normalizePos(pos) {
   return POS_MAP[pos?.toUpperCase()] || pos?.toUpperCase() || "";
 }
 
+function getRoundFromOverall(overall) {
+  if (overall <= 32) return 1;
+  if (overall <= 64) return 2;
+  if (overall <= 100) return 3;
+  if (overall <= 140) return 4;
+  if (overall <= 181) return 5;
+  if (overall <= 216) return 6;
+  return 7;
+}
+
 async function scrapeYahoo() {
   console.log("Launching browser...");
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  await page.goto("https://sports.yahoo.com/nfl/draft/", {
+  await page.goto(YAHOO_ARTICLE, {
     waitUntil: "domcontentloaded",
     timeout: 30000,
   });
+
   await page.waitForTimeout(6000);
 
-  const fullText = await page.evaluate(() => document.body.innerText);
+  const lines = await page.evaluate(() =>
+    document.body.innerText
+      .split("\n")
+      .map((l) => l.trim())
+      .filter(Boolean),
+  );
+
   await browser.close();
 
   const picks = [];
-  const lines = fullText
-    .split("\n")
-    .map((l) => l.trim())
-    .filter(Boolean);
-  const rdPkRegex = /^RD(\d+),\s*PK(\d+)$/i;
-  const posRegex =
-    /^(QB|RB|WR|TE|OT|OG|OL|C|G|T|EDGE|DE|DT|LB|ILB|OLB|CB|S|SAF|FS|SS|K|P|LS)$/i;
 
-  let i = 0;
-  while (i < lines.length) {
-    const m = lines[i].match(rdPkRegex);
-    if (m) {
-      const round = parseInt(m[1]);
-      const pickNum = parseInt(m[2]);
-      i++;
+  const pickLineRegex = /^(\d+)\s+(.+?):\s+(.+?),\s+([A-Z.]+),\s+(.+)$/i;
 
-      // Skip trade note like "(from Cleveland)"
-      if (lines[i]?.startsWith("(")) i++;
+  lines.forEach((line) => {
+    const match = line.match(pickLineRegex);
+    if (!match) return;
 
-      const playerName = lines[i] || "";
-      const position = lines[i + 1] || "";
-      const school = lines[i + 2] || "";
+    const overall = parseInt(match[1], 10);
+    const teamPart = match[2].trim();
+    const name = match[3].trim();
+    const position = normalizePos(match[4].trim());
+    const school = match[5].trim();
 
-      if (playerName && posRegex.test(position) && school.length > 1) {
-        picks.push({
-          round,
-          pickInRound: pickNum,
-          name: playerName,
-          position: normalizePos(position),
-          school: school,
-        });
-        i += 3;
-        continue;
-      }
-    }
-    i++;
-  }
+    const team = teamPart
+      .split(" from ")[0]
+      .replace(/\s+\(Compensatory Selection\)/i, "")
+      .trim();
+
+    const round = getRoundFromOverall(overall);
+
+    picks.push({
+      overall,
+      round,
+      pick: overall,
+      team,
+      name,
+      position,
+      school,
+    });
+  });
 
   return picks;
 }
 
 async function main() {
-  const draftOrder = JSON.parse(fs.readFileSync(draftOrdPath, "utf8"));
   let existingPicks = [];
+
   try {
     existingPicks = JSON.parse(fs.readFileSync(picksPath, "utf8"));
   } catch (e) {}
@@ -90,47 +102,26 @@ async function main() {
   console.log(`📋 Current picks.json: ${existingPicks.length} picks`);
 
   const scrapedPicks = await scrapeYahoo();
-  console.log(`🔍 Yahoo found: ${scrapedPicks.length} picks total`);
+  console.log(`🔍 Yahoo article found: ${scrapedPicks.length} picks total`);
 
   if (scrapedPicks.length === 0) {
     console.log("⚠️  No picks found");
     return;
   }
 
-  // Match to draftOrder by round + pick position to get overall# and team
-  const newPicks = [];
-
-  scrapedPicks.forEach((pick) => {
-    const roundSlots = draftOrder
-      .filter((d) => d.round === pick.round)
-      .sort((a, b) => a.overall - b.overall);
-
-    const slot = roundSlots[pick.pickInRound - 1];
-    if (!slot) return;
-
-    // Skip if already saved
-    if (existingPicks.find((p) => p.overall === slot.overall)) return;
-
-    newPicks.push({
-      overall: slot.overall,
-      round: slot.round,
-      pick: pick.pickInRound,
-      team: slot.team,
-      name: pick.name,
-      position: pick.position,
-      school: pick.school,
-    });
-  });
+  const newPicks = scrapedPicks.filter(
+    (pick) => !existingPicks.find((p) => p.overall === pick.overall),
+  );
 
   if (newPicks.length === 0) {
     console.log("✅ No new picks — already up to date");
     return;
   }
 
-  // Merge and deduplicate
   const merged = [...existingPicks, ...newPicks].sort(
     (a, b) => a.overall - b.overall,
   );
+
   const seen = new Set();
   const deduped = merged.filter((p) => {
     if (seen.has(p.overall)) return false;
@@ -143,11 +134,13 @@ async function main() {
   console.log(
     `\n✅ Added ${newPicks.length} new picks — total: ${deduped.length}`,
   );
+
   newPicks.forEach((p) =>
     console.log(
       `  #${p.overall} ${p.team}: ${p.name} (${p.position}) ${p.school}`,
     ),
   );
+
   console.log(`\n🏈 Run: node scripts/apply-picks.cjs`);
 }
 
