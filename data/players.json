@@ -2585,11 +2585,11 @@
     "name": "Caleb Tiernan",
     "position": "OT",
     "school": "Northwestern",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 323,
     "height": "6-8",
     "forty": 5.3,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 78.5,
     "sources_count": 4,
     "rankings": {
@@ -2606,7 +2606,9 @@
         "grade": 82
       }
     },
-    "summary": "Tiernan's pass protection is the foundation of his NFL case. His hand placement, punch timing, and feel for rush angles are polished..."
+    "summary": "Tiernan's pass protection is the foundation of his NFL case. His hand placement, punch timing, and feel for rush angles are polished...",
+    "draft_round": 3,
+    "draft_pick": 97
   },
   {
     "name": "LT Overton",
