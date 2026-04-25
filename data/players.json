@@ -3230,11 +3230,11 @@
     "name": "Enrique Cruz Jr.",
     "position": "OT",
     "school": "Kansas",
-    "team": "",
+    "team": "San Francisco 49ers",
     "weight": 313,
     "height": "6-6",
     "forty": 4.94,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.2,
     "sources_count": 2,
     "rankings": {
@@ -3245,7 +3245,9 @@
         "grade": 75
       }
     },
-    "summary": "n/a"
+    "summary": "n/a",
+    "draft_round": 5,
+    "draft_pick": 179
   },
   {
     "name": "Sam Hecht",
