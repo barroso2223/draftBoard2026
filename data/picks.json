@@ -565,5 +565,14 @@
     "name": "Jake Slaughter",
     "position": "C",
     "school": "Florida"
+  },
+  {
+    "overall": 64,
+    "round": 2,
+    "pick": 32,
+    "team": "Seattle Seahawks",
+    "name": "Bud Clark",
+    "position": "S",
+    "school": "TCU"
   }
 ]

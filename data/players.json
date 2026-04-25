@@ -2112,11 +2112,11 @@
     "name": "Bud Clark",
     "position": "S",
     "school": "TCU",
-    "team": "",
+    "team": "Seattle Seahawks",
     "weight": 188,
     "height": "6-1",
     "forty": 4.41,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.9,
     "sources_count": 4,
     "rankings": {
@@ -2133,7 +2133,9 @@
         "grade": 81
       }
     },
-    "summary": "Clark's value at the next level ties directly to his coverage versatility and ball production. Fifteen interceptions in four seasons is..."
+    "summary": "Clark's value at the next level ties directly to his coverage versatility and ball production. Fifteen interceptions in four seasons is...",
+    "draft_round": 2,
+    "draft_pick": 64
   },
   {
     "name": "Max Llewellyn",
