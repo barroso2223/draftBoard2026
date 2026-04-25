@@ -2173,11 +2173,11 @@
     "name": "Max Llewellyn",
     "position": "EDGE",
     "school": "Iowa",
-    "team": "",
+    "team": "Miami Dolphins",
     "weight": 258,
     "height": "6-6",
     "forty": 4.81,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.8,
     "sources_count": 2,
     "rankings": {
@@ -2188,7 +2188,9 @@
         "grade": 77
       }
     },
-    "summary": "Llewellyn is one of the more interesting later-round gambles in this class because the gap between his best pass-rush reps and his..."
+    "summary": "Llewellyn is one of the more interesting later-round gambles in this class because the gap between his best pass-rush reps and his...",
+    "draft_round": 7,
+    "draft_pick": 238
   },
   {
     "name": "Keionte Scott",
