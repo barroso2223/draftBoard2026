@@ -1942,5 +1942,14 @@
     "name": "Anthony Smith",
     "position": "WR",
     "school": "East Carolina"
+  },
+  {
+    "overall": 219,
+    "round": 7,
+    "pick": 3,
+    "team": "Las Vegas Raiders",
+    "name": "Tj Hall",
+    "position": "CB",
+    "school": "Iowa"
   }
 ]

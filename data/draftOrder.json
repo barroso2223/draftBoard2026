@@ -1959,7 +1959,10 @@
     "overall": 219,
     "round": 7,
     "pick": 3,
-    "team": "Las Vegas Raiders"
+    "team": "Las Vegas Raiders",
+    "player": "Tj Hall",
+    "position": "CB",
+    "school": "Iowa"
   },
   {
     "overall": 220,

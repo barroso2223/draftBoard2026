@@ -7634,11 +7634,11 @@
     "name": "TJ Hall",
     "position": "CB",
     "school": "Iowa",
-    "team": "",
+    "team": "Las Vegas Raiders",
     "weight": 189,
     "height": "6-1",
     "forty": 4.59,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 67.3,
     "sources_count": 3,
     "rankings": {
@@ -7652,7 +7652,9 @@
         "grade": 73
       }
     },
-    "summary": "Hall is a boundary corner who will earn his paycheck in the run game and within zone-heavy schemes. That run defense grading is not a..."
+    "summary": "Hall is a boundary corner who will earn his paycheck in the run game and within zone-heavy schemes. That run defense grading is not a...",
+    "draft_round": 7,
+    "draft_pick": 219
   },
   {
     "name": "Nick Barrett",
