@@ -5455,11 +5455,11 @@
     "name": "Keagen Trost",
     "position": "OT",
     "school": "Missouri",
-    "team": "",
+    "team": "Los Angeles Rams",
     "weight": 311,
     "height": "6-5",
     "forty": 5.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 70.8,
     "sources_count": 3,
     "rankings": {
@@ -5473,7 +5473,9 @@
         "grade": 73
       }
     },
-    "summary": "The 2025 Missouri tape is going to get Trost on boards, and it should. You watch those run reps against South Carolina and Mississippi..."
+    "summary": "The 2025 Missouri tape is going to get Trost on boards, and it should. You watch those run reps against South Carolina and Mississippi...",
+    "draft_round": 3,
+    "draft_pick": 93
   },
   {
     "name": "Jimmy Rolder",
