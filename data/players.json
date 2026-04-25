@@ -4052,11 +4052,11 @@
     "name": "VJ Payne",
     "position": "S",
     "school": "Kansas State",
-    "team": "",
+    "team": "New York Jets",
     "weight": 206,
     "height": "6-3",
     "forty": 4.4,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 74,
     "sources_count": 4,
     "rankings": {
@@ -4073,7 +4073,9 @@
         "grade": 77
       }
     },
-    "summary": "Payne's calling card at the next level will be his coverage ability paired with that rare size-speed combination. At 6'3\" and 208..."
+    "summary": "Payne's calling card at the next level will be his coverage ability paired with that rare size-speed combination. At 6'3\" and 208...",
+    "draft_round": 7,
+    "draft_pick": 228
   },
   {
     "name": "Donaven McCulley",
