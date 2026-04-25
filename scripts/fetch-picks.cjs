@@ -12,7 +12,15 @@ const draftOrdPath = path.join(dataDir, "draftOrder.json");
 const YAHOO_ARTICLE =
   "https://sports.yahoo.com/articles/2026-nfl-draft-picks-full-092859120.html";
 
-const NFL_ROUNDS = [4, 5, 6, 7];
+function getActiveRounds(existingCount) {
+  const nextOverall = existingCount + 1;
+
+  if (nextOverall <= 100) return [1, 2, 3];
+  if (nextOverall <= 140) return [4];
+  if (nextOverall <= 181) return [5];
+  if (nextOverall <= 216) return [6];
+  return [7];
+}
 
 const POS_REGEX =
   /^(QB|RB|WR|TE|OT|OG|OL|C|G|T|EDGE|DE|DT|LB|ILB|OLB|CB|DB|S|SAF|FS|SS|K|P|LS)$/i;
@@ -68,7 +76,7 @@ async function getLines(page, url) {
     timeout: 30000,
   });
 
-  await page.waitForTimeout(7000);
+  await page.waitForTimeout(3000);
 
   return page.evaluate(() =>
     document.body.innerText
@@ -78,7 +86,7 @@ async function getLines(page, url) {
   );
 }
 
-async function scrapeNFL() {
+async function scrapeNFL(roundsToCheck) {
   console.log("Launching browser for NFL.com live tracker...");
 
   const browser = await chromium.launch({ headless: true });
@@ -87,7 +95,7 @@ async function scrapeNFL() {
   const picks = [];
   const seen = new Set();
 
-  for (const round of NFL_ROUNDS) {
+  for (const round of roundsToCheck) {
     const url = `https://www.nfl.com/draft/tracker/2026/rounds/${round}`;
     console.log(`Checking NFL.com round ${round}...`);
 
@@ -184,8 +192,10 @@ async function main() {
   } catch {}
 
   console.log(`📋 Current picks.json: ${existingPicks.length} picks`);
+  const nflRounds = getActiveRounds(existingPicks.length);
+  console.log(`🎯 Checking NFL round(s): ${nflRounds.join(", ")}`);
 
-  let scrapedPicks = await scrapeNFL();
+  let scrapedPicks = await scrapeNFL(nflRounds);
   console.log(`🔍 NFL.com live found: ${scrapedPicks.length} picks total`);
 
   if (scrapedPicks.length === 0) {
