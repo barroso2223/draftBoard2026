@@ -9250,11 +9250,11 @@
     "name": "Robert Spears-Jennings",
     "position": "S",
     "school": "Oklahoma",
-    "team": "",
+    "team": "Pittsburgh Steelers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 64.3,
     "sources_count": 3,
     "rankings": {
@@ -9267,7 +9267,9 @@
       "scouting": {
         "grade": 75
       }
-    }
+    },
+    "draft_round": 7,
+    "draft_pick": 224
   },
   {
     "name": "Barion Brown",
