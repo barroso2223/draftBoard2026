@@ -8100,11 +8100,11 @@
     "name": "Skyler Gill-Howard",
     "position": "DT",
     "school": "Texas Tech",
-    "team": "",
+    "team": "Detroit Lions",
     "weight": 280,
     "height": "6-1",
     "forty": 4.9,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 66.7,
     "sources_count": 4,
     "rankings": {
@@ -8121,7 +8121,9 @@
         "grade": 78
       }
     },
-    "summary": "Gill-Howard brings the kind of interior quickness and gap penetration that defensive coordinators dream about when they draw up stunts..."
+    "summary": "Gill-Howard brings the kind of interior quickness and gap penetration that defensive coordinators dream about when they draw up stunts...",
+    "draft_round": 6,
+    "draft_pick": 205
   },
   {
     "name": "Riley Nowakowski",
