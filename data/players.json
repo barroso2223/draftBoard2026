@@ -10524,11 +10524,11 @@
     "name": "Lorenzo Styles Jr.",
     "position": "S",
     "school": "Ohio State",
-    "team": "",
+    "team": "New Orleans Saints",
     "weight": 194,
     "height": "6-0",
     "forty": 4.27,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 61.2,
     "sources_count": 4,
     "rankings": {
@@ -10545,7 +10545,9 @@
         "grade": 77
       }
     },
-    "summary": "He’s a fluid athlete with excellent short-area quickness; Styles should be able to create separation, and he has the straight-line speed to..."
+    "summary": "He’s a fluid athlete with excellent short-area quickness; Styles should be able to create separation, and he has the straight-line speed to...",
+    "draft_round": 5,
+    "draft_pick": 172
   },
   {
     "name": "Ethan Onianwa",
