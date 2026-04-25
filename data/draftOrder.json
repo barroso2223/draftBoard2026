@@ -1824,7 +1824,10 @@
     "overall": 204,
     "round": 6,
     "pick": 23,
-    "team": "Los Angeles Chargers"
+    "team": "Los Angeles Chargers",
+    "player": "Lewis Bond",
+    "position": "WR",
+    "school": "Boston College"
   },
   {
     "overall": 205,

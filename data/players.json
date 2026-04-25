@@ -11350,18 +11350,20 @@
     "name": "Lewis Bond",
     "position": "WR",
     "school": "Boston College",
-    "team": "",
+    "team": "Los Angeles Chargers",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 56,
     "sources_count": 1,
     "rankings": {
       "bleacher": {
         "grade": 66
       }
-    }
+    },
+    "draft_round": 6,
+    "draft_pick": 204
   },
   {
     "name": "T.J. Hall",
