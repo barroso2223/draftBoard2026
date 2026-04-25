@@ -682,5 +682,14 @@
     "name": "Drew Allar",
     "position": "QB",
     "school": "Penn St."
+  },
+  {
+    "overall": 77,
+    "round": 3,
+    "pick": 13,
+    "team": "Tampa Bay Buccaneers",
+    "name": "Chris McClellan",
+    "position": "DT",
+    "school": "Missouri"
   }
 ]

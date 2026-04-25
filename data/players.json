@@ -4473,11 +4473,11 @@
     "name": "Chris McClellan",
     "position": "DT",
     "school": "Missouri",
-    "team": "",
+    "team": "Tampa Bay Buccaneers",
     "weight": 313,
     "height": "6-4",
     "forty": 5.05,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73,
     "sources_count": 4,
     "rankings": {
@@ -4494,7 +4494,9 @@
         "grade": 80
       }
     },
-    "summary": "Look at the grades and the picture gets real clear, real fast. The run defense and tackling numbers are legitimate. The pass rush..."
+    "summary": "Look at the grades and the picture gets real clear, real fast. The run defense and tackling numbers are legitimate. The pass rush...",
+    "draft_round": 3,
+    "draft_pick": 77
   },
   {
     "name": "Aidan Hubbard",
