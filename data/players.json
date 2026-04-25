@@ -3062,11 +3062,11 @@
     "name": "Jack Endries",
     "position": "TE",
     "school": "Texas",
-    "team": "",
+    "team": "Cincinnati Bengals",
     "weight": 245,
     "height": "6-5",
     "forty": 4.62,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 76.8,
     "sources_count": 4,
     "rankings": {
@@ -3083,7 +3083,9 @@
         "grade": 84
       }
     },
-    "summary": "Endries fits best as an \"F\" tight end in a system that values receiving from the position and can live with some blocking limitations early..."
+    "summary": "Endries fits best as an \"F\" tight end in a system that values receiving from the position and can live with some blocking limitations early...",
+    "draft_round": 7,
+    "draft_pick": 221
   },
   {
     "name": "Beau Stephens",
