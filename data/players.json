@@ -2250,11 +2250,11 @@
     "name": "Keith Abney II",
     "position": "CB",
     "school": "Arizona State",
-    "team": "",
+    "team": "Detroit Lions",
     "weight": 187,
     "height": "5-10",
     "forty": 4.46,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.6,
     "sources_count": 4,
     "rankings": {
@@ -2271,7 +2271,9 @@
         "grade": 83
       }
     },
-    "summary": "After watching Abney work through his junior tape, I came away convinced this is a player who will carve out a real career in the NFL,..."
+    "summary": "After watching Abney work through his junior tape, I came away convinced this is a player who will carve out a real career in the NFL,...",
+    "draft_round": 5,
+    "draft_pick": 157
   },
   {
     "name": "Joshua Josephs",

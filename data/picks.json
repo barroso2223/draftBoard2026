@@ -1384,5 +1384,14 @@
     "name": "George Gumbs Jr..",
     "position": "EDGE",
     "school": "Florida"
+  },
+  {
+    "overall": 157,
+    "round": 5,
+    "pick": 17,
+    "team": "Detroit Lions",
+    "name": "Keith Abney II",
+    "position": "CB",
+    "school": "Arizona State"
   }
 ]
