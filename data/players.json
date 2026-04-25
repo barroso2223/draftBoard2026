@@ -10264,18 +10264,20 @@
     "name": "Jackie Marshall",
     "position": "DT",
     "school": "Baylor",
-    "team": "",
+    "team": "Tennessee Titans",
     "weight": null,
     "height": null,
     "forty": null,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 63,
     "sources_count": 1,
     "rankings": {
       "scouting": {
         "grade": 73
       }
-    }
+    },
+    "draft_round": 6,
+    "draft_pick": 184
   },
   {
     "name": "Kaelon Black",
