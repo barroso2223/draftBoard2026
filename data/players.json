@@ -4193,11 +4193,11 @@
     "name": "George Gumbs Jr.",
     "position": "EDGE",
     "school": "Florida",
-    "team": "",
+    "team": "Indianapolis Colts",
     "weight": 245,
     "height": "6-4",
     "forty": 4.66,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 73.7,
     "sources_count": 3,
     "rankings": {
@@ -4211,7 +4211,9 @@
         "grade": 78
       }
     },
-    "summary": "Gumbs is the kind of prospect who makes more sense on paper in two years than he does right now. He has only been playing defensive..."
+    "summary": "Gumbs is the kind of prospect who makes more sense on paper in two years than he does right now. He has only been playing defensive...",
+    "draft_round": 5,
+    "draft_pick": 156
   },
   {
     "name": "Jude Bowry",
