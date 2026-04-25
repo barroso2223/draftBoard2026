@@ -1614,13 +1614,19 @@
     "overall": 180,
     "round": 5,
     "pick": 40,
-    "team": "Dallas Cowboys"
+    "team": "Miami Dolphins",
+    "player": "Seydou Traore",
+    "position": "TE",
+    "school": "Mississippi State"
   },
   {
     "overall": 181,
     "round": 5,
     "pick": 41,
-    "team": "Detroit Lions"
+    "team": "Buffalo Bills",
+    "player": "Zane Durant",
+    "position": "DT",
+    "school": "Penn State"
   },
   {
     "overall": 182,

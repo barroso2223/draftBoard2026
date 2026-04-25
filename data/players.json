@@ -4716,11 +4716,11 @@
     "name": "Zane Durant",
     "position": "DT",
     "school": "Penn State",
-    "team": "",
+    "team": "Buffalo Bills",
     "weight": 290,
     "height": "6-1",
     "forty": 4.75,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 72.6,
     "sources_count": 4,
     "rankings": {
@@ -4737,7 +4737,9 @@
         "grade": 81
       }
     },
-    "summary": "The central question with Durant is one every scout has to answer: why didn't the production catch up to the athleticism? His Combine..."
+    "summary": "The central question with Durant is one every scout has to answer: why didn't the production catch up to the athleticism? His Combine...",
+    "draft_round": 5,
+    "draft_pick": 181
   },
   {
     "name": "Jalen Stroman",
