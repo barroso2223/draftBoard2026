@@ -2354,11 +2354,11 @@
     "name": "Domonique Orange",
     "position": "DT",
     "school": "Iowa State",
-    "team": "",
+    "team": "Minnesota Vikings",
     "weight": 322,
     "height": "6-2",
     "forty": 5.3,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 79.2,
     "sources_count": 4,
     "rankings": {
@@ -2375,7 +2375,9 @@
         "grade": 81
       }
     },
-    "summary": "Orange's value at the next level is straightforward: he can fill a nose tackle role in an odd-front defense and give you honest, dependable..."
+    "summary": "Orange's value at the next level is straightforward: he can fill a nose tackle role in an odd-front defense and give you honest, dependable...",
+    "draft_round": 3,
+    "draft_pick": 82
   },
   {
     "name": "Sam Roush",
