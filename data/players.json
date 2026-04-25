@@ -2712,11 +2712,11 @@
     "name": "Cyrus Allen",
     "position": "WR",
     "school": "Cincinnati",
-    "team": "",
+    "team": "Kansas City Chiefs",
     "weight": 180,
     "height": "5-11",
     "forty": 4.49,
-    "drafted": false,
+    "drafted": true,
     "combined_score": 78,
     "sources_count": 2,
     "rankings": {
@@ -2727,7 +2727,9 @@
         "grade": 74
       }
     },
-    "summary": "Watch the tape on from Allen's 2025 season at Cincinnati and you'll see a receiver who knows exactly how to get open. He's not going to..."
+    "summary": "Watch the tape on from Allen's 2025 season at Cincinnati and you'll see a receiver who knows exactly how to get open. He's not going to...",
+    "draft_round": 5,
+    "draft_pick": 176
   },
   {
     "name": "Peter Woods",
