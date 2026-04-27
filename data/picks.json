@@ -4,7 +4,7 @@
     "round": 1,
     "pick": 1,
     "team": "Las Vegas Raiders",
-    "name": "Fernando Mendoza",
+    "player": "Fernando Mendoza",
     "position": "QB",
     "school": "Indiana"
   },
@@ -13,8 +13,8 @@
     "round": 1,
     "pick": 2,
     "team": "New York Jets",
-    "name": "David Bailey",
-    "position": "LB",
+    "player": "David Bailey",
+    "position": "EDGE",
     "school": "Texas Tech"
   },
   {
@@ -22,7 +22,7 @@
     "round": 1,
     "pick": 3,
     "team": "Arizona Cardinals",
-    "name": "Jeremiah Love",
+    "player": "Jeremiyah Love",
     "position": "RB",
     "school": "Notre Dame"
   },
@@ -31,7 +31,7 @@
     "round": 1,
     "pick": 4,
     "team": "Tennessee Titans",
-    "name": "Carnell Tate",
+    "player": "Carnell Tate",
     "position": "WR",
     "school": "Ohio State"
   },
@@ -40,8 +40,8 @@
     "round": 1,
     "pick": 5,
     "team": "New York Giants",
-    "name": "Arvell Reese",
-    "position": "LB",
+    "player": "Arvell Reese",
+    "position": "EDGE",
     "school": "Ohio State"
   },
   {
@@ -49,7 +49,7 @@
     "round": 1,
     "pick": 6,
     "team": "Kansas City Chiefs",
-    "name": "Mansoor Delane",
+    "player": "Mansoor Delane",
     "position": "CB",
     "school": "LSU"
   },
@@ -58,7 +58,7 @@
     "round": 1,
     "pick": 7,
     "team": "Washington Commanders",
-    "name": "Sonny Styles",
+    "player": "Sonny Styles",
     "position": "LB",
     "school": "Ohio State"
   },
@@ -67,7 +67,7 @@
     "round": 1,
     "pick": 8,
     "team": "New Orleans Saints",
-    "name": "Jordyn Tyson",
+    "player": "Jordyn Tyson",
     "position": "WR",
     "school": "Arizona State"
   },
@@ -76,7 +76,7 @@
     "round": 1,
     "pick": 9,
     "team": "Cleveland Browns",
-    "name": "Spencer Fano",
+    "player": "Spencer Fano",
     "position": "OT",
     "school": "Utah"
   },
@@ -85,7 +85,7 @@
     "round": 1,
     "pick": 10,
     "team": "New York Giants",
-    "name": "Francis Mauigoa",
+    "player": "Francis Mauigoa",
     "position": "OT",
     "school": "Miami"
   },
@@ -94,7 +94,7 @@
     "round": 1,
     "pick": 11,
     "team": "Dallas Cowboys",
-    "name": "Caleb Downs",
+    "player": "Caleb Downs",
     "position": "S",
     "school": "Ohio State"
   },
@@ -103,7 +103,7 @@
     "round": 1,
     "pick": 12,
     "team": "Miami Dolphins",
-    "name": "Kadyn Proctor",
+    "player": "Kadyn Proctor",
     "position": "OT",
     "school": "Alabama"
   },
@@ -112,7 +112,7 @@
     "round": 1,
     "pick": 13,
     "team": "Los Angeles Rams",
-    "name": "Ty Simpson",
+    "player": "Ty Simpson",
     "position": "QB",
     "school": "Alabama"
   },
@@ -121,7 +121,7 @@
     "round": 1,
     "pick": 14,
     "team": "Baltimore Ravens",
-    "name": "Olaivavega Ioane",
+    "player": "Olaivavega Ioane",
     "position": "OG",
     "school": "Penn State"
   },
@@ -130,7 +130,7 @@
     "round": 1,
     "pick": 15,
     "team": "Tampa Bay Buccaneers",
-    "name": "Reuben Bain Jr.",
+    "player": "Rueben Bain Jr.",
     "position": "EDGE",
     "school": "Miami"
   },
@@ -139,7 +139,7 @@
     "round": 1,
     "pick": 16,
     "team": "New York Jets",
-    "name": "Kenyon Sadiq",
+    "player": "Kenyon Sadiq",
     "position": "TE",
     "school": "Oregon"
   },
@@ -148,7 +148,7 @@
     "round": 1,
     "pick": 17,
     "team": "Detroit Lions",
-    "name": "Blake Miller",
+    "player": "Blake Miller",
     "position": "OT",
     "school": "Clemson"
   },
@@ -157,7 +157,7 @@
     "round": 1,
     "pick": 18,
     "team": "Minnesota Vikings",
-    "name": "Caleb Banks",
+    "player": "Caleb Banks",
     "position": "DT",
     "school": "Florida"
   },
@@ -166,7 +166,7 @@
     "round": 1,
     "pick": 19,
     "team": "Carolina Panthers",
-    "name": "Monroe Freeling",
+    "player": "Monroe Freeling",
     "position": "OT",
     "school": "Georgia"
   },
@@ -175,7 +175,7 @@
     "round": 1,
     "pick": 20,
     "team": "Philadelphia Eagles",
-    "name": "Makai Lemon",
+    "player": "Makai Lemon",
     "position": "WR",
     "school": "USC"
   },
@@ -184,7 +184,7 @@
     "round": 1,
     "pick": 21,
     "team": "Pittsburgh Steelers",
-    "name": "Max Iheanachor",
+    "player": "Max Iheanachor",
     "position": "OT",
     "school": "Arizona State"
   },
@@ -193,8 +193,8 @@
     "round": 1,
     "pick": 22,
     "team": "Los Angeles Chargers",
-    "name": "Ahkeem Mesidor",
-    "position": "LB",
+    "player": "Akeem Mesidor",
+    "position": "EDGE",
     "school": "Miami"
   },
   {
@@ -202,7 +202,7 @@
     "round": 1,
     "pick": 23,
     "team": "Dallas Cowboys",
-    "name": "Malachi Lawrence",
+    "player": "Malachi Lawrence",
     "position": "EDGE",
     "school": "UCF"
   },
@@ -211,7 +211,7 @@
     "round": 1,
     "pick": 24,
     "team": "Cleveland Browns",
-    "name": "KC Concepcion",
+    "player": "KC Concepcion",
     "position": "WR",
     "school": "Texas A&M"
   },
@@ -220,7 +220,7 @@
     "round": 1,
     "pick": 25,
     "team": "Chicago Bears",
-    "name": "Dillon Thieneman",
+    "player": "Dillon Thieneman",
     "position": "S",
     "school": "Oregon"
   },
@@ -229,7 +229,7 @@
     "round": 1,
     "pick": 26,
     "team": "Houston Texans",
-    "name": "Keylan Rutledge",
+    "player": "Keylan Rutledge",
     "position": "OG",
     "school": "Georgia Tech"
   },
@@ -238,7 +238,7 @@
     "round": 1,
     "pick": 27,
     "team": "Miami Dolphins",
-    "name": "Chris Johnson",
+    "player": "Chris Johnson",
     "position": "CB",
     "school": "San Diego State"
   },
@@ -247,7 +247,7 @@
     "round": 1,
     "pick": 28,
     "team": "New England Patriots",
-    "name": "Caleb Lomu",
+    "player": "Caleb Lomu",
     "position": "OT",
     "school": "Utah"
   },
@@ -256,7 +256,7 @@
     "round": 1,
     "pick": 29,
     "team": "Kansas City Chiefs",
-    "name": "Peter Woods",
+    "player": "Peter Woods",
     "position": "DT",
     "school": "Clemson"
   },
@@ -265,7 +265,7 @@
     "round": 1,
     "pick": 30,
     "team": "New York Jets",
-    "name": "Omar Cooper Jr.",
+    "player": "Omar Cooper Jr.",
     "position": "WR",
     "school": "Indiana"
   },
@@ -274,7 +274,7 @@
     "round": 1,
     "pick": 31,
     "team": "Tennessee Titans",
-    "name": "Keldric Faulk",
+    "player": "Keldric Faulk",
     "position": "EDGE",
     "school": "Auburn"
   },
@@ -283,628 +283,628 @@
     "round": 1,
     "pick": 32,
     "team": "Seattle Seahawks",
-    "name": "Jadarian Price",
+    "player": "Jadarian Price",
     "position": "RB",
     "school": "Notre Dame"
   },
   {
     "overall": 33,
     "round": 2,
-    "pick": 33,
+    "pick": 1,
     "team": "San Francisco 49ers",
-    "name": "De’Zhaun Stribling",
+    "player": "De'Zhaun Stribling",
     "position": "WR",
-    "school": "Ole Miss"
+    "school": "Mississippi"
   },
   {
     "overall": 34,
     "round": 2,
-    "pick": 34,
+    "pick": 2,
     "team": "Arizona Cardinals",
-    "name": "Chase Bisontis",
+    "player": "Chase Bisontis",
     "position": "OG",
     "school": "Texas A&M"
   },
   {
     "overall": 35,
     "round": 2,
-    "pick": 35,
+    "pick": 3,
     "team": "Buffalo Bills",
-    "name": "T.J. Parker",
+    "player": "T.J. Parker",
     "position": "EDGE",
     "school": "Clemson"
   },
   {
     "overall": 36,
     "round": 2,
-    "pick": 36,
+    "pick": 4,
     "team": "Houston Texans",
-    "name": "Kayden McDonald",
+    "player": "Kayden McDonald",
     "position": "DT",
     "school": "Ohio State"
   },
   {
     "overall": 37,
     "round": 2,
-    "pick": 37,
+    "pick": 5,
     "team": "New York Giants",
-    "name": "Colton Hood",
+    "player": "Colton Hood",
     "position": "CB",
     "school": "Tennessee"
   },
   {
     "overall": 38,
     "round": 2,
-    "pick": 38,
+    "pick": 6,
     "team": "Las Vegas Raiders",
-    "name": "Treydan Stukes",
+    "player": "Treydan Stukes",
     "position": "S",
     "school": "Arizona"
   },
   {
     "overall": 39,
     "round": 2,
-    "pick": 39,
+    "pick": 7,
     "team": "Cleveland Browns",
-    "name": "Denzel Boston",
+    "player": "Denzel Boston",
     "position": "WR",
     "school": "Washington"
   },
   {
     "overall": 40,
     "round": 2,
-    "pick": 40,
+    "pick": 8,
     "team": "Kansas City Chiefs",
-    "name": "R Mason Thomas",
+    "player": "R Mason Thomas",
     "position": "EDGE",
     "school": "Oklahoma"
   },
   {
     "overall": 41,
     "round": 2,
-    "pick": 41,
+    "pick": 9,
     "team": "Cincinnati Bengals",
-    "name": "Cashius Howell",
+    "player": "Cashius Howell",
     "position": "EDGE",
     "school": "Texas A&M"
   },
   {
     "overall": 42,
     "round": 2,
-    "pick": 42,
+    "pick": 10,
     "team": "New Orleans Saints",
-    "name": "Christen Miller",
+    "player": "Christen Miller",
     "position": "DT",
     "school": "Georgia"
   },
   {
     "overall": 43,
     "round": 2,
-    "pick": 43,
+    "pick": 11,
     "team": "Miami Dolphins",
-    "name": "Jacob Rodriguez",
+    "player": "Jacob Rodriguez",
     "position": "LB",
     "school": "Texas Tech"
   },
   {
     "overall": 44,
     "round": 2,
-    "pick": 44,
+    "pick": 12,
     "team": "Detroit Lions",
-    "name": "Derrick Moore",
+    "player": "Derrick Moore",
     "position": "EDGE",
     "school": "Michigan"
   },
   {
     "overall": 45,
     "round": 2,
-    "pick": 45,
+    "pick": 13,
     "team": "Baltimore Ravens",
-    "name": "Zion Young",
-    "position": "LB",
+    "player": "Zion Young",
+    "position": "EDGE",
     "school": "Missouri"
   },
   {
     "overall": 46,
     "round": 2,
-    "pick": 46,
+    "pick": 14,
     "team": "Tampa Bay Buccaneers",
-    "name": "Josiah Trotter",
+    "player": "Josiah Trotter",
     "position": "LB",
     "school": "Missouri"
   },
   {
     "overall": 47,
     "round": 2,
-    "pick": 47,
+    "pick": 15,
     "team": "Pittsburgh Steelers",
-    "name": "Germie Bernard",
+    "player": "Germie Bernard",
     "position": "WR",
     "school": "Alabama"
   },
   {
     "overall": 48,
     "round": 2,
-    "pick": 48,
+    "pick": 16,
     "team": "Atlanta Falcons",
-    "name": "Avieon Terrell",
+    "player": "Avieon Terrell",
     "position": "CB",
     "school": "Clemson"
   },
   {
     "overall": 49,
     "round": 2,
-    "pick": 49,
+    "pick": 17,
     "team": "Carolina Panthers",
-    "name": "Lee Hunter",
+    "player": "Lee Hunter",
     "position": "DT",
     "school": "Texas Tech"
   },
   {
     "overall": 50,
     "round": 2,
-    "pick": 50,
+    "pick": 18,
     "team": "New York Jets",
-    "name": "D’Angelo Ponds",
+    "player": "D'Angelo Ponds",
     "position": "CB",
     "school": "Indiana"
   },
   {
     "overall": 51,
     "round": 2,
-    "pick": 51,
+    "pick": 19,
     "team": "Minnesota Vikings",
-    "name": "Jake Golday",
+    "player": "Jake Golday",
     "position": "LB",
     "school": "Cincinnati"
   },
   {
     "overall": 52,
     "round": 2,
-    "pick": 52,
+    "pick": 20,
     "team": "Green Bay Packers",
-    "name": "Brandon Cisse",
+    "player": "Brandon Cisse",
     "position": "CB",
     "school": "South Carolina"
   },
   {
     "overall": 53,
     "round": 2,
-    "pick": 53,
+    "pick": 21,
     "team": "Indianapolis Colts",
-    "name": "CJ Allen",
+    "player": "CJ Allen",
     "position": "LB",
-    "school": "Grorgia"
+    "school": "Georgia"
   },
   {
     "overall": 54,
     "round": 2,
-    "pick": 54,
+    "pick": 22,
     "team": "Philadelphia Eagles",
-    "name": "Eli Stowers",
+    "player": "Eli Stowers",
     "position": "TE",
     "school": "Vanderbilt"
   },
   {
     "overall": 55,
     "round": 2,
-    "pick": 55,
+    "pick": 23,
     "team": "New England Patriots",
-    "name": "Gabe Jacas",
+    "player": "Gabe Jacas",
     "position": "EDGE",
     "school": "Illinois"
   },
   {
     "overall": 56,
     "round": 2,
-    "pick": 56,
+    "pick": 24,
     "team": "Jacksonville Jaguars",
-    "name": "Nate Boerkircher",
+    "player": "Nate Boerkircher",
     "position": "TE",
     "school": "Texas A&M"
   },
   {
     "overall": 57,
     "round": 2,
-    "pick": 57,
+    "pick": 25,
     "team": "Chicago Bears",
-    "name": "Logan Jones",
+    "player": "Logan Jones",
     "position": "C",
     "school": "Iowa"
   },
   {
     "overall": 58,
     "round": 2,
-    "pick": 58,
+    "pick": 26,
     "team": "Cleveland Browns",
-    "name": "Emmanuel McNeil-Warren",
+    "player": "Emmanuel McNeil-Warren",
     "position": "S",
     "school": "Toledo"
   },
   {
     "overall": 59,
     "round": 2,
-    "pick": 59,
+    "pick": 27,
     "team": "Houston Texans",
-    "name": "Marlin Klein",
+    "player": "Marlin Klein",
     "position": "TE",
     "school": "Michigan"
   },
   {
     "overall": 60,
     "round": 2,
-    "pick": 60,
+    "pick": 28,
     "team": "Tennessee Titans",
-    "name": "Anthony Hill Jr.",
+    "player": "Anthony Hill Jr.",
     "position": "LB",
     "school": "Texas"
   },
   {
     "overall": 61,
     "round": 2,
-    "pick": 61,
+    "pick": 29,
     "team": "Los Angeles Rams",
-    "name": "Max Klare",
+    "player": "Max Klare",
     "position": "TE",
     "school": "Ohio State"
   },
   {
     "overall": 62,
     "round": 2,
-    "pick": 62,
+    "pick": 30,
     "team": "Buffalo Bills",
-    "name": "Davison Igbinosun",
+    "player": "Davison Igbinosun",
     "position": "CB",
     "school": "Ohio State"
   },
   {
     "overall": 63,
     "round": 2,
-    "pick": 63,
-    "team": "Las Angeles Chargers",
-    "name": "Jake Slaughter",
+    "pick": 31,
+    "team": "Los Angeles Chargers",
+    "player": "Jake Slaughter",
     "position": "C",
     "school": "Florida"
   },
   {
     "overall": 64,
     "round": 2,
-    "pick": 64,
+    "pick": 32,
     "team": "Seattle Seahawks",
-    "name": "Bud Clark",
+    "player": "Bud Clark",
     "position": "S",
     "school": "TCU"
   },
   {
     "overall": 65,
     "round": 3,
-    "pick": 65,
+    "pick": 1,
     "team": "Arizona Cardinals",
-    "name": "Carson Beck",
+    "player": "Carson Beck",
     "position": "QB",
     "school": "Miami"
   },
   {
     "overall": 66,
     "round": 3,
-    "pick": 66,
+    "pick": 2,
     "team": "Denver Broncos",
-    "name": "Tyler Onyedim",
+    "player": "Tyler Onyedim",
     "position": "DT",
     "school": "Texas A&M"
   },
   {
     "overall": 67,
     "round": 3,
-    "pick": 67,
+    "pick": 3,
     "team": "Las Vegas Raiders",
-    "name": "Keyron Crawford",
+    "player": "Keyron Crawford",
     "position": "EDGE",
     "school": "Auburn"
   },
   {
     "overall": 68,
     "round": 3,
-    "pick": 68,
+    "pick": 4,
     "team": "Philadelphia Eagles",
-    "name": "Markell Bell",
+    "player": "Markel Bell",
     "position": "OT",
     "school": "Miami"
   },
   {
     "overall": 69,
     "round": 3,
-    "pick": 69,
+    "pick": 5,
     "team": "Chicago Bears",
-    "name": "Sam Roush",
+    "player": "Sam Roush",
     "position": "TE",
     "school": "Stanford"
   },
   {
     "overall": 70,
     "round": 3,
-    "pick": 70,
+    "pick": 6,
     "team": "San Francisco 49ers",
-    "name": "Romello Height",
+    "player": "Romello Height",
     "position": "EDGE",
     "school": "Texas Tech"
   },
   {
     "overall": 71,
     "round": 3,
-    "pick": 71,
+    "pick": 7,
     "team": "Washington Commanders",
-    "name": "Antonio Williams",
+    "player": "Antonio Williams",
     "position": "WR",
     "school": "Clemson"
   },
   {
     "overall": 72,
     "round": 3,
-    "pick": 72,
+    "pick": 8,
     "team": "Cincinnati Bengals",
-    "name": "Tacario Davis",
-    "position": "DB",
+    "player": "Tacario Davis",
+    "position": "CB",
     "school": "Washington"
   },
   {
     "overall": 73,
     "round": 3,
-    "pick": 73,
+    "pick": 9,
     "team": "New Orleans Saints",
-    "name": "Oscar Delp",
+    "player": "Oscar Delp",
     "position": "TE",
     "school": "Georgia"
   },
   {
     "overall": 74,
     "round": 3,
-    "pick": 74,
+    "pick": 10,
     "team": "New York Giants",
-    "name": "Malachi Fields",
+    "player": "Malachi Fields",
     "position": "WR",
     "school": "Notre Dame"
   },
   {
     "overall": 75,
     "round": 3,
-    "pick": 75,
+    "pick": 11,
     "team": "Miami Dolphins",
-    "name": "Caleb Douglas",
+    "player": "Caleb Douglas",
     "position": "WR",
     "school": "Texas Tech"
   },
   {
     "overall": 76,
     "round": 3,
-    "pick": 76,
+    "pick": 12,
     "team": "Pittsburgh Steelers",
-    "name": "Drew Allar",
+    "player": "Drew Allar",
     "position": "QB",
     "school": "Penn State"
   },
   {
     "overall": 77,
     "round": 3,
-    "pick": 77,
+    "pick": 13,
     "team": "Green Bay Packers",
-    "name": "Chris McClellan",
+    "player": "Chris McClellan",
     "position": "DT",
     "school": "Missouri"
   },
   {
     "overall": 78,
     "round": 3,
-    "pick": 78,
+    "pick": 14,
     "team": "Indianapolis Colts",
-    "name": "A.J. Haulcy",
+    "player": "A.J. Haulcy",
     "position": "S",
     "school": "LSU"
   },
   {
     "overall": 79,
     "round": 3,
-    "pick": 79,
+    "pick": 15,
     "team": "Atlanta Falcons",
-    "name": "Zachariah Branch",
+    "player": "Zachariah Branch",
     "position": "WR",
     "school": "Georgia"
   },
   {
     "overall": 80,
     "round": 3,
-    "pick": 80,
+    "pick": 16,
     "team": "Baltimore Ravens",
-    "name": "Ja'Kobi Lane",
+    "player": "Ja'Kobi Lane",
     "position": "WR",
     "school": "USC"
   },
   {
     "overall": 81,
     "round": 3,
-    "pick": 81,
+    "pick": 17,
     "team": "Jacksonville Jaguars",
-    "name": "Albert Regis",
+    "player": "Albert Regis",
     "position": "DT",
     "school": "Texas A&M"
   },
   {
     "overall": 82,
     "round": 3,
-    "pick": 82,
+    "pick": 18,
     "team": "Minnesota Vikings",
-    "name": "Domonique Orange",
+    "player": "Domonique Orange",
     "position": "DT",
-    "school": "Iowa Statw"
+    "school": "Iowa State"
   },
   {
     "overall": 83,
     "round": 3,
-    "pick": 83,
+    "pick": 19,
     "team": "Carolina Panthers",
-    "name": "Chris Brazzell II",
+    "player": "Chris Brazzell II",
     "position": "WR",
     "school": "Tennessee"
   },
   {
     "overall": 84,
     "round": 3,
-    "pick": 84,
+    "pick": 20,
     "team": "Tampa Bay Buccaneers",
-    "name": "Ted Hurst",
+    "player": "Ted Hurst",
     "position": "WR",
     "school": "Georgia State"
   },
   {
     "overall": 85,
     "round": 3,
-    "pick": 85,
+    "pick": 21,
     "team": "Pittsburgh Steelers",
-    "name": "Daylin Everette",
+    "player": "Daylen Everette",
     "position": "CB",
     "school": "Georgia"
   },
   {
     "overall": 86,
     "round": 3,
-    "pick": 86,
+    "pick": 22,
     "team": "Cleveland Browns",
-    "name": "Austin Barber",
+    "player": "Austin Barber",
     "position": "OT",
     "school": "Florida"
   },
   {
     "overall": 87,
     "round": 3,
-    "pick": 87,
+    "pick": 23,
     "team": "Miami Dolphins",
-    "name": "Will Kacmarek",
+    "player": "Will Kacmarek",
     "position": "TE",
     "school": "Ohio State"
   },
   {
     "overall": 88,
     "round": 3,
-    "pick": 88,
+    "pick": 24,
     "team": "Jacksonville Jaguars",
-    "name": "Emmanuel Pregnon",
+    "player": "Emmanuel Pregnon",
     "position": "OG",
     "school": "Oregon"
   },
   {
     "overall": 89,
     "round": 3,
-    "pick": 89,
+    "pick": 25,
     "team": "Chicago Bears",
-    "name": "Zavion Thomas",
+    "player": "Zavion Thomas",
     "position": "WR",
     "school": "LSU"
   },
   {
     "overall": 90,
     "round": 3,
-    "pick": 90,
+    "pick": 26,
     "team": "San Francisco 49ers",
-    "name": "Kaelon Black",
+    "player": "Kaelon Black",
     "position": "RB",
     "school": "Indiana"
   },
   {
     "overall": 91,
     "round": 3,
-    "pick": 91,
+    "pick": 27,
     "team": "Las Vegas Raiders",
-    "name": "Trey Zuhn III",
+    "player": "Trey Zuhn III",
     "position": "C",
     "school": "Texas A&M"
   },
   {
     "overall": 92,
     "round": 3,
-    "pick": 92,
+    "pick": 28,
     "team": "Dallas Cowboys",
-    "name": "Jaishawn Barham",
+    "player": "Jaishawn Barham",
     "position": "EDGE",
     "school": "Michigan"
   },
   {
     "overall": 93,
     "round": 3,
-    "pick": 93,
+    "pick": 29,
     "team": "Los Angeles Rams",
-    "name": "Keagen Trost",
+    "player": "Keagen Trost",
     "position": "OT",
     "school": "Missouri"
   },
   {
     "overall": 94,
     "round": 3,
-    "pick": 94,
+    "pick": 30,
     "team": "Miami Dolphins",
-    "name": "Chris Bell",
+    "player": "Chris Bell",
     "position": "WR",
     "school": "Louisville"
   },
   {
     "overall": 95,
     "round": 3,
-    "pick": 95,
+    "pick": 31,
     "team": "New England Patriots",
-    "name": "Eli Raridon",
+    "player": "Eli Raridon",
     "position": "TE",
     "school": "Notre Dame"
   },
   {
     "overall": 96,
     "round": 3,
-    "pick": 96,
+    "pick": 32,
     "team": "Pittsburgh Steelers",
-    "name": "Gennings Dunker",
+    "player": "Gennings Dunker",
     "position": "OG",
     "school": "Iowa"
   },
   {
     "overall": 97,
     "round": 3,
-    "pick": 97,
+    "pick": 33,
     "team": "Minnesota Vikings",
-    "name": "Caleb Tiernan",
+    "player": "Caleb Tiernan",
     "position": "OT",
     "school": "Northwestern"
   },
   {
     "overall": 98,
     "round": 3,
-    "pick": 98,
+    "pick": 34,
     "team": "Minnesota Vikings",
-    "name": "Jakobe Thomas",
+    "player": "Jakobe Thomas",
     "position": "S",
     "school": "Miami"
   },
   {
     "overall": 99,
     "round": 3,
-    "pick": 99,
+    "pick": 35,
     "team": "Seattle Seahawks",
-    "name": "Julian Neal",
+    "player": "Julian Neal",
     "position": "CB",
     "school": "Arkansas"
   },
   {
     "overall": 100,
     "round": 3,
-    "pick": 100,
+    "pick": 36,
     "team": "Jacksonville Jaguars",
-    "name": "Jalen Huskey",
-    "position": "CB",
+    "player": "Jalen Huskey",
+    "position": "S",
     "school": "Maryland"
   },
   {
     "overall": 101,
     "round": 4,
     "pick": 1,
-    "team": "Buffalo Bills",
-    "name": "Jermod McCoy",
+    "team": "Las Vegas Raiders",
+    "player": "Jermod McCoy",
     "position": "CB",
     "school": "Tennessee"
   },
@@ -912,8 +912,8 @@
     "overall": 102,
     "round": 4,
     "pick": 2,
-    "team": "Las Vegas Raiders",
-    "name": "Jude Bowry",
+    "team": "Buffalo Bills",
+    "player": "Jude Bowry",
     "position": "OT",
     "school": "Boston College"
   },
@@ -922,7 +922,7 @@
     "round": 4,
     "pick": 3,
     "team": "New York Jets",
-    "name": "Darrell Jackson Jr.",
+    "player": "Darrell Jackson Jr.",
     "position": "DT",
     "school": "Florida State"
   },
@@ -931,7 +931,7 @@
     "round": 4,
     "pick": 4,
     "team": "Arizona Cardinals",
-    "name": "Kaleb Proctor",
+    "player": "Kaleb Proctor",
     "position": "DT",
     "school": "Southeastern Louisiana"
   },
@@ -940,7 +940,7 @@
     "round": 4,
     "pick": 5,
     "team": "Los Angeles Chargers",
-    "name": "Brenen Thompson",
+    "player": "Brenen Thompson",
     "position": "WR",
     "school": "Mississippi State"
   },
@@ -949,7 +949,7 @@
     "round": 4,
     "pick": 6,
     "team": "Houston Texans",
-    "name": "Febechi Nwaiwu",
+    "player": "Febechi Nwaiwu",
     "position": "OG",
     "school": "Oklahoma"
   },
@@ -958,7 +958,7 @@
     "round": 4,
     "pick": 7,
     "team": "San Francisco 49ers",
-    "name": "Gracen Halton",
+    "player": "Gracen Halton",
     "position": "DT",
     "school": "Oklahoma"
   },
@@ -967,7 +967,7 @@
     "round": 4,
     "pick": 8,
     "team": "Denver Broncos",
-    "name": "Jonah Coleman",
+    "player": "Jonah Coleman",
     "position": "RB",
     "school": "Washington"
   },
@@ -976,7 +976,7 @@
     "round": 4,
     "pick": 9,
     "team": "Kansas City Chiefs",
-    "name": "Jadon Canady",
+    "player": "Jadon Canady",
     "position": "CB",
     "school": "Oregon"
   },
@@ -984,8 +984,8 @@
     "overall": 110,
     "round": 4,
     "pick": 10,
-    "team": "Cincinnati Bengals",
-    "name": "Cade Klubnik",
+    "team": "New York Jets",
+    "player": "Cade Klubnik",
     "position": "QB",
     "school": "Clemson"
   },
@@ -994,7 +994,7 @@
     "round": 4,
     "pick": 11,
     "team": "Denver Broncos",
-    "name": "Kage Casey",
+    "player": "Kage Casey",
     "position": "OT",
     "school": "Boise State"
   },
@@ -1003,7 +1003,7 @@
     "round": 4,
     "pick": 12,
     "team": "Dallas Cowboys",
-    "name": "Drew Shelton",
+    "player": "Drew Shelton",
     "position": "OT",
     "school": "Penn State"
   },
@@ -1012,7 +1012,7 @@
     "round": 4,
     "pick": 13,
     "team": "Indianapolis Colts",
-    "name": "Jalen Farmer",
+    "player": "Jalen Farmer",
     "position": "OG",
     "school": "Kentucky"
   },
@@ -1021,7 +1021,7 @@
     "round": 4,
     "pick": 14,
     "team": "Dallas Cowboys",
-    "name": "Devin Moore",
+    "player": "Devin Moore",
     "position": "CB",
     "school": "Florida"
   },
@@ -1030,7 +1030,7 @@
     "round": 4,
     "pick": 15,
     "team": "Baltimore Ravens",
-    "name": "Elijah Sarratt",
+    "player": "Elijah Sarratt",
     "position": "WR",
     "school": "Indiana"
   },
@@ -1039,7 +1039,7 @@
     "round": 4,
     "pick": 16,
     "team": "Tampa Bay Buccaneers",
-    "name": "Keionte Scott",
+    "player": "Keionte Scott",
     "position": "CB",
     "school": "Miami"
   },
@@ -1047,8 +1047,8 @@
     "overall": 117,
     "round": 4,
     "pick": 17,
-    "team": "Houston Texans",
-    "name": "Travis Burke",
+    "team": "Los Angeles Chargers",
+    "player": "Travis Burke",
     "position": "OT",
     "school": "Memphis"
   },
@@ -1057,7 +1057,7 @@
     "round": 4,
     "pick": 18,
     "team": "Detroit Lions",
-    "name": "Jimmy Rolder",
+    "player": "Jimmy Rolder",
     "position": "LB",
     "school": "Michigan"
   },
@@ -1065,8 +1065,8 @@
     "overall": 119,
     "round": 4,
     "pick": 19,
-    "team": "Carolina Panthers",
-    "name": "Wesley Williams",
+    "team": "Jacksonville Jaguars",
+    "player": "Wesley Williams",
     "position": "EDGE",
     "school": "Duke"
   },
@@ -1075,7 +1075,7 @@
     "round": 4,
     "pick": 20,
     "team": "Green Bay Packers",
-    "name": "Dani Dennis-Sutton",
+    "player": "Dani Dennis-Sutton",
     "position": "EDGE",
     "school": "Penn State"
   },
@@ -1084,7 +1084,7 @@
     "round": 4,
     "pick": 21,
     "team": "Pittsburgh Steelers",
-    "name": "Kaden Wetjen",
+    "player": "Kaden Wetjen",
     "position": "WR",
     "school": "Iowa"
   },
@@ -1092,8 +1092,8 @@
     "overall": 122,
     "round": 4,
     "pick": 22,
-    "team": "Atlanta Falcons",
-    "name": "Mike Washington Jr..",
+    "team": "Las Vegas Raiders",
+    "player": "Mike Washington Jr.",
     "position": "RB",
     "school": "Arkansas"
   },
@@ -1101,8 +1101,8 @@
     "overall": 123,
     "round": 4,
     "pick": 23,
-    "team": "Los Angeles Chargers",
-    "name": "Wade Woodaz",
+    "team": "Houston Texans",
+    "player": "Wade Woodaz",
     "position": "LB",
     "school": "Clemson"
   },
@@ -1110,8 +1110,8 @@
     "overall": 124,
     "round": 4,
     "pick": 24,
-    "team": "Jacksonville Jaguars",
-    "name": "Malik Muhammad",
+    "team": "Chicago Bears",
+    "player": "Malik Muhammad",
     "position": "CB",
     "school": "Texas"
   },
@@ -1120,7 +1120,7 @@
     "round": 4,
     "pick": 25,
     "team": "Buffalo Bills",
-    "name": "Skyler Bell",
+    "player": "Skyler Bell",
     "position": "WR",
     "school": "Connecticut"
   },
@@ -1129,16 +1129,16 @@
     "round": 4,
     "pick": 26,
     "team": "Buffalo Bills",
-    "name": "Kaleb Elarms-Orr",
+    "player": "Kaleb Elarms-Orr",
     "position": "LB",
-    "school": "Tcu"
+    "school": "TCU"
   },
   {
     "overall": 127,
     "round": 4,
     "pick": 27,
     "team": "San Francisco 49ers",
-    "name": "Carver Willis",
+    "player": "Carver Willis",
     "position": "OT",
     "school": "Washington"
   },
@@ -1146,8 +1146,8 @@
     "overall": 128,
     "round": 4,
     "pick": 28,
-    "team": "New York Jets",
-    "name": "Connor Lew",
+    "team": "Cincinnati Bengals",
+    "player": "Connor Lew",
     "position": "C",
     "school": "Auburn"
   },
@@ -1155,8 +1155,8 @@
     "overall": 129,
     "round": 4,
     "pick": 29,
-    "team": "Chicago Bears",
-    "name": "Will Lee III",
+    "team": "Carolina Panthers",
+    "player": "Will Lee III",
     "position": "CB",
     "school": "Texas A&M"
   },
@@ -1165,7 +1165,7 @@
     "round": 4,
     "pick": 30,
     "team": "Miami Dolphins",
-    "name": "Trey Moore",
+    "player": "Trey Moore",
     "position": "EDGE",
     "school": "Texas"
   },
@@ -1174,7 +1174,7 @@
     "round": 4,
     "pick": 31,
     "team": "Los Angeles Chargers",
-    "name": "Genesis Smith",
+    "player": "Genesis Smith",
     "position": "S",
     "school": "Arizona"
   },
@@ -1183,7 +1183,7 @@
     "round": 4,
     "pick": 32,
     "team": "New Orleans Saints",
-    "name": "Jeremiah Wright",
+    "player": "Jeremiah Wright",
     "position": "OG",
     "school": "Auburn"
   },
@@ -1191,17 +1191,17 @@
     "overall": 133,
     "round": 4,
     "pick": 33,
-    "team": "San Francisco 49ers",
-    "name": "Matthew Hibner",
+    "team": "Baltimore Ravens",
+    "player": "Matthew Hibner",
     "position": "TE",
-    "school": "Smu"
+    "school": "SMU"
   },
   {
     "overall": 134,
     "round": 4,
     "pick": 34,
-    "team": "Las Vegas Raiders",
-    "name": "Kendal Daniels",
+    "team": "Atlanta Falcons",
+    "player": "Kendal Daniels",
     "position": "LB",
     "school": "Oklahoma"
   },
@@ -1210,7 +1210,7 @@
     "round": 4,
     "pick": 35,
     "team": "Indianapolis Colts",
-    "name": "Bryce Boettcher",
+    "player": "Bryce Boettcher",
     "position": "LB",
     "school": "Oregon"
   },
@@ -1219,7 +1219,7 @@
     "round": 4,
     "pick": 36,
     "team": "New Orleans Saints",
-    "name": "Bryce Lance",
+    "player": "Bryce Lance",
     "position": "WR",
     "school": "North Dakota State"
   },
@@ -1228,7 +1228,7 @@
     "round": 4,
     "pick": 37,
     "team": "Dallas Cowboys",
-    "name": "Lt Overton",
+    "player": "LT Overton",
     "position": "EDGE",
     "school": "Alabama"
   },
@@ -1237,43 +1237,43 @@
     "round": 4,
     "pick": 38,
     "team": "Miami Dolphins",
-    "name": "Kyle Louis",
+    "player": "Kyle Louis",
     "position": "LB",
     "school": "Pittsburgh"
   },
   {
     "overall": 139,
     "round": 4,
-    "pick": 139,
+    "pick": 39,
     "team": "San Francisco 49ers",
-    "name": "Ephesians Prysock",
+    "player": "Ephesians Prysock",
     "position": "CB",
     "school": "Washington"
   },
   {
     "overall": 140,
     "round": 4,
-    "pick": 140,
+    "pick": 40,
     "team": "Cincinnati Bengals",
-    "name": "Colbie Young",
+    "player": "Colbie Young",
     "position": "WR",
     "school": "Georgia"
   },
   {
     "overall": 141,
-    "round": 4,
+    "round": 5,
     "pick": 1,
     "team": "Houston Texans",
-    "name": "Kamari Ramsey",
+    "player": "Kamari Ramsey",
     "position": "S",
-    "school": "Usc"
+    "school": "USC"
   },
   {
     "overall": 142,
-    "round": 4,
+    "round": 5,
     "pick": 2,
     "team": "Tennessee Titans",
-    "name": "Fernando Carmona",
+    "player": "Fernando Carmona",
     "position": "OG",
     "school": "Arkansas"
   },
@@ -1282,7 +1282,7 @@
     "round": 5,
     "pick": 3,
     "team": "Arizona Cardinals",
-    "name": "Reggie Virgil",
+    "player": "Reggie Virgil",
     "position": "WR",
     "school": "Texas Tech"
   },
@@ -1290,8 +1290,8 @@
     "overall": 144,
     "round": 5,
     "pick": 4,
-    "team": "Chicago Bears",
-    "name": "Sam Hecht",
+    "team": "Carolina Panthers",
+    "player": "Sam Hecht",
     "position": "C",
     "school": "Kansas State"
   },
@@ -1300,7 +1300,7 @@
     "round": 5,
     "pick": 5,
     "team": "Los Angeles Chargers",
-    "name": "Nick Barrett",
+    "player": "Nick Barrett",
     "position": "DT",
     "school": "South Carolina"
   },
@@ -1309,7 +1309,7 @@
     "round": 5,
     "pick": 6,
     "team": "Cleveland Browns",
-    "name": "Parker Brailsford",
+    "player": "Parker Brailsford",
     "position": "C",
     "school": "Alabama"
   },
@@ -1318,7 +1318,7 @@
     "round": 5,
     "pick": 7,
     "team": "Washington Commanders",
-    "name": "Joshua Josephs",
+    "player": "Joshua Josephs",
     "position": "EDGE",
     "school": "Tennessee"
   },
@@ -1326,8 +1326,8 @@
     "overall": 148,
     "round": 5,
     "pick": 8,
-    "team": "Cleveland Browns",
-    "name": "Beau Stephens",
+    "team": "Seattle Seahawks",
+    "player": "Beau Stephens",
     "position": "OG",
     "school": "Iowa"
   },
@@ -1336,7 +1336,7 @@
     "round": 5,
     "pick": 9,
     "team": "Cleveland Browns",
-    "name": "Justin Jefferson",
+    "player": "Justin Jefferson",
     "position": "LB",
     "school": "Alabama"
   },
@@ -1344,8 +1344,8 @@
     "overall": 150,
     "round": 5,
     "pick": 10,
-    "team": "New Orleans Saints",
-    "name": "Dalton Johnson",
+    "team": "Las Vegas Raiders",
+    "player": "Dalton Johnson",
     "position": "S",
     "school": "Arizona"
   },
@@ -1353,8 +1353,8 @@
     "overall": 151,
     "round": 5,
     "pick": 11,
-    "team": "Miami Dolphins",
-    "name": "Zakee Wheatley",
+    "team": "Carolina Panthers",
+    "player": "Zakee Wheatley",
     "position": "S",
     "school": "Penn State"
   },
@@ -1362,26 +1362,26 @@
     "overall": 152,
     "round": 5,
     "pick": 12,
-    "team": "Cleveland Browns",
-    "name": "Justin Joly",
+    "team": "Denver Broncos",
+    "player": "Justin Joly",
     "position": "TE",
-    "school": "N.C. State"
+    "school": "NC State"
   },
   {
     "overall": 153,
     "round": 5,
     "pick": 13,
     "team": "Green Bay Packers",
-    "name": "Jager Burton",
-    "position": "C",
+    "player": "Jager Burton",
+    "position": "OG",
     "school": "Kentucky"
   },
   {
     "overall": 154,
     "round": 5,
     "pick": 14,
-    "team": "Baltimore Ravens",
-    "name": "Jaden Dugger",
+    "team": "San Francisco 49ers",
+    "player": "Jaden Dugger",
     "position": "LB",
     "school": "Louisiana"
   },
@@ -1390,7 +1390,7 @@
     "round": 5,
     "pick": 15,
     "team": "Tampa Bay Buccaneers",
-    "name": "Demonte Capehart",
+    "player": "DeMonte Capehart",
     "position": "DT",
     "school": "Clemson"
   },
@@ -1399,7 +1399,7 @@
     "round": 5,
     "pick": 16,
     "team": "Indianapolis Colts",
-    "name": "George Gumbs Jr..",
+    "player": "George Gumbs Jr.",
     "position": "EDGE",
     "school": "Florida"
   },
@@ -1408,7 +1408,7 @@
     "round": 5,
     "pick": 17,
     "team": "Detroit Lions",
-    "name": "Keith Abney II",
+    "player": "Keith Abney II",
     "position": "CB",
     "school": "Arizona State"
   },
@@ -1416,17 +1416,17 @@
     "overall": 158,
     "round": 5,
     "pick": 18,
-    "team": "Carolina Panthers",
-    "name": "Michael Taaffe",
+    "team": "Miami Dolphins",
+    "player": "Michael Taaffe",
     "position": "S",
     "school": "Texas"
   },
   {
     "overall": 159,
     "round": 5,
-    "pick": 159,
+    "pick": 19,
     "team": "Minnesota Vikings",
-    "name": "Max Bredeson",
+    "player": "Max Bredeson",
     "position": "TE",
     "school": "Michigan"
   },
@@ -1435,7 +1435,7 @@
     "round": 5,
     "pick": 20,
     "team": "Tampa Bay Buccaneers",
-    "name": "Billy Schrauth",
+    "player": "Billy Schrauth",
     "position": "OG",
     "school": "Notre Dame"
   },
@@ -1443,8 +1443,8 @@
     "overall": 161,
     "round": 5,
     "pick": 21,
-    "team": "Pittsburgh Steelers",
-    "name": "Emmett Johnson",
+    "team": "Kansas City Chiefs",
+    "player": "Emmett Johnson",
     "position": "RB",
     "school": "Nebraska"
   },
@@ -1453,7 +1453,7 @@
     "round": 5,
     "pick": 22,
     "team": "Baltimore Ravens",
-    "name": "Chandler Rivers",
+    "player": "Chandler Rivers",
     "position": "CB",
     "school": "Duke"
   },
@@ -1462,16 +1462,16 @@
     "round": 5,
     "pick": 23,
     "team": "Minnesota Vikings",
-    "name": "Charles Demmings",
+    "player": "Charles Demmings",
     "position": "CB",
-    "school": "Stephen F. Austin State"
+    "school": "Stephen F. Austin"
   },
   {
     "overall": 164,
     "round": 5,
     "pick": 24,
     "team": "Jacksonville Jaguars",
-    "name": "Tanner Koziol",
+    "player": "Tanner Koziol",
     "position": "TE",
     "school": "Houston"
   },
@@ -1480,7 +1480,7 @@
     "round": 5,
     "pick": 25,
     "team": "Tennessee Titans",
-    "name": "Nicholas Singleton",
+    "player": "Nicholas Singleton",
     "position": "RB",
     "school": "Penn State"
   },
@@ -1488,8 +1488,8 @@
     "overall": 166,
     "round": 5,
     "pick": 26,
-    "team": "Jacksonville Jaguars",
-    "name": "Keyshaun Elliott",
+    "team": "Chicago Bears",
+    "player": "Keyshaun Elliott",
     "position": "LB",
     "school": "Arizona State"
   },
@@ -1498,7 +1498,7 @@
     "round": 5,
     "pick": 27,
     "team": "Buffalo Bills",
-    "name": "Jalon Kilgore",
+    "player": "Jalon Kilgore",
     "position": "S",
     "school": "South Carolina"
   },
@@ -1506,8 +1506,8 @@
     "overall": 168,
     "round": 5,
     "pick": 28,
-    "team": "Buffalo Bills",
-    "name": "Kendrick Law",
+    "team": "Detroit Lions",
+    "player": "Kendrick Law",
     "position": "WR",
     "school": "Kentucky"
   },
@@ -1515,8 +1515,8 @@
     "overall": 169,
     "round": 5,
     "pick": 29,
-    "team": "Kansas City Chiefs",
-    "name": "Riley Nowakowski",
+    "team": "Pittsburgh Steelers",
+    "player": "Riley Nowakowski",
     "position": "TE",
     "school": "Indiana"
   },
@@ -1525,7 +1525,7 @@
     "round": 5,
     "pick": 30,
     "team": "Denver Broncos",
-    "name": "Joe Royer",
+    "player": "Joe Royer",
     "position": "TE",
     "school": "Cincinnati"
   },
@@ -1534,8 +1534,8 @@
     "round": 5,
     "pick": 31,
     "team": "New England Patriots",
-    "name": "Karon Prunty",
-    "position": "DB",
+    "player": "Karon Prunty",
+    "position": "CB",
     "school": "Wake Forest"
   },
   {
@@ -1543,7 +1543,7 @@
     "round": 5,
     "pick": 32,
     "team": "New Orleans Saints",
-    "name": "Lorenzo Styles Jr..",
+    "player": "Lorenzo Styles Jr.",
     "position": "S",
     "school": "Ohio State"
   },
@@ -1552,7 +1552,7 @@
     "round": 5,
     "pick": 33,
     "team": "Baltimore Ravens",
-    "name": "Josh Cuevas",
+    "player": "Josh Cuevas",
     "position": "TE",
     "school": "Alabama"
   },
@@ -1561,7 +1561,7 @@
     "round": 5,
     "pick": 34,
     "team": "Baltimore Ravens",
-    "name": "Adam Randall",
+    "player": "Adam Randall",
     "position": "RB",
     "school": "Clemson"
   },
@@ -1570,7 +1570,7 @@
     "round": 5,
     "pick": 35,
     "team": "Las Vegas Raiders",
-    "name": "Hezekiah Masses",
+    "player": "Hezekiah Masses",
     "position": "CB",
     "school": "California"
   },
@@ -1579,7 +1579,7 @@
     "round": 5,
     "pick": 36,
     "team": "Kansas City Chiefs",
-    "name": "Cyrus Allen",
+    "player": "Cyrus Allen",
     "position": "WR",
     "school": "Cincinnati"
   },
@@ -1587,8 +1587,8 @@
     "overall": 177,
     "round": 5,
     "pick": 37,
-    "team": "Dallas Cowboys",
-    "name": "Kevin Coleman Jr..",
+    "team": "Miami Dolphins",
+    "player": "Kevin Coleman Jr.",
     "position": "WR",
     "school": "Missouri"
   },
@@ -1597,7 +1597,7 @@
     "round": 5,
     "pick": 38,
     "team": "Philadelphia Eagles",
-    "name": "Cole Payton",
+    "player": "Cole Payton",
     "position": "QB",
     "school": "North Dakota State"
   },
@@ -1606,43 +1606,43 @@
     "round": 5,
     "pick": 39,
     "team": "San Francisco 49ers",
-    "name": "Enrique Cruz",
+    "player": "Enrique Cruz Jr.",
     "position": "OT",
     "school": "Kansas"
   },
   {
     "overall": 180,
     "round": 5,
-    "pick": 180,
+    "pick": 40,
     "team": "Miami Dolphins",
-    "name": "Seydou Traore",
+    "player": "Seydou Traore",
     "position": "TE",
     "school": "Mississippi State"
   },
   {
     "overall": 181,
     "round": 5,
-    "pick": 181,
+    "pick": 41,
     "team": "Buffalo Bills",
-    "name": "Zane Durant",
+    "player": "Zane Durant",
     "position": "DT",
     "school": "Penn State"
   },
   {
     "overall": 182,
-    "round": 5,
+    "round": 6,
     "pick": 1,
-    "team": "Denver Broncos",
-    "name": "Taylen Green",
+    "team": "Cleveland Browns",
+    "player": "Taylen Green",
     "position": "QB",
     "school": "Arkansas"
   },
   {
     "overall": 183,
-    "round": 5,
+    "round": 6,
     "pick": 2,
     "team": "Arizona Cardinals",
-    "name": "Karson Sharar",
+    "player": "Karson Sharar",
     "position": "LB",
     "school": "Iowa"
   },
@@ -1651,7 +1651,7 @@
     "round": 6,
     "pick": 3,
     "team": "Tennessee Titans",
-    "name": "Jackie Marshall",
+    "player": "Jackie Marshall",
     "position": "DT",
     "school": "Baylor"
   },
@@ -1659,17 +1659,17 @@
     "overall": 185,
     "round": 6,
     "pick": 4,
-    "team": "Las Vegas Raiders",
-    "name": "Bauer Sharp",
+    "team": "Tampa Bay Buccaneers",
+    "player": "Bauer Sharp",
     "position": "TE",
-    "school": "Lsu"
+    "school": "LSU"
   },
   {
     "overall": 186,
     "round": 6,
     "pick": 5,
     "team": "New York Giants",
-    "name": "Bobby Jamison-Travis",
+    "player": "Bobby Jamison-Travis",
     "position": "DT",
     "school": "Auburn"
   },
@@ -1678,7 +1678,7 @@
     "round": 6,
     "pick": 6,
     "team": "Washington Commanders",
-    "name": "Kaytron Allen",
+    "player": "Kaytron Allen",
     "position": "RB",
     "school": "Penn State"
   },
@@ -1686,8 +1686,8 @@
     "overall": 188,
     "round": 6,
     "pick": 7,
-    "team": "Seattle Seahawks",
-    "name": "Anez Cooper",
+    "team": "New York Jets",
+    "player": "Anez Cooper",
     "position": "OG",
     "school": "Miami"
   },
@@ -1696,7 +1696,7 @@
     "round": 6,
     "pick": 8,
     "team": "Cincinnati Bengals",
-    "name": "Brian Parker II",
+    "player": "Brian Parker II",
     "position": "C",
     "school": "Duke"
   },
@@ -1705,16 +1705,16 @@
     "round": 6,
     "pick": 9,
     "team": "New Orleans Saints",
-    "name": "Barion Brown",
+    "player": "Barion Brown",
     "position": "WR",
-    "school": "Lsu"
+    "school": "LSU"
   },
   {
     "overall": 191,
     "round": 6,
     "pick": 10,
-    "team": "New England Patriots",
-    "name": "Josh Cameron",
+    "team": "Jacksonville Jaguars",
+    "player": "Josh Cameron",
     "position": "WR",
     "school": "Baylor"
   },
@@ -1723,7 +1723,7 @@
     "round": 6,
     "pick": 11,
     "team": "New York Giants",
-    "name": "J.C. Davis",
+    "player": "J.C. Davis",
     "position": "OT",
     "school": "Illinois"
   },
@@ -1732,16 +1732,16 @@
     "round": 6,
     "pick": 12,
     "team": "New York Giants",
-    "name": "Jack Kelly",
+    "player": "Jack Kelly",
     "position": "LB",
-    "school": "Byu"
+    "school": "BYU"
   },
   {
     "overall": 194,
     "round": 6,
     "pick": 13,
     "team": "Tennessee Titans",
-    "name": "Pat Coogan",
+    "player": "Pat Coogan",
     "position": "C",
     "school": "Indiana"
   },
@@ -1749,8 +1749,8 @@
     "overall": 195,
     "round": 6,
     "pick": 14,
-    "team": "Tampa Bay Buccaneers",
-    "name": "Malik Benson",
+    "team": "Las Vegas Raiders",
+    "player": "Malik Benson",
     "position": "WR",
     "school": "Oregon"
   },
@@ -1758,8 +1758,8 @@
     "overall": 196,
     "round": 6,
     "pick": 15,
-    "team": "Carolina Panthers",
-    "name": "Dametrious Crownover",
+    "team": "New England Patriots",
+    "player": "Dametrious Crownover",
     "position": "OT",
     "school": "Texas A&M"
   },
@@ -1767,8 +1767,8 @@
     "overall": 197,
     "round": 6,
     "pick": 16,
-    "team": "Philadelphia Eagles",
-    "name": "Cj Daniels",
+    "team": "Los Angeles Rams",
+    "player": "CJ Daniels",
     "position": "WR",
     "school": "Miami"
   },
@@ -1776,8 +1776,8 @@
     "overall": 198,
     "round": 6,
     "pick": 17,
-    "team": "New England Patriots",
-    "name": "Demond Claiborne",
+    "team": "Minnesota Vikings",
+    "player": "Demond Claiborne",
     "position": "RB",
     "school": "Wake Forest"
   },
@@ -1785,8 +1785,8 @@
     "overall": 199,
     "round": 6,
     "pick": 18,
-    "team": "Cincinnati Bengals",
-    "name": "Emmanuel Henderson Jr..",
+    "team": "Seattle Seahawks",
+    "player": "Emmanuel Henderson Jr.",
     "position": "WR",
     "school": "Kansas"
   },
@@ -1794,8 +1794,8 @@
     "overall": 200,
     "round": 6,
     "pick": 19,
-    "team": "Carolina Panthers",
-    "name": "Dj Campbell",
+    "team": "Miami Dolphins",
+    "player": "DJ Campbell",
     "position": "OG",
     "school": "Texas"
   },
@@ -1804,7 +1804,7 @@
     "round": 6,
     "pick": 20,
     "team": "Green Bay Packers",
-    "name": "Domani Jackson",
+    "player": "Domani Jackson",
     "position": "CB",
     "school": "Alabama"
   },
@@ -1813,7 +1813,7 @@
     "round": 6,
     "pick": 21,
     "team": "Los Angeles Chargers",
-    "name": "Logan Taylor",
+    "player": "Logan Taylor",
     "position": "OG",
     "school": "Boston College"
   },
@@ -1822,7 +1822,7 @@
     "round": 6,
     "pick": 22,
     "team": "Jacksonville Jaguars",
-    "name": "C.J. Williams",
+    "player": "CJ Williams",
     "position": "WR",
     "school": "Stanford"
   },
@@ -1830,8 +1830,8 @@
     "overall": 204,
     "round": 6,
     "pick": 23,
-    "team": "Los Angeles Chargers",
-    "name": "Lewis Bond",
+    "team": "Houston Texans",
+    "player": "Lewis Bond",
     "position": "WR",
     "school": "Boston College"
   },
@@ -1840,7 +1840,7 @@
     "round": 6,
     "pick": 24,
     "team": "Detroit Lions",
-    "name": "Skyler Gill-Howard",
+    "player": "Skyler Gill-Howard",
     "position": "DT",
     "school": "Texas Tech"
   },
@@ -1849,7 +1849,7 @@
     "round": 6,
     "pick": 25,
     "team": "Los Angeles Chargers",
-    "name": "Alex Harkey",
+    "player": "Alex Harkey",
     "position": "OG",
     "school": "Oregon"
   },
@@ -1857,8 +1857,8 @@
     "overall": 207,
     "round": 6,
     "pick": 26,
-    "team": "Los Angeles Rams",
-    "name": "Micah Morris",
+    "team": "Philadelphia Eagles",
+    "player": "Micah Morris",
     "position": "OG",
     "school": "Georgia"
   },
@@ -1866,8 +1866,8 @@
     "overall": 208,
     "round": 6,
     "pick": 27,
-    "team": "Las Vegas Raiders",
-    "name": "Anterio Thompson",
+    "team": "Atlanta Falcons",
+    "player": "Anterio Thompson",
     "position": "DT",
     "school": "Washington"
   },
@@ -1876,7 +1876,7 @@
     "round": 6,
     "pick": 28,
     "team": "Washington Commanders",
-    "name": "Matt Gulbin",
+    "player": "Matt Gulbin",
     "position": "C",
     "school": "Michigan State"
   },
@@ -1884,9 +1884,9 @@
     "overall": 210,
     "round": 6,
     "pick": 29,
-    "team": "Kansas City Chiefs",
-    "name": "Gabe Rubio",
-    "position": "EDGE",
+    "team": "Pittsburgh Steelers",
+    "player": "Gabriel Rubio",
+    "position": "DT",
     "school": "Notre Dame"
   },
   {
@@ -1894,7 +1894,7 @@
     "round": 6,
     "pick": 30,
     "team": "Baltimore Ravens",
-    "name": "Ryan Eckley",
+    "player": "Ryan Eckley",
     "position": "P",
     "school": "Michigan State"
   },
@@ -1903,16 +1903,16 @@
     "round": 6,
     "pick": 31,
     "team": "New England Patriots",
-    "name": "Namdi Obiazor",
+    "player": "Namdi Obiazor",
     "position": "LB",
-    "school": "Tcu"
+    "school": "TCU"
   },
   {
     "overall": 213,
     "round": 6,
     "pick": 32,
-    "team": "Detroit Lions",
-    "name": "Jordan Van Den Berg",
+    "team": "Chicago Bears",
+    "player": "Jordan van den Berg",
     "position": "DT",
     "school": "Georgia Tech"
   },
@@ -1921,43 +1921,43 @@
     "round": 6,
     "pick": 33,
     "team": "Indianapolis Colts",
-    "name": "Caden Curry",
+    "player": "Caden Curry",
     "position": "EDGE",
     "school": "Ohio State"
   },
   {
     "overall": 215,
     "round": 6,
-    "pick": 215,
+    "pick": 34,
     "team": "Atlanta Falcons",
-    "name": "Harold Perkins Jr.",
+    "player": "Harold Perkins Jr.",
     "position": "LB",
     "school": "LSU"
   },
   {
     "overall": 216,
     "round": 6,
-    "pick": 216,
+    "pick": 35,
     "team": "Green Bay Packers",
-    "name": "Trey Smack",
+    "player": "Trey Smack",
     "position": "K",
     "school": "Florida"
   },
   {
     "overall": 217,
-    "round": 6,
+    "round": 7,
     "pick": 1,
     "team": "Arizona Cardinals",
-    "name": "Jayden Williams",
+    "player": "Jayden Williams",
     "position": "OT",
-    "school": "Mississippi"
+    "school": "Ole Miss"
   },
   {
     "overall": 218,
-    "round": 6,
+    "round": 7,
     "pick": 2,
     "team": "Dallas Cowboys",
-    "name": "Anthony Smith",
+    "player": "Anthony Smith",
     "position": "WR",
     "school": "East Carolina"
   },
@@ -1965,8 +1965,8 @@
     "overall": 219,
     "round": 7,
     "pick": 3,
-    "team": "Las Vegas Raiders",
-    "name": "Tj Hall",
+    "team": "New Orleans Saints",
+    "player": "TJ Hall",
     "position": "CB",
     "school": "Iowa"
   },
@@ -1975,7 +1975,7 @@
     "round": 7,
     "pick": 4,
     "team": "Buffalo Bills",
-    "name": "Toriano Pride Jr..",
+    "player": "Toriano Pride Jr.",
     "position": "CB",
     "school": "Missouri"
   },
@@ -1984,7 +1984,7 @@
     "round": 7,
     "pick": 5,
     "team": "Cincinnati Bengals",
-    "name": "Jack Endries",
+    "player": "Jack Endries",
     "position": "TE",
     "school": "Texas"
   },
@@ -1993,8 +1993,8 @@
     "round": 7,
     "pick": 6,
     "team": "Detroit Lions",
-    "name": "Tyre West",
-    "position": "DT",
+    "player": "Tyre West",
+    "position": "EDGE",
     "school": "Tennessee"
   },
   {
@@ -2002,7 +2002,7 @@
     "round": 7,
     "pick": 7,
     "team": "Washington Commanders",
-    "name": "Athan Kaliakmanis",
+    "player": "Athan Kaliakmanis",
     "position": "QB",
     "school": "Rutgers"
   },
@@ -2011,7 +2011,7 @@
     "round": 7,
     "pick": 8,
     "team": "Pittsburgh Steelers",
-    "name": "Robert Spears-Jennings",
+    "player": "Robert Spears-Jennings",
     "position": "S",
     "school": "Oklahoma"
   },
@@ -2020,7 +2020,7 @@
     "round": 7,
     "pick": 9,
     "team": "Tennessee Titans",
-    "name": "Jaren Kanak",
+    "player": "Jaren Kanak",
     "position": "TE",
     "school": "Oklahoma"
   },
@@ -2029,7 +2029,7 @@
     "round": 7,
     "pick": 10,
     "team": "Cincinnati Bengals",
-    "name": "Landon Robinson",
+    "player": "Landon Robinson",
     "position": "DT",
     "school": "Navy"
   },
@@ -2037,17 +2037,17 @@
     "overall": 227,
     "round": 7,
     "pick": 11,
-    "team": "Miami Dolphins",
-    "name": "Jackson Kuwatch",
+    "team": "Carolina Panthers",
+    "player": "Jackson Kuwatch",
     "position": "LB",
-    "school": "Miami (Ohio)"
+    "school": "Miami (OH)"
   },
   {
     "overall": 228,
     "round": 7,
     "pick": 12,
     "team": "New York Jets",
-    "name": "Vj Payne",
+    "player": "VJ Payne",
     "position": "S",
     "school": "Kansas State"
   },
@@ -2055,17 +2055,17 @@
     "overall": 229,
     "round": 7,
     "pick": 13,
-    "team": "Tampa Bay Buccaneers",
-    "name": "Brandon Cleveland",
+    "team": "Las Vegas Raiders",
+    "player": "Brandon Cleveland",
     "position": "DT",
-    "school": "N.C. State"
+    "school": "NC State"
   },
   {
     "overall": 230,
     "round": 7,
     "pick": 14,
     "team": "Pittsburgh Steelers",
-    "name": "Eli Heidenreich",
+    "player": "Eli Heidenreich",
     "position": "RB",
     "school": "Navy"
   },
@@ -2074,7 +2074,7 @@
     "round": 7,
     "pick": 15,
     "team": "Atlanta Falcons",
-    "name": "Ethan Onianwa",
+    "player": "Ethan Onianwa",
     "position": "OT",
     "school": "Ohio State"
   },
@@ -2083,7 +2083,7 @@
     "round": 7,
     "pick": 16,
     "team": "Los Angeles Rams",
-    "name": "Tim Keenan III",
+    "player": "Tim Keenan III",
     "position": "DT",
     "school": "Alabama"
   },
@@ -2092,7 +2092,7 @@
     "round": 7,
     "pick": 17,
     "team": "Jacksonville Jaguars",
-    "name": "Zach Durfee",
+    "player": "Zach Durfee",
     "position": "EDGE",
     "school": "Washington"
   },
@@ -2100,8 +2100,8 @@
     "overall": 234,
     "round": 7,
     "pick": 18,
-    "team": "Minnesota Vikings",
-    "name": "Behren Morton",
+    "team": "New England Patriots",
+    "player": "Behren Morton",
     "position": "QB",
     "school": "Texas Tech"
   },
@@ -2110,7 +2110,7 @@
     "round": 7,
     "pick": 19,
     "team": "Minnesota Vikings",
-    "name": "Gavin Gerhardt",
+    "player": "Gavin Gerhardt",
     "position": "C",
     "school": "Cincinnati"
   },
@@ -2118,8 +2118,8 @@
     "overall": 236,
     "round": 7,
     "pick": 20,
-    "team": "Green Bay Packers",
-    "name": "Andre Fuller",
+    "team": "Seattle Seahawks",
+    "player": "Andre Fuller",
     "position": "CB",
     "school": "Toledo"
   },
@@ -2128,7 +2128,7 @@
     "round": 7,
     "pick": 21,
     "team": "Indianapolis Colts",
-    "name": "Seth Mcgowan",
+    "player": "Seth McGowan",
     "position": "RB",
     "school": "Kentucky"
   },
@@ -2137,7 +2137,7 @@
     "round": 7,
     "pick": 22,
     "team": "Miami Dolphins",
-    "name": "Max Llewellyn",
+    "player": "Max Llewellyn",
     "position": "EDGE",
     "school": "Iowa"
   },
@@ -2145,8 +2145,8 @@
     "overall": 239,
     "round": 7,
     "pick": 23,
-    "team": "Chicago Bears",
-    "name": "Tommy Doman Jr..",
+    "team": "Buffalo Bills",
+    "player": "Tommy Doman",
     "position": "P",
     "school": "Florida"
   },
@@ -2155,16 +2155,16 @@
     "round": 7,
     "pick": 24,
     "team": "Jacksonville Jaguars",
-    "name": "Parker Hughes",
+    "player": "Parker Hughes",
     "position": "LB",
-    "school": "Middle Tennessee State"
+    "school": "MTSU"
   },
   {
     "overall": 241,
     "round": 7,
     "pick": 25,
-    "team": "Chicago Bears",
-    "name": "Ar'Maj Reed-Adams",
+    "team": "Buffalo Bills",
+    "player": "Ar'Maj Reed-Adams",
     "position": "OG",
     "school": "Texas A&M"
   },
@@ -2172,8 +2172,8 @@
     "overall": 242,
     "round": 7,
     "pick": 26,
-    "team": "New York Jets",
-    "name": "Deven Eastern",
+    "team": "Seattle Seahawks",
+    "player": "Deven Eastern",
     "position": "DT",
     "school": "Minnesota"
   },
@@ -2182,7 +2182,7 @@
     "round": 7,
     "pick": 27,
     "team": "Houston Texans",
-    "name": "Aiden Fisher",
+    "player": "Aiden Fisher",
     "position": "LB",
     "school": "Indiana"
   },
@@ -2191,7 +2191,7 @@
     "round": 7,
     "pick": 28,
     "team": "Philadelphia Eagles",
-    "name": "Cole Wisniewski",
+    "player": "Cole Wisniewski",
     "position": "S",
     "school": "Texas Tech"
   },
@@ -2199,8 +2199,8 @@
     "overall": 245,
     "round": 7,
     "pick": 29,
-    "team": "Jacksonville Jaguars",
-    "name": "Jam Miller",
+    "team": "New England Patriots",
+    "player": "Jam Miller",
     "position": "RB",
     "school": "Alabama"
   },
@@ -2209,8 +2209,8 @@
     "round": 7,
     "pick": 30,
     "team": "Denver Broncos",
-    "name": "Miles Scott",
-    "position": "DB",
+    "player": "Miles Scott",
+    "position": "S",
     "school": "Illinois"
   },
   {
@@ -2218,7 +2218,7 @@
     "round": 7,
     "pick": 31,
     "team": "New England Patriots",
-    "name": "Quintayvious Hutchins",
+    "player": "Quintayvious Hutchins",
     "position": "EDGE",
     "school": "Boston College"
   },
@@ -2227,25 +2227,25 @@
     "round": 7,
     "pick": 32,
     "team": "Cleveland Browns",
-    "name": "Carsen Ryan",
+    "player": "Carsen Ryan",
     "position": "TE",
-    "school": "Byu"
+    "school": "BYU"
   },
   {
     "overall": 249,
     "round": 7,
     "pick": 33,
-    "team": "Pittsburgh Steelers",
-    "name": "Garrett Nussmeier",
+    "team": "Kansas City Chiefs",
+    "player": "Garrett Nussmeier",
     "position": "QB",
-    "school": "Lsu"
+    "school": "LSU"
   },
   {
     "overall": 250,
     "round": 7,
     "pick": 34,
     "team": "Baltimore Ravens",
-    "name": "Rayshaun Benny",
+    "player": "Rayshaun Benny",
     "position": "DT",
     "school": "Michigan"
   },
@@ -2253,17 +2253,17 @@
     "overall": 251,
     "round": 7,
     "pick": 35,
-    "team": "Los Angeles Rams",
-    "name": "Uar Bernard",
+    "team": "Philadelphia Eagles",
+    "player": "Uar Bernard",
     "position": "DT",
-    "school": "36"
+    "school": "Nigeria"
   },
   {
     "overall": 252,
     "round": 7,
     "pick": 36,
-    "team": "Los Angeles Rams",
-    "name": "Keyshawn James-Newby",
+    "team": "Philadelphia Eagles",
+    "player": "Keyshawn James-Newby",
     "position": "EDGE",
     "school": "New Mexico"
   },
@@ -2272,7 +2272,7 @@
     "round": 7,
     "pick": 37,
     "team": "Baltimore Ravens",
-    "name": "Evan Beerntsen",
+    "player": "Evan Beerntsen",
     "position": "OG",
     "school": "Northwestern"
   },
@@ -2281,7 +2281,7 @@
     "round": 7,
     "pick": 38,
     "team": "Indianapolis Colts",
-    "name": "Deion Burks",
+    "player": "Deion Burks",
     "position": "WR",
     "school": "Oklahoma"
   },
@@ -2289,9 +2289,9 @@
     "overall": 255,
     "round": 7,
     "pick": 39,
-    "team": "Green Bay Packers",
-    "name": "Michael Dansby",
-    "position": "DB",
+    "team": "Seattle Seahawks",
+    "player": "Michael Dansby",
+    "position": "CB",
     "school": "Arizona"
   },
   {
@@ -2299,16 +2299,16 @@
     "round": 7,
     "pick": 40,
     "team": "Denver Broncos",
-    "name": "Dallen Bentley",
+    "player": "Dallen Bentley",
     "position": "TE",
     "school": "Utah"
   },
   {
     "overall": 257,
     "round": 7,
-    "pick": 257,
+    "pick": 41,
     "team": "Denver Broncos",
-    "name": "Red Murdock",
+    "player": "Red Murdock",
     "position": "LB",
     "school": "Buffalo"
   }
