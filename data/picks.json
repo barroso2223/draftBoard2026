@@ -6,7 +6,8 @@
     "team": "Las Vegas Raiders",
     "player": "Fernando Mendoza",
     "position": "QB",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Fernando Mendoza"
   },
   {
     "overall": 2,
@@ -15,7 +16,8 @@
     "team": "New York Jets",
     "player": "David Bailey",
     "position": "EDGE",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "David Bailey"
   },
   {
     "overall": 3,
@@ -24,7 +26,8 @@
     "team": "Arizona Cardinals",
     "player": "Jeremiyah Love",
     "position": "RB",
-    "school": "Notre Dame"
+    "school": "Notre Dame",
+    "name": "Jeremiyah Love"
   },
   {
     "overall": 4,
@@ -33,7 +36,8 @@
     "team": "Tennessee Titans",
     "player": "Carnell Tate",
     "position": "WR",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Carnell Tate"
   },
   {
     "overall": 5,
@@ -42,7 +46,8 @@
     "team": "New York Giants",
     "player": "Arvell Reese",
     "position": "EDGE",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Arvell Reese"
   },
   {
     "overall": 6,
@@ -51,7 +56,8 @@
     "team": "Kansas City Chiefs",
     "player": "Mansoor Delane",
     "position": "CB",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "Mansoor Delane"
   },
   {
     "overall": 7,
@@ -60,7 +66,8 @@
     "team": "Washington Commanders",
     "player": "Sonny Styles",
     "position": "LB",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Sonny Styles"
   },
   {
     "overall": 8,
@@ -69,7 +76,8 @@
     "team": "New Orleans Saints",
     "player": "Jordyn Tyson",
     "position": "WR",
-    "school": "Arizona State"
+    "school": "Arizona State",
+    "name": "Jordyn Tyson"
   },
   {
     "overall": 9,
@@ -78,7 +86,8 @@
     "team": "Cleveland Browns",
     "player": "Spencer Fano",
     "position": "OT",
-    "school": "Utah"
+    "school": "Utah",
+    "name": "Spencer Fano"
   },
   {
     "overall": 10,
@@ -87,7 +96,8 @@
     "team": "New York Giants",
     "player": "Francis Mauigoa",
     "position": "OT",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Francis Mauigoa"
   },
   {
     "overall": 11,
@@ -96,7 +106,8 @@
     "team": "Dallas Cowboys",
     "player": "Caleb Downs",
     "position": "S",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Caleb Downs"
   },
   {
     "overall": 12,
@@ -105,7 +116,8 @@
     "team": "Miami Dolphins",
     "player": "Kadyn Proctor",
     "position": "OT",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Kadyn Proctor"
   },
   {
     "overall": 13,
@@ -114,7 +126,8 @@
     "team": "Los Angeles Rams",
     "player": "Ty Simpson",
     "position": "QB",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Ty Simpson"
   },
   {
     "overall": 14,
@@ -123,7 +136,8 @@
     "team": "Baltimore Ravens",
     "player": "Olaivavega Ioane",
     "position": "OG",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Olaivavega Ioane"
   },
   {
     "overall": 15,
@@ -132,7 +146,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "Rueben Bain Jr.",
     "position": "EDGE",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Rueben Bain Jr."
   },
   {
     "overall": 16,
@@ -141,7 +156,8 @@
     "team": "New York Jets",
     "player": "Kenyon Sadiq",
     "position": "TE",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Kenyon Sadiq"
   },
   {
     "overall": 17,
@@ -150,7 +166,8 @@
     "team": "Detroit Lions",
     "player": "Blake Miller",
     "position": "OT",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Blake Miller"
   },
   {
     "overall": 18,
@@ -159,7 +176,8 @@
     "team": "Minnesota Vikings",
     "player": "Caleb Banks",
     "position": "DT",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "Caleb Banks"
   },
   {
     "overall": 19,
@@ -168,7 +186,8 @@
     "team": "Carolina Panthers",
     "player": "Monroe Freeling",
     "position": "OT",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Monroe Freeling"
   },
   {
     "overall": 20,
@@ -177,7 +196,8 @@
     "team": "Philadelphia Eagles",
     "player": "Makai Lemon",
     "position": "WR",
-    "school": "USC"
+    "school": "USC",
+    "name": "Makai Lemon"
   },
   {
     "overall": 21,
@@ -186,7 +206,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Max Iheanachor",
     "position": "OT",
-    "school": "Arizona State"
+    "school": "Arizona State",
+    "name": "Max Iheanachor"
   },
   {
     "overall": 22,
@@ -195,7 +216,8 @@
     "team": "Los Angeles Chargers",
     "player": "Akeem Mesidor",
     "position": "EDGE",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Akeem Mesidor"
   },
   {
     "overall": 23,
@@ -204,7 +226,8 @@
     "team": "Dallas Cowboys",
     "player": "Malachi Lawrence",
     "position": "EDGE",
-    "school": "UCF"
+    "school": "UCF",
+    "name": "Malachi Lawrence"
   },
   {
     "overall": 24,
@@ -213,7 +236,8 @@
     "team": "Cleveland Browns",
     "player": "KC Concepcion",
     "position": "WR",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "KC Concepcion"
   },
   {
     "overall": 25,
@@ -222,7 +246,8 @@
     "team": "Chicago Bears",
     "player": "Dillon Thieneman",
     "position": "S",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Dillon Thieneman"
   },
   {
     "overall": 26,
@@ -231,7 +256,8 @@
     "team": "Houston Texans",
     "player": "Keylan Rutledge",
     "position": "OG",
-    "school": "Georgia Tech"
+    "school": "Georgia Tech",
+    "name": "Keylan Rutledge"
   },
   {
     "overall": 27,
@@ -240,7 +266,8 @@
     "team": "Miami Dolphins",
     "player": "Chris Johnson",
     "position": "CB",
-    "school": "San Diego State"
+    "school": "San Diego State",
+    "name": "Chris Johnson"
   },
   {
     "overall": 28,
@@ -249,7 +276,8 @@
     "team": "New England Patriots",
     "player": "Caleb Lomu",
     "position": "OT",
-    "school": "Utah"
+    "school": "Utah",
+    "name": "Caleb Lomu"
   },
   {
     "overall": 29,
@@ -258,7 +286,8 @@
     "team": "Kansas City Chiefs",
     "player": "Peter Woods",
     "position": "DT",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Peter Woods"
   },
   {
     "overall": 30,
@@ -267,7 +296,8 @@
     "team": "New York Jets",
     "player": "Omar Cooper Jr.",
     "position": "WR",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Omar Cooper Jr."
   },
   {
     "overall": 31,
@@ -276,7 +306,8 @@
     "team": "Tennessee Titans",
     "player": "Keldric Faulk",
     "position": "EDGE",
-    "school": "Auburn"
+    "school": "Auburn",
+    "name": "Keldric Faulk"
   },
   {
     "overall": 32,
@@ -285,7 +316,8 @@
     "team": "Seattle Seahawks",
     "player": "Jadarian Price",
     "position": "RB",
-    "school": "Notre Dame"
+    "school": "Notre Dame",
+    "name": "Jadarian Price"
   },
   {
     "overall": 33,
@@ -294,7 +326,8 @@
     "team": "San Francisco 49ers",
     "player": "De'Zhaun Stribling",
     "position": "WR",
-    "school": "Mississippi"
+    "school": "Mississippi",
+    "name": "De'Zhaun Stribling"
   },
   {
     "overall": 34,
@@ -303,7 +336,8 @@
     "team": "Arizona Cardinals",
     "player": "Chase Bisontis",
     "position": "OG",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Chase Bisontis"
   },
   {
     "overall": 35,
@@ -312,7 +346,8 @@
     "team": "Buffalo Bills",
     "player": "T.J. Parker",
     "position": "EDGE",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "T.J. Parker"
   },
   {
     "overall": 36,
@@ -321,7 +356,8 @@
     "team": "Houston Texans",
     "player": "Kayden McDonald",
     "position": "DT",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Kayden McDonald"
   },
   {
     "overall": 37,
@@ -330,7 +366,8 @@
     "team": "New York Giants",
     "player": "Colton Hood",
     "position": "CB",
-    "school": "Tennessee"
+    "school": "Tennessee",
+    "name": "Colton Hood"
   },
   {
     "overall": 38,
@@ -339,7 +376,8 @@
     "team": "Las Vegas Raiders",
     "player": "Treydan Stukes",
     "position": "S",
-    "school": "Arizona"
+    "school": "Arizona",
+    "name": "Treydan Stukes"
   },
   {
     "overall": 39,
@@ -348,7 +386,8 @@
     "team": "Cleveland Browns",
     "player": "Denzel Boston",
     "position": "WR",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Denzel Boston"
   },
   {
     "overall": 40,
@@ -357,7 +396,8 @@
     "team": "Kansas City Chiefs",
     "player": "R Mason Thomas",
     "position": "EDGE",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "R Mason Thomas"
   },
   {
     "overall": 41,
@@ -366,7 +406,8 @@
     "team": "Cincinnati Bengals",
     "player": "Cashius Howell",
     "position": "EDGE",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Cashius Howell"
   },
   {
     "overall": 42,
@@ -375,7 +416,8 @@
     "team": "New Orleans Saints",
     "player": "Christen Miller",
     "position": "DT",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Christen Miller"
   },
   {
     "overall": 43,
@@ -384,7 +426,8 @@
     "team": "Miami Dolphins",
     "player": "Jacob Rodriguez",
     "position": "LB",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Jacob Rodriguez"
   },
   {
     "overall": 44,
@@ -393,7 +436,8 @@
     "team": "Detroit Lions",
     "player": "Derrick Moore",
     "position": "EDGE",
-    "school": "Michigan"
+    "school": "Michigan",
+    "name": "Derrick Moore"
   },
   {
     "overall": 45,
@@ -402,7 +446,8 @@
     "team": "Baltimore Ravens",
     "player": "Zion Young",
     "position": "EDGE",
-    "school": "Missouri"
+    "school": "Missouri",
+    "name": "Zion Young"
   },
   {
     "overall": 46,
@@ -411,7 +456,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "Josiah Trotter",
     "position": "LB",
-    "school": "Missouri"
+    "school": "Missouri",
+    "name": "Josiah Trotter"
   },
   {
     "overall": 47,
@@ -420,7 +466,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Germie Bernard",
     "position": "WR",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Germie Bernard"
   },
   {
     "overall": 48,
@@ -429,7 +476,8 @@
     "team": "Atlanta Falcons",
     "player": "Avieon Terrell",
     "position": "CB",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Avieon Terrell"
   },
   {
     "overall": 49,
@@ -438,7 +486,8 @@
     "team": "Carolina Panthers",
     "player": "Lee Hunter",
     "position": "DT",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Lee Hunter"
   },
   {
     "overall": 50,
@@ -447,7 +496,8 @@
     "team": "New York Jets",
     "player": "D'Angelo Ponds",
     "position": "CB",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "D'Angelo Ponds"
   },
   {
     "overall": 51,
@@ -456,7 +506,8 @@
     "team": "Minnesota Vikings",
     "player": "Jake Golday",
     "position": "LB",
-    "school": "Cincinnati"
+    "school": "Cincinnati",
+    "name": "Jake Golday"
   },
   {
     "overall": 52,
@@ -465,7 +516,8 @@
     "team": "Green Bay Packers",
     "player": "Brandon Cisse",
     "position": "CB",
-    "school": "South Carolina"
+    "school": "South Carolina",
+    "name": "Brandon Cisse"
   },
   {
     "overall": 53,
@@ -474,7 +526,8 @@
     "team": "Indianapolis Colts",
     "player": "CJ Allen",
     "position": "LB",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "CJ Allen"
   },
   {
     "overall": 54,
@@ -483,7 +536,8 @@
     "team": "Philadelphia Eagles",
     "player": "Eli Stowers",
     "position": "TE",
-    "school": "Vanderbilt"
+    "school": "Vanderbilt",
+    "name": "Eli Stowers"
   },
   {
     "overall": 55,
@@ -492,7 +546,8 @@
     "team": "New England Patriots",
     "player": "Gabe Jacas",
     "position": "EDGE",
-    "school": "Illinois"
+    "school": "Illinois",
+    "name": "Gabe Jacas"
   },
   {
     "overall": 56,
@@ -501,7 +556,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Nate Boerkircher",
     "position": "TE",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Nate Boerkircher"
   },
   {
     "overall": 57,
@@ -510,7 +566,8 @@
     "team": "Chicago Bears",
     "player": "Logan Jones",
     "position": "C",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "Logan Jones"
   },
   {
     "overall": 58,
@@ -519,7 +576,8 @@
     "team": "Cleveland Browns",
     "player": "Emmanuel McNeil-Warren",
     "position": "S",
-    "school": "Toledo"
+    "school": "Toledo",
+    "name": "Emmanuel McNeil-Warren"
   },
   {
     "overall": 59,
@@ -528,7 +586,8 @@
     "team": "Houston Texans",
     "player": "Marlin Klein",
     "position": "TE",
-    "school": "Michigan"
+    "school": "Michigan",
+    "name": "Marlin Klein"
   },
   {
     "overall": 60,
@@ -537,7 +596,8 @@
     "team": "Tennessee Titans",
     "player": "Anthony Hill Jr.",
     "position": "LB",
-    "school": "Texas"
+    "school": "Texas",
+    "name": "Anthony Hill Jr."
   },
   {
     "overall": 61,
@@ -546,7 +606,8 @@
     "team": "Los Angeles Rams",
     "player": "Max Klare",
     "position": "TE",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Max Klare"
   },
   {
     "overall": 62,
@@ -555,7 +616,8 @@
     "team": "Buffalo Bills",
     "player": "Davison Igbinosun",
     "position": "CB",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Davison Igbinosun"
   },
   {
     "overall": 63,
@@ -564,7 +626,8 @@
     "team": "Los Angeles Chargers",
     "player": "Jake Slaughter",
     "position": "C",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "Jake Slaughter"
   },
   {
     "overall": 64,
@@ -573,7 +636,8 @@
     "team": "Seattle Seahawks",
     "player": "Bud Clark",
     "position": "S",
-    "school": "TCU"
+    "school": "TCU",
+    "name": "Bud Clark"
   },
   {
     "overall": 65,
@@ -582,7 +646,8 @@
     "team": "Arizona Cardinals",
     "player": "Carson Beck",
     "position": "QB",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Carson Beck"
   },
   {
     "overall": 66,
@@ -591,7 +656,8 @@
     "team": "Denver Broncos",
     "player": "Tyler Onyedim",
     "position": "DT",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Tyler Onyedim"
   },
   {
     "overall": 67,
@@ -600,7 +666,8 @@
     "team": "Las Vegas Raiders",
     "player": "Keyron Crawford",
     "position": "EDGE",
-    "school": "Auburn"
+    "school": "Auburn",
+    "name": "Keyron Crawford"
   },
   {
     "overall": 68,
@@ -609,7 +676,8 @@
     "team": "Philadelphia Eagles",
     "player": "Markel Bell",
     "position": "OT",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Markel Bell"
   },
   {
     "overall": 69,
@@ -618,7 +686,8 @@
     "team": "Chicago Bears",
     "player": "Sam Roush",
     "position": "TE",
-    "school": "Stanford"
+    "school": "Stanford",
+    "name": "Sam Roush"
   },
   {
     "overall": 70,
@@ -627,7 +696,8 @@
     "team": "San Francisco 49ers",
     "player": "Romello Height",
     "position": "EDGE",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Romello Height"
   },
   {
     "overall": 71,
@@ -636,7 +706,8 @@
     "team": "Washington Commanders",
     "player": "Antonio Williams",
     "position": "WR",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Antonio Williams"
   },
   {
     "overall": 72,
@@ -645,7 +716,8 @@
     "team": "Cincinnati Bengals",
     "player": "Tacario Davis",
     "position": "CB",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Tacario Davis"
   },
   {
     "overall": 73,
@@ -654,7 +726,8 @@
     "team": "New Orleans Saints",
     "player": "Oscar Delp",
     "position": "TE",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Oscar Delp"
   },
   {
     "overall": 74,
@@ -663,7 +736,8 @@
     "team": "New York Giants",
     "player": "Malachi Fields",
     "position": "WR",
-    "school": "Notre Dame"
+    "school": "Notre Dame",
+    "name": "Malachi Fields"
   },
   {
     "overall": 75,
@@ -672,7 +746,8 @@
     "team": "Miami Dolphins",
     "player": "Caleb Douglas",
     "position": "WR",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Caleb Douglas"
   },
   {
     "overall": 76,
@@ -681,7 +756,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Drew Allar",
     "position": "QB",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Drew Allar"
   },
   {
     "overall": 77,
@@ -690,7 +766,8 @@
     "team": "Green Bay Packers",
     "player": "Chris McClellan",
     "position": "DT",
-    "school": "Missouri"
+    "school": "Missouri",
+    "name": "Chris McClellan"
   },
   {
     "overall": 78,
@@ -699,7 +776,8 @@
     "team": "Indianapolis Colts",
     "player": "A.J. Haulcy",
     "position": "S",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "A.J. Haulcy"
   },
   {
     "overall": 79,
@@ -708,7 +786,8 @@
     "team": "Atlanta Falcons",
     "player": "Zachariah Branch",
     "position": "WR",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Zachariah Branch"
   },
   {
     "overall": 80,
@@ -717,7 +796,8 @@
     "team": "Baltimore Ravens",
     "player": "Ja'Kobi Lane",
     "position": "WR",
-    "school": "USC"
+    "school": "USC",
+    "name": "Ja'Kobi Lane"
   },
   {
     "overall": 81,
@@ -726,7 +806,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Albert Regis",
     "position": "DT",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Albert Regis"
   },
   {
     "overall": 82,
@@ -735,7 +816,8 @@
     "team": "Minnesota Vikings",
     "player": "Domonique Orange",
     "position": "DT",
-    "school": "Iowa State"
+    "school": "Iowa State",
+    "name": "Domonique Orange"
   },
   {
     "overall": 83,
@@ -744,7 +826,8 @@
     "team": "Carolina Panthers",
     "player": "Chris Brazzell II",
     "position": "WR",
-    "school": "Tennessee"
+    "school": "Tennessee",
+    "name": "Chris Brazzell II"
   },
   {
     "overall": 84,
@@ -753,7 +836,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "Ted Hurst",
     "position": "WR",
-    "school": "Georgia State"
+    "school": "Georgia State",
+    "name": "Ted Hurst"
   },
   {
     "overall": 85,
@@ -762,7 +846,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Daylen Everette",
     "position": "CB",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Daylen Everette"
   },
   {
     "overall": 86,
@@ -771,7 +856,8 @@
     "team": "Cleveland Browns",
     "player": "Austin Barber",
     "position": "OT",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "Austin Barber"
   },
   {
     "overall": 87,
@@ -780,7 +866,8 @@
     "team": "Miami Dolphins",
     "player": "Will Kacmarek",
     "position": "TE",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Will Kacmarek"
   },
   {
     "overall": 88,
@@ -789,7 +876,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Emmanuel Pregnon",
     "position": "OG",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Emmanuel Pregnon"
   },
   {
     "overall": 89,
@@ -798,7 +886,8 @@
     "team": "Chicago Bears",
     "player": "Zavion Thomas",
     "position": "WR",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "Zavion Thomas"
   },
   {
     "overall": 90,
@@ -807,7 +896,8 @@
     "team": "San Francisco 49ers",
     "player": "Kaelon Black",
     "position": "RB",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Kaelon Black"
   },
   {
     "overall": 91,
@@ -816,7 +906,8 @@
     "team": "Las Vegas Raiders",
     "player": "Trey Zuhn III",
     "position": "C",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Trey Zuhn III"
   },
   {
     "overall": 92,
@@ -825,7 +916,8 @@
     "team": "Dallas Cowboys",
     "player": "Jaishawn Barham",
     "position": "EDGE",
-    "school": "Michigan"
+    "school": "Michigan",
+    "name": "Jaishawn Barham"
   },
   {
     "overall": 93,
@@ -834,7 +926,8 @@
     "team": "Los Angeles Rams",
     "player": "Keagen Trost",
     "position": "OT",
-    "school": "Missouri"
+    "school": "Missouri",
+    "name": "Keagen Trost"
   },
   {
     "overall": 94,
@@ -843,7 +936,8 @@
     "team": "Miami Dolphins",
     "player": "Chris Bell",
     "position": "WR",
-    "school": "Louisville"
+    "school": "Louisville",
+    "name": "Chris Bell"
   },
   {
     "overall": 95,
@@ -852,7 +946,8 @@
     "team": "New England Patriots",
     "player": "Eli Raridon",
     "position": "TE",
-    "school": "Notre Dame"
+    "school": "Notre Dame",
+    "name": "Eli Raridon"
   },
   {
     "overall": 96,
@@ -861,7 +956,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Gennings Dunker",
     "position": "OG",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "Gennings Dunker"
   },
   {
     "overall": 97,
@@ -870,7 +966,8 @@
     "team": "Minnesota Vikings",
     "player": "Caleb Tiernan",
     "position": "OT",
-    "school": "Northwestern"
+    "school": "Northwestern",
+    "name": "Caleb Tiernan"
   },
   {
     "overall": 98,
@@ -879,7 +976,8 @@
     "team": "Minnesota Vikings",
     "player": "Jakobe Thomas",
     "position": "S",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Jakobe Thomas"
   },
   {
     "overall": 99,
@@ -888,7 +986,8 @@
     "team": "Seattle Seahawks",
     "player": "Julian Neal",
     "position": "CB",
-    "school": "Arkansas"
+    "school": "Arkansas",
+    "name": "Julian Neal"
   },
   {
     "overall": 100,
@@ -897,7 +996,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Jalen Huskey",
     "position": "S",
-    "school": "Maryland"
+    "school": "Maryland",
+    "name": "Jalen Huskey"
   },
   {
     "overall": 101,
@@ -906,7 +1006,8 @@
     "team": "Las Vegas Raiders",
     "player": "Jermod McCoy",
     "position": "CB",
-    "school": "Tennessee"
+    "school": "Tennessee",
+    "name": "Jermod McCoy"
   },
   {
     "overall": 102,
@@ -915,7 +1016,8 @@
     "team": "Buffalo Bills",
     "player": "Jude Bowry",
     "position": "OT",
-    "school": "Boston College"
+    "school": "Boston College",
+    "name": "Jude Bowry"
   },
   {
     "overall": 103,
@@ -924,7 +1026,8 @@
     "team": "New York Jets",
     "player": "Darrell Jackson Jr.",
     "position": "DT",
-    "school": "Florida State"
+    "school": "Florida State",
+    "name": "Darrell Jackson Jr."
   },
   {
     "overall": 104,
@@ -933,7 +1036,8 @@
     "team": "Arizona Cardinals",
     "player": "Kaleb Proctor",
     "position": "DT",
-    "school": "Southeastern Louisiana"
+    "school": "Southeastern Louisiana",
+    "name": "Kaleb Proctor"
   },
   {
     "overall": 105,
@@ -942,7 +1046,8 @@
     "team": "Los Angeles Chargers",
     "player": "Brenen Thompson",
     "position": "WR",
-    "school": "Mississippi State"
+    "school": "Mississippi State",
+    "name": "Brenen Thompson"
   },
   {
     "overall": 106,
@@ -951,7 +1056,8 @@
     "team": "Houston Texans",
     "player": "Febechi Nwaiwu",
     "position": "OG",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "Febechi Nwaiwu"
   },
   {
     "overall": 107,
@@ -960,7 +1066,8 @@
     "team": "San Francisco 49ers",
     "player": "Gracen Halton",
     "position": "DT",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "Gracen Halton"
   },
   {
     "overall": 108,
@@ -969,7 +1076,8 @@
     "team": "Denver Broncos",
     "player": "Jonah Coleman",
     "position": "RB",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Jonah Coleman"
   },
   {
     "overall": 109,
@@ -978,7 +1086,8 @@
     "team": "Kansas City Chiefs",
     "player": "Jadon Canady",
     "position": "CB",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Jadon Canady"
   },
   {
     "overall": 110,
@@ -987,7 +1096,8 @@
     "team": "New York Jets",
     "player": "Cade Klubnik",
     "position": "QB",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Cade Klubnik"
   },
   {
     "overall": 111,
@@ -996,7 +1106,8 @@
     "team": "Denver Broncos",
     "player": "Kage Casey",
     "position": "OT",
-    "school": "Boise State"
+    "school": "Boise State",
+    "name": "Kage Casey"
   },
   {
     "overall": 112,
@@ -1005,7 +1116,8 @@
     "team": "Dallas Cowboys",
     "player": "Drew Shelton",
     "position": "OT",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Drew Shelton"
   },
   {
     "overall": 113,
@@ -1014,7 +1126,8 @@
     "team": "Indianapolis Colts",
     "player": "Jalen Farmer",
     "position": "OG",
-    "school": "Kentucky"
+    "school": "Kentucky",
+    "name": "Jalen Farmer"
   },
   {
     "overall": 114,
@@ -1023,7 +1136,8 @@
     "team": "Dallas Cowboys",
     "player": "Devin Moore",
     "position": "CB",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "Devin Moore"
   },
   {
     "overall": 115,
@@ -1032,7 +1146,8 @@
     "team": "Baltimore Ravens",
     "player": "Elijah Sarratt",
     "position": "WR",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Elijah Sarratt"
   },
   {
     "overall": 116,
@@ -1041,7 +1156,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "Keionte Scott",
     "position": "CB",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Keionte Scott"
   },
   {
     "overall": 117,
@@ -1050,7 +1166,8 @@
     "team": "Los Angeles Chargers",
     "player": "Travis Burke",
     "position": "OT",
-    "school": "Memphis"
+    "school": "Memphis",
+    "name": "Travis Burke"
   },
   {
     "overall": 118,
@@ -1059,7 +1176,8 @@
     "team": "Detroit Lions",
     "player": "Jimmy Rolder",
     "position": "LB",
-    "school": "Michigan"
+    "school": "Michigan",
+    "name": "Jimmy Rolder"
   },
   {
     "overall": 119,
@@ -1068,7 +1186,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Wesley Williams",
     "position": "EDGE",
-    "school": "Duke"
+    "school": "Duke",
+    "name": "Wesley Williams"
   },
   {
     "overall": 120,
@@ -1077,7 +1196,8 @@
     "team": "Green Bay Packers",
     "player": "Dani Dennis-Sutton",
     "position": "EDGE",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Dani Dennis-Sutton"
   },
   {
     "overall": 121,
@@ -1086,7 +1206,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Kaden Wetjen",
     "position": "WR",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "Kaden Wetjen"
   },
   {
     "overall": 122,
@@ -1095,7 +1216,8 @@
     "team": "Las Vegas Raiders",
     "player": "Mike Washington Jr.",
     "position": "RB",
-    "school": "Arkansas"
+    "school": "Arkansas",
+    "name": "Mike Washington Jr."
   },
   {
     "overall": 123,
@@ -1104,7 +1226,8 @@
     "team": "Houston Texans",
     "player": "Wade Woodaz",
     "position": "LB",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Wade Woodaz"
   },
   {
     "overall": 124,
@@ -1113,7 +1236,8 @@
     "team": "Chicago Bears",
     "player": "Malik Muhammad",
     "position": "CB",
-    "school": "Texas"
+    "school": "Texas",
+    "name": "Malik Muhammad"
   },
   {
     "overall": 125,
@@ -1122,7 +1246,8 @@
     "team": "Buffalo Bills",
     "player": "Skyler Bell",
     "position": "WR",
-    "school": "Connecticut"
+    "school": "Connecticut",
+    "name": "Skyler Bell"
   },
   {
     "overall": 126,
@@ -1131,7 +1256,8 @@
     "team": "Buffalo Bills",
     "player": "Kaleb Elarms-Orr",
     "position": "LB",
-    "school": "TCU"
+    "school": "TCU",
+    "name": "Kaleb Elarms-Orr"
   },
   {
     "overall": 127,
@@ -1140,7 +1266,8 @@
     "team": "San Francisco 49ers",
     "player": "Carver Willis",
     "position": "OT",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Carver Willis"
   },
   {
     "overall": 128,
@@ -1149,7 +1276,8 @@
     "team": "Cincinnati Bengals",
     "player": "Connor Lew",
     "position": "C",
-    "school": "Auburn"
+    "school": "Auburn",
+    "name": "Connor Lew"
   },
   {
     "overall": 129,
@@ -1158,7 +1286,8 @@
     "team": "Carolina Panthers",
     "player": "Will Lee III",
     "position": "CB",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Will Lee III"
   },
   {
     "overall": 130,
@@ -1167,7 +1296,8 @@
     "team": "Miami Dolphins",
     "player": "Trey Moore",
     "position": "EDGE",
-    "school": "Texas"
+    "school": "Texas",
+    "name": "Trey Moore"
   },
   {
     "overall": 131,
@@ -1176,7 +1306,8 @@
     "team": "Los Angeles Chargers",
     "player": "Genesis Smith",
     "position": "S",
-    "school": "Arizona"
+    "school": "Arizona",
+    "name": "Genesis Smith"
   },
   {
     "overall": 132,
@@ -1185,7 +1316,8 @@
     "team": "New Orleans Saints",
     "player": "Jeremiah Wright",
     "position": "OG",
-    "school": "Auburn"
+    "school": "Auburn",
+    "name": "Jeremiah Wright"
   },
   {
     "overall": 133,
@@ -1194,7 +1326,8 @@
     "team": "Baltimore Ravens",
     "player": "Matthew Hibner",
     "position": "TE",
-    "school": "SMU"
+    "school": "SMU",
+    "name": "Matthew Hibner"
   },
   {
     "overall": 134,
@@ -1203,7 +1336,8 @@
     "team": "Atlanta Falcons",
     "player": "Kendal Daniels",
     "position": "LB",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "Kendal Daniels"
   },
   {
     "overall": 135,
@@ -1212,7 +1346,8 @@
     "team": "Indianapolis Colts",
     "player": "Bryce Boettcher",
     "position": "LB",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Bryce Boettcher"
   },
   {
     "overall": 136,
@@ -1221,7 +1356,8 @@
     "team": "New Orleans Saints",
     "player": "Bryce Lance",
     "position": "WR",
-    "school": "North Dakota State"
+    "school": "North Dakota State",
+    "name": "Bryce Lance"
   },
   {
     "overall": 137,
@@ -1230,7 +1366,8 @@
     "team": "Dallas Cowboys",
     "player": "LT Overton",
     "position": "EDGE",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "LT Overton"
   },
   {
     "overall": 138,
@@ -1239,7 +1376,8 @@
     "team": "Miami Dolphins",
     "player": "Kyle Louis",
     "position": "LB",
-    "school": "Pittsburgh"
+    "school": "Pittsburgh",
+    "name": "Kyle Louis"
   },
   {
     "overall": 139,
@@ -1248,7 +1386,8 @@
     "team": "San Francisco 49ers",
     "player": "Ephesians Prysock",
     "position": "CB",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Ephesians Prysock"
   },
   {
     "overall": 140,
@@ -1257,7 +1396,8 @@
     "team": "Cincinnati Bengals",
     "player": "Colbie Young",
     "position": "WR",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Colbie Young"
   },
   {
     "overall": 141,
@@ -1266,7 +1406,8 @@
     "team": "Houston Texans",
     "player": "Kamari Ramsey",
     "position": "S",
-    "school": "USC"
+    "school": "USC",
+    "name": "Kamari Ramsey"
   },
   {
     "overall": 142,
@@ -1275,7 +1416,8 @@
     "team": "Tennessee Titans",
     "player": "Fernando Carmona",
     "position": "OG",
-    "school": "Arkansas"
+    "school": "Arkansas",
+    "name": "Fernando Carmona"
   },
   {
     "overall": 143,
@@ -1284,7 +1426,8 @@
     "team": "Arizona Cardinals",
     "player": "Reggie Virgil",
     "position": "WR",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Reggie Virgil"
   },
   {
     "overall": 144,
@@ -1293,7 +1436,8 @@
     "team": "Carolina Panthers",
     "player": "Sam Hecht",
     "position": "C",
-    "school": "Kansas State"
+    "school": "Kansas State",
+    "name": "Sam Hecht"
   },
   {
     "overall": 145,
@@ -1302,7 +1446,8 @@
     "team": "Los Angeles Chargers",
     "player": "Nick Barrett",
     "position": "DT",
-    "school": "South Carolina"
+    "school": "South Carolina",
+    "name": "Nick Barrett"
   },
   {
     "overall": 146,
@@ -1311,7 +1456,8 @@
     "team": "Cleveland Browns",
     "player": "Parker Brailsford",
     "position": "C",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Parker Brailsford"
   },
   {
     "overall": 147,
@@ -1320,7 +1466,8 @@
     "team": "Washington Commanders",
     "player": "Joshua Josephs",
     "position": "EDGE",
-    "school": "Tennessee"
+    "school": "Tennessee",
+    "name": "Joshua Josephs"
   },
   {
     "overall": 148,
@@ -1329,7 +1476,8 @@
     "team": "Seattle Seahawks",
     "player": "Beau Stephens",
     "position": "OG",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "Beau Stephens"
   },
   {
     "overall": 149,
@@ -1338,7 +1486,8 @@
     "team": "Cleveland Browns",
     "player": "Justin Jefferson",
     "position": "LB",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Justin Jefferson"
   },
   {
     "overall": 150,
@@ -1347,7 +1496,8 @@
     "team": "Las Vegas Raiders",
     "player": "Dalton Johnson",
     "position": "S",
-    "school": "Arizona"
+    "school": "Arizona",
+    "name": "Dalton Johnson"
   },
   {
     "overall": 151,
@@ -1356,7 +1506,8 @@
     "team": "Carolina Panthers",
     "player": "Zakee Wheatley",
     "position": "S",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Zakee Wheatley"
   },
   {
     "overall": 152,
@@ -1365,7 +1516,8 @@
     "team": "Denver Broncos",
     "player": "Justin Joly",
     "position": "TE",
-    "school": "NC State"
+    "school": "NC State",
+    "name": "Justin Joly"
   },
   {
     "overall": 153,
@@ -1374,7 +1526,8 @@
     "team": "Green Bay Packers",
     "player": "Jager Burton",
     "position": "OG",
-    "school": "Kentucky"
+    "school": "Kentucky",
+    "name": "Jager Burton"
   },
   {
     "overall": 154,
@@ -1383,7 +1536,8 @@
     "team": "San Francisco 49ers",
     "player": "Jaden Dugger",
     "position": "LB",
-    "school": "Louisiana"
+    "school": "Louisiana",
+    "name": "Jaden Dugger"
   },
   {
     "overall": 155,
@@ -1392,7 +1546,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "DeMonte Capehart",
     "position": "DT",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "DeMonte Capehart"
   },
   {
     "overall": 156,
@@ -1401,7 +1556,8 @@
     "team": "Indianapolis Colts",
     "player": "George Gumbs Jr.",
     "position": "EDGE",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "George Gumbs Jr."
   },
   {
     "overall": 157,
@@ -1410,7 +1566,8 @@
     "team": "Detroit Lions",
     "player": "Keith Abney II",
     "position": "CB",
-    "school": "Arizona State"
+    "school": "Arizona State",
+    "name": "Keith Abney II"
   },
   {
     "overall": 158,
@@ -1419,7 +1576,8 @@
     "team": "Miami Dolphins",
     "player": "Michael Taaffe",
     "position": "S",
-    "school": "Texas"
+    "school": "Texas",
+    "name": "Michael Taaffe"
   },
   {
     "overall": 159,
@@ -1428,7 +1586,8 @@
     "team": "Minnesota Vikings",
     "player": "Max Bredeson",
     "position": "TE",
-    "school": "Michigan"
+    "school": "Michigan",
+    "name": "Max Bredeson"
   },
   {
     "overall": 160,
@@ -1437,7 +1596,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "Billy Schrauth",
     "position": "OG",
-    "school": "Notre Dame"
+    "school": "Notre Dame",
+    "name": "Billy Schrauth"
   },
   {
     "overall": 161,
@@ -1446,7 +1606,8 @@
     "team": "Kansas City Chiefs",
     "player": "Emmett Johnson",
     "position": "RB",
-    "school": "Nebraska"
+    "school": "Nebraska",
+    "name": "Emmett Johnson"
   },
   {
     "overall": 162,
@@ -1455,7 +1616,8 @@
     "team": "Baltimore Ravens",
     "player": "Chandler Rivers",
     "position": "CB",
-    "school": "Duke"
+    "school": "Duke",
+    "name": "Chandler Rivers"
   },
   {
     "overall": 163,
@@ -1464,7 +1626,8 @@
     "team": "Minnesota Vikings",
     "player": "Charles Demmings",
     "position": "CB",
-    "school": "Stephen F. Austin"
+    "school": "Stephen F. Austin",
+    "name": "Charles Demmings"
   },
   {
     "overall": 164,
@@ -1473,7 +1636,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Tanner Koziol",
     "position": "TE",
-    "school": "Houston"
+    "school": "Houston",
+    "name": "Tanner Koziol"
   },
   {
     "overall": 165,
@@ -1482,7 +1646,8 @@
     "team": "Tennessee Titans",
     "player": "Nicholas Singleton",
     "position": "RB",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Nicholas Singleton"
   },
   {
     "overall": 166,
@@ -1491,7 +1656,8 @@
     "team": "Chicago Bears",
     "player": "Keyshaun Elliott",
     "position": "LB",
-    "school": "Arizona State"
+    "school": "Arizona State",
+    "name": "Keyshaun Elliott"
   },
   {
     "overall": 167,
@@ -1500,7 +1666,8 @@
     "team": "Buffalo Bills",
     "player": "Jalon Kilgore",
     "position": "S",
-    "school": "South Carolina"
+    "school": "South Carolina",
+    "name": "Jalon Kilgore"
   },
   {
     "overall": 168,
@@ -1509,7 +1676,8 @@
     "team": "Detroit Lions",
     "player": "Kendrick Law",
     "position": "WR",
-    "school": "Kentucky"
+    "school": "Kentucky",
+    "name": "Kendrick Law"
   },
   {
     "overall": 169,
@@ -1518,7 +1686,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Riley Nowakowski",
     "position": "TE",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Riley Nowakowski"
   },
   {
     "overall": 170,
@@ -1527,7 +1696,8 @@
     "team": "Denver Broncos",
     "player": "Joe Royer",
     "position": "TE",
-    "school": "Cincinnati"
+    "school": "Cincinnati",
+    "name": "Joe Royer"
   },
   {
     "overall": 171,
@@ -1536,7 +1706,8 @@
     "team": "New England Patriots",
     "player": "Karon Prunty",
     "position": "CB",
-    "school": "Wake Forest"
+    "school": "Wake Forest",
+    "name": "Karon Prunty"
   },
   {
     "overall": 172,
@@ -1545,7 +1716,8 @@
     "team": "New Orleans Saints",
     "player": "Lorenzo Styles Jr.",
     "position": "S",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Lorenzo Styles Jr."
   },
   {
     "overall": 173,
@@ -1554,7 +1726,8 @@
     "team": "Baltimore Ravens",
     "player": "Josh Cuevas",
     "position": "TE",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Josh Cuevas"
   },
   {
     "overall": 174,
@@ -1563,7 +1736,8 @@
     "team": "Baltimore Ravens",
     "player": "Adam Randall",
     "position": "RB",
-    "school": "Clemson"
+    "school": "Clemson",
+    "name": "Adam Randall"
   },
   {
     "overall": 175,
@@ -1572,7 +1746,8 @@
     "team": "Las Vegas Raiders",
     "player": "Hezekiah Masses",
     "position": "CB",
-    "school": "California"
+    "school": "California",
+    "name": "Hezekiah Masses"
   },
   {
     "overall": 176,
@@ -1581,7 +1756,8 @@
     "team": "Kansas City Chiefs",
     "player": "Cyrus Allen",
     "position": "WR",
-    "school": "Cincinnati"
+    "school": "Cincinnati",
+    "name": "Cyrus Allen"
   },
   {
     "overall": 177,
@@ -1590,7 +1766,8 @@
     "team": "Miami Dolphins",
     "player": "Kevin Coleman Jr.",
     "position": "WR",
-    "school": "Missouri"
+    "school": "Missouri",
+    "name": "Kevin Coleman Jr."
   },
   {
     "overall": 178,
@@ -1599,7 +1776,8 @@
     "team": "Philadelphia Eagles",
     "player": "Cole Payton",
     "position": "QB",
-    "school": "North Dakota State"
+    "school": "North Dakota State",
+    "name": "Cole Payton"
   },
   {
     "overall": 179,
@@ -1608,7 +1786,8 @@
     "team": "San Francisco 49ers",
     "player": "Enrique Cruz Jr.",
     "position": "OT",
-    "school": "Kansas"
+    "school": "Kansas",
+    "name": "Enrique Cruz Jr."
   },
   {
     "overall": 180,
@@ -1617,7 +1796,8 @@
     "team": "Miami Dolphins",
     "player": "Seydou Traore",
     "position": "TE",
-    "school": "Mississippi State"
+    "school": "Mississippi State",
+    "name": "Seydou Traore"
   },
   {
     "overall": 181,
@@ -1626,7 +1806,8 @@
     "team": "Buffalo Bills",
     "player": "Zane Durant",
     "position": "DT",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Zane Durant"
   },
   {
     "overall": 182,
@@ -1635,7 +1816,8 @@
     "team": "Cleveland Browns",
     "player": "Taylen Green",
     "position": "QB",
-    "school": "Arkansas"
+    "school": "Arkansas",
+    "name": "Taylen Green"
   },
   {
     "overall": 183,
@@ -1644,7 +1826,8 @@
     "team": "Arizona Cardinals",
     "player": "Karson Sharar",
     "position": "LB",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "Karson Sharar"
   },
   {
     "overall": 184,
@@ -1653,7 +1836,8 @@
     "team": "Tennessee Titans",
     "player": "Jackie Marshall",
     "position": "DT",
-    "school": "Baylor"
+    "school": "Baylor",
+    "name": "Jackie Marshall"
   },
   {
     "overall": 185,
@@ -1662,7 +1846,8 @@
     "team": "Tampa Bay Buccaneers",
     "player": "Bauer Sharp",
     "position": "TE",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "Bauer Sharp"
   },
   {
     "overall": 186,
@@ -1671,7 +1856,8 @@
     "team": "New York Giants",
     "player": "Bobby Jamison-Travis",
     "position": "DT",
-    "school": "Auburn"
+    "school": "Auburn",
+    "name": "Bobby Jamison-Travis"
   },
   {
     "overall": 187,
@@ -1680,7 +1866,8 @@
     "team": "Washington Commanders",
     "player": "Kaytron Allen",
     "position": "RB",
-    "school": "Penn State"
+    "school": "Penn State",
+    "name": "Kaytron Allen"
   },
   {
     "overall": 188,
@@ -1689,7 +1876,8 @@
     "team": "New York Jets",
     "player": "Anez Cooper",
     "position": "OG",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "Anez Cooper"
   },
   {
     "overall": 189,
@@ -1698,7 +1886,8 @@
     "team": "Cincinnati Bengals",
     "player": "Brian Parker II",
     "position": "C",
-    "school": "Duke"
+    "school": "Duke",
+    "name": "Brian Parker II"
   },
   {
     "overall": 190,
@@ -1707,7 +1896,8 @@
     "team": "New Orleans Saints",
     "player": "Barion Brown",
     "position": "WR",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "Barion Brown"
   },
   {
     "overall": 191,
@@ -1716,7 +1906,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Josh Cameron",
     "position": "WR",
-    "school": "Baylor"
+    "school": "Baylor",
+    "name": "Josh Cameron"
   },
   {
     "overall": 192,
@@ -1725,7 +1916,8 @@
     "team": "New York Giants",
     "player": "J.C. Davis",
     "position": "OT",
-    "school": "Illinois"
+    "school": "Illinois",
+    "name": "J.C. Davis"
   },
   {
     "overall": 193,
@@ -1734,7 +1926,8 @@
     "team": "New York Giants",
     "player": "Jack Kelly",
     "position": "LB",
-    "school": "BYU"
+    "school": "BYU",
+    "name": "Jack Kelly"
   },
   {
     "overall": 194,
@@ -1743,7 +1936,8 @@
     "team": "Tennessee Titans",
     "player": "Pat Coogan",
     "position": "C",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Pat Coogan"
   },
   {
     "overall": 195,
@@ -1752,7 +1946,8 @@
     "team": "Las Vegas Raiders",
     "player": "Malik Benson",
     "position": "WR",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Malik Benson"
   },
   {
     "overall": 196,
@@ -1761,7 +1956,8 @@
     "team": "New England Patriots",
     "player": "Dametrious Crownover",
     "position": "OT",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Dametrious Crownover"
   },
   {
     "overall": 197,
@@ -1770,7 +1966,8 @@
     "team": "Los Angeles Rams",
     "player": "CJ Daniels",
     "position": "WR",
-    "school": "Miami"
+    "school": "Miami",
+    "name": "CJ Daniels"
   },
   {
     "overall": 198,
@@ -1779,7 +1976,8 @@
     "team": "Minnesota Vikings",
     "player": "Demond Claiborne",
     "position": "RB",
-    "school": "Wake Forest"
+    "school": "Wake Forest",
+    "name": "Demond Claiborne"
   },
   {
     "overall": 199,
@@ -1788,7 +1986,8 @@
     "team": "Seattle Seahawks",
     "player": "Emmanuel Henderson Jr.",
     "position": "WR",
-    "school": "Kansas"
+    "school": "Kansas",
+    "name": "Emmanuel Henderson Jr."
   },
   {
     "overall": 200,
@@ -1797,7 +1996,8 @@
     "team": "Miami Dolphins",
     "player": "DJ Campbell",
     "position": "OG",
-    "school": "Texas"
+    "school": "Texas",
+    "name": "DJ Campbell"
   },
   {
     "overall": 201,
@@ -1806,7 +2006,8 @@
     "team": "Green Bay Packers",
     "player": "Domani Jackson",
     "position": "CB",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Domani Jackson"
   },
   {
     "overall": 202,
@@ -1815,7 +2016,8 @@
     "team": "Los Angeles Chargers",
     "player": "Logan Taylor",
     "position": "OG",
-    "school": "Boston College"
+    "school": "Boston College",
+    "name": "Logan Taylor"
   },
   {
     "overall": 203,
@@ -1824,7 +2026,8 @@
     "team": "Jacksonville Jaguars",
     "player": "CJ Williams",
     "position": "WR",
-    "school": "Stanford"
+    "school": "Stanford",
+    "name": "CJ Williams"
   },
   {
     "overall": 204,
@@ -1833,7 +2036,8 @@
     "team": "Houston Texans",
     "player": "Lewis Bond",
     "position": "WR",
-    "school": "Boston College"
+    "school": "Boston College",
+    "name": "Lewis Bond"
   },
   {
     "overall": 205,
@@ -1842,7 +2046,8 @@
     "team": "Detroit Lions",
     "player": "Skyler Gill-Howard",
     "position": "DT",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Skyler Gill-Howard"
   },
   {
     "overall": 206,
@@ -1851,7 +2056,8 @@
     "team": "Los Angeles Chargers",
     "player": "Alex Harkey",
     "position": "OG",
-    "school": "Oregon"
+    "school": "Oregon",
+    "name": "Alex Harkey"
   },
   {
     "overall": 207,
@@ -1860,7 +2066,8 @@
     "team": "Philadelphia Eagles",
     "player": "Micah Morris",
     "position": "OG",
-    "school": "Georgia"
+    "school": "Georgia",
+    "name": "Micah Morris"
   },
   {
     "overall": 208,
@@ -1869,7 +2076,8 @@
     "team": "Atlanta Falcons",
     "player": "Anterio Thompson",
     "position": "DT",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Anterio Thompson"
   },
   {
     "overall": 209,
@@ -1878,7 +2086,8 @@
     "team": "Washington Commanders",
     "player": "Matt Gulbin",
     "position": "C",
-    "school": "Michigan State"
+    "school": "Michigan State",
+    "name": "Matt Gulbin"
   },
   {
     "overall": 210,
@@ -1887,7 +2096,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Gabriel Rubio",
     "position": "DT",
-    "school": "Notre Dame"
+    "school": "Notre Dame",
+    "name": "Gabriel Rubio"
   },
   {
     "overall": 211,
@@ -1896,7 +2106,8 @@
     "team": "Baltimore Ravens",
     "player": "Ryan Eckley",
     "position": "P",
-    "school": "Michigan State"
+    "school": "Michigan State",
+    "name": "Ryan Eckley"
   },
   {
     "overall": 212,
@@ -1905,7 +2116,8 @@
     "team": "New England Patriots",
     "player": "Namdi Obiazor",
     "position": "LB",
-    "school": "TCU"
+    "school": "TCU",
+    "name": "Namdi Obiazor"
   },
   {
     "overall": 213,
@@ -1914,7 +2126,8 @@
     "team": "Chicago Bears",
     "player": "Jordan van den Berg",
     "position": "DT",
-    "school": "Georgia Tech"
+    "school": "Georgia Tech",
+    "name": "Jordan van den Berg"
   },
   {
     "overall": 214,
@@ -1923,7 +2136,8 @@
     "team": "Indianapolis Colts",
     "player": "Caden Curry",
     "position": "EDGE",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Caden Curry"
   },
   {
     "overall": 215,
@@ -1932,7 +2146,8 @@
     "team": "Atlanta Falcons",
     "player": "Harold Perkins Jr.",
     "position": "LB",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "Harold Perkins Jr."
   },
   {
     "overall": 216,
@@ -1941,7 +2156,8 @@
     "team": "Green Bay Packers",
     "player": "Trey Smack",
     "position": "K",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "Trey Smack"
   },
   {
     "overall": 217,
@@ -1950,7 +2166,8 @@
     "team": "Arizona Cardinals",
     "player": "Jayden Williams",
     "position": "OT",
-    "school": "Ole Miss"
+    "school": "Ole Miss",
+    "name": "Jayden Williams"
   },
   {
     "overall": 218,
@@ -1959,7 +2176,8 @@
     "team": "Dallas Cowboys",
     "player": "Anthony Smith",
     "position": "WR",
-    "school": "East Carolina"
+    "school": "East Carolina",
+    "name": "Anthony Smith"
   },
   {
     "overall": 219,
@@ -1968,7 +2186,8 @@
     "team": "New Orleans Saints",
     "player": "TJ Hall",
     "position": "CB",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "TJ Hall"
   },
   {
     "overall": 220,
@@ -1977,7 +2196,8 @@
     "team": "Buffalo Bills",
     "player": "Toriano Pride Jr.",
     "position": "CB",
-    "school": "Missouri"
+    "school": "Missouri",
+    "name": "Toriano Pride Jr."
   },
   {
     "overall": 221,
@@ -1986,7 +2206,8 @@
     "team": "Cincinnati Bengals",
     "player": "Jack Endries",
     "position": "TE",
-    "school": "Texas"
+    "school": "Texas",
+    "name": "Jack Endries"
   },
   {
     "overall": 222,
@@ -1995,7 +2216,8 @@
     "team": "Detroit Lions",
     "player": "Tyre West",
     "position": "EDGE",
-    "school": "Tennessee"
+    "school": "Tennessee",
+    "name": "Tyre West"
   },
   {
     "overall": 223,
@@ -2004,7 +2226,8 @@
     "team": "Washington Commanders",
     "player": "Athan Kaliakmanis",
     "position": "QB",
-    "school": "Rutgers"
+    "school": "Rutgers",
+    "name": "Athan Kaliakmanis"
   },
   {
     "overall": 224,
@@ -2013,7 +2236,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Robert Spears-Jennings",
     "position": "S",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "Robert Spears-Jennings"
   },
   {
     "overall": 225,
@@ -2022,7 +2246,8 @@
     "team": "Tennessee Titans",
     "player": "Jaren Kanak",
     "position": "TE",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "Jaren Kanak"
   },
   {
     "overall": 226,
@@ -2031,7 +2256,8 @@
     "team": "Cincinnati Bengals",
     "player": "Landon Robinson",
     "position": "DT",
-    "school": "Navy"
+    "school": "Navy",
+    "name": "Landon Robinson"
   },
   {
     "overall": 227,
@@ -2040,7 +2266,8 @@
     "team": "Carolina Panthers",
     "player": "Jackson Kuwatch",
     "position": "LB",
-    "school": "Miami (OH)"
+    "school": "Miami (OH)",
+    "name": "Jackson Kuwatch"
   },
   {
     "overall": 228,
@@ -2049,7 +2276,8 @@
     "team": "New York Jets",
     "player": "VJ Payne",
     "position": "S",
-    "school": "Kansas State"
+    "school": "Kansas State",
+    "name": "VJ Payne"
   },
   {
     "overall": 229,
@@ -2058,7 +2286,8 @@
     "team": "Las Vegas Raiders",
     "player": "Brandon Cleveland",
     "position": "DT",
-    "school": "NC State"
+    "school": "NC State",
+    "name": "Brandon Cleveland"
   },
   {
     "overall": 230,
@@ -2067,7 +2296,8 @@
     "team": "Pittsburgh Steelers",
     "player": "Eli Heidenreich",
     "position": "RB",
-    "school": "Navy"
+    "school": "Navy",
+    "name": "Eli Heidenreich"
   },
   {
     "overall": 231,
@@ -2076,7 +2306,8 @@
     "team": "Atlanta Falcons",
     "player": "Ethan Onianwa",
     "position": "OT",
-    "school": "Ohio State"
+    "school": "Ohio State",
+    "name": "Ethan Onianwa"
   },
   {
     "overall": 232,
@@ -2085,7 +2316,8 @@
     "team": "Los Angeles Rams",
     "player": "Tim Keenan III",
     "position": "DT",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Tim Keenan III"
   },
   {
     "overall": 233,
@@ -2094,7 +2326,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Zach Durfee",
     "position": "EDGE",
-    "school": "Washington"
+    "school": "Washington",
+    "name": "Zach Durfee"
   },
   {
     "overall": 234,
@@ -2103,7 +2336,8 @@
     "team": "New England Patriots",
     "player": "Behren Morton",
     "position": "QB",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Behren Morton"
   },
   {
     "overall": 235,
@@ -2112,7 +2346,8 @@
     "team": "Minnesota Vikings",
     "player": "Gavin Gerhardt",
     "position": "C",
-    "school": "Cincinnati"
+    "school": "Cincinnati",
+    "name": "Gavin Gerhardt"
   },
   {
     "overall": 236,
@@ -2121,7 +2356,8 @@
     "team": "Seattle Seahawks",
     "player": "Andre Fuller",
     "position": "CB",
-    "school": "Toledo"
+    "school": "Toledo",
+    "name": "Andre Fuller"
   },
   {
     "overall": 237,
@@ -2130,7 +2366,8 @@
     "team": "Indianapolis Colts",
     "player": "Seth McGowan",
     "position": "RB",
-    "school": "Kentucky"
+    "school": "Kentucky",
+    "name": "Seth McGowan"
   },
   {
     "overall": 238,
@@ -2139,7 +2376,8 @@
     "team": "Miami Dolphins",
     "player": "Max Llewellyn",
     "position": "EDGE",
-    "school": "Iowa"
+    "school": "Iowa",
+    "name": "Max Llewellyn"
   },
   {
     "overall": 239,
@@ -2148,7 +2386,8 @@
     "team": "Buffalo Bills",
     "player": "Tommy Doman",
     "position": "P",
-    "school": "Florida"
+    "school": "Florida",
+    "name": "Tommy Doman"
   },
   {
     "overall": 240,
@@ -2157,7 +2396,8 @@
     "team": "Jacksonville Jaguars",
     "player": "Parker Hughes",
     "position": "LB",
-    "school": "MTSU"
+    "school": "MTSU",
+    "name": "Parker Hughes"
   },
   {
     "overall": 241,
@@ -2166,7 +2406,8 @@
     "team": "Buffalo Bills",
     "player": "Ar'Maj Reed-Adams",
     "position": "OG",
-    "school": "Texas A&M"
+    "school": "Texas A&M",
+    "name": "Ar'Maj Reed-Adams"
   },
   {
     "overall": 242,
@@ -2175,7 +2416,8 @@
     "team": "Seattle Seahawks",
     "player": "Deven Eastern",
     "position": "DT",
-    "school": "Minnesota"
+    "school": "Minnesota",
+    "name": "Deven Eastern"
   },
   {
     "overall": 243,
@@ -2184,7 +2426,8 @@
     "team": "Houston Texans",
     "player": "Aiden Fisher",
     "position": "LB",
-    "school": "Indiana"
+    "school": "Indiana",
+    "name": "Aiden Fisher"
   },
   {
     "overall": 244,
@@ -2193,7 +2436,8 @@
     "team": "Philadelphia Eagles",
     "player": "Cole Wisniewski",
     "position": "S",
-    "school": "Texas Tech"
+    "school": "Texas Tech",
+    "name": "Cole Wisniewski"
   },
   {
     "overall": 245,
@@ -2202,7 +2446,8 @@
     "team": "New England Patriots",
     "player": "Jam Miller",
     "position": "RB",
-    "school": "Alabama"
+    "school": "Alabama",
+    "name": "Jam Miller"
   },
   {
     "overall": 246,
@@ -2211,7 +2456,8 @@
     "team": "Denver Broncos",
     "player": "Miles Scott",
     "position": "S",
-    "school": "Illinois"
+    "school": "Illinois",
+    "name": "Miles Scott"
   },
   {
     "overall": 247,
@@ -2220,7 +2466,8 @@
     "team": "New England Patriots",
     "player": "Quintayvious Hutchins",
     "position": "EDGE",
-    "school": "Boston College"
+    "school": "Boston College",
+    "name": "Quintayvious Hutchins"
   },
   {
     "overall": 248,
@@ -2229,7 +2476,8 @@
     "team": "Cleveland Browns",
     "player": "Carsen Ryan",
     "position": "TE",
-    "school": "BYU"
+    "school": "BYU",
+    "name": "Carsen Ryan"
   },
   {
     "overall": 249,
@@ -2238,7 +2486,8 @@
     "team": "Kansas City Chiefs",
     "player": "Garrett Nussmeier",
     "position": "QB",
-    "school": "LSU"
+    "school": "LSU",
+    "name": "Garrett Nussmeier"
   },
   {
     "overall": 250,
@@ -2247,7 +2496,8 @@
     "team": "Baltimore Ravens",
     "player": "Rayshaun Benny",
     "position": "DT",
-    "school": "Michigan"
+    "school": "Michigan",
+    "name": "Rayshaun Benny"
   },
   {
     "overall": 251,
@@ -2256,7 +2506,8 @@
     "team": "Philadelphia Eagles",
     "player": "Uar Bernard",
     "position": "DT",
-    "school": "Nigeria"
+    "school": "Nigeria",
+    "name": "Uar Bernard"
   },
   {
     "overall": 252,
@@ -2265,7 +2516,8 @@
     "team": "Philadelphia Eagles",
     "player": "Keyshawn James-Newby",
     "position": "EDGE",
-    "school": "New Mexico"
+    "school": "New Mexico",
+    "name": "Keyshawn James-Newby"
   },
   {
     "overall": 253,
@@ -2274,7 +2526,8 @@
     "team": "Baltimore Ravens",
     "player": "Evan Beerntsen",
     "position": "OG",
-    "school": "Northwestern"
+    "school": "Northwestern",
+    "name": "Evan Beerntsen"
   },
   {
     "overall": 254,
@@ -2283,7 +2536,8 @@
     "team": "Indianapolis Colts",
     "player": "Deion Burks",
     "position": "WR",
-    "school": "Oklahoma"
+    "school": "Oklahoma",
+    "name": "Deion Burks"
   },
   {
     "overall": 255,
@@ -2292,7 +2546,8 @@
     "team": "Seattle Seahawks",
     "player": "Michael Dansby",
     "position": "CB",
-    "school": "Arizona"
+    "school": "Arizona",
+    "name": "Michael Dansby"
   },
   {
     "overall": 256,
@@ -2301,7 +2556,8 @@
     "team": "Denver Broncos",
     "player": "Dallen Bentley",
     "position": "TE",
-    "school": "Utah"
+    "school": "Utah",
+    "name": "Dallen Bentley"
   },
   {
     "overall": 257,
@@ -2310,6 +2566,7 @@
     "team": "Denver Broncos",
     "player": "Red Murdock",
     "position": "LB",
-    "school": "Buffalo"
+    "school": "Buffalo",
+    "name": "Red Murdock"
   }
 ]
